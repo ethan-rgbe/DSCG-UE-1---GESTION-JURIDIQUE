@@ -1,0 +1,482 @@
+[
+  {
+    "id": "tab-procedures-selon-le-degre-de-difficulte-1",
+    "titre": "Procédures selon le degré de difficulté",
+    "chapitre_id": "entreprise-difficulte",
+    "notion_id": null,
+    "contenu": {
+      "colonnes": [
+        "Situation du débiteur",
+        "Prévention (extra-judiciaire / amiable)",
+        "Procédures judiciaires possibles"
+      ],
+      "lignes": [
+        [
+          "Absence de cessation des paiements, mais difficultés que l'entreprise ne peut surmonter seule",
+          "Mandat ad hoc · Conciliation",
+          "Sauvegarde (+ sauvegarde accélérée si conciliation en cours)"
+        ],
+        [
+          "Cessation des paiements datant de moins de 45 jours",
+          "Conciliation",
+          "Redressement judiciaire · Liquidation judiciaire"
+        ],
+        [
+          "Cessation des paiements datant de plus de 45 jours",
+          "—",
+          "Redressement judiciaire · Liquidation judiciaire"
+        ]
+      ]
+    },
+    "note": "Synthèse art. L. 611-4, L. 611-5, L. 620-1, L. 628-1, L. 631-1, L. 640-1 C. com.",
+    "fiches_liees": [],
+    "qr_liees": [],
+    "annales_liees": []
+  },
+  {
+    "id": "tab-prevention-des-difficultes-procedures-extra-judici-2",
+    "titre": "Prévention des difficultés — procédures extra-judiciaires vs judiciaires",
+    "chapitre_id": "entreprise-difficulte",
+    "notion_id": null,
+    "contenu": {
+      "colonnes": [
+        "",
+        "Mandat ad hoc",
+        "Conciliation"
+      ],
+      "lignes": [
+        [
+          "Nature",
+          "Extra-judiciaire (confidentiel, sur-mesure)",
+          "Amiable, encadrée par le tribunal"
+        ],
+        [
+          "Entreprises concernées",
+          "Toute entreprise, sans condition",
+          "Commerciale/artisanale, PM de droit privé, indépendants (hors agriculteurs)"
+        ],
+        [
+          "Condition d'ouverture",
+          "Aucune condition de difficulté requise",
+          "Pas de cessation des paiements (ou < 45 j.) + difficulté avérée ou prévisible"
+        ],
+        [
+          "Initiative",
+          "Le débiteur, sans condition préalable",
+          "Le débiteur, et lui seul"
+        ],
+        [
+          "Durée",
+          "Fixée librement par le président du tribunal",
+          "4 mois, prorogeable d'1 mois (5 mois max.)"
+        ],
+        [
+          "Confidentialité",
+          "Totale (aucune publicité)",
+          "Totale, sauf homologation de l'accord (publicité)"
+        ]
+      ]
+    },
+    "note": "Art. L. 611-3 à L. 611-15 C. com.",
+    "fiches_liees": [],
+    "qr_liees": [],
+    "annales_liees": []
+  },
+  {
+    "id": "tab-pour-chaque-procedure-judiciaire-synthese-3",
+    "titre": "Pour chaque procédure judiciaire — synthèse",
+    "chapitre_id": "entreprise-difficulte",
+    "notion_id": null,
+    "contenu": {
+      "colonnes": [
+        "",
+        "Sauvegarde",
+        "Redressement judiciaire",
+        "Liquidation judiciaire"
+      ],
+      "lignes": [
+        [
+          "Entreprises concernées",
+          "Commerciale/artisanale/agricole, indépendants, PM de droit privé",
+          "Identique à la sauvegarde",
+          "Identique à la sauvegarde"
+        ],
+        [
+          "Degré de difficulté",
+          "Difficultés non surmontables, PAS en cessation des paiements",
+          "Cessation des paiements + redressement possible",
+          "Cessation des paiements + redressement manifestement impossible"
+        ],
+        [
+          "Jugement d'ouverture",
+          "Tribunal de commerce (com./artisanal) ou judiciaire (agricole/libéral), sur demande du débiteur",
+          "Idem + créancier ou ministère public, dans les 45 j. de la cessation des paiements",
+          "Idem redressement"
+        ],
+        [
+          "Période d'observation",
+          "6 mois renouvelable 1 fois (12 mois max.)",
+          "12 mois ; exceptionnellement 18 mois (procureur)",
+          "Pas de période d'observation de principe"
+        ],
+        [
+          "Clôture",
+          "Plan de sauvegarde, ou conversion redressement/liquidation",
+          "Plan de redressement (continuation/cession), ou liquidation",
+          "Clôture pour extinction du passif ou insuffisance d'actif"
+        ]
+      ]
+    },
+    "note": "Art. L. 620-1 à L. 644-6 C. com.",
+    "fiches_liees": [],
+    "qr_liees": [],
+    "annales_liees": []
+  },
+  {
+    "id": "tab-classement-des-creanciers-posterieurs-par-ordre-de-4",
+    "titre": "Classement des créanciers postérieurs par ordre de priorité (sauvegarde / redressement)",
+    "chapitre_id": "entreprise-difficulte",
+    "notion_id": null,
+    "contenu": {
+      "colonnes": [
+        "Rang",
+        "Nature de la créance"
+      ],
+      "lignes": [
+        [
+          "1er rang (Superprivilège)",
+          "Créances de salaires non avancées par l'AGS (art. L. 3253-6, L. 3253-8 à L. 3253-12 C. trav.)"
+        ],
+        [
+          "2e rang",
+          "Créances résultant d'un nouvel apport de trésorerie pour la poursuite de l'activité"
+        ],
+        [
+          "3e rang",
+          "Créances résultant de contrats poursuivis (art. L. 622-13) avec paiement différé accepté"
+        ],
+        [
+          "4e rang",
+          "Autres créances, selon leur rang"
+        ]
+      ]
+    },
+    "note": "Art. L. 622-17, III C. com.",
+    "fiches_liees": [],
+    "qr_liees": [],
+    "annales_liees": []
+  },
+  {
+    "id": "tab-ordre-de-paiement-des-creanciers-vente-d-immeuble--5",
+    "titre": "Ordre de paiement des créanciers — vente d'immeuble vs vente d'un bien meuble (liquidation judiciaire)",
+    "chapitre_id": "entreprise-difficulte",
+    "notion_id": null,
+    "contenu": {
+      "colonnes": [
+        "Vente d'immeuble",
+        "Vente d'un bien meuble"
+      ],
+      "lignes": [
+        [
+          "1. Salariés superprivilégiés",
+          "1. Salariés superprivilégiés"
+        ],
+        [
+          "2. Créanciers bénéficiant du privilège de conciliation",
+          "2. Créanciers bénéficiant du privilège de conciliation"
+        ],
+        [
+          "3. Créanciers antérieurs bénéficiant d'une hypothèque sur l'immeuble vendu",
+          "3. Créanciers postérieurs privilégiés"
+        ],
+        [
+          "4. Créanciers postérieurs privilégiés",
+          "4. Autres créanciers"
+        ],
+        [
+          "5. Autres créanciers",
+          ""
+        ]
+      ]
+    },
+    "note": "Mise à jour : recherche approfondie effectuée — l'art. L.642-18 C. com. renvoie, pour la vente elle-même, au Code des procédures civiles d'exécution (art. L.322-5 à L.322-12), et la purge des hypothèques renvoie à l'art. 2464 et s. du Code civil. Ni l'un ni l'autre n'étant disponibles dans cette conversation (le Code civil fourni ne couvre pas les articles sur les sûretés réelles), le classement précis ci-dessus reste non vérifiable en l'état — à confirmer avec ces codes si tu peux les fournir.",
+    "fiches_liees": [],
+    "qr_liees": [],
+    "annales_liees": []
+  },
+  {
+    "id": "tab-organes-des-procedures-collectives-6",
+    "titre": "Organes des procédures collectives",
+    "chapitre_id": "entreprise-difficulte",
+    "notion_id": null,
+    "contenu": {
+      "colonnes": [
+        "Acteur",
+        "Nomination et missions",
+        "Procédures concernées"
+      ],
+      "lignes": [
+        [
+          "Représentant des salariés",
+          "Désigné par le CSE (ou par les salariés à défaut). Représente les salariés, participe à la vérification des créances salariales.",
+          "Sauvegarde · Redressement · Liquidation"
+        ],
+        [
+          "Administrateur judiciaire",
+          "Nommé par le tribunal (facultatif si < 20 salariés ou CA HT < 3 M€). Assiste/surveille le débiteur en sauvegarde ; peut représenter en redressement. Prépare le plan après le bilan économique et social.",
+          "Sauvegarde · Redressement"
+        ],
+        [
+          "Commissaire à l'exécution du plan",
+          "Nommé par le tribunal. Veille à la bonne exécution du plan et répartit les fonds entre les créanciers.",
+          "Sauvegarde · Redressement"
+        ],
+        [
+          "Liquidateur",
+          "Nommé par le tribunal. Exerce les droits sur le patrimoine de l'entreprise, cède les biens, répartit les fonds entre les créanciers.",
+          "Liquidation judiciaire"
+        ],
+        [
+          "Mandataire judiciaire",
+          "Nommé par le tribunal. Défend les intérêts des créanciers ; devient liquidateur en cas de liquidation judiciaire.",
+          "Sauvegarde · Redressement · Liquidation"
+        ],
+        [
+          "Juge-commissaire",
+          "Désigné par le tribunal. Veille au déroulement rapide de la procédure et à la protection des intérêts en présence.",
+          "Sauvegarde · Redressement · Liquidation"
+        ]
+      ]
+    },
+    "note": "Art. L. 621-4, L. 622-1, L. 631-12, L. 641-1 C. com.",
+    "fiches_liees": [],
+    "qr_liees": [],
+    "annales_liees": []
+  },
+  {
+    "id": "tab-acteurs-a-l-origine-de-la-procedure-d-alerte-7",
+    "titre": "Acteurs à l'origine de la procédure d'alerte",
+    "chapitre_id": "entreprise-difficulte",
+    "notion_id": null,
+    "contenu": {
+      "colonnes": [
+        "Acteur déclencheur",
+        "Référence",
+        "Particularité"
+      ],
+      "lignes": [
+        [
+          "Commissaire aux comptes",
+          "Art. L. 234-1 (SA) / L. 234-2 (autres sociétés) C. com.",
+          "Procédure en 4 étapes ; voie d'urgence art. L. 611-2-2"
+        ],
+        [
+          "Comité social et économique (CSE)",
+          "Art. L. 2312-63 C. trav.",
+          "Procédure en 2 étapes"
+        ],
+        [
+          "Associés / actionnaires",
+          "Art. L. 223-36 (SARL) / L. 225-232 (SA) C. com.",
+          "2 questions écrites max. par exercice ; SA : seuil de 5 % du capital"
+        ],
+        [
+          "Président du tribunal",
+          "Art. L. 611-2 C. com.",
+          "Pouvoir d'obtenir des renseignements même contre le secret professionnel"
+        ]
+      ]
+    },
+    "note": null,
+    "fiches_liees": [],
+    "qr_liees": [],
+    "annales_liees": []
+  },
+  {
+    "id": "tab-cloture-pour-extinction-du-passif-vs-insuffisance--8",
+    "titre": "Clôture pour extinction du passif VS insuffisance d'actif",
+    "chapitre_id": "entreprise-difficulte",
+    "notion_id": null,
+    "contenu": {
+      "colonnes": [
+        "",
+        "Extinction du passif",
+        "Insuffisance d'actif"
+      ],
+      "lignes": [
+        [
+          "Cause",
+          "Plus de passif exigible, ou fonds suffisants pour désintéresser les créanciers",
+          "Poursuite de la liquidation rendue impossible par l'insuffisance de l'actif, ou intérêt disproportionné par rapport aux difficultés de réalisation des actifs résiduels"
+        ],
+        [
+          "Effet sur les poursuites des créanciers",
+          "Pas de problématique : les créanciers sont payés",
+          "Les créanciers impayés ne recouvrent PAS leur droit de poursuite individuelle (sauf fraude, faillite personnelle, banqueroute)"
+        ]
+      ]
+    },
+    "note": "Art. L. 643-9 C. com.",
+    "fiches_liees": [],
+    "qr_liees": [],
+    "annales_liees": []
+  },
+  {
+    "id": "tab-confusion-de-patrimoines-vs-societe-fictive-9",
+    "titre": "Confusion de patrimoines VS société fictive",
+    "chapitre_id": "entreprise-difficulte",
+    "notion_id": null,
+    "contenu": {
+      "colonnes": [
+        "",
+        "Confusion de patrimoines",
+        "Société fictive"
+      ],
+      "lignes": [
+        [
+          "Définition",
+          "Deux personnes physiques/morales se sont comportées comme si elles avaient le même patrimoine",
+          "Société sans réalité économique ni autonomie de fonctionnement (« société écran »)"
+        ],
+        [
+          "Preuve",
+          "Imbrication des actifs/dettes ou confusion des comptes ; relations financières anormales (jurisprudence)",
+          "Absence d'affectio societatis réel, de fonctionnement social effectif (jurisprudence)"
+        ],
+        [
+          "Effet commun",
+          "Extension de la procédure collective ouverte contre l'une des entités à l'autre",
+          "Identique"
+        ]
+      ]
+    },
+    "note": "Art. L. 621-2 C. com. (fondement textuel commun)",
+    "fiches_liees": [],
+    "qr_liees": [],
+    "annales_liees": []
+  },
+  {
+    "id": "tab-modalites-de-la-constatation-vs-de-l-homologation--10",
+    "titre": "Modalités de la constatation vs de l'homologation de l'accord (conciliation)",
+    "chapitre_id": "entreprise-difficulte",
+    "notion_id": null,
+    "contenu": {
+      "colonnes": [
+        "",
+        "Constatation de l'accord",
+        "Homologation de l'accord"
+      ],
+      "lignes": [
+        [
+          "Initiative",
+          "Demande commune de l'entreprise et des créanciers signataires",
+          "Demande de l'entreprise"
+        ],
+        [
+          "Conditions",
+          "L'entreprise n'est pas en cessation des paiements, ou l'accord y met fin",
+          "Idem + l'accord assure la pérennité de l'entreprise + ne nuit pas aux créanciers non signataires"
+        ],
+        [
+          "Publicité",
+          "Aucune",
+          "Publication du jugement au greffe et dans un JAL ; communication aux représentants du personnel dès la demande ; information du CAC le cas échéant"
+        ]
+      ]
+    },
+    "note": "Art. L. 611-8 C. com.",
+    "fiches_liees": [],
+    "qr_liees": [],
+    "annales_liees": []
+  },
+  {
+    "id": "tab-notion-de-cessation-des-paiements-11",
+    "titre": "Notion de cessation des paiements",
+    "chapitre_id": "entreprise-difficulte",
+    "notion_id": null,
+    "contenu": {
+      "colonnes": [
+        "Passif exigible",
+        "Actif disponible"
+      ],
+      "lignes": [
+        [
+          "Ensemble des dettes certaines, liquides et exigibles (arrivées à échéance) restant impayées. Sont exclues les dettes contestées en justice et les dettes échues bénéficiant d'un moratoire.",
+          "Actif immédiatement réalisable (caisse, soldes créditeurs bancaires, effets de commerce escomptables) + réserves de crédit (découvert, avance en compte courant). À l'exclusion de l'actif immobilisé, non réalisable à court terme."
+        ]
+      ]
+    },
+    "note": "Art. L. 631-1 C. com.",
+    "fiches_liees": [],
+    "qr_liees": [],
+    "annales_liees": []
+  },
+  {
+    "id": "tab-declaration-des-creances-deroulement-12",
+    "titre": "Déclaration des créances — déroulement",
+    "chapitre_id": "entreprise-difficulte",
+    "notion_id": null,
+    "contenu": {
+      "colonnes": [
+        "Étape",
+        "Contenu"
+      ],
+      "lignes": [
+        [
+          "1. Déclaration",
+          "Le créancier déclare sa créance (montant et échéance) au mandataire judiciaire — délai de 2 mois suivant la publication au BODACC (créances antérieures) ou suivant la date d'exigibilité (créances postérieures non privilégiées)"
+        ],
+        [
+          "2. Vérification",
+          "Vérification par le mandataire judiciaire"
+        ],
+        [
+          "3. Décision",
+          "Admission ou rejet de la créance par le juge-commissaire"
+        ]
+      ]
+    },
+    "note": null,
+    "fiches_liees": [],
+    "qr_liees": [],
+    "annales_liees": []
+  },
+  {
+    "id": "tab-deroulement-de-la-liquidation-judiciaire-13",
+    "titre": "Déroulement de la liquidation judiciaire",
+    "chapitre_id": "entreprise-difficulte",
+    "notion_id": null,
+    "contenu": {
+      "colonnes": [
+        "Étape",
+        "Contenu"
+      ],
+      "lignes": [
+        [
+          "1",
+          "Jugement d'ouverture de la procédure"
+        ],
+        [
+          "2",
+          "Arrêt de l'activité (ou maintien provisoire, 3 mois maximum)"
+        ],
+        [
+          "3",
+          "Vente des biens de l'entreprise par le liquidateur"
+        ],
+        [
+          "4",
+          "Répartition des fonds entre les créanciers"
+        ],
+        [
+          "5",
+          "Jugement de clôture de la procédure"
+        ]
+      ]
+    },
+    "note": "Art. L. 641-1, L. 641-10, L. 642-18, L. 642-19, L. 643-9 C. com.",
+    "fiches_liees": [],
+    "qr_liees": [],
+    "annales_liees": []
+  }
+]

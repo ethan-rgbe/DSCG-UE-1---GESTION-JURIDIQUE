@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DSCG UE1 — Base de révision</title>
+<style>
+  :root{
+    --ink:#0b3d63;
+    --navy:#0b3d63;
+    --blue-mid:#1f6fb2;
+    --blue-soft:#5a93c4;
+    --gold:#9c7a2e;
+    --gold-soft:#b89344;
+    --beige:#f3ead9;
+    --beige-line:#e2d4b4;
+    --paper:#ffffff;
+    --paper-line:#e0e0e0;
+    --red:#a31621;
+    --text:#26282b;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    --mono:"SF Mono",Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:var(--sans);background:var(--paper);color:var(--text);}
+  a{color:var(--blue-mid);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  /* Banderole 1 — onglets de droite */
+  header.top1{
+    background:#ffffff;color:var(--navy);
+    padding:10px 24px;
+    display:flex;align-items:center;justify-content:flex-end;gap:6px;flex-wrap:wrap;
+    border-bottom:1px solid var(--paper-line);
+  }
+  header.top1 nav.tabs-right{display:flex;gap:4px;flex-wrap:wrap;}
+  header.top1 nav.tabs-right button{
+    background:transparent;border:1px solid transparent;color:var(--navy);
+    padding:7px 12px;font:inherit;font-size:.78rem;font-weight:600;letter-spacing:.03em;cursor:pointer;border-radius:3px;
+  }
+  header.top1 nav.tabs-right button:hover{background:var(--beige);}
+  header.top1 nav.tabs-right button.active{background:var(--navy);color:#fff;}
+
+  /* Banderole 2 — cohorte + menu */
+  header.top2{
+    background:var(--navy);color:#fff;
+    padding:12px 24px;
+    display:flex;align-items:center;justify-content:space-between;
+  }
+  header.top2 .cohort{font-family:var(--serif);font-size:1.1rem;letter-spacing:.02em;cursor:pointer;}
+  header.top2 #menuToggle{background:transparent;border:none;color:#fff;font-size:1.4rem;cursor:pointer;line-height:1;padding:4px 8px;}
+
+  /* Menu coulissant */
+  #slideMenu{
+    position:fixed;top:0;right:-340px;width:320px;height:100%;background:#ffffff;
+    box-shadow:-4px 0 16px rgba(0,0,0,.15);z-index:900;overflow-y:auto;
+    transition:right .3s ease;padding:70px 22px 22px;
+  }
+  #slideMenu.open{right:0;}
+  #slideMenu .menu-section{margin-bottom:26px;}
+  #slideMenu .menu-title{
+    font-weight:700;color:var(--navy);font-size:.95rem;letter-spacing:.05em;
+    cursor:pointer;padding:8px 0;border-bottom:2px solid var(--beige-line);
+  }
+  #slideMenu .menu-tree{padding:8px 0 0 6px;display:none;}
+  #slideMenu .menu-section.expanded .menu-tree{display:block;}
+  #slideMenu .menu-partie{font-weight:600;color:var(--blue-mid);font-size:.82rem;margin:10px 0 4px;}
+  #slideMenu .menu-tree a{display:block;font-size:.85rem;padding:5px 0 5px 10px;color:var(--text);}
+  #slideMenu .menu-tree a:hover{color:var(--blue-mid);text-decoration:none;}
+  #menuBackdrop{position:fixed;inset:0;background:rgba(11,61,99,.25);z-index:800;display:none;}
+  #menuBackdrop.show{display:block;}
+
+  .search-wrap{padding:14px 24px;background:#ffffff;border-bottom:1px solid var(--paper-line);}
+  .search-wrap input{
+    width:100%;max-width:520px;padding:10px 14px;border:1px solid var(--paper-line);
+    border-radius:3px;font:inherit;font-size:.95rem;background:#fff;
+  }
+
+  main{padding:24px;max-width:1100px;margin:0 auto;}
+  .layout{display:grid;grid-template-columns:260px 1fr;gap:28px;}
+  @media (max-width:760px){
+    .layout{grid-template-columns:1fr;}
+    .layout .panel{order:1;}
+    .layout aside.nav-tree{order:2;border-right:none;border-top:1px solid var(--paper-line);padding-right:0;padding-top:18px;margin-top:18px;}
+  }
+
+  aside.nav-tree{border-right:1px solid var(--paper-line);padding-right:18px;}
+  aside.nav-tree h2{font-family:var(--serif);font-size:1.05rem;margin:0 0 10px;color:var(--navy);}
+  .notion-group{margin-bottom:14px;}
+  .notion-group > .gname{
+    font-weight:700;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;
+    color:var(--navy);border-bottom:1px solid var(--paper-line);padding-bottom:4px;margin-bottom:6px;
+  }
+  .notion-group ul{list-style:none;margin:0;padding:0;}
+  .notion-group li a{display:block;padding:4px 0 4px 4px;font-size:.88rem;border-left:2px solid transparent;}
+  .notion-group li a:hover, .notion-group li a.active{border-left-color:var(--blue-mid);background:var(--beige);text-decoration:none;}
+
+  .panel{background:#ffffff;border:1px solid var(--paper-line);border-radius:4px;padding:22px 26px;}
+  .tabs-sub{display:flex;gap:6px;margin-bottom:18px;border-bottom:2px solid var(--beige-line);}
+  .tabs-sub button{background:transparent;border:none;padding:9px 16px;font:inherit;font-size:.9rem;font-weight:600;color:#8a8a8a;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-2px;}
+  .tabs-sub button.active{color:var(--navy);border-bottom-color:var(--navy);}
+
+  h1.page-title{font-family:var(--serif);font-size:1.7rem;color:var(--navy);margin:0 0 4px;border-bottom:2px solid var(--blue-soft);padding-bottom:8px;}
+  .fiche-meta{font-size:.78rem;color:#75747a;margin-bottom:16px;letter-spacing:.02em;}
+
+  .fiche-body h3{font-family:var(--serif);color:var(--blue-mid);border-bottom:1px solid var(--beige-line);padding-bottom:4px;margin-top:22px;}
+  .fiche-body h4{font-family:var(--serif);color:var(--blue-mid);margin-top:16px;}
+  .fiche-body p{line-height:1.55;}
+  .fiche-body p.cite{font-style:italic;color:#6b6657;font-size:.9rem;background:var(--beige);display:inline-block;padding:4px 10px;border-radius:3px;}
+  .fiche-body ul{padding-left:22px;line-height:1.55;}
+  .fiche-body .table-wrap{width:100%;overflow-x:auto;margin:14px 0;}
+  .fiche-body table.cmp{width:100%;border-collapse:collapse;table-layout:fixed;}
+  .fiche-body table.cmp th, .fiche-body table.cmp td{border:1px solid var(--paper-line);padding:8px 10px;font-size:.84rem;text-align:left;vertical-align:top;word-wrap:break-word;}
+  .fiche-body table.cmp th{background:var(--navy);color:#fff;}
+  .fiche-body table.cmp tr:nth-child(even) td{background:var(--beige);}
+
+  .seealso{margin-top:26px;border-top:2px solid var(--blue-soft);padding-top:14px;}
+  .seealso h4{font-family:var(--serif);color:var(--navy);margin:0 0 8px;}
+  .chip{display:inline-block;background:var(--navy);color:#fff;font-size:.78rem;padding:4px 10px;border-radius:999px;margin:0 6px 6px 0;cursor:pointer;}
+  .chip:hover{background:var(--blue-mid);}
+  .chip.ref{background:#7a6a44;}
+
+  /* Q/R cards */
+  .qr-filters{display:flex;gap:10px;margin-bottom:18px;flex-wrap:wrap;}
+  .qr-filters select{padding:6px 10px;border:1px solid var(--paper-line);border-radius:3px;font:inherit;}
+  .qr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;}
+  .flashcard{
+    perspective:1200px;height:190px;cursor:pointer;
+  }
+  .flashcard .inner{position:relative;width:100%;height:100%;transition:transform .5s;transform-style:preserve-3d;}
+  .flashcard.flipped .inner{transform:rotateY(180deg);}
+  .flashcard .face{
+    position:absolute;inset:0;border-radius:6px;padding:14px;overflow:auto;
+    backface-visibility:hidden;display:flex;flex-direction:column;
+  }
+  .flashcard .front{background:var(--navy);color:#fff;}
+  .flashcard .front .lbl{font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;color:#9fb3d6;margin-bottom:6px;}
+  .flashcard .back{background:var(--beige);color:var(--navy);border:1px solid var(--beige-line);transform:rotateY(180deg);}
+  .flashcard .back .lbl{font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;color:#8a703a;margin-bottom:6px;}
+  .flashcard .qtext, .flashcard .atext{font-size:.92rem;line-height:1.4;}
+  .flashcard .tag{margin-top:auto;font-size:.68rem;opacity:.8;}
+
+  .table-wrap{width:100%;overflow-x:auto;margin-top:10px;}
+  table.cmp{width:100%;border-collapse:collapse;table-layout:fixed;}
+  table.cmp th, table.cmp td{border:1px solid var(--paper-line);padding:8px 10px;font-size:.86rem;text-align:left;vertical-align:top;word-wrap:break-word;overflow-wrap:break-word;}
+  table.cmp th{background:var(--navy);color:#fff;font-family:var(--serif);}
+  table.cmp tr:nth-child(even){background:var(--beige);}
+
+  ul.refs-list{list-style:none;padding:0;}
+  ul.refs-list li{padding:10px 0;border-bottom:1px solid var(--paper-line);}
+  ul.refs-list .ref-title{font-weight:600;color:var(--navy);}
+  ul.refs-list .ref-page{font-size:.8rem;color:#75747a;}
+
+  .home-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:18px;}
+  .home-card{background:var(--beige);border:1px solid var(--beige-line);border-radius:4px;padding:18px;cursor:pointer;}
+  .home-card:hover{border-color:var(--gold);}
+  .home-card .num{font-family:var(--serif);font-size:1.8rem;color:var(--gold);}
+  .home-card .lbl{font-size:.85rem;color:var(--text);}
+  footer{text-align:center;font-size:.75rem;color:#9a937c;padding:30px 0;}
+
+  /* Splash */
+  #splash{
+    position:fixed;inset:0;z-index:1000;
+    background:linear-gradient(180deg, rgba(11,61,99,.55), rgba(11,61,99,.88)), url('static/etsimage.jpg') center/cover no-repeat, var(--ink);
+    background-size:cover;background-position:center;
+    color:#ffffff;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    text-align:center;cursor:pointer;padding:24px;transition:opacity .4s, transform .4s;
+  }
+  #splash h1{font-family:var(--serif);font-size:1.9rem;letter-spacing:.02em;margin:0 0 10px;max-width:680px;}
+  #splash .tap{margin-top:40px;font-size:.75rem;color:#cfe0ee;text-transform:uppercase;letter-spacing:.12em;animation:pulse 2s infinite;}
+  @keyframes pulse{0%,100%{opacity:.5;}50%{opacity:1;}}
+  #splash.hidden{opacity:0;transform:translateY(-20px);pointer-events:none;}
+
+  /* Bloc explicatif accueil */
+  .intro-block{margin-bottom:22px;line-height:1.6;color:#4a4634;}
+
+  /* Carousel chapitres récents */
+  .carousel{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;margin:14px 0 22px;-webkit-overflow-scrolling:touch;}
+  .carousel::-webkit-scrollbar{height:6px;}
+  .carousel-card{flex:0 0 220px;scroll-snap-align:start;background:#fffdf7;border:1px solid var(--paper-line);border-radius:6px;padding:16px;}
+  .carousel-card .ctitle{font-family:var(--serif);color:var(--navy);font-size:1.02rem;margin-bottom:4px;}
+  .carousel-card .cmeta{font-size:.75rem;color:#8a8468;margin-bottom:12px;}
+  .carousel-card button{background:var(--gold);border:none;color:var(--ink);padding:6px 14px;border-radius:4px;font:inherit;font-size:.82rem;cursor:pointer;font-weight:600;}
+  .carousel-card button:hover{background:var(--gold-soft);}
+  .section-title{font-family:var(--serif);color:var(--ink);font-size:1.15rem;margin:26px 0 4px;border-bottom:2px solid var(--gold);padding-bottom:6px;}
+
+  /* Mini visionneuse PDF */
+  .pdf-frame{width:100%;height:420px;border:1px solid var(--paper-line);border-radius:4px;margin-top:10px;}
+  .pdf-missing{font-size:.85rem;color:#8a8468;padding:16px;border:1px dashed var(--paper-line);border-radius:4px;margin-top:10px;}
+
+  /* Changelog */
+  .changelog-item{border-left:3px solid var(--gold);padding:6px 0 6px 14px;margin-bottom:10px;}
+  .changelog-item .cdate{font-size:.72rem;color:#8a8468;text-transform:uppercase;letter-spacing:.06em;}
+  .changelog-item .ctitre{font-weight:600;color:var(--navy);}
+
+  /* Programme — arborescence */
+  .subtabs{display:flex;gap:6px;margin-bottom:18px;}
+  .subtabs button{background:#efe8d2;border:1px solid var(--paper-line);padding:7px 14px;border-radius:4px;font:inherit;font-size:.85rem;cursor:pointer;}
+  .subtabs button.active{background:var(--navy);color:#fff;border-color:var(--navy);}
+  .partie-block{margin-bottom:20px;}
+  .partie-block > .ptitre{font-family:var(--serif);color:var(--ink);background:#efe8d2;padding:8px 12px;border-radius:4px;font-size:1.02rem;margin-bottom:8px;}
+  .sous-partie{display:flex;justify-content:space-between;align-items:center;padding:9px 12px;border-bottom:1px solid var(--paper-line);}
+  .sous-partie .sp-titre{font-size:.92rem;}
+  .sous-partie .sp-link{font-size:.78rem;}
+  .sous-partie.disabled .sp-titre{color:#a39c84;}
+  .sous-partie.disabled .sp-link{color:#c7c0a8;font-style:italic;}
+</style>
+</head>
+<body>
+
+<div id="splash">
+  <h1>BASE DOCUMENTAIRE<br>UE 1 — GESTION JURIDIQUE, FISCALE ET SOCIALE</h1>
+  <div class="tap">Touche ou glisse pour entrer ↑</div>
+</div>
+
+<header class="top1">
+  <nav class="tabs-right" id="tabsTop1">
+    <button data-view="sujets">SUJETS EXAMENS</button>
+    <button data-view="liens">LIENS UTILES</button>
+    <button data-view="documentation">DOCUMENTATION</button>
+  </nav>
+</header>
+
+<header class="top2">
+  <div class="cohort" id="cohortHome">DSCG 2025 – 2027</div>
+  <button id="menuToggle">☰</button>
+</header>
+
+<div id="menuBackdrop"></div>
+<nav id="slideMenu">
+  <div class="menu-section" data-section="programme">
+    <div class="menu-title">PROGRAMME</div>
+    <div class="menu-tree" id="menuProgramme"></div>
+  </div>
+  <div class="menu-section" data-section="listes">
+    <div class="menu-title">LISTES</div>
+    <div class="menu-tree" id="menuListes"></div>
+  </div>
+  <div class="menu-section" data-section="tableaux">
+    <div class="menu-title">TABLEAUX</div>
+    <div class="menu-tree" id="menuTableaux"></div>
+  </div>
+</nav>
+
+<div class="search-wrap">
+  <input type="text" id="globalSearch" placeholder="Rechercher une notion, un article, un mot-clé…">
+</div>
+
+<main id="app"></main>
+
+<footer>Site généré à partir des fiches vérifiées sur le Code de commerce / Code du travail — DSCG UE1.</footer>
+
+<script id="bundle-data" type="application/json">__BUNDLE_JSON__</script>
+<script>
+const DATA = JSON.parse(document.getElementById('bundle-data').textContent);
+const app = document.getElementById('app');
+
+const ficheById = id => DATA.fiches_full[id];
+const notionById = id => DATA.notions.find(n => n.id === id);
+const refById = id => DATA.references_textes.find(r => r.id === id);
+const qrByFiche = id => DATA.qr_cartes.filter(q => q.fiche_id === id);
+const chapById = id => DATA.chapitres.find(c => c.id === id);
+const chapLabel = c => c.numero ? `Chapitre ${c.numero} — ${c.titre}` : c.titre;
+
+// ---- Suivi local "chapitres récemment consultés" ----
+const RECENTS_KEY = 'dscg_recent_chapitres';
+function recordChapitreVisit(chapitreId){
+  try{
+    let list = JSON.parse(localStorage.getItem(RECENTS_KEY) || '[]');
+    list = list.filter(id => id !== chapitreId);
+    list.unshift(chapitreId);
+    localStorage.setItem(RECENTS_KEY, JSON.stringify(list.slice(0, 8)));
+  }catch(e){}
+}
+function getRecentChapitres(){
+  try{
+    const ids = JSON.parse(localStorage.getItem(RECENTS_KEY) || '[]');
+    return ids.map(id => chapById(id)).filter(Boolean);
+  }catch(e){ return []; }
+}
+function getRandomNotion(){
+  if(!DATA.notions.length) return null;
+  return DATA.notions[Math.floor(Math.random()*DATA.notions.length)];
+}
+
+// ---- Écran d'entrée ----
+const splash = document.getElementById('splash');
+function dismissSplash(){
+  splash.classList.add('hidden');
+  setTimeout(() => { splash.style.display = 'none'; }, 400);
+}
+splash.addEventListener('click', dismissSplash);
+splash.addEventListener('touchend', dismissSplash, {passive:true});
+
+// ---- État global ----
+let state = { view: 'home', chapitreId: null, ficheId: null, chapTab: 'cours',
+              listesScope: 'all', listesChapitreId: null, qrFocus: null,
+              tableauxChapitreId: null, refFocus: null };
+
+function render(){
+  setTopTabActive();
+  if(state.view === 'home') return renderHome();
+  if(state.view === 'sujets') return renderSujets();
+  if(state.view === 'liens') return renderLiens();
+  if(state.view === 'documentation') return renderDocumentation();
+  if(state.view === 'chapitre') return renderChapitre();
+  if(state.view === 'listes') return renderListes();
+  if(state.view === 'tableaux') return renderTableaux();
+}
+
+function setTopTabActive(){
+  [...document.querySelectorAll('#tabsTop1 button')].forEach(b =>
+    b.classList.toggle('active', b.dataset.view === state.view));
+}
+
+// ============================================================
+// ACCUEIL
+// ============================================================
+function renderHome(){
+  const recents = getRecentChapitres();
+  const randomNotion = getRandomNotion();
+  const slides = [...recents.map(c => ({type:'chapitre', chap:c}))];
+  if(randomNotion){
+    const chap = chapById(randomNotion.chapitre_id);
+    if(chap) slides.push({type:'notion', notion: randomNotion, chap});
+  }
+
+  app.innerHTML = `
+    <div class="panel">
+      ${slides.length ? `
+        <div class="section-title">Reprendre</div>
+        <div class="carousel">
+          ${slides.map(s => s.type === 'chapitre' ? `
+            <div class="carousel-card">
+              <div class="ctitle">${chapLabel(s.chap)}</div>
+              <div class="cmeta">Dernier chapitre consulté</div>
+              <button data-resume-chap="${s.chap.id}">Reprendre →</button>
+            </div>` : `
+            <div class="carousel-card">
+              <div class="ctitle">${s.notion.titre}</div>
+              <div class="cmeta">Notion du chapitre « ${chapLabel(s.chap)} »</div>
+              <button data-resume-chap="${s.chap.id}">Reprendre →</button>
+            </div>`).join('')}
+        </div>` : ''}
+
+      <p><strong>Bienvenue sur la base documentaire UE1 — Gestion juridique, fiscale et sociale.</strong></p>
+      <p class="intro-block">
+        Ce site réunit les fiches de cours, les cartes de révision (Q/R), les tableaux de synthèse et les
+        références juridiques utiles à l'UE1 du DSCG. Le contenu est vérifié chapitre par chapitre directement
+        à partir des textes officiels en vigueur, avec mention systématique des articles, délais et conditions.
+      </p>
+
+      <div class="section-title">Dernières mises à jour</div>
+      ${(DATA.changelog || []).map(c => `
+        <div class="changelog-item">
+          <div class="cdate">${c.date}</div>
+          <div class="ctitre">${c.titre}</div>
+          <div>${c.detail || ''}</div>
+        </div>`).join('') || '<p class="fiche-meta">Aucune mise à jour enregistrée.</p>'}
+    </div>`;
+
+  app.querySelectorAll('[data-resume-chap]').forEach(b => b.onclick = () => {
+    state.chapitreId = b.dataset.resumeChap;
+    state.ficheId = null;
+    state.chapTab = 'cours';
+    state.view = 'chapitre';
+    render();
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+}
+
+// ============================================================
+// SUJETS EXAMENS (coquille — contenu à venir)
+// ============================================================
+function renderSujets(){
+  const annales = DATA.annales || [];
+  app.innerHTML = `<div class="panel">
+    <h1 class="page-title">Sujets d'examens</h1>
+    ${annales.length ? annales.map(a => `
+      <div class="partie-block">
+        <div class="ptitre">${a.annee}${a.session ? ' — ' + a.session : ''} — ${a.themes || ''}</div>
+        <div class="sous-partie"><span class="sp-titre">Sujet</span>
+          ${a.url_sujet ? `<a class="sp-link" href="${a.url_sujet}" target="_blank">Ouvrir ↗</a>` : '<span class="sp-link">à venir</span>'}</div>
+        <div class="sous-partie"><span class="sp-titre">Corrigé</span>
+          ${a.url_corrige ? `<a class="sp-link" href="${a.url_corrige}" target="_blank">Ouvrir ↗</a>` : '<span class="sp-link">à venir</span>'}</div>
+      </div>`).join('') : "<p class=\"fiche-meta\">Aucun sujet n'a encore été ajouté. Cette page affichera, par année, les sujets et corrigés officiels avec leur visionneuse PDF.</p>"}
+  </div>`;
+}
+
+// ============================================================
+// LIENS UTILES (coquille — contenu à venir)
+// ============================================================
+function renderLiens(){
+  const liens = DATA.liens_utiles || [];
+  app.innerHTML = `<div class="panel">
+    <h1 class="page-title">Liens utiles</h1>
+    ${liens.length ? `<ul class="refs-list">${liens.map(l => `<li><a href="${l.url}" target="_blank">${l.titre}</a></li>`).join('')}</ul>`
+      : '<p class="fiche-meta">Aucun lien ajouté pour le moment (drive partagé, sites de référence...).</p>'}
+  </div>`;
+}
+
+// ============================================================
+// DOCUMENTATION (codes + BO)
+// ============================================================
+function renderDocumentation(){
+  const codes = DATA.codes || [];
+  app.innerHTML = `<div class="panel">
+    <h1 class="page-title">Documentation</h1>
+    <h2 style="text-decoration:underline;color:var(--navy);font-family:var(--serif);">CODES</h2>
+    ${codes.map(c => {
+      const refs = DATA.references_textes.filter(r => r.document === c.titre);
+      return `<div class="partie-block">
+        <div class="ptitre">${c.titre}</div>
+        ${c.disponible
+          ? `<iframe class="pdf-frame" src="${c.fichier}"></iframe>`
+          : `<div class="pdf-missing">PDF non encore ajouté dans <code>${c.fichier}</code>.</div>`}
+        <div class="fiche-meta" style="margin-top:10px;">Références utilisées dans le cours (${refs.length}) — lien Légifrance à venir :</div>
+        <ul class="refs-list">
+          ${refs.map(r => `<li><div class="ref-title">📎 ${r.reference}</div>
+            <div>${(r.fiches_liees||[]).map(fid => `<a href="#" data-fiche="${fid}">${ficheById(fid) ? ficheById(fid).titre : fid}</a>`).join(' · ')}</div></li>`).join('') || "<li class=\"fiche-meta\">Aucune référence à ce code pour l'instant.</li>"}
+        </ul>
+      </div>`;
+    }).join('')}
+
+    <h2 style="text-decoration:underline;color:var(--navy);font-family:var(--serif);margin-top:30px;">AUTRES</h2>
+    <div class="partie-block">
+      <div class="ptitre">Bulletin officiel — Programme UE1</div>
+      ${DATA.has_bo_pdf
+        ? `<iframe class="pdf-frame" src="${DATA.static_bo_path}"></iframe>`
+        : `<div class="pdf-missing">PDF du BO non disponible.</div>`}
+    </div>
+  </div>`;
+  app.querySelectorAll('[data-fiche]').forEach(a => a.onclick = (e) => {
+    e.preventDefault();
+    const f = ficheById(a.dataset.fiche);
+    if(!f) return;
+    state.chapitreId = f.notion_id.split('.')[0];
+    state.ficheId = a.dataset.fiche;
+    state.chapTab = 'cours';
+    state.view = 'chapitre';
+    render();
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+}
+
+// ============================================================
+// CHAPITRE — Cours / Points d'attention
+// ============================================================
+function navTree(activeFicheId, chapitreId){
+  const notions = DATA.notions.filter(n => n.chapitre_id === chapitreId);
+  let html = '<aside class="nav-tree"><h2>Notions</h2>';
+  notions.forEach(n => {
+    const fiches = DATA.fiches.filter(f => f.notion_id === n.id);
+    html += `<div class="notion-group"><div class="gname">${n.titre}</div><ul>`;
+    fiches.forEach(f => {
+      html += `<li><a href="#" data-fiche="${f.id}" class="${f.id===activeFicheId?'active':''}">${f.titre}</a></li>`;
+    });
+    html += '</ul></div>';
+  });
+  html += '</aside>';
+  return html;
+}
+
+function renderChapitre(){
+  const chapitre = chapById(state.chapitreId) || DATA.chapitres[0];
+  recordChapitreVisit(chapitre.id);
+
+  const subtabsHtml = `<div class="tabs-sub">
+      <button data-ctab="cours" class="${state.chapTab==='cours'?'active':''}">COURS</button>
+      <button data-ctab="points" class="${state.chapTab==='points'?'active':''}">POINTS D'ATTENTION</button>
+    </div>`;
+
+  if(state.chapTab === 'points'){
+    const pa = (DATA.points_attention || {})[chapitre.id] || {};
+    app.innerHTML = `<div class="panel">
+      <div class="fiche-meta">${chapLabel(chapitre)}</div>
+      <h1 class="page-title">${chapitre.titre}</h1>
+      ${subtabsHtml}
+      ${pa.sens_et_portee ? `<h3>Sens et portée de l'étude (texte officiel du BO)</h3><p class="cite">${pa.sens_et_portee}</p>` : ''}
+      ${(pa.competences_visees||[]).length ? `<h3>Compétences visées (texte officiel du BO)</h3><ul>${pa.competences_visees.map(c=>`<li>${c}</li>`).join('')}</ul>` : ''}
+      ${(pa.notions_et_contenus||[]).length ? `<h3>Notions et contenus (texte officiel du BO)</h3><ul>${pa.notions_et_contenus.map(c=>`<li>${c}</li>`).join('')}</ul>` : ''}
+      ${(pa.attendus_examen||[]).length ? `<h3>Points de vigilance pour l'examen (analyse, hors texte officiel)</h3><ul>${pa.attendus_examen.map(c=>`<li>${c}</li>`).join('')}</ul>` : ''}
+      ${!pa.sens_et_portee && !(pa.attendus_examen||[]).length ? '<p class="fiche-meta">Pas encore de contenu pour ce chapitre.</p>' : ''}
+    </div>`;
+    app.querySelectorAll('[data-ctab]').forEach(b => b.onclick = () => { state.chapTab = b.dataset.ctab; render(); });
+    return;
+  }
+
+  const chapFiches = DATA.fiches.filter(f => {
+    const n = notionById(f.notion_id);
+    return n && n.chapitre_id === chapitre.id;
+  });
+  const fid = state.ficheId || (chapFiches[0] && chapFiches[0].id);
+  if(!fid){
+    app.innerHTML = `<div class="panel"><div class="fiche-meta">${chapLabel(chapitre)}</div><h1 class="page-title">${chapitre.titre}</h1>${subtabsHtml}<p>Aucune fiche dans ce chapitre pour l'instant.</p></div>`;
+    app.querySelectorAll('[data-ctab]').forEach(b => b.onclick = () => { state.chapTab = b.dataset.ctab; render(); });
+    return;
+  }
+  const fiche = ficheById(fid);
+  const notion = notionById(fiche.notion_id);
+  const refs = (fiche.references || []).map(refById).filter(Boolean);
+  const cards = qrByFiche(fid);
+
+  app.innerHTML = `<div class="fiche-meta">${chapLabel(chapitre)}</div>
+  <div class="layout">
+    ${navTree(fid, chapitre.id)}
+    <div class="panel">
+      ${subtabsHtml}
+      <div class="fiche-meta">${notion ? notion.titre : ''}</div>
+      <h1 class="page-title">${fiche.titre}</h1>
+      <div class="fiche-body">${fiche.body_html}</div>
+      <div class="seealso">
+        <h4>Références</h4>
+        ${refs.length ? refs.map(r => `<span class="chip ref" data-ref="${r.id}">📎 ${r.reference}</span>`).join('') : '<span class="fiche-meta">Aucune référence rattachée.</span>'}
+        <h4 style="margin-top:16px;">Cartes Q / R liées</h4>
+        ${cards.length ? cards.map(c => `<span class="chip" data-qr="${c.id}">${c.id}</span>`).join('') : '<span class="fiche-meta">Aucune carte liée.</span>'}
+      </div>
+    </div>
+  </div>`;
+
+  app.querySelectorAll('[data-ctab]').forEach(b => b.onclick = () => { state.chapTab = b.dataset.ctab; render(); });
+  app.querySelectorAll('[data-fiche]').forEach(a => a.onclick = (e) => { e.preventDefault(); state.ficheId = a.dataset.fiche; render(); window.scrollTo({top:0, behavior:'smooth'}); });
+  app.querySelectorAll('[data-ref]').forEach(c => c.onclick = () => { state.view='documentation'; render(); });
+  app.querySelectorAll('[data-qr]').forEach(c => c.onclick = () => { state.view='listes'; state.listesScope='chapitre'; state.listesChapitreId=chapitre.id; state.qrFocus = c.dataset.qr; render(); });
+}
+
+// ============================================================
+// LISTES (cartes Q/R) — par chapitre
+// ============================================================
+function renderListes(){
+  const isAll = state.listesScope === 'all';
+  const chap = !isAll ? chapById(state.listesChapitreId) : null;
+  let cards = DATA.qr_cartes;
+  if(!isAll && chap){
+    cards = cards.filter(c => {
+      const n = notionById(c.notion_id);
+      return n && n.chapitre_id === chap.id;
+    });
+  }
+  const title = isAll ? "Toutes les notions" : `Cartes — ${chapLabel(chap)}`;
+
+  app.innerHTML = `<div class="panel">
+    <h1 class="page-title">${title}</h1>
+    <div class="qr-grid" id="qrGrid"></div>
+  </div>`;
+
+  const grid = document.getElementById('qrGrid');
+  cards.forEach(c => {
+    const card = document.createElement('div');
+    card.className = 'flashcard';
+    if(state.qrFocus === c.id){ card.classList.add('flipped'); }
+    card.innerHTML = `<div class="inner">
+        <div class="face front"><div class="lbl">Question</div><div class="qtext">${c.question}</div><div class="tag">clic pour retourner</div></div>
+        <div class="face back"><div class="lbl">Réponse</div><div class="atext">${c.reponse}</div><div class="tag"><a href="#" data-fiche="${c.fiche_id}">Voir la fiche →</a></div></div>
+      </div>`;
+    card.onclick = (e) => { if(e.target.closest('a')) return; card.classList.toggle('flipped'); };
+    grid.appendChild(card);
+  });
+  app.querySelectorAll('[data-fiche]').forEach(a => a.onclick = (e) => {
+    e.preventDefault(); e.stopPropagation();
+    const f = ficheById(a.dataset.fiche);
+    state.chapitreId = notionById(f.notion_id).chapitre_id;
+    state.view='chapitre'; state.chapTab='cours'; state.ficheId = a.dataset.fiche; render();
+  });
+}
+
+// ============================================================
+// TABLEAUX — par chapitre
+// ============================================================
+function renderTableaux(){
+  const chap = chapById(state.tableauxChapitreId) || chapById(DATA.tableaux_comparatifs[0]?.chapitre_id);
+  const tableaux = (DATA.tableaux_comparatifs || []).filter(t => !chap || t.chapitre_id === chap.id);
+  const html = tableaux.map(t => {
+    const cols = t.contenu.colonnes;
+    const rows = t.contenu.lignes;
+    return `<h3>${t.titre}</h3>
+      <div class="table-wrap"><table class="cmp"><thead><tr>${cols.map(c=>`<th>${c}</th>`).join('')}</tr></thead>
+      <tbody>${rows.map(r=>`<tr>${r.map(cell=>`<td>${cell}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
+      ${t.note ? `<p class="fiche-meta" style="font-style:italic;">${t.note}</p>` : ''}`;
+  }).join('<hr style="margin:30px 0;border-color:var(--paper-line);">');
+  app.innerHTML = `<div class="panel">
+    <div class="fiche-meta">${chap ? chapLabel(chap) : ''}</div>
+    <h1 class="page-title">Tableaux de synthèse</h1>
+    ${html || '<p class="fiche-meta">Aucun tableau pour ce chapitre.</p>'}
+  </div>`;
+}
+
+// ============================================================
+// NAVIGATION — banderoles + menu coulissant
+// ============================================================
+document.getElementById('tabsTop1').addEventListener('click', e => {
+  const btn = e.target.closest('button');
+  if(!btn) return;
+  state.view = btn.dataset.view;
+  render();
+  window.scrollTo({top:0, behavior:'smooth'});
+});
+
+document.getElementById('cohortHome').addEventListener('click', () => {
+  state.view = 'home'; render(); window.scrollTo({top:0, behavior:'smooth'});
+});
+
+const slideMenu = document.getElementById('slideMenu');
+const menuBackdrop = document.getElementById('menuBackdrop');
+const menuToggle = document.getElementById('menuToggle');
+function closeMenu(){
+  slideMenu.classList.remove('open');
+  menuBackdrop.classList.remove('show');
+  menuToggle.textContent = '☰';
+}
+function openMenu(){
+  slideMenu.classList.add('open');
+  menuBackdrop.classList.add('show');
+  menuToggle.textContent = '✕';
+}
+menuToggle.addEventListener('click', () => {
+  slideMenu.classList.contains('open') ? closeMenu() : openMenu();
+});
+menuBackdrop.addEventListener('click', closeMenu);
+
+document.querySelectorAll('#slideMenu .menu-title').forEach(t => {
+  t.addEventListener('click', () => {
+    t.parentElement.classList.toggle('expanded');
+  });
+});
+
+function buildMenuTrees(){
+  // PROGRAMME
+  const progEl = document.getElementById('menuProgramme');
+  progEl.innerHTML = (DATA.programme.parties || []).map(p => `
+    <div class="menu-partie">${p.numero}. ${p.titre}</div>
+    ${p.sous_parties.map(sp => sp.chapitre_id
+      ? `<a href="#" data-go-chap="${sp.chapitre_id}">${sp.titre}</a>`
+      : `<span style="display:block;font-size:.82rem;padding:5px 0 5px 10px;color:#b9b9b9;">${sp.titre} (à venir)</span>`
+    ).join('')}
+  `).join('') + (DATA.programme.autre||[]).map(a => `
+    <div class="menu-partie">Autre</div>
+    <a href="#" data-go-chap="${a.chapitre_id}">${a.titre}</a>
+  `).join('');
+
+  // LISTES
+  const listesEl = document.getElementById('menuListes');
+  listesEl.innerHTML = `<a href="#" data-go-listes="all">Toutes les notions</a>` +
+    DATA.chapitres.map(c => `<a href="#" data-go-listes="${c.id}">${chapLabel(c)}</a>`).join('');
+
+  // TABLEAUX
+  const tabEl = document.getElementById('menuTableaux');
+  const chapsWithTableaux = [...new Set((DATA.tableaux_comparatifs||[]).map(t => t.chapitre_id))];
+  tabEl.innerHTML = chapsWithTableaux.map(cid => {
+    const c = chapById(cid);
+    return c ? `<a href="#" data-go-tableaux="${cid}">${chapLabel(c)}</a>` : '';
+  }).join('') || '<span style="display:block;font-size:.82rem;padding:5px 0;color:#b9b9b9;">Aucun tableau disponible</span>';
+
+  progEl.querySelectorAll('[data-go-chap]').forEach(a => a.onclick = (e) => {
+    e.preventDefault();
+    state.chapitreId = a.dataset.goChap; state.ficheId = null; state.chapTab='cours';
+    state.view = 'chapitre'; closeMenu(); render(); window.scrollTo({top:0, behavior:'smooth'});
+  });
+  listesEl.querySelectorAll('[data-go-listes]').forEach(a => a.onclick = (e) => {
+    e.preventDefault();
+    const v = a.dataset.goListes;
+    state.listesScope = (v === 'all') ? 'all' : 'chapitre';
+    state.listesChapitreId = (v === 'all') ? null : v;
+    state.qrFocus = null;
+    state.view = 'listes'; closeMenu(); render(); window.scrollTo({top:0, behavior:'smooth'});
+  });
+  tabEl.querySelectorAll('[data-go-tableaux]').forEach(a => a.onclick = (e) => {
+    e.preventDefault();
+    state.tableauxChapitreId = a.dataset.goTableaux;
+    state.view = 'tableaux'; closeMenu(); render(); window.scrollTo({top:0, behavior:'smooth'});
+  });
+}
+buildMenuTrees();
+
+document.getElementById('globalSearch').addEventListener('input', e => {
+  const q = e.target.value.trim().toLowerCase();
+  if(!q){ return; }
+  const ficheHit = DATA.fiches.find(f => f.titre.toLowerCase().includes(q));
+  if(ficheHit){
+    state.chapitreId = notionById(ficheHit.notion_id).chapitre_id;
+    state.view='chapitre'; state.chapTab='cours'; state.ficheId = ficheHit.id; render(); return;
+  }
+  const refHit = DATA.references_textes.find(r => r.reference.toLowerCase().includes(q));
+  if(refHit){ state.view='documentation'; render(); }
+});
+
+render();
+</script>
+</body>
+</html>

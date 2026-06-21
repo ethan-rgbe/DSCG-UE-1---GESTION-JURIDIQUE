@@ -1,0 +1,26 @@
+[
+  {
+    "id": "code-de-commerce",
+    "titre": "Code de commerce",
+    "fichier": "static/codes/code-de-commerce.pdf",
+    "disponible": true
+  },
+  {
+    "id": "code-du-travail",
+    "titre": "Code du travail",
+    "fichier": "static/codes/code-du-travail.pdf",
+    "disponible": false
+  },
+  {
+    "id": "code-civil",
+    "titre": "Code civil",
+    "fichier": "static/codes/code-civil.pdf",
+    "disponible": false
+  },
+  {
+    "id": "code-des-assurances",
+    "titre": "Code des assurances",
+    "fichier": "static/codes/code-des-assurances.pdf",
+    "disponible": false
+  }
+]

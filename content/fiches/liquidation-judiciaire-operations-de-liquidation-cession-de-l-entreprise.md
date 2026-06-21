@@ -1,0 +1,14 @@
+---
+id: "liquidation-judiciaire-operations-de-liquidation-cession-de-l-entreprise"
+notion_id: "entreprise-difficulte.liquidation-judiciaire"
+titre: "Liquidation judiciaire – Opérations de liquidation – Cession de l'entreprise"
+mots_cles: []
+importance: "★★★"
+references: ["ref-art-l-642-1-l-642-2-l-642-3-l-642-7-c-com-art-l-1224-1--97"]
+---
+
+# Liquidation judiciaire – Opérations de liquidation – Cession de l'entreprise
+
+« La cession de l'entreprise a pour but d'assurer le maintien d'activités susceptibles d'exploitation autonome, de tout ou partie des emplois qui y sont attachés et d'apurer le passif » (art. L. 642-1, al. 1). Elle peut être totale ou partielle (al. 2). Redressement ou liquidation judiciaire : la cession peut intervenir dans les deux procédures. Offres de reprise — qui ne peut pas en formuler (art. L. 642-3, confirmé) : le débiteur (au titre de l'un quelconque de ses patrimoines), les dirigeants de droit ou de fait de la personne morale en liquidation, les parents ou alliés jusqu'au deuxième degré inclusivement de ces dirigeants ou du débiteur personne physique, et les personnes ayant ou ayant eu la qualité de contrôleur — ni directement, ni par personne interposée. Ces mêmes personnes ne peuvent acquérir, dans les cinq années suivant la cession, tout ou partie des biens cédés. Exception : pour une exploitation agricole, le tribunal peut déroger à ces interdictions (à l'exception des contrôleurs et du débiteur). Formalisme des offres : encadré par l'art. L. 642-2, II (contenu obligatoire de l'offre). Publicité des offres : assurée par le greffe/liquidateur. Adoption du plan de cession : par le tribunal, après avoir fixé le délai de réception des offres (art. L. 642-2, I). Contenu du plan de cession : transmission totale (l'ensemble des actifs) ou partielle (une ou plusieurs branches complètes et autonomes d'activité). Transmission de certains contrats en cours : contrat de travail (art. L. 1224-1 C. trav. — maintien des contrats de travail en cas de transfert d'entreprise) ; contrat d'assurance (art. L. 121-10 C. assur. — l'assurance continue de plein droit au profit de l'acquéreur) ; crédit-bail, location financière et contrats de fourniture nécessaires au maintien de l'activité (art. L. 642-7 — ces contrats sont cédés de plein droit avec le jugement arrêtant le plan, aux conditions en vigueur au jour de l'ouverture). Détermination et répartition du prix : fixés par le tribunal/liquidateur. Engagements personnels du repreneur : peuvent être exigés par le tribunal. Transfert de propriété : au jugement arrêtant le plan de cession. Inexécution et résolution du plan : en cas de non-respect par le repreneur de ses obligations, le tribunal peut prononcer la résolution du plan de cession.
+
+> 📎 *Art. L. 642-1, L. 642-2, L. 642-3, L. 642-7 C. com. ; Art. L. 1224-1 C. trav. ; Art. L. 121-10 C. assur.*

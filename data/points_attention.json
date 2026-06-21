@@ -1,0 +1,30 @@
+{
+  "entreprise-difficulte": {
+    "sens_et_portee": "Nombreuses sont les difficultés qui peuvent menacer la pérennité de l'entreprise. Le droit, en cherchant à préserver les intérêts des différents partenaires de l'entreprise, va encadrer de manière spécifique la vie de l'entreprise durant la période de prévention ou de traitement des difficultés.",
+    "competences_visees": [
+      "Repérer les situations exigeant le déclenchement de procédures de prévention ou de traitement des difficultés.",
+      "Assurer le suivi juridique de la procédure de prévention ou de traitement des difficultés."
+    ],
+    "notions_et_contenus": [
+      "La prévention des difficultés",
+      "Le traitement des difficultés : les procédures collectives, les sanctions",
+      "Aspects de droit communautaire"
+    ],
+    "attendus_examen": [
+      "Savoir identifier, à partir d'un cas pratique, à quel stade de difficulté se trouve l'entreprise (mandat ad hoc / conciliation / sauvegarde / redressement / liquidation) et en déduire la procédure adaptée — c'est le réflexe le plus testé.",
+      "Connaître précisément les seuils et délais chiffrés (45 jours, 6/12/18 mois, 5 salariés/750 000 €...) : ce sont les points qui font perdre des points faute de précision.",
+      "Savoir restituer les formulations légales exactes (« dans l'impossibilité de faire face au passif exigible avec son actif disponible », etc.) — l'épreuve valorise le vocabulaire technique exact.",
+      "Maîtriser la distinction entre sanctions civiles (faillite personnelle, interdiction de gérer, responsabilité pour insuffisance d'actif) et sanction pénale (banqueroute) — fréquemment confondues.",
+      "Avoir une vision d'ensemble des organes de la procédure (juge-commissaire, mandataire/administrateur judiciaire, liquidateur) et de leurs rôles respectifs.",
+      "Le volet « aspects de droit communautaire » est ciblé : retenir le principe de la procédure principale/secondaire du règlement UE 2015/848, sans entrer dans le détail procédural."
+    ]
+  },
+  "rappels-dcg-commercial": {
+    "sens_et_portee": "Ces notions ne font pas l'objet d'une rubrique propre au programme du DSCG — le programme DSCG UE1 suppose connu celui du DCG (rappel du BO). Elles sont mobilisées implicitement dès qu'un sujet qualifie une activité ou détermine la juridiction compétente.",
+    "competences_visees": [],
+    "notions_et_contenus": [],
+    "attendus_examen": [
+      "Ne pas perdre de temps en examen à re-démontrer ces notions : elles doivent être mobilisées rapidement pour qualifier la situation avant d'enchaîner sur la question DSCG proprement dite."
+    ]
+  }
+}

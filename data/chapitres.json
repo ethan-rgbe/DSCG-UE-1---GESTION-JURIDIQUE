@@ -1,0 +1,20 @@
+[
+  {
+    "id": "entreprise-difficulte",
+    "titre": "L'entreprise en difficulté",
+    "ordre": 5,
+    "description": "Prévention et traitement des difficultés des entreprises, sanctions associées (programme DSCG UE1, rubrique 5.1).",
+    "numero": "5.1",
+    "partie_numero": 5,
+    "partie_titre": "La pérennité de l'entreprise"
+  },
+  {
+    "id": "rappels-dcg-commercial",
+    "titre": "Rappels DCG — Commercialité et compétence des tribunaux",
+    "ordre": 90,
+    "description": "Notions de premier cycle utiles en arrière-plan du chapitre Entreprise en difficulté (commercialité, compétence des tribunaux).",
+    "numero": null,
+    "partie_numero": null,
+    "partie_titre": null
+  }
+]

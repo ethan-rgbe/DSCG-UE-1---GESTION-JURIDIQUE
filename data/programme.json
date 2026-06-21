@@ -1,0 +1,102 @@
+{
+  "parties": [
+    {
+      "numero": 1,
+      "titre": "L'entreprise et son environnement",
+      "sous_parties": [
+        {
+          "titre": "Éléments généraux sur les contrats",
+          "chapitre_id": null
+        },
+        {
+          "titre": "La diversité des contrats",
+          "chapitre_id": null
+        },
+        {
+          "titre": "Droit pénal",
+          "chapitre_id": null
+        },
+        {
+          "titre": "L'entreprise et la concurrence",
+          "chapitre_id": null
+        },
+        {
+          "titre": "L'entreprise et l'administration fiscale",
+          "chapitre_id": null
+        },
+        {
+          "titre": "L'entreprise et la dimension environnementale",
+          "chapitre_id": null
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "titre": "Le développement de l'entreprise",
+      "sous_parties": [
+        {
+          "titre": "Le développement de l'entreprise",
+          "chapitre_id": null
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "titre": "Le financement de l'entreprise",
+      "sous_parties": [
+        {
+          "titre": "Le financement de l'entreprise",
+          "chapitre_id": null
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "titre": "De l'entreprise au groupe",
+      "sous_parties": [
+        {
+          "titre": "Les implications juridiques, fiscales et sociales de l'existence d'un groupe",
+          "chapitre_id": null
+        },
+        {
+          "titre": "La restructuration de l'entreprise",
+          "chapitre_id": null
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "titre": "La pérennité de l'entreprise",
+      "sous_parties": [
+        {
+          "titre": "L'entreprise en difficulté",
+          "chapitre_id": "entreprise-difficulte"
+        },
+        {
+          "titre": "La transmission de l'entreprise",
+          "chapitre_id": null
+        },
+        {
+          "titre": "La disparition de l'entreprise",
+          "chapitre_id": null
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "titre": "Les associations et autres organismes à but non lucratif",
+      "sous_parties": [
+        {
+          "titre": "Les associations et autres organismes à but non lucratif",
+          "chapitre_id": null
+        }
+      ]
+    }
+  ],
+  "autre": [
+    {
+      "titre": "Commercialité et compétence des tribunaux (rappels DCG)",
+      "chapitre_id": "rappels-dcg-commercial"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "entreprise-difficulte.definitions-cles",
+    "chapitre_id": "entreprise-difficulte",
+    "titre": "Définitions clés",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "entreprise-difficulte.obligations-comptables",
+    "chapitre_id": "entreprise-difficulte",
+    "titre": "Obligations comptables",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "chapitre_id": "entreprise-difficulte",
+    "titre": "Droit d'alerte — procédures détaillées",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "entreprise-difficulte.mandataire-ad-hoc",
+    "chapitre_id": "entreprise-difficulte",
+    "titre": "Mandataire ad hoc",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "entreprise-difficulte.definitions-complementaires",
+    "chapitre_id": "entreprise-difficulte",
+    "titre": "Définitions complémentaires",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "entreprise-difficulte.conciliation",
+    "chapitre_id": "entreprise-difficulte",
+    "titre": "Conciliation",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "chapitre_id": "entreprise-difficulte",
+    "titre": "Sauvegarde de l'entreprise",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "entreprise-difficulte.sauvegarde-acceleree-et-sfa",
+    "chapitre_id": "entreprise-difficulte",
+    "titre": "Sauvegarde accélérée (et SFA)",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "entreprise-difficulte.redressement-judiciaire",
+    "chapitre_id": "entreprise-difficulte",
+    "titre": "Redressement judiciaire",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "entreprise-difficulte.liquidation-judiciaire",
+    "chapitre_id": "entreprise-difficulte",
+    "titre": "Liquidation judiciaire",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "entreprise-difficulte.retablissement-professionnel",
+    "chapitre_id": "entreprise-difficulte",
+    "titre": "Rétablissement professionnel",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "entreprise-difficulte.sanctions-des-dirigeants",
+    "chapitre_id": "entreprise-difficulte",
+    "titre": "Sanctions des dirigeants",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "entreprise-difficulte.faillite-internationale",
+    "chapitre_id": "entreprise-difficulte",
+    "titre": "Faillite internationale",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
+    "chapitre_id": "rappels-dcg-commercial",
+    "titre": "Rappels DCG — à ranger dans un chapitre « extra »",
+    "description": "",
+    "mots_cles": []
+  }
+]

@@ -1,0 +1,1478 @@
+[
+  {
+    "id": "cessation-des-paiements-definition",
+    "notion_id": "entreprise-difficulte.definitions-cles",
+    "titre": "Cessation des paiements - définition",
+    "resume": "État du débiteur dans l'impossibilité de faire face au passif exigible avec son actif disponible.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "cessation-des-paiements-definition"
+  },
+  {
+    "id": "droit-d-alerte-definition",
+    "notion_id": "entreprise-difficulte.definitions-cles",
+    "titre": "Droit d'alerte - définition",
+    "resume": "Mécanisme de prévention permettant à certains acteurs de signaler des faits de nature à compromettre la continuité de l'exploitation, afin de déclencher des mes…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "droit-d-alerte-definition"
+  },
+  {
+    "id": "etablissement-des-comptes-annuels-obligations-et-exceptions-ref-c-com-art-123-12-s-art-l526-13",
+    "notion_id": "entreprise-difficulte.obligations-comptables",
+    "titre": "Établissement des comptes annuels - obligations et exceptions (ref : C.com art 123-12 s + art L526-13)",
+    "resume": "Principe : tout commerçant, personne physique ou morale, doit procéder à l'enregistrement comptable chronologique des mouvements affectant son patrimoine, contr…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "etablissement-des-comptes-annuels-obligations-et-exceptions-ref-c-com-art-123-12-s-art-l526-13"
+  },
+  {
+    "id": "etablissement-des-comptes-annuels-seuils-pm-de-droit-prive-non-commercante-23-ref-c-com-art-612-1",
+    "notion_id": "entreprise-difficulte.obligations-comptables",
+    "titre": "Établissement des comptes annuels - seuils pm de droit privé non commerçante (⅔) (ref : C.com art 612-1)",
+    "resume": "Les personnes morales de droit privé non commerçantes ayant une activité économique doivent établir chaque année un bilan, un compte de résultat et une annexe d…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "etablissement-des-comptes-annuels-seuils-pm-de-droit-prive-non-commercante-23-ref-c-com-art-612-1"
+  },
+  {
+    "id": "contenu-de-la-comptabilite-ref-c-com-art-l123-16-d-123-200",
+    "notion_id": "entreprise-difficulte.obligations-comptables",
+    "titre": "Contenu de la comptabilité (ref : C.com art L123-16 + D 123-200)",
+    "resume": "Le contenu général de l'obligation comptable (enregistrement chronologique, inventaire annuel, comptes annuels) résulte des art. L. 123-12 à L. 123-14 C. com.. …",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "contenu-de-la-comptabilite-ref-c-com-art-l123-16-d-123-200"
+  },
+  {
+    "id": "code-de-commerce-art-d123-200",
+    "notion_id": "entreprise-difficulte.obligations-comptables",
+    "titre": "Code de commerce art D123-200",
+    "resume": "Cet article fixe les livres comptables obligatoires que doit tenir toute personne tenue à l'enregistrement comptable :",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "code-de-commerce-art-d123-200"
+  },
+  {
+    "id": "depot-des-comptes-annuels-obligation-ref-c-com-art-l232-21-a-l232-23-c-com-r-247-3",
+    "notion_id": "entreprise-difficulte.obligations-comptables",
+    "titre": "Dépôt des comptes annuels - obligation (ref : C.com art L232-21 à L232-23, C.com R.247-3)",
+    "resume": "Les sociétés commerciales (à l'exception des sociétés en nom collectif dont tous les associés sont des personnes physiques) sont tenues de déposer au greffe du …",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "depot-des-comptes-annuels-obligation-ref-c-com-art-l232-21-a-l232-23-c-com-r-247-3"
+  },
+  {
+    "id": "etablissement-des-comptes-previsionnels-entreprises-concernees",
+    "notion_id": "entreprise-difficulte.obligations-comptables",
+    "titre": "Établissement des comptes prévisionnels - entreprises concernées",
+    "resume": "Sont tenues d'établir des comptes prévisionnels les sociétés commerciales qui répondent à l'un des critères suivants définis par décret (et non l'addition de pl…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "etablissement-des-comptes-previsionnels-entreprises-concernees"
+  },
+  {
+    "id": "etablissement-des-comptes-previsionnels-contenu",
+    "notion_id": "entreprise-difficulte.obligations-comptables",
+    "titre": "Établissement des comptes prévisionnels - contenu",
+    "resume": "Les sociétés concernées doivent établir, en même temps que le bilan annuel :",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "etablissement-des-comptes-previsionnels-contenu"
+  },
+  {
+    "id": "etablissement-des-comptes-previsionnels-confidentialite",
+    "notion_id": "entreprise-difficulte.obligations-comptables",
+    "titre": "Établissement des comptes prévisionnels - confidentialité",
+    "resume": "Les comptes prévisionnels sont des documents internes : ils ne sont pas déposés au greffe du tribunal de commerce et ne font pas l'objet d'une publicité au RCS,…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "etablissement-des-comptes-previsionnels-confidentialite"
+  },
+  {
+    "id": "alerte-declenchee-par-le-cac-conditions",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "titre": "Alerte déclenchée par le CAC - conditions",
+    "resume": "Condition unique de déclenchement : le CAC relève, à l'occasion de l'exercice de sa mission, des faits de nature à compromettre la continuité de l'exploitation.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "alerte-declenchee-par-le-cac-conditions"
+  },
+  {
+    "id": "alerte-declenchee-par-le-cac-procedure-en-4-etapes",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "titre": "Alerte déclenchée par le CAC - procédure en 4 étapes",
+    "resume": "Procédure applicable dans les sociétés anonymes (art. L. 234-1) — la procédure des autres sociétés (art. L. 234-2) est proche mais sans organe collégial à saisi…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "alerte-declenchee-par-le-cac-procedure-en-4-etapes"
+  },
+  {
+    "id": "alerte-declenchee-par-le-cac-art-l-611-2-2-cco",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "titre": "Alerte déclenchée par le CAC - art L.611-2-2 Cco",
+    "resume": "L'art. L. 611-2-2 prévoit un mécanisme d'urgence : lorsque l'urgence commande l'adoption de mesures immédiates et que le dirigeant refuse d'agir, ou envisage de…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "alerte-declenchee-par-le-cac-art-l-611-2-2-cco"
+  },
+  {
+    "id": "alerte-economique-declenchee-par-le-cse-conditions",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "titre": "Alerte économique déclenchée par le CSE - conditions",
+    "resume": "Le CSE peut déclencher l'alerte économique lorsqu'il a connaissance de faits de nature à affecter de manière préoccupante la situation économique de l'entrepris…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "alerte-economique-declenchee-par-le-cse-conditions"
+  },
+  {
+    "id": "alerte-economique-declenchee-par-le-cse-2-etapes-de-la-procedure",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "titre": "Alerte économique déclenchée par le CSE - 2 étapes de la procédure",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "alerte-economique-declenchee-par-le-cse-2-etapes-de-la-procedure"
+  },
+  {
+    "id": "alerte-par-les-associes-conditions-sarl",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "titre": "Alerte par les associés - conditions SARL",
+    "resume": "Tout associé non gérant peut, deux fois par exercice, poser par écrit des questions au gérant sur tout fait de nature à compromettre la continuité de l'exploita…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "alerte-par-les-associes-conditions-sarl"
+  },
+  {
+    "id": "alerte-par-les-associes-conditions-sa",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "titre": "Alerte par les associés - conditions SA",
+    "resume": "Un ou plusieurs actionnaires représentant au moins 5 % du capital social peuvent, deux fois par exercice, poser par écrit des questions au président du conseil …",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "alerte-par-les-associes-conditions-sa"
+  },
+  {
+    "id": "alerte-par-les-associes-procedure",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "titre": "Alerte par les associés - procédure",
+    "resume": "Procédure commune, qu'il s'agisse de la SARL (art. L. 223-36) ou de la SA (art. L. 225-232) :",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "alerte-par-les-associes-procedure"
+  },
+  {
+    "id": "alerte-par-le-president-du-tribunal-entreprises-concernees",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "titre": "Alerte par le président du tribunal - entreprises concernées",
+    "resume": "Le dispositif de l'art. L. 611-2 vise initialement les sociétés commerciales, groupements d'intérêt économique et entreprises individuelles commerciales ou arti…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "alerte-par-le-president-du-tribunal-entreprises-concernees"
+  },
+  {
+    "id": "alerte-par-le-president-du-tribunal-criteres-economiques",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "titre": "Alerte par le président du tribunal - critères économiques",
+    "resume": "Le président peut agir lorsqu'il résulte de tout acte, document ou procédure qu'une entreprise connaît des difficultés de nature à compromettre la continuité de…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "alerte-par-le-president-du-tribunal-criteres-economiques"
+  },
+  {
+    "id": "alerte-par-le-president-du-tribunal-convocation-a-un-entretien",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "titre": "Alerte par le président du tribunal - convocation à un entretien",
+    "resume": "En présence de difficultés compromettant la continuité de l'exploitation, le président du tribunal convoque les dirigeants pour que soient envisagées les mesure…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "alerte-par-le-president-du-tribunal-convocation-a-un-entretien"
+  },
+  {
+    "id": "alerte-par-le-president-du-tribunal-obtention-de-renseignement-aupres-d-un-tiers",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "titre": "Alerte par le président du tribunal - obtention de renseignement auprès d'un tiers",
+    "resume": "Le président du tribunal peut, nonobstant toute disposition législative ou réglementaire contraire, obtenir communication de renseignements de nature à lui donn…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "alerte-par-le-president-du-tribunal-obtention-de-renseignement-aupres-d-un-tiers"
+  },
+  {
+    "id": "mandataire-ad-hoc-principes-du-dispositif",
+    "notion_id": "entreprise-difficulte.mandataire-ad-hoc",
+    "titre": "Mandataire Ad Hoc - principes du dispositif",
+    "resume": "Procédure de prévention confidentielle, ouverte à la seule demande du débiteur, sans aucune condition préalable (ni cessation des paiements, ni seuil de difficu…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "mandataire-ad-hoc-principes-du-dispositif"
+  },
+  {
+    "id": "mandataire-ad-hoc-missions-du-mandataire",
+    "notion_id": "entreprise-difficulte.mandataire-ad-hoc",
+    "titre": "Mandataire Ad hoc - missions du mandataire",
+    "resume": "La mission est définie librement par le président du tribunal dans l'ordonnance de désignation (aucun contenu type imposé par la loi). Elle peut notamment consi…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "mandataire-ad-hoc-missions-du-mandataire"
+  },
+  {
+    "id": "mandataire-ad-hoc-interet",
+    "notion_id": "entreprise-difficulte.mandataire-ad-hoc",
+    "titre": "Mandataire Ad hoc - intérêt",
+    "resume": "Solution adaptée à une entreprise confrontée à des difficultés ponctuelles et surmontables ne justifiant pas encore une procédure plus lourde. Atouts :",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "mandataire-ad-hoc-interet"
+  },
+  {
+    "id": "actif-disponible-definition",
+    "notion_id": "entreprise-difficulte.definitions-complementaires",
+    "titre": "Actif disponible - définition",
+    "resume": "Ensemble des liquidités immédiatement mobilisables par le débiteur pour faire face à ses dettes, sans délai ni formalité.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "actif-disponible-definition"
+  },
+  {
+    "id": "passif-exigible-definition",
+    "notion_id": "entreprise-difficulte.definitions-complementaires",
+    "titre": "Passif exigible - définition",
+    "resume": "Ensemble des dettes certaines, liquides et exigibles, c'est-à-dire arrivées à échéance, que le débiteur doit payer immédiatement.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "passif-exigible-definition"
+  },
+  {
+    "id": "periode-suspecte-definition",
+    "notion_id": "entreprise-difficulte.definitions-complementaires",
+    "titre": "Période suspecte - définition",
+    "resume": "Période comprise entre la date de cessation des paiements (fixée, le cas échéant rétroactivement, par le tribunal) et la date du jugement d'ouverture de la proc…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "periode-suspecte-definition"
+  },
+  {
+    "id": "modifications-de-la-loi-pacte",
+    "notion_id": "entreprise-difficulte.definitions-complementaires",
+    "titre": "Modifications de la loi PACTE",
+    "resume": "La loi n° 2019-486 du 22 mai 2019 (« PACTE ») a notamment :",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "modifications-de-la-loi-pacte"
+  },
+  {
+    "id": "conciliation-entreprises-concernees",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Entreprises concernées",
+    "resume": "Procédure ouverte aux personnes exerçant une activité commerciale ou artisanale, aux personnes morales de droit privé, et aux personnes physiques exerçant une a…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-entreprises-concernees"
+  },
+  {
+    "id": "conciliation-2-conditions-de-l-ouverture-de-la-procedure",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – 2 conditions de l'ouverture de la procédure",
+    "resume": "Conditions CUMULATIVES :",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-2-conditions-de-l-ouverture-de-la-procedure"
+  },
+  {
+    "id": "conciliation-initiateur-de-la-procedure",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Initiateur de la procédure",
+    "resume": "Le débiteur et lui seul — la conciliation ne peut être demandée par un créancier ou par le ministère public.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-initiateur-de-la-procedure"
+  },
+  {
+    "id": "conciliation-intervention-judiciaire",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Intervention judiciaire",
+    "resume": "Le tribunal n'intervient que pour accepter ou non la demande d'ouverture — il ne pilote pas la négociation elle-même.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-intervention-judiciaire"
+  },
+  {
+    "id": "conciliation-consequence-juridique-du-lancement-de-la-procedure",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Conséquence juridique du lancement de la procédure",
+    "resume": "Le président du tribunal rend une ordonnance d'ouverture.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-consequence-juridique-du-lancement-de-la-procedure"
+  },
+  {
+    "id": "conciliation-contenu-de-l-ordonnance-d-ouverture",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Contenu de l'ordonnance d'ouverture",
+    "resume": "Elle désigne le conciliateur et fixe sa durée de désignation.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-contenu-de-l-ordonnance-d-ouverture"
+  },
+  {
+    "id": "conciliation-pouvoir-du-president-du-tribunal",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Pouvoir du président du tribunal",
+    "resume": "Il dispose d'un pouvoir d'investigation : il peut obtenir des informations des établissements bancaires, se faire communiquer tout renseignement utile sur la si…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-pouvoir-du-president-du-tribunal"
+  },
+  {
+    "id": "conciliation-statut-du-secret-bancaire",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Statut du secret bancaire",
+    "resume": "Le secret bancaire ne tient pas en cas de demande du président du tribunal dans le cadre de son pouvoir d'investigation.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-statut-du-secret-bancaire"
+  },
+  {
+    "id": "conciliation-objectifs",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Objectifs",
+    "resume": "Parvenir à un accord contractuel entre le débiteur et ses créanciers (principaux ou cocontractants).",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-objectifs"
+  },
+  {
+    "id": "conciliation-contenu-de-l-accord-entre-debiteur-et-creanciers",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Contenu de l'accord entre débiteur et créanciers",
+    "resume": "Remises de dettes, partielles ou totales, ou échelonnement des paiements, de concours bancaires, de restructuration de l'entreprise débitrice, par exemple.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-contenu-de-l-accord-entre-debiteur-et-creanciers"
+  },
+  {
+    "id": "conciliation-objectif-de-l-accord-entre-debiteur-et-creanciers",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Objectif de l'accord entre débiteur et créanciers",
+    "resume": "Mettre fin aux difficultés de l'entreprise débitrice.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-objectif-de-l-accord-entre-debiteur-et-creanciers"
+  },
+  {
+    "id": "conciliation-duree-de-la-designation-du-conciliateur",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Durée de la désignation du conciliateur",
+    "resume": "Inférieure à quatre mois, pouvant être prorogée d'un mois à la demande du conciliateur (soit 5 mois maximum).",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-duree-de-la-designation-du-conciliateur"
+  },
+  {
+    "id": "conciliation-moyens",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Moyens",
+    "resume": "Conclusion d'un accord avec des opérateurs économiques privés ou publics.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-moyens"
+  },
+  {
+    "id": "conciliation-sujet-des-poursuites",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Sujet des poursuites",
+    "resume": "Le conciliateur ne peut pas demander la suspension des poursuites exercées par un ou plusieurs créanciers — à la différence de l'administrateur en sauvegarde ou…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-sujet-des-poursuites"
+  },
+  {
+    "id": "conciliation-cas-d-un-creancier-qui-exerce-son-droit-de-poursuite-ou-qui-met-en-demeure-le-debiteur-de-s-executer",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Cas d'un créancier qui exerce son droit de poursuite ou qui met en demeure le débiteur de s'exécuter",
+    "resume": "Le juge peut, compte tenu de la situation du débiteur et en considération des besoins du créancier, reporter ou échelonner, dans la limite de deux années, le pa…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-cas-d-un-creancier-qui-exerce-son-droit-de-poursuite-ou-qui-met-en-demeure-le-debiteur-de-s-executer"
+  },
+  {
+    "id": "conciliation-beneficiaires-des-delais-de-paiement-imposes-par-le-juge",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Bénéficiaires des délais de paiement imposés par le juge",
+    "resume": "L'entreprise débitrice et les personnes coobligées.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-beneficiaires-des-delais-de-paiement-imposes-par-le-juge"
+  },
+  {
+    "id": "conciliation-confidentialite",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Confidentialité",
+    "resume": "Le conciliateur a une obligation de confidentialité.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-confidentialite"
+  },
+  {
+    "id": "conciliation-cas-de-fin-de-la-procedure",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Cas de fin de la procédure",
+    "resume": "Trois cas ALTERNATIFS :",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-cas-de-fin-de-la-procedure"
+  },
+  {
+    "id": "conciliation-denouement-de-la-fin-de-mission",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Dénouement de la fin de mission",
+    "resume": "L'accord peut être constaté (force exécutoire sans publicité) ou homologué (contrôle par le juge mais avec publicité) par le président du tribunal après requête…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-denouement-de-la-fin-de-mission"
+  },
+  {
+    "id": "conciliation-cas-d-homologation-de-l-accord-3-conditions-cumulatives",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Cas d'homologation de l'accord, 3 conditions cumulatives",
+    "resume": "Conditions CUMULATIVES :",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-cas-d-homologation-de-l-accord-3-conditions-cumulatives"
+  },
+  {
+    "id": "conciliation-fin-de-la-confidentialite",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Fin de la confidentialité",
+    "resume": "Dès l'homologation : information auprès du greffe (publication du jugement) + transmission au commissaire aux comptes s'il en existe un.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-fin-de-la-confidentialite"
+  },
+  {
+    "id": "conciliation-le-mandataire-a-l-execution-de-l-accord",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Le mandataire à l'exécution de l'accord",
+    "resume": "Le conciliateur est potentiellement nommé, après homologation de l'accord, pour en contrôler l'application.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-le-mandataire-a-l-execution-de-l-accord"
+  },
+  {
+    "id": "conciliation-effets-de-l-accord-sur-les-poursuites-engagees",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Effets de l'accord sur les poursuites engagées",
+    "resume": "Arrêt des poursuites des créanciers signataires.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-effets-de-l-accord-sur-les-poursuites-engagees"
+  },
+  {
+    "id": "conciliation-le-cas-des-coobliges-et-des-garants",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Le cas des coobligés et des garants",
+    "resume": "Ils peuvent se prévaloir de l'accord.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-le-cas-des-coobliges-et-des-garants"
+  },
+  {
+    "id": "conciliation-le-cas-de-l-ouverture-d-une-nouvelle-procedure-collective",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Conciliation – Le cas de l'ouverture d'une nouvelle procédure collective",
+    "resume": "L'accord homologué ou constaté prend automatiquement fin et les créanciers recouvrent l'intégralité de leurs créances et sûretés.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "conciliation-le-cas-de-l-ouverture-d-une-nouvelle-procedure-collective"
+  },
+  {
+    "id": "creanciers-privilegies",
+    "notion_id": "entreprise-difficulte.conciliation",
+    "titre": "Créanciers privilégiés",
+    "resume": "Dans le cadre de la conciliation : ceux qui ont effectué des apports de trésorerie ou qui ont fourni un bien ou service — bénéficiaires du privilège dit « de co…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "creanciers-privilegies"
+  },
+  {
+    "id": "sauvegarde-de-l-entreprise-definition-article-l-620-1-c-com",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde de l'entreprise – définition (article L.620-1 C.com)",
+    "resume": "« Il est institué une procédure de sauvegarde ouverte sur demande d'un débiteur mentionné à l'article L. 620-2 qui, sans être en cessation des paiements, justif…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-de-l-entreprise-definition-article-l-620-1-c-com"
+  },
+  {
+    "id": "sauvegarde-de-l-entreprise-personnes-concernees",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde de l'entreprise – personnes concernées",
+    "resume": "Les personnes exerçant une activité commerciale ou artisanale (pas forcément immatriculées) ; les agriculteurs ; les personnes exerçant une activité professionn…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-de-l-entreprise-personnes-concernees"
+  },
+  {
+    "id": "sauvegarde-de-l-entreprise-cas-de-l-extension-de-la-procedure",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde de l'entreprise – Cas de l'extension de la procédure",
+    "resume": "Cas ALTERNATIFS :",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-de-l-entreprise-cas-de-l-extension-de-la-procedure"
+  },
+  {
+    "id": "confusion-de-patrimoines-definition",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Confusion de patrimoines – définition",
+    "resume": "Deux personnes physiques ou morales se sont comportées comme si elles avaient le même patrimoine.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "confusion-de-patrimoines-definition"
+  },
+  {
+    "id": "confusion-de-patrimoine-justification-de-l-extension-de-la-sauvegarde",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Confusion de patrimoine – justification de l'extension de la sauvegarde",
+    "resume": "Justifiée par le préjudice anormal subi par les créanciers quand le patrimoine de leur débiteur est appauvri du fait de cette confusion.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "confusion-de-patrimoine-justification-de-l-extension-de-la-sauvegarde"
+  },
+  {
+    "id": "confusion-de-patrimoine-charge-de-la-preuve",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Confusion de patrimoine – Charge de la preuve",
+    "resume": "Elle incombe à la personne qui invoque la confusion de patrimoines.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "confusion-de-patrimoine-charge-de-la-preuve"
+  },
+  {
+    "id": "confusion-de-patrimoine-moyens-de-preuve-selon-la-jurisprudence",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Confusion de patrimoine – Moyens de preuve (selon la jurisprudence)",
+    "resume": "Prouver une imbrication des actifs et des dettes des deux partenaires ou une confusion des comptes ; prouver l'entretien de relations financières anormales, par…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "confusion-de-patrimoine-moyens-de-preuve-selon-la-jurisprudence"
+  },
+  {
+    "id": "fictivite-de-la-personne-morale-correspondance",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Fictivité de la personne morale – Correspondance",
+    "resume": "Société écran — structure sans réalité économique ni autonomie de fonctionnement, créée pour masquer l'activité réelle d'une autre personne.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "fictivite-de-la-personne-morale-correspondance"
+  },
+  {
+    "id": "extension-de-la-procedure-de-sauvegarde-situation-des-entreprises-visees",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Extension de la procédure de sauvegarde – Situation des entreprises visées",
+    "resume": "La situation financière des entreprises visées par l'extension n'a pas à être vérifiée — l'extension est fondée sur la confusion des patrimoines ou la fictivité…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "extension-de-la-procedure-de-sauvegarde-situation-des-entreprises-visees"
+  },
+  {
+    "id": "sauvegarde-de-l-entreprise-degre-de-difficulte-justifiant-la-procedure",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde de l'entreprise – Degré de difficulté justifiant la procédure",
+    "resume": "Le débiteur est en droit de solliciter une procédure de sauvegarde si, sans être en cessation des paiements, il éprouve des difficultés qu'il n'est pas en mesur…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-de-l-entreprise-degre-de-difficulte-justifiant-la-procedure"
+  },
+  {
+    "id": "sauvegarde-de-l-entreprise-jugement-d-ouverture-de-la-procedure",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde de l'entreprise – jugement d'ouverture de la procédure",
+    "resume": "Délivré par le tribunal matériellement et territorialement compétent.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-de-l-entreprise-jugement-d-ouverture-de-la-procedure"
+  },
+  {
+    "id": "jugement-d-ouverture-de-la-sauvegarde-de-l-entreprise-competence-territoriale-des-tribunaux",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Jugement d'ouverture de la sauvegarde de l'entreprise – compétence territoriale des tribunaux",
+    "resume": "Pour les personnes physiques → ressort de l'adresse déclarée ; pour les personnes morales → ressort du siège social.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "jugement-d-ouverture-de-la-sauvegarde-de-l-entreprise-competence-territoriale-des-tribunaux"
+  },
+  {
+    "id": "jugement-d-ouverture-de-la-sauvegarde-de-l-entreprise-competence-materielle-des-tribunaux",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Jugement d'ouverture de la sauvegarde de l'entreprise – compétence matérielle des tribunaux",
+    "resume": "Activité commerciale ou artisanale → tribunal de commerce ; activité agricole ou libérale → tribunal judiciaire.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "jugement-d-ouverture-de-la-sauvegarde-de-l-entreprise-competence-materielle-des-tribunaux"
+  },
+  {
+    "id": "sauvegarde-de-l-entreprise-acteur-de-la-saisine",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde de l'entreprise – Acteur de la saisine",
+    "resume": "Réservée à l'entreprise débitrice — comme pour la conciliation, ni un créancier ni le ministère public ne peuvent demander l'ouverture d'une sauvegarde.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-de-l-entreprise-acteur-de-la-saisine"
+  },
+  {
+    "id": "juridictions-specialisees-pour-les-procedures-collectives-c-com-art-l-721-8",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Juridictions spécialisées pour les procédures collectives (C.com art. L.721-8)",
+    "resume": "Liste de tribunaux de commerce spécialement désignés, compétents lorsque le débiteur exerce une activité commerciale ou artisanale et dépasse l'un des seuils AL…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "juridictions-specialisees-pour-les-procedures-collectives-c-com-art-l-721-8"
+  },
+  {
+    "id": "sauvegarde-de-l-entreprise-organes-de-la-procedure",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde de l'entreprise – Organes de la procédure",
+    "resume": "Le juge-commissaire ; le mandataire judiciaire ; le représentant des salariés ; l'administrateur judiciaire ; les contrôleurs ; les experts.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-de-l-entreprise-organes-de-la-procedure"
+  },
+  {
+    "id": "juge-commissaire-role",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Juge commissaire – rôle",
+    "resume": "Veiller au déroulement rapide de la procédure et à la protection des intérêts en présence.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "juge-commissaire-role"
+  },
+  {
+    "id": "mandataire-judiciaire-role",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Mandataire judiciaire – rôle",
+    "resume": "Assurer la défense des intérêts des créanciers ; liquidateur en cas de procédure de liquidation judiciaire.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "mandataire-judiciaire-role"
+  },
+  {
+    "id": "representant-des-salaries-role",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Représentant des salariés – rôle",
+    "resume": "Participe à la vérification des créances salariales.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "representant-des-salaries-role"
+  },
+  {
+    "id": "representant-des-salaries-conditions",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Représentant des salariés – conditions",
+    "resume": "Désigné parmi les salariés de l'entreprise débitrice par le CSE ou les délégués du personnel si pas de CSE.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "representant-des-salaries-conditions"
+  },
+  {
+    "id": "administrateur-judiciaire-role",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Administrateur judiciaire – rôle",
+    "resume": "Dans une procédure de sauvegarde → surveillance du débiteur dans sa gestion ou assistance pour tous les actes de gestion ou pour certains d'entre eux ; dans une…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "administrateur-judiciaire-role"
+  },
+  {
+    "id": "administrateur-judiciaire-definition-art-l-811-11-c-com",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Administrateur judiciaire – définition ( art L.811-11 C.com)",
+    "resume": "« Mandataire de justice doté d'un statut professionnel particulier ».",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "administrateur-judiciaire-definition-art-l-811-11-c-com"
+  },
+  {
+    "id": "administrateur-judiciaire-seuils-nomination",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Administrateur judiciaire – seuils nomination",
+    "resume": "Nomination facultative si moins de 20 salariés OU CA HT inférieur à 3 M€ (en deçà de ces seuils, le débiteur exerce seul ses pouvoirs avec l'assistance du seul …",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "administrateur-judiciaire-seuils-nomination"
+  },
+  {
+    "id": "controleurs-definition",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Contrôleurs – définition",
+    "resume": "Assiste le mandataire judiciaire dans ses fonctions et le juge-commissaire dans sa mission de surveillance de l'administration de l'entreprise.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "controleurs-definition"
+  },
+  {
+    "id": "controleurs-designation",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Contrôleurs – désignation",
+    "resume": "La désignation, par le juge-commissaire, d'un ou plusieurs contrôleurs (cinq au maximum) parmi les créanciers n'est obligatoire que si ces derniers en font la d…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "controleurs-designation"
+  },
+  {
+    "id": "experts-role",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Experts – rôle",
+    "resume": "Renseigner le tribunal sur la situation économique, financière et sociale de l'entreprise.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "experts-role"
+  },
+  {
+    "id": "experts-designation",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Experts – désignation",
+    "resume": "Par le tribunal.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "experts-designation"
+  },
+  {
+    "id": "sauvegarde-publicite-du-jugement-d-ouverture-consequences",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde - publicité du jugement d'ouverture – conséquences",
+    "resume": "Début du délai de forclusion + opposabilité aux tiers.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-publicite-du-jugement-d-ouverture-consequences"
+  },
+  {
+    "id": "sauvegarde-voies-de-recours-effets",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – voies de recours – effets",
+    "resume": "La procédure est exécutoire de plein droit à titre provisoire dans tous les cas.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-voies-de-recours-effets"
+  },
+  {
+    "id": "sauvegarde-voies-de-recours-deux-options",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – voies de recours – deux options",
+    "resume": "Options ALTERNATIVES :",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-voies-de-recours-deux-options"
+  },
+  {
+    "id": "sauvegarde-la-periode-d-observation",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – la période d'observation",
+    "resume": "Délai maximum de 6 mois fixé par le juge, renouvelable une fois.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-la-periode-d-observation"
+  },
+  {
+    "id": "sauvegarde-la-modification-ou-interruption-de-la-periode-d-observation",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – la modification ou interruption de la période d'observation",
+    "resume": "Possible selon l'un des cas ALTERNATIFS suivants :",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-la-modification-ou-interruption-de-la-periode-d-observation"
+  },
+  {
+    "id": "sauvegarde-gestion-de-l-entreprise",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Gestion de l'entreprise",
+    "resume": "Synthèse des art. L. 622-1, L. 622-3, L. 622-7 et L. 622-13 C. com. : l'administration de l'entreprise est assurée par son dirigeant (art. L. 622-1, I), qui con…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-gestion-de-l-entreprise"
+  },
+  {
+    "id": "sauvegarde-pouvoir-du-debiteur-pendant-la-periode-d-observation-surveillance-de-la-gestion",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Pouvoir du débiteur pendant la période d'observation – Surveillance de la gestion",
+    "resume": "Il reste libre de sa gestion, l'administrateur est limité au contrôle a posteriori des actes accomplis. L'administrateur peut demander la modification de sa mis…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-pouvoir-du-debiteur-pendant-la-periode-d-observation-surveillance-de-la-gestion"
+  },
+  {
+    "id": "sauvegarde-pouvoir-du-debiteur-pendant-la-periode-d-observation-actes-de-gestion",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Pouvoir du débiteur pendant la période d'observation – Actes de gestion",
+    "resume": "Pouvoirs réduits, contrôle a priori de l'administrateur qui autorise ou non les actes (lorsqu'il a une mission d'assistance).",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-pouvoir-du-debiteur-pendant-la-periode-d-observation-actes-de-gestion"
+  },
+  {
+    "id": "sauvegarde-pouvoir-du-debiteur-pendant-la-periode-d-observation-autres-missions",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Pouvoir du débiteur pendant la période d'observation – Autres missions",
+    "resume": "L'administrateur dispose de pouvoirs spécifiques, comme la possibilité d'exiger la poursuite des contrats en cours.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-pouvoir-du-debiteur-pendant-la-periode-d-observation-autres-missions"
+  },
+  {
+    "id": "sauvegarde-acte-de-gestion-courante-definition",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde - Acte de gestion courante – définition",
+    "resume": "Notion non définie textuellement par le Code de commerce : il s'agit, en pratique et selon la doctrine, des actes habituels, répétitifs, nécessaires à la poursu…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-acte-de-gestion-courante-definition"
+  },
+  {
+    "id": "sauvegarde-sort-des-creances-anterieures-principe",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Sort des créances antérieures - Principe",
+    "resume": "Interdiction de payer toute créance née antérieurement au jugement d'ouverture (art. L. 622-7, I). Implique la suspension des poursuites individuelles de ces cr…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-sort-des-creances-anterieures-principe"
+  },
+  {
+    "id": "sauvegarde-sort-des-creances-anterieures-exceptions-3",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Sort des créances antérieures – Exceptions (3)",
+    "resume": "Exceptions ALTERNATIVES à l'interdiction de payer les créances antérieures :",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-sort-des-creances-anterieures-exceptions-3"
+  },
+  {
+    "id": "le-mecanisme-de-la-compensation",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Le mécanisme de la compensation",
+    "resume": "Mécanisme d'extinction simultanée de deux dettes réciproques entre les mêmes personnes. Dans le cadre de la procédure collective, seule la compensation de créan…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "le-mecanisme-de-la-compensation"
+  },
+  {
+    "id": "sauvegarde-actes-controles",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Actes contrôlés",
+    "resume": "Autorisation du juge-commissaire nécessaire pour les actes ne relevant pas de la gestion courante.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-actes-controles"
+  },
+  {
+    "id": "sauvegarde-poursuite-des-contrats-en-cours-principe",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Poursuite des contrats en cours - principe",
+    "resume": "« Nonobstant toute disposition légale ou toute clause contractuelle, aucune indivisibilité, résiliation ou résolution d'un contrat en cours ne peut résulter du …",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-poursuite-des-contrats-en-cours-principe"
+  },
+  {
+    "id": "sauvegarde-poursuite-des-contrats-en-cours-contrats-concernes",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde - Poursuite des contrats en cours – contrats concernés",
+    "resume": "Le principe vise les contrats en cours au jour du jugement d'ouverture, sans restriction de nature exprimée par l'art. L. 622-13 lui-même (le texte parle généri…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-poursuite-des-contrats-en-cours-contrats-concernes"
+  },
+  {
+    "id": "sauvegarde-poursuite-des-contrats-en-cours-modalites-de-l-option",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Poursuite des contrats en cours – modalités de l'option",
+    "resume": "Le choix de poursuivre ou non appartient à l'administrateur seul, « qui a seul la faculté d'exiger l'exécution des contrats en cours en fournissant la prestatio…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-poursuite-des-contrats-en-cours-modalites-de-l-option"
+  },
+  {
+    "id": "sauvegarde-poursuite-des-contrats-en-cours-obligation-et-garanties-du-cocontractants",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Poursuite des contrats en cours – Obligation et garanties du cocontractants",
+    "resume": "Obligation de s'exécuter, avec pour garantie que les engagements du débiteur sont exécutés comme prévu dans la convention. La prestation correspond à celle prév…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-poursuite-des-contrats-en-cours-obligation-et-garanties-du-cocontractants"
+  },
+  {
+    "id": "sauvegarde-poursuite-des-contrats-en-cours-sanctions",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde - Poursuite des contrats en cours - Sanctions",
+    "resume": "Résiliation de plein droit, sauf accord du cocontractant quant à l'exécution du contrat — notamment à défaut de réponse de l'administrateur dans le délai d'un m…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-poursuite-des-contrats-en-cours-sanctions"
+  },
+  {
+    "id": "sauvegarde-droits-des-creanciers-posterieurs-au-jugement-d-ouverture",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Droits des créanciers postérieurs au jugement d'ouverture",
+    "resume": "Créanciers qui bénéficient d'un traitement de faveur car ils exécutent des prestations utiles à la société pendant la procédure (voir fiche dédiée sur le privil…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-droits-des-creanciers-posterieurs-au-jugement-d-ouverture"
+  },
+  {
+    "id": "sauvegarde-droits-des-creanciers-anterieurs-au-jugement-d-ouverture-3-regles",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Droits des créanciers antérieurs au jugement d'ouverture (3 règles)",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-droits-des-creanciers-anterieurs-au-jugement-d-ouverture-3-regles"
+  },
+  {
+    "id": "sauvegarde-creances-posterieures-au-jugement-d-ouverture-privilege-de-procedure",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Créances postérieures au jugement d'ouverture – privilège de procédure",
+    "resume": "Les créances nées régulièrement après le jugement d'ouverture, pour les besoins du déroulement de la procédure ou de la période d'observation, ou en contreparti…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-creances-posterieures-au-jugement-d-ouverture-privilege-de-procedure"
+  },
+  {
+    "id": "sauvegarde-creances-posterieures-au-jugement-d-ouverture-droit-a-l-echeance",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Créances postérieures au jugement d'ouverture – Droit à l'échéance",
+    "resume": "Si les fonds disponibles sont suffisants, paiement à l'échéance normale.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-creances-posterieures-au-jugement-d-ouverture-droit-a-l-echeance"
+  },
+  {
+    "id": "sauvegarde-creances-posterieures-au-jugement-d-ouverture-droit-a-un-paiement-prioritaire",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Créances postérieures au jugement d'ouverture – Droit à un paiement prioritaire",
+    "resume": "Si les fonds disponibles sont insuffisants, elles sont payées en priorité selon un rang déterminé (voir classement ci-dessous).",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-creances-posterieures-au-jugement-d-ouverture-droit-a-un-paiement-prioritaire"
+  },
+  {
+    "id": "sauvegarde-classement-des-creanciers-posterieurs-par-ordre-de-priorite",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Classement des créanciers postérieurs par ordre de priorité",
+    "resume": "Classement fixé par l'art. L. 622-17, III C. com. :",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-classement-des-creanciers-posterieurs-par-ordre-de-priorite"
+  },
+  {
+    "id": "sauvegarde-determination-du-patrimoine-du-debiteur-actif-principe",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – détermination du patrimoine du débiteur – Actif principe",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-determination-du-patrimoine-du-debiteur-actif-principe"
+  },
+  {
+    "id": "sauvegarde-determination-du-patrimoine-du-debiteur-actif-proprietaire-d-immeubles",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – détermination du patrimoine du débiteur – Actif propriétaire d'immeubles",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-determination-du-patrimoine-du-debiteur-actif-proprietaire-d-immeubles"
+  },
+  {
+    "id": "sauvegarde-determination-du-patrimoine-du-debiteur-actif-proprietaire-de-biens-meubles",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – détermination du patrimoine du débiteur – Actif propriétaire de biens meubles",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-determination-du-patrimoine-du-debiteur-actif-proprietaire-de-biens-meubles"
+  },
+  {
+    "id": "sauvegarde-determination-du-patrimoine-du-debiteur-demande-en-revendication",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – détermination du patrimoine du débiteur – Demande en revendication",
+    "resume": "L'administrateur, avec l'accord du débiteur, ou à défaut le débiteur après accord du mandataire judiciaire, peut acquiescer à la demande en revendication ou en …",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-determination-du-patrimoine-du-debiteur-demande-en-revendication"
+  },
+  {
+    "id": "sauvegarde-determination-du-patrimoine-du-debiteur-passif",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – détermination du patrimoine du débiteur – Passif",
+    "resume": "Vérification et déclaration des créances : chaque créancier antérieur déclare sa créance au mandataire judiciaire (montant et échéance), qui procède à sa vérifi…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-determination-du-patrimoine-du-debiteur-passif"
+  },
+  {
+    "id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-5",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Règles applicables à la déclaration des créances (5)",
+    "resume": "Présentation par hypothèse, en s'appuyant sur l'art. L. 622-24, al. 1 C. com. :",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-regles-applicables-a-la-declaration-des-creances-5"
+  },
+  {
+    "id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-le-cas-des-salaries",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Règles applicables à la déclaration des créances – Le cas des salariés",
+    "resume": "Les créances résultant d'un contrat de travail ne sont pas déclarées par le salarié : elles sont établies par le mandataire judiciaire sous forme de relevés des…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-regles-applicables-a-la-declaration-des-creances-le-cas-des-salaries"
+  },
+  {
+    "id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-le-cas-des-creances-devant-obligatoirement-etre-declarees-2",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Règles applicables à la déclaration des créances – Le cas des créances devant obligatoirement être déclarées (2)",
+    "resume": "Cas",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-regles-applicables-a-la-declaration-des-creances-le-cas-des-creances-devant-obligatoirement-etre-declarees-2"
+  },
+  {
+    "id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-la-forclusion",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Règles applicables à la déclaration des créances – La forclusion",
+    "resume": "À défaut de déclaration dans les délais, les créanciers ne sont pas admis dans les répartitions et les dividendes, sauf relevé de forclusion par le juge-commiss…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-regles-applicables-a-la-declaration-des-creances-la-forclusion"
+  },
+  {
+    "id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-les-decisions-du-juge-commissaire",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Règles applicables à la déclaration des créances – Les décisions du juge commissaire",
+    "resume": "Le juge-commissaire statue sur l'admission ou le rejet de chaque créance après vérification par le mandataire judiciaire ; en cas de discussion sur une créance,…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-regles-applicables-a-la-declaration-des-creances-les-decisions-du-juge-commissaire"
+  },
+  {
+    "id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-la-consultation-de-la-repertorisation-des-decisions-du-juge-commissaire-2-cas-d-admission",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Règles applicables à la déclaration des créances – La consultation de la répertorisation des décisions du juge commissaire (2 cas d'admission)",
+    "resume": "Meilleure correspondance trouvée après recherche complémentaire : les décisions du juge-commissaire sur l'admission des créances sont portées sur l'état des cré…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-regles-applicables-a-la-declaration-des-creances-la-consultation-de-la-repertorisation-des-decisions-du-juge-commissaire-2-cas-d-admission"
+  },
+  {
+    "id": "sauvegarde-le-denouement-de-la-procedure-le-plan-de-sauvegarde",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Le dénouement de la procédure – Le plan de sauvegarde",
+    "resume": "Lorsqu'il existe une possibilité sérieuse pour l'entreprise d'être sauvegardée, le tribunal arrête un plan qui met fin à la période d'observation. Contenu : eng…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-le-denouement-de-la-procedure-le-plan-de-sauvegarde"
+  },
+  {
+    "id": "sauvegarde-le-denouement-de-la-procedure-preparation-du-bilan",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Le dénouement de la procédure – préparation du bilan",
+    "resume": "Étapes : bilan économique et social dressé par l'administrateur avec le concours du débiteur, précisant l'origine, l'importance et la nature des difficultés — c…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-le-denouement-de-la-procedure-preparation-du-bilan"
+  },
+  {
+    "id": "sauvegarde-le-denouement-de-la-procedure-adoption-du-plan-de-sauvegarde",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Le dénouement de la procédure – Adoption du plan de sauvegarde",
+    "resume": "Le tribunal arrête le plan après s'être assuré du sérieux de la possibilité de sauvegarde ; pour les entreprises soumises au système des classes de parties affe…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-le-denouement-de-la-procedure-adoption-du-plan-de-sauvegarde"
+  },
+  {
+    "id": "sauvegarde-le-denouement-de-la-procedure-contenu-du-plan-de-sauvegarde",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Le dénouement de la procédure – Contenu du plan de sauvegarde",
+    "resume": "Engagements personnels + restructuration de l'entreprise (adjonction ou cession d'une ou plusieurs activités, art. L. 626-1, al. 2) + modifications des statuts …",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-le-denouement-de-la-procedure-contenu-du-plan-de-sauvegarde"
+  },
+  {
+    "id": "sauvegarde-le-denouement-de-la-procedure-effet-du-plan-de-sauvegarde",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "titre": "Sauvegarde – Le dénouement de la procédure – Effet du plan de sauvegarde",
+    "resume": "Durée : 10 ans maximum (15 ans pour une exploitation agricole). Pouvoirs du débiteur : il retrouve la pleine administration de son entreprise, sous le contrôle …",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-le-denouement-de-la-procedure-effet-du-plan-de-sauvegarde"
+  },
+  {
+    "id": "sauvegarde-sauvegarde-acceleree-definition",
+    "notion_id": "entreprise-difficulte.sauvegarde-acceleree-et-sfa",
+    "titre": "Sauvegarde – Sauvegarde accélérée - définition",
+    "resume": "Procédure de sauvegarde soumise aux règles de la sauvegarde de droit commun, sous réserve de règles propres, ouverte à la demande d'un débiteur déjà engagé dans…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-sauvegarde-acceleree-definition"
+  },
+  {
+    "id": "sauvegarde-sauvegarde-acceleree-regime-general",
+    "notion_id": "entreprise-difficulte.sauvegarde-acceleree-et-sfa",
+    "titre": "Sauvegarde – Sauvegarde accélérée – Régime général",
+    "resume": "Articulation des deux procédures : la sauvegarde accélérée présuppose une conciliation en cours (art. L. 628-1, al. 2). Domaine d'application : tout débiteur él…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sauvegarde-sauvegarde-acceleree-regime-general"
+  },
+  {
+    "id": "redressement-judiciaire-definition",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "titre": "Redressement judiciaire - définition",
+    "resume": "Procédure applicable à tout débiteur en cessation des paiements dont le redressement n'est pas manifestement impossible, destinée à permettre la poursuite de l'…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "redressement-judiciaire-definition"
+  },
+  {
+    "id": "redressement-judiciaire-ouverture-de-la-procedure-entreprises-concernees",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "titre": "Redressement judiciaire – Ouverture de la procédure – Entreprises concernées",
+    "resume": "Toute personne exerçant une activité commerciale, artisanale ou agricole (au sens de l'art. L. 311-1 du Code rural), toute personne physique exerçant une activi…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "redressement-judiciaire-ouverture-de-la-procedure-entreprises-concernees"
+  },
+  {
+    "id": "redressement-judiciaire-ouverture-de-la-procedure-degre-de-difficultes-justifiant-la-procedure",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "titre": "Redressement judiciaire – Ouverture de la procédure – Degré de difficultés justifiant la procédure",
+    "resume": "Être en cessation des paiements — c'est-à-dire dans l'impossibilité de faire face au passif exigible avec l'actif disponible — sans que le redressement soit man…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "redressement-judiciaire-ouverture-de-la-procedure-degre-de-difficultes-justifiant-la-procedure"
+  },
+  {
+    "id": "redressement-judiciaire-ouverture-de-la-procedure-jugement-d-ouverture-de-la-procedure",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "titre": "Redressement judiciaire – Ouverture de la procédure – Jugement d'ouverture de la procédure",
+    "resume": "Tribunal compétent : tribunal de commerce (activité commerciale/artisanale) ou tribunal judiciaire (activité agricole/libérale), comme pour la sauvegarde. Saisi…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "redressement-judiciaire-ouverture-de-la-procedure-jugement-d-ouverture-de-la-procedure"
+  },
+  {
+    "id": "redressement-judiciaire-deroulement-de-la-procedure-periode-d-observation",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "titre": "Redressement judiciaire – Déroulement de la procédure – Période d'observation",
+    "resume": "Mesure non facultative (elle s'ouvre de plein droit avec le jugement d'ouverture, contrairement à ce qu'une formulation rapide pourrait suggérer). Durée : 6 moi…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "redressement-judiciaire-deroulement-de-la-procedure-periode-d-observation"
+  },
+  {
+    "id": "redressement-judiciaire-deroulement-de-la-procedure-gestion-de-l-entreprise",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "titre": "Redressement judiciaire – Déroulement de la procédure – Gestion de l'entreprise",
+    "resume": "Pouvoirs du débiteur : réduits si l'administrateur a une mission de représentation. Missions de l'administrateur judiciaire : peut aller de l'assistance à la re…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "redressement-judiciaire-deroulement-de-la-procedure-gestion-de-l-entreprise"
+  },
+  {
+    "id": "redressement-judiciaire-deroulement-de-la-procedure-poursuite-des-contrats-en-cours",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "titre": "Redressement judiciaire – Déroulement de la procédure – Poursuite des contrats en cours",
+    "resume": "Renvoi : les règles de la sauvegarde (art. L. 622-13) s'appliquent au redressement judiciaire. Garantie du cocontractant : identique à la sauvegarde — la presta…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "redressement-judiciaire-deroulement-de-la-procedure-poursuite-des-contrats-en-cours"
+  },
+  {
+    "id": "redressement-judiciaire-deroulement-de-la-procedure-droits-des-creanciers",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "titre": "Redressement judiciaire – Déroulement de la procédure – Droits des créanciers",
+    "resume": "Créanciers antérieurs : mêmes règles que la sauvegarde (interdiction de payer, arrêt des poursuites, arrêt du cours des intérêts, déclaration des créances — art…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "redressement-judiciaire-deroulement-de-la-procedure-droits-des-creanciers"
+  },
+  {
+    "id": "redressement-judiciaire-deroulement-de-la-procedure-determination-du-patrimoine-du-debiteur",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "titre": "Redressement judiciaire – Déroulement de la procédure – Détermination du patrimoine du débiteur",
+    "resume": "Actif (deux actions possibles) : demande en revendication (art. L. 624-17, par renvoi) et action en nullité de la période suspecte. Nullités de la période suspe…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "redressement-judiciaire-deroulement-de-la-procedure-determination-du-patrimoine-du-debiteur"
+  },
+  {
+    "id": "redressement-judiciaire-denouement-de-la-procedure-le-plan-de-redressement",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "titre": "Redressement judiciaire – Dénouement de la procédure – Le plan de redressement",
+    "resume": "Choix du tribunal : plan de continuation ou plan de cession (totale ou partielle). Préparation : L'administrateur, avec le concours du débiteur, élabore le proj…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "redressement-judiciaire-denouement-de-la-procedure-le-plan-de-redressement"
+  },
+  {
+    "id": "liquidation-judiciaire-definition",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "titre": "Liquidation judiciaire - Définition",
+    "resume": "Procédure ouverte à tout débiteur en cessation des paiements et dont le redressement est manifestement impossible, destinée à mettre fin à l'activité de l'entre…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "liquidation-judiciaire-definition"
+  },
+  {
+    "id": "liquidation-judiciaire-principes-generaux",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "titre": "Liquidation judiciaire – Principes généraux",
+    "resume": "Objectifs : mettre fin à l'activité ou réaliser le patrimoine du débiteur (art. L. 640-1). Cessation ou maintien de l'activité : en principe l'activité cesse, m…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "liquidation-judiciaire-principes-generaux"
+  },
+  {
+    "id": "liquidation-judiciaire-ouverture-et-prononce-de-la-liquidation-judiciaire-ouverture-sans-periode-d-observation",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "titre": "Liquidation judiciaire – Ouverture et prononcé de la liquidation judiciaire – ouverture sans période d'observation",
+    "resume": "Entreprises concernées : toute personne exerçant une activité commerciale, artisanale ou agricole, toute personne physique exerçant une activité professionnelle…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "liquidation-judiciaire-ouverture-et-prononce-de-la-liquidation-judiciaire-ouverture-sans-periode-d-observation"
+  },
+  {
+    "id": "liquidation-judiciaire-ouverture-et-prononce-de-la-liquidation-judiciaire-jugement-d-ouverture-de-la-procedure",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "titre": "Liquidation judiciaire – Ouverture et prononcé de la liquidation judiciaire – jugement d'ouverture de la procédure",
+    "resume": "Généralités : mêmes règles de compétence et de saisine que pour le redressement judiciaire (tribunal de commerce ou judiciaire selon l'activité ; saisine par le…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "liquidation-judiciaire-ouverture-et-prononce-de-la-liquidation-judiciaire-jugement-d-ouverture-de-la-procedure"
+  },
+  {
+    "id": "liquidation-judiciaire-deroulement-de-la-procedure",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "titre": "Liquidation judiciaire – déroulement de la procédure",
+    "resume": "Pouvoirs du débiteur : il est dessaisi de plein droit de l'administration et de la disposition de ses biens — ses droits et actions patrimoniaux sont exercés pa…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "liquidation-judiciaire-deroulement-de-la-procedure"
+  },
+  {
+    "id": "liquidation-judiciaire-operations-de-liquidation-cession-d-actifs-isoles",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "titre": "Liquidation judiciaire – Opérations de liquidation – Cession d'actifs isolés",
+    "resume": "Champ d'application : concerne les biens du débiteur qui ne sont pas cédés dans le cadre d'un plan de cession global. Vente des immeubles : conformément aux règ…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "liquidation-judiciaire-operations-de-liquidation-cession-d-actifs-isoles"
+  },
+  {
+    "id": "liquidation-judiciaire-operations-de-liquidation-cession-de-l-entreprise",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "titre": "Liquidation judiciaire – Opérations de liquidation – Cession de l'entreprise",
+    "resume": "« La cession de l'entreprise a pour but d'assurer le maintien d'activités susceptibles d'exploitation autonome, de tout ou partie des emplois qui y sont attaché…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "liquidation-judiciaire-operations-de-liquidation-cession-de-l-entreprise"
+  },
+  {
+    "id": "liquidation-judiciaire-liquidation-judiciaire-simplifiee-definition",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "titre": "Liquidation judiciaire – Liquidation judiciaire simplifiée – Définition",
+    "resume": "« La procédure de liquidation judiciaire simplifiée est soumise aux règles de la liquidation judiciaire, sous réserve des dispositions du présent chapitre. » Ré…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "liquidation-judiciaire-liquidation-judiciaire-simplifiee-definition"
+  },
+  {
+    "id": "liquidation-judiciaire-liquidation-judiciaire-simplifiee-domaine-d-application",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "titre": "Liquidation judiciaire – Liquidation judiciaire simplifiée – Domaine d'application",
+    "resume": "Dispositif obligatoire lorsque l'actif ne comprend pas d'immeuble et que le débiteur compte, de façon CUMULATIVE : 5 salariés au plus et un chiffre d'affaires H…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "liquidation-judiciaire-liquidation-judiciaire-simplifiee-domaine-d-application"
+  },
+  {
+    "id": "liquidation-judiciaire-liquidation-judiciaire-simplifiee-regime-simplifie",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "titre": "Liquidation judiciaire – Liquidation judiciaire simplifiée – Régime simplifié",
+    "resume": "Simplification de la vente des biens mobiliers : par dérogation à l'art. L. 642-19, le liquidateur procède à la vente de gré à gré ou aux enchères publiques dan…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "liquidation-judiciaire-liquidation-judiciaire-simplifiee-regime-simplifie"
+  },
+  {
+    "id": "liquidation-judiciaire-cloture-de-la-liquidation-judiciaire-definition-generale",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "titre": "Liquidation judiciaire – Clôture de la liquidation judiciaire – Définition générale",
+    "resume": "Dans le jugement qui ouvre ou prononce la liquidation, le tribunal",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "liquidation-judiciaire-cloture-de-la-liquidation-judiciaire-definition-generale"
+  },
+  {
+    "id": "liquidation-judiciaire-cloture-de-la-liquidation-judiciaire-pour-extinction-du-passif",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "titre": "Liquidation judiciaire – Clôture de la liquidation judiciaire pour extinction du passif",
+    "resume": "Cause : il n'existe plus de passif exigible, ou le liquidateur dispose de sommes suffisantes pour désintéresser les créanciers. Effets : clôture de la procédure…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "liquidation-judiciaire-cloture-de-la-liquidation-judiciaire-pour-extinction-du-passif"
+  },
+  {
+    "id": "liquidation-judiciaire-cloture-de-la-liquidation-judiciaire-pour-insuffisance-d-actifs",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "titre": "Liquidation judiciaire – Clôture de la liquidation judiciaire pour insuffisance d'actifs",
+    "resume": "Cause : la poursuite des opérations de liquidation est rendue impossible en raison de l'insuffisance de l'actif. Effets : clôture de la procédure. Extinction du…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "liquidation-judiciaire-cloture-de-la-liquidation-judiciaire-pour-insuffisance-d-actifs"
+  },
+  {
+    "id": "liquidation-judiciaire-cloture-de-la-liquidation-judiciaire-pour-difficultes-de-realisation-des-actifs-residuels",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "titre": "Liquidation judiciaire – Clôture de la liquidation judiciaire pour difficultés de réalisation des actifs résiduels",
+    "resume": "Cause alternative supplémentaire posée par le second alinéa de l'art. L. 643-9 : l'intérêt de la poursuite des opérations est disproportionné par rapport aux di…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "liquidation-judiciaire-cloture-de-la-liquidation-judiciaire-pour-difficultes-de-realisation-des-actifs-residuels"
+  },
+  {
+    "id": "retablissement-professionnel-definition",
+    "notion_id": "entreprise-difficulte.retablissement-professionnel",
+    "titre": "Rétablissement professionnel – Définition",
+    "resume": "Procédure sans liquidation, ouverte à tout débiteur personne physique en cessation des paiements dont le redressement est manifestement impossible, qui n'a pas …",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "retablissement-professionnel-definition"
+  },
+  {
+    "id": "retablissement-professionnel-principes-generaux",
+    "notion_id": "entreprise-difficulte.retablissement-professionnel",
+    "titre": "Rétablissement professionnel – Principes généraux",
+    "resume": "Entreprises concernées (délais et seuils) : personne physique, actif déclaré inférieur à 15 000 € (les biens insaisissables de droit n'étant pas pris en compte)…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "retablissement-professionnel-principes-generaux"
+  },
+  {
+    "id": "sanction-des-dirigeants-responsabilite-pour-insuffisance-d-actif",
+    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
+    "titre": "Sanction des dirigeants – Responsabilité pour insuffisance d'actif",
+    "resume": "Lorsque la liquidation judiciaire d'une personne morale fait apparaître une insuffisance d'actif, le tribunal peut, en cas de faute de gestion ayant contribué à…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sanction-des-dirigeants-responsabilite-pour-insuffisance-d-actif"
+  },
+  {
+    "id": "sanction-du-dirigeants-sanction-professionnelles-faillite-personnelle",
+    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
+    "titre": "Sanction du dirigeants – Sanction professionnelles – Faillite personnelle",
+    "resume": "« La faillite personnelle emporte interdiction de diriger, gérer, administrer ou contrôler, directement ou indirectement, toute entreprise commerciale ou artisa…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sanction-du-dirigeants-sanction-professionnelles-faillite-personnelle"
+  },
+  {
+    "id": "sanction-du-dirigeants-sanction-professionnelles-interdiction-de-gerer",
+    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
+    "titre": "Sanction du dirigeants – Sanction professionnelles – Interdiction de gérer",
+    "resume": "Étendue de l'interdiction : diriger, gérer, administrer ou contrôler, directement ou indirectement, soit toute entreprise commerciale/artisanale, toute exploita…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sanction-du-dirigeants-sanction-professionnelles-interdiction-de-gerer"
+  },
+  {
+    "id": "sanction-du-dirigeants-sanctions-penales-la-banqueroute",
+    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
+    "titre": "Sanction du dirigeants – Sanctions pénales – La banqueroute",
+    "resume": "Domaine : ouverture d'un redressement judiciaire ou d'une liquidation judiciaire du débiteur ou de la personne morale dirigée. Comportements sanctionnés (faits …",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "sanction-du-dirigeants-sanctions-penales-la-banqueroute"
+  },
+  {
+    "id": "faillite-internationale",
+    "notion_id": "entreprise-difficulte.faillite-internationale",
+    "titre": "Faillite internationale",
+    "resume": "Définition : traitement d'une procédure d'insolvabilité transfrontalière. En l'absence de norme internationale : c'est le droit international privé commun (comp…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "faillite-internationale"
+  },
+  {
+    "id": "activite-commerciale-definition",
+    "notion_id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
+    "titre": "Activité commerciale – définition",
+    "resume": "Activité consistant à accomplir des actes de commerce (achat pour revendre, opérations de banque, courtage, manufacture, transport...) en en faisant sa professi…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "activite-commerciale-definition"
+  },
+  {
+    "id": "activite-artisanale-definition",
+    "notion_id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
+    "titre": "Activité artisanale – définition",
+    "resume": "Activité exercée par une personne physique ou une société, immatriculée au répertoire des métiers, consistant en la production, transformation, réparation ou pr…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "activite-artisanale-definition"
+  },
+  {
+    "id": "activite-agricole-definition",
+    "notion_id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
+    "titre": "Activité agricole – définition",
+    "resume": "Activité correspondant à la maîtrise et l'exploitation d'un cycle biologique de caractère végétal ou animal et constituant une ou plusieurs étapes nécessaires a…",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "activite-agricole-definition"
+  },
+  {
+    "id": "activite-liberale-definition",
+    "notion_id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
+    "titre": "Activité libérale – définition",
+    "resume": "Désignée par la formule récurrente du Code de commerce : « profession libérale soumise à un statut législatif ou réglementaire ou dont le titre est protégé ».",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "activite-liberale-definition"
+  },
+  {
+    "id": "competence-territoriale-des-tribunaux-principe",
+    "notion_id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
+    "titre": "Compétence territoriale des tribunaux – principe",
+    "resume": "Pour les personnes physiques → ressort de l'adresse déclarée ; pour les personnes morales → ressort du siège social.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "competence-territoriale-des-tribunaux-principe"
+  },
+  {
+    "id": "competence-territoriale-des-tribunaux-exceptions",
+    "notion_id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
+    "titre": "Compétence territoriale des tribunaux – exceptions",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "competence-territoriale-des-tribunaux-exceptions"
+  },
+  {
+    "id": "competence-materielle-des-tribunaux-principe",
+    "notion_id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
+    "titre": "Compétence matérielle des tribunaux – principe",
+    "resume": "Activité commerciale ou artisanale → tribunal de commerce ; activité agricole ou libérale → tribunal judiciaire.",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "competence-materielle-des-tribunaux-principe"
+  },
+  {
+    "id": "competence-materielle-des-tribunaux-exceptions",
+    "notion_id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
+    "titre": "Compétence matérielle des tribunaux – exceptions",
+    "resume": "Tribunaux de commerce spécialement désignés pour les procédures collectives des entreprises dépassant certains seuils (250 salariés et 20 M€ de CA, ou 40 M€ de …",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "competence-materielle-des-tribunaux-exceptions"
+  }
+]

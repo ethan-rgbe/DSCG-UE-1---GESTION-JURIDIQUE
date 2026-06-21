@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2026-06-21",
+    "titre": "Refonte complète du site",
+    "detail": "Nouvelle navigation (bandeau Sujets examens/Liens utiles/Documentation + menu coulissant Programme/Listes/Tableaux), nouvelle identité visuelle (bleus/blanc/beige), onglets Cours/Points d'attention par chapitre, Listes et Tableaux triés par chapitre, page Documentation avec visionneuses PDF des codes."
+  },
+  {
+    "date": "2026-06-21",
+    "titre": "Mise à jour majeure — Entreprise en difficulté",
+    "detail": "Ajout de 127 fiches (Conciliation, Sauvegarde, Sauvegarde accélérée, Redressement, Liquidation, Rétablissement professionnel, Sanctions, Faillite internationale), 13 tableaux de synthèse, et un nouveau chapitre « Rappels DCG ». Les points non vérifiés sur un texte officiel sont signalés par un encadré « À prendre avec des pincettes »."
+  },
+  {
+    "date": "2026-06-21",
+    "titre": "Mise en place du site",
+    "detail": "Création de la base : chapitre 'Entreprise en difficulté' (45 fiches), cartes Q/R, références. Hébergement sur GitHub Pages."
+  }
+]
