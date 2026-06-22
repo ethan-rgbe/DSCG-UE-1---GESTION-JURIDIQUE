@@ -202,7 +202,8 @@
   .billboard .bb-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.35);cursor:pointer;border:none;padding:0;transition:background .2s,transform .2s;}
   .billboard .bb-dot.active{background:var(--gold);transform:scale(1.25);}
   @media (max-width:520px){ .billboard{min-height:188px;} .billboard .bb-title{font-size:1.25rem;} }
-  .section-title{font-family:var(--serif);color:var(--ink);font-size:1.15rem;margin:26px 0 4px;border-bottom:2px solid var(--gold);padding-bottom:6px;}
+  .section-title{font-family:var(--serif);color:var(--navy);font-size:1.8rem;margin:30px 0 6px;border-bottom:2px solid var(--gold);padding-bottom:6px;}
+  @media (max-width:520px){ .section-title{font-size:1.5rem;} }
 
   /* Mini visionneuse PDF */
   .pdf-frame{width:100%;height:420px;border:1px solid var(--paper-line);border-radius:4px;margin-top:10px;}
@@ -250,6 +251,47 @@
   .legal-body h3{font-family:var(--serif);color:var(--blue-mid);margin-top:22px;border-bottom:1px solid var(--beige-line);padding-bottom:4px;}
   footer a.legal-link{color:var(--blue-mid);cursor:pointer;}
   footer a.legal-link:hover{text-decoration:underline;}
+
+  /* Liens utiles */
+  .links-list{list-style:none;padding:0;margin:0;}
+  .links-list li{padding:8px 0;border-bottom:1px solid var(--beige-line);}
+  .links-list a{color:var(--blue-mid);font-weight:600;}
+  .links-list .link-desc{font-size:.82rem;color:#6b6450;margin-top:2px;}
+  /* Lien Légifrance à côté d'une référence */
+  a.lf-link{display:inline-block;margin:0 10px 6px 2px;color:var(--blue-mid);text-decoration:none;font-size:.95rem;vertical-align:middle;}
+  a.lf-link:hover{color:var(--gold);}
+
+  /* Révision active — auto-évaluation des cartes */
+  .qr-eval{display:flex;gap:8px;margin-top:10px;justify-content:center;}
+  .qr-eval button{border:none;border-radius:5px;padding:6px 12px;font:inherit;font-size:.78rem;font-weight:600;cursor:pointer;}
+  .qr-eval .btn-known{background:#dbe7dd;color:#1f5132;}
+  .qr-eval .btn-review{background:#f3e2c8;color:#7a531a;}
+  .qr-eval button:hover{filter:brightness(.96);}
+  .flashcard.mastered .face.front{box-shadow:inset 0 0 0 2px #6fae86;}
+  .qr-badge{position:absolute;top:6px;right:8px;font-size:.7rem;font-weight:700;}
+  .qr-badge.known{color:#2f7d4f;}
+  .qr-badge.review{color:#b5852f;}
+
+  /* Barre de progression */
+  .progress-wrap{margin:6px 0 4px;}
+  .progress-track{height:12px;border-radius:6px;background:var(--beige-line);overflow:hidden;}
+  .progress-fill{height:100%;background:linear-gradient(90deg,var(--blue-mid),#6fae86);width:0;transition:width .4s ease;}
+  .progress-label{font-size:.82rem;color:#6b6450;margin-top:4px;}
+  .listes-toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:14px;}
+  .listes-toolbar .tools{display:flex;gap:8px;}
+  .btn-primary{background:var(--gold);border:none;color:var(--ink);padding:8px 16px;border-radius:5px;font:inherit;font-weight:700;cursor:pointer;}
+  .btn-primary:hover{background:var(--gold-soft);}
+  .btn-ghost{background:transparent;border:1px solid var(--paper-line);color:var(--blue-mid);padding:8px 14px;border-radius:5px;font:inherit;cursor:pointer;}
+  .btn-ghost:hover{background:var(--beige);}
+
+  /* Mode interrogation (quiz) */
+  .quiz-card{max-width:640px;margin:10px auto;background:#fffdf7;border:1px solid var(--paper-line);border-radius:8px;padding:26px;}
+  .quiz-meta{font-size:.8rem;color:#8a8468;margin-bottom:10px;}
+  .quiz-q{font-family:var(--serif);color:var(--navy);font-size:1.3rem;line-height:1.3;margin-bottom:14px;}
+  .quiz-a{background:var(--beige);border-left:3px solid var(--gold);padding:12px 14px;border-radius:4px;margin:12px 0;line-height:1.5;}
+  .quiz-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:16px;}
+  .quiz-result{text-align:center;padding:30px 10px;}
+  .quiz-result .score{font-family:var(--serif);font-size:2.4rem;color:var(--navy);}
 </style>
 </head>
 <body>
@@ -292,13 +334,13 @@
 </nav>
 
 <div class="search-wrap">
-  <input type="text" id="globalSearch" placeholder="Rechercher une notion, un article, un mot-clé…">
+  <input type="text" id="globalSearch" placeholder="Rechercher (notion, article, tableau…) puis Entrée">
 </div>
 
 <main id="app"></main>
 
 <footer>
-  Base de révision DSCG UE1 — contenu vérifié sur les textes officiels en vigueur (Code de commerce, Code du travail…).
+  Base de révision personnelle pour l'UE1 du DSCG — fiches, cartes et tableaux rapprochés des textes officiels (Légifrance, BO). Document de travail, sans valeur officielle.
   &nbsp;·&nbsp; <a class="legal-link" id="legalLink">Mentions légales</a>
 </footer>
 
@@ -313,6 +355,8 @@ const refById = id => DATA.references_textes.find(r => r.id === id);
 const qrByFiche = id => DATA.qr_cartes.filter(q => q.fiche_id === id);
 const chapById = id => DATA.chapitres.find(c => c.id === id);
 const chapLabel = c => c.numero ? `Chapitre ${c.numero} — ${c.titre}` : c.titre;
+const legifranceUrl = r => `https://www.legifrance.gouv.fr/search/all?tab_selection=all&searchField=ALL&query=${encodeURIComponent(((r && r.reference) || '') + ' ' + ((r && r.document) || ''))}&page=1&init=true`;
+function shuffle(arr){ const a = arr.slice(); for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
 
 // ---- Suivi local "chapitres récemment consultés" ----
 const RECENTS_KEY = 'dscg_recent_chapitres';
@@ -333,6 +377,32 @@ function getRecentChapitres(){
 function getRandomNotion(){
   if(!DATA.notions.length) return null;
   return DATA.notions[Math.floor(Math.random()*DATA.notions.length)];
+}
+
+// ---- Révision active : état des cartes Q/R (boîtes de Leitner) ----
+const QR_STATE_KEY = 'dscg_qr_state';
+function loadQrState(){ try{ return JSON.parse(localStorage.getItem(QR_STATE_KEY) || '{}'); }catch(e){ return {}; } }
+function saveQrState(s){ try{ localStorage.setItem(QR_STATE_KEY, JSON.stringify(s)); }catch(e){} }
+function setQrStatus(id, status){
+  const s = loadQrState();
+  const cur = s[id] || { box: 1 };
+  if(status === 'known') cur.box = Math.min((cur.box || 1) + 1, 3);
+  else cur.box = 1;
+  cur.status = status;
+  s[id] = cur; saveQrState(s);
+}
+function qrInfo(id){ return loadQrState()[id] || null; }
+function qrMastered(id){ const i = qrInfo(id); return !!(i && i.box >= 3); }
+function progressFor(cards){
+  const total = cards.length;
+  const mastered = cards.filter(c => qrMastered(c.id)).length;
+  return { total, mastered, pct: total ? Math.round(mastered/total*100) : 0 };
+}
+function cardsForScope(scope, chapId){
+  if(scope === 'chapitre' && chapId){
+    return DATA.qr_cartes.filter(c => { const n = notionById(c.notion_id); return n && n.chapitre_id === chapId; });
+  }
+  return DATA.qr_cartes;
 }
 
 // ---- Écran d'entrée ----
@@ -358,6 +428,7 @@ function render(){
   if(state.view === 'chapitre') return renderChapitre();
   if(state.view === 'listes') return renderListes();
   if(state.view === 'tableaux') return renderTableaux();
+  if(state.view === 'quiz') return renderQuiz();
   if(state.view === 'mentions') return renderMentions();
 }
 
@@ -403,6 +474,12 @@ function renderHome(){
         à partir des textes officiels en vigueur, avec mention systématique des articles, délais et conditions.
       </p>
 
+      ${(() => { const p = progressFor(DATA.qr_cartes); return `
+      <div class="progress-wrap" style="margin:18px 0 24px;">
+        <div class="progress-track"><div class="progress-fill" style="width:${p.pct}%"></div></div>
+        <div class="progress-label">Progression des révisions : ${p.mastered} / ${p.total} cartes maîtrisées (${p.pct}%)</div>
+      </div>`; })()}
+
       <div class="section-title">Dernières mises à jour</div>
       ${(DATA.changelog || []).map(c => `
         <div class="changelog-item">
@@ -444,16 +521,19 @@ function renderHome(){
 // ============================================================
 function renderSujets(){
   const annales = DATA.annales || [];
+  const label = a => [a.annee, a.session, a.themes].filter(Boolean).join(' — ');
+  const link = (url, dispo) => (url && dispo !== false)
+    ? `<a class="sp-link" href="${url}" target="_blank" rel="noopener">Ouvrir ↗</a>`
+    : `<span class="sp-link">à venir</span>`;
   app.innerHTML = `<div class="panel">
     <h1 class="page-title">Sujets d'examens</h1>
+    <p class="fiche-meta">Sujets et corrigés officiels de l'UE1, par année. Les liens s'activeront une fois les PDF déposés dans <code>static/annales/</code>.</p>
     ${annales.length ? annales.map(a => `
       <div class="partie-block">
-        <div class="ptitre">${a.annee}${a.session ? ' — ' + a.session : ''} — ${a.themes || ''}</div>
-        <div class="sous-partie"><span class="sp-titre">Sujet</span>
-          ${a.url_sujet ? `<a class="sp-link" href="${a.url_sujet}" target="_blank">Ouvrir ↗</a>` : '<span class="sp-link">à venir</span>'}</div>
-        <div class="sous-partie"><span class="sp-titre">Corrigé</span>
-          ${a.url_corrige ? `<a class="sp-link" href="${a.url_corrige}" target="_blank">Ouvrir ↗</a>` : '<span class="sp-link">à venir</span>'}</div>
-      </div>`).join('') : "<p class=\"fiche-meta\">Aucun sujet n'a encore été ajouté. Cette page affichera, par année, les sujets et corrigés officiels avec leur visionneuse PDF.</p>"}
+        <div class="ptitre">${label(a)}</div>
+        <div class="sous-partie"><span class="sp-titre">Sujet</span> ${link(a.url_sujet, a.sujet_disponible)}</div>
+        <div class="sous-partie"><span class="sp-titre">Corrigé</span> ${link(a.url_corrige, a.corrige_disponible)}</div>
+      </div>`).join('') : "<p class=\"fiche-meta\">Aucun sujet n'a encore été ajouté.</p>"}
   </div>`;
 }
 
@@ -462,9 +542,16 @@ function renderSujets(){
 // ============================================================
 function renderLiens(){
   const liens = DATA.liens_utiles || [];
+  const cats = [];
+  liens.forEach(l => { const c = l.categorie || 'Autres'; if(!cats.includes(c)) cats.push(c); });
   app.innerHTML = `<div class="panel">
     <h1 class="page-title">Liens utiles</h1>
-    ${liens.length ? `<ul class="refs-list">${liens.map(l => `<li><a href="${l.url}" target="_blank">${l.titre}</a></li>`).join('')}</ul>`
+    ${liens.length ? cats.map(cat => `
+      <h3 style="font-family:var(--serif);color:var(--blue-mid);margin:22px 0 8px;border-bottom:1px solid var(--beige-line);padding-bottom:4px;">${cat}</h3>
+      <ul class="links-list">
+        ${liens.filter(l => (l.categorie||'Autres')===cat).map(l => `
+          <li><a href="${l.url}" target="_blank" rel="noopener">${l.titre} ↗</a>${l.description ? `<div class="link-desc">${l.description}</div>` : ''}</li>`).join('')}
+      </ul>`).join('')
       : '<p class="fiche-meta">Aucun lien ajouté pour le moment (drive partagé, sites de référence...).</p>'}
   </div>`;
 }
@@ -485,9 +572,9 @@ function renderDocumentation(){
           ? `<iframe class="pdf-frame" src="${c.fichier}"></iframe>`
           : `<div class="pdf-missing">PDF non encore ajouté dans <code>${c.fichier}</code>.</div>`}
         <details class="doc-refs">
-          <summary>Références utilisées dans le cours (${refs.length}) — lien Légifrance à venir</summary>
+          <summary>Références utilisées dans le cours (${refs.length}) — cliquez pour ouvrir sur Légifrance</summary>
           <ul class="refs-list">
-            ${refs.map(r => `<li><div class="ref-title">📎 ${r.reference}</div>
+            ${refs.map(r => `<li><div class="ref-title"><a href="${legifranceUrl(r)}" target="_blank" rel="noopener">📎 ${r.reference} ↗</a></div>
               <div>${(r.fiches_liees||[]).map(fid => `<a href="#" data-fiche="${fid}">${ficheById(fid) ? ficheById(fid).titre : fid}</a>`).join(' · ')}</div></li>`).join('') || "<li class=\"fiche-meta\">Aucune référence à ce code pour l'instant.</li>"}
           </ul>
         </details>
@@ -599,7 +686,7 @@ function renderChapitre(){
       <div class="fiche-body">${fiche.body_html}</div>
       <div class="seealso">
         <h4>Références</h4>
-        ${refs.length ? refs.map(r => `<span class="chip ref" data-ref="${r.id}">📎 ${r.reference}</span>`).join('') : '<span class="fiche-meta">Aucune référence rattachée.</span>'}
+        ${refs.length ? refs.map(r => `<span class="chip ref" data-ref="${r.id}">📎 ${r.reference}</span><a class="lf-link" href="${legifranceUrl(r)}" target="_blank" rel="noopener" title="Ouvrir sur Légifrance">⚖︎</a>`).join('') : '<span class="fiche-meta">Aucune référence rattachée.</span>'}
         ${linkedTableaux.length ? `<h4 style="margin-top:16px;">Tableaux liés</h4>${linkedTableaux.map(t => `<span class="chip" data-tableau="${t.id}" style="background:#4f7a64;">▦ ${t.titre}</span>`).join('')}` : ''}
         <h4 style="margin-top:16px;">Cartes Q / R liées</h4>
         ${cards.length ? cards.map(c => `<span class="chip" data-qr="${c.id}">${c.id}</span>`).join('') : '<span class="fiche-meta">Aucune carte liée.</span>'}
@@ -629,42 +716,130 @@ function renderChapitre(){
 function renderListes(){
   const isAll = state.listesScope === 'all';
   const chap = !isAll ? chapById(state.listesChapitreId) : null;
-  let cards = DATA.qr_cartes;
-  if(!isAll && chap){
-    cards = cards.filter(c => {
-      const n = notionById(c.notion_id);
-      return n && n.chapitre_id === chap.id;
-    });
-  }
+  const cards = cardsForScope(isAll ? 'all' : 'chapitre', chap && chap.id);
   const title = isAll ? "Toutes les notions" : `Cartes — ${chapLabel(chap)}`;
+  const pr = progressFor(cards);
 
   app.innerHTML = `<div class="panel">
     <h1 class="page-title">${title}</h1>
+    <div class="listes-toolbar">
+      <div style="flex:1;min-width:220px;">
+        <div class="progress-wrap">
+          <div class="progress-track"><div class="progress-fill" style="width:${pr.pct}%"></div></div>
+          <div class="progress-label">${pr.mastered} / ${pr.total} cartes maîtrisées (${pr.pct}%)</div>
+        </div>
+      </div>
+      <div class="tools">
+        <button class="btn-primary" id="startQuiz">S'interroger</button>
+        <button class="btn-ghost" id="resetProgress">Réinitialiser</button>
+      </div>
+    </div>
     <div class="qr-grid" id="qrGrid"></div>
   </div>`;
 
   const grid = document.getElementById('qrGrid');
   cards.forEach(c => {
     const card = document.createElement('div');
-    card.className = 'flashcard';
+    card.className = 'flashcard' + (qrMastered(c.id) ? ' mastered' : '');
     if(state.qrFocus === c.id){ card.classList.add('flipped'); }
+    const info = qrInfo(c.id);
+    const badge = info && info.status ? `<div class="qr-badge ${info.status}">${info.status==='known' ? '✓ su' : '↻ à revoir'}</div>` : '';
     card.innerHTML = `<div class="inner">
-        <div class="face front"><div class="lbl">Question</div><div class="qtext">${c.question}</div><div class="tag">clic pour retourner</div></div>
-        <div class="face back"><div class="lbl">Réponse</div><div class="atext">${c.reponse}</div><div class="tag">${ficheById(c.fiche_id) ? `<a href="#" data-fiche="${c.fiche_id}">Voir la fiche →</a>` : ''}</div></div>
+        <div class="face front">${badge}<div class="lbl">Question</div><div class="qtext">${c.question}</div><div class="tag">clic pour retourner</div></div>
+        <div class="face back"><div class="lbl">Réponse</div><div class="atext">${c.reponse}</div>
+          ${ficheById(c.fiche_id) ? `<div class="tag"><a href="#" data-fiche="${c.fiche_id}">Voir la fiche →</a></div>` : ''}
+          <div class="qr-eval"><button class="btn-known" data-known="${c.id}">✓ Su</button><button class="btn-review" data-review="${c.id}">↻ À revoir</button></div>
+        </div>
       </div>`;
-    card.onclick = (e) => { if(e.target.closest('a')) return; card.classList.toggle('flipped'); };
+    card.onclick = (e) => { if(e.target.closest('a') || e.target.closest('button')) return; card.classList.toggle('flipped'); };
     grid.appendChild(card);
   });
+
+  function refreshProgress(){
+    const p = progressFor(cards);
+    const fill = app.querySelector('.progress-fill'); if(fill) fill.style.width = p.pct + '%';
+    const lbl = app.querySelector('.progress-label'); if(lbl) lbl.textContent = `${p.mastered} / ${p.total} cartes maîtrisées (${p.pct}%)`;
+  }
+  function grade(btn, status){
+    const id = btn.dataset.known || btn.dataset.review;
+    setQrStatus(id, status);
+    const card = btn.closest('.flashcard');
+    if(card){
+      card.classList.toggle('mastered', qrMastered(id));
+      const front = card.querySelector('.face.front');
+      let badge = front && front.querySelector('.qr-badge');
+      if(!badge && front){ badge = document.createElement('div'); front.insertBefore(badge, front.firstChild); }
+      if(badge){ badge.className = 'qr-badge ' + status; badge.textContent = status==='known' ? '✓ su' : '↻ à revoir'; }
+    }
+    refreshProgress();
+  }
+
   app.querySelectorAll('[data-fiche]').forEach(a => a.onclick = (e) => {
     e.preventDefault(); e.stopPropagation();
-    const f = ficheById(a.dataset.fiche);
-    if(!f) return;
-    const n = notionById(f.notion_id);
-    if(!n) return;
-    state.chapitreId = n.chapitre_id;
-    state.view='chapitre'; state.chapTab='cours'; state.ficheId = a.dataset.fiche; render();
-    window.scrollTo({top:0, behavior:'smooth'});
+    const f = ficheById(a.dataset.fiche); if(!f) return;
+    const n = notionById(f.notion_id); if(!n) return;
+    state.chapitreId = n.chapitre_id; state.view='chapitre'; state.chapTab='cours'; state.ficheId = a.dataset.fiche;
+    render(); window.scrollTo({top:0, behavior:'smooth'});
   });
+  app.querySelectorAll('[data-known]').forEach(b => b.onclick = (e) => { e.stopPropagation(); grade(b, 'known'); });
+  app.querySelectorAll('[data-review]').forEach(b => b.onclick = (e) => { e.stopPropagation(); grade(b, 'review'); });
+
+  const sq = document.getElementById('startQuiz');
+  if(sq) sq.onclick = () => { state.quizScope = isAll ? 'all' : 'chapitre'; state.quizChapId = chap && chap.id; state.quiz = null; state.view = 'quiz'; render(); window.scrollTo({top:0, behavior:'smooth'}); };
+  const rp = document.getElementById('resetProgress');
+  if(rp) rp.onclick = () => { const s = loadQrState(); cards.forEach(c => { delete s[c.id]; }); saveQrState(s); render(); };
+}
+
+// ============================================================
+// INTERROGATION (quiz) — auto-évaluation séquentielle
+// ============================================================
+function renderQuiz(){
+  if(!state.quiz){
+    const all = cardsForScope(state.quizScope, state.quizChapId);
+    const deck = shuffle(all.filter(c => !qrMastered(c.id)))
+                 .concat(shuffle(all.filter(c => qrMastered(c.id))))
+                 .slice(0, Math.min(20, all.length));
+    state.quiz = { deck, i: 0, score: 0, revealed: false };
+  }
+  const Q = state.quiz;
+  const back = () => { state.quiz = null; state.view = 'listes'; render(); window.scrollTo({top:0, behavior:'smooth'}); };
+
+  if(!Q.deck.length || Q.i >= Q.deck.length){
+    const total = Q.deck.length;
+    app.innerHTML = `<div class="panel"><h1 class="page-title">Interrogation</h1>
+      <div class="quiz-result">
+        ${total ? `<div class="score">${Q.score} / ${total}</div><p class="progress-label">cartes que vous avez su</p>`
+                : '<p class="fiche-meta">Aucune carte à réviser dans ce périmètre.</p>'}
+        <div class="quiz-actions">
+          <button class="btn-primary" id="quizAgain">Recommencer</button>
+          <button class="btn-ghost" id="quizBack">Retour aux cartes</button>
+        </div>
+      </div></div>`;
+    const again = document.getElementById('quizAgain'); if(again) again.onclick = () => { state.quiz = null; render(); };
+    const b = document.getElementById('quizBack'); if(b) b.onclick = back;
+    return;
+  }
+
+  const c = Q.deck[Q.i];
+  app.innerHTML = `<div class="panel">
+    <h1 class="page-title">Interrogation</h1>
+    <div class="quiz-card">
+      <div class="quiz-meta">Carte ${Q.i+1} / ${Q.deck.length} · Score ${Q.score}</div>
+      <div class="quiz-q">${c.question}</div>
+      ${Q.revealed
+        ? `<div class="quiz-a">${c.reponse}</div>
+           <div class="quiz-actions">
+             <button class="btn-primary" id="gradeKnown">✓ Je savais</button>
+             <button class="btn-ghost" id="gradeReview">↻ À revoir</button>
+           </div>`
+        : `<div class="quiz-actions"><button class="btn-primary" id="reveal">Afficher la réponse</button></div>`}
+      <div class="quiz-actions" style="margin-top:18px;"><button class="btn-ghost" id="quizBack">Quitter</button></div>
+    </div></div>`;
+
+  const rv = document.getElementById('reveal'); if(rv) rv.onclick = () => { Q.revealed = true; render(); };
+  const gk = document.getElementById('gradeKnown'); if(gk) gk.onclick = () => { setQrStatus(c.id,'known'); Q.score++; Q.i++; Q.revealed=false; render(); window.scrollTo({top:0,behavior:'smooth'}); };
+  const gr = document.getElementById('gradeReview'); if(gr) gr.onclick = () => { setQrStatus(c.id,'review'); Q.i++; Q.revealed=false; render(); window.scrollTo({top:0,behavior:'smooth'}); };
+  const qb = document.getElementById('quizBack'); if(qb) qb.onclick = back;
 }
 
 // ============================================================
@@ -725,7 +900,7 @@ function renderMentions(){
       <p>Les fiches de cours, synthèses et cartes de révision sont les productions propres de l'éditeur. Les sujets et corrigés officiels diffusés par le ministère restent la propriété de leur émetteur. <strong>Aucun corrigé d'éditeur privé</strong> (manuels, prépas) n'est reproduit ici&nbsp;: ces contenus sont protégés par le droit d'auteur.</p>
 
       <h3>Données personnelles</h3>
-      <p>Ce site ne collecte aucune donnée personnelle sur un serveur et n'utilise pas de cookies de suivi. L'historique des derniers chapitres consultés est stocké uniquement dans votre navigateur (<em>localStorage</em>), reste sur votre appareil, et peut être effacé à tout moment en vidant les données du site.</p>
+      <p>Ce site ne collecte aucune donnée personnelle sur un serveur et n'utilise pas de cookies de suivi. L'historique des derniers chapitres consultés ainsi que votre progression de révision (cartes « su / à revoir ») sont stockés uniquement dans votre navigateur (<em>localStorage</em>), restent sur votre appareil, et peuvent être effacés à tout moment en vidant les données du site.</p>
 
       <h3>Responsabilité</h3>
       <p>Le contenu est fourni à titre informatif et pédagogique, sans valeur officielle ni garantie d'exhaustivité ou d'actualité, et ne constitue pas un conseil juridique. En cas de doute, reportez-vous aux textes en vigueur sur Légifrance et aux supports officiels de votre formation.</p>
@@ -820,17 +995,23 @@ function buildMenuTrees(){
 }
 buildMenuTrees();
 
-document.getElementById('globalSearch').addEventListener('input', e => {
-  const q = e.target.value.trim().toLowerCase();
-  if(!q){ return; }
-  const ficheHit = DATA.fiches.find(f => f.titre.toLowerCase().includes(q));
+const gs = document.getElementById('globalSearch');
+function runGlobalSearch(){
+  const q = gs.value.trim().toLowerCase();
+  if(!q) return;
+  const ficheHit = DATA.fiches.find(f => f.titre.toLowerCase().includes(q) && ficheById(f.id));
   if(ficheHit){
-    state.chapitreId = notionById(ficheHit.notion_id).chapitre_id;
-    state.view='chapitre'; state.chapTab='cours'; state.ficheId = ficheHit.id; render(); return;
+    const n = notionById(ficheHit.notion_id);
+    if(n){ state.chapitreId = n.chapitre_id; state.view='chapitre'; state.chapTab='cours'; state.ficheId = ficheHit.id; render(); window.scrollTo({top:0, behavior:'smooth'}); return; }
   }
+  const tabHit = (DATA.tableaux_comparatifs||[]).find(t => (t.titre||'').toLowerCase().includes(q));
+  if(tabHit){ state.view='tableaux'; state.tableauxChapitreId = tabHit.chapitre_id; state.tableauFocus = tabHit.id; render(); window.scrollTo({top:0, behavior:'smooth'}); return; }
+  const notionHit = DATA.notions.find(n => (n.titre||'').toLowerCase().includes(q));
+  if(notionHit){ state.view='listes'; state.listesScope='chapitre'; state.listesChapitreId = notionHit.chapitre_id; render(); window.scrollTo({top:0, behavior:'smooth'}); return; }
   const refHit = DATA.references_textes.find(r => r.reference.toLowerCase().includes(q));
-  if(refHit){ state.view='documentation'; render(); }
-});
+  if(refHit){ state.view='documentation'; render(); window.scrollTo({top:0, behavior:'smooth'}); }
+}
+gs.addEventListener('keydown', e => { if(e.key === 'Enter') runGlobalSearch(); });
 
 document.getElementById('legalLink').addEventListener('click', () => {
   state.view = 'mentions'; render(); window.scrollTo({top:0, behavior:'smooth'});
