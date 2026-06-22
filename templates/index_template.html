@@ -48,7 +48,9 @@
     padding:12px 24px;
     display:flex;align-items:center;justify-content:space-between;
   }
-  header.top2 .cohort{font-family:var(--serif);font-size:1.1rem;letter-spacing:.02em;cursor:pointer;}
+  header.top2 .brand{display:flex;flex-direction:column;line-height:1.1;cursor:pointer;}
+  header.top2 .brand .brand-name{font-family:var(--serif);font-size:1.35rem;letter-spacing:.06em;font-weight:600;}
+  header.top2 .brand .brand-sub{font-size:.62rem;letter-spacing:.22em;color:#bcd2e6;text-transform:uppercase;margin-top:2px;}
   header.top2 #menuToggle{background:transparent;border:none;color:#fff;font-size:1.4rem;cursor:pointer;line-height:1;padding:4px 8px;}
 
   /* Menu coulissant */
@@ -62,7 +64,13 @@
   #slideMenu .menu-title{
     font-weight:700;color:var(--navy);font-size:.95rem;letter-spacing:.05em;
     cursor:pointer;padding:8px 0;border-bottom:2px solid var(--beige-line);
+    display:flex;align-items:center;justify-content:space-between;user-select:none;
   }
+  #slideMenu .menu-title::after{
+    content:"▸";font-size:.8rem;color:var(--blue-mid);
+    transition:transform .2s ease;transform-origin:center;
+  }
+  #slideMenu .menu-section.expanded .menu-title::after{transform:rotate(90deg);}
   #slideMenu .menu-tree{padding:8px 0 0 6px;display:none;}
   #slideMenu .menu-section.expanded .menu-tree{display:block;}
   #slideMenu .menu-partie{font-weight:600;color:var(--blue-mid);font-size:.82rem;margin:10px 0 4px;}
@@ -107,6 +115,7 @@
   .fiche-body h3{font-family:var(--serif);color:var(--blue-mid);border-bottom:1px solid var(--beige-line);padding-bottom:4px;margin-top:22px;}
   .fiche-body h4{font-family:var(--serif);color:var(--blue-mid);margin-top:16px;}
   .fiche-body p{line-height:1.55;}
+  .fiche-body strong{color:var(--gold);font-weight:700;}
   .fiche-body p.cite{font-style:italic;color:#6b6657;font-size:.9rem;background:var(--beige);display:inline-block;padding:4px 10px;border-radius:3px;}
   .fiche-body ul{padding-left:22px;line-height:1.55;}
   .fiche-body .table-wrap{width:100%;overflow-x:auto;margin:14px 0;}
@@ -175,14 +184,24 @@
   /* Bloc explicatif accueil */
   .intro-block{margin-bottom:22px;line-height:1.6;color:#4a4634;}
 
-  /* Carousel chapitres récents */
-  .carousel{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;margin:14px 0 22px;-webkit-overflow-scrolling:touch;}
-  .carousel::-webkit-scrollbar{height:6px;}
-  .carousel-card{flex:0 0 220px;scroll-snap-align:start;background:#fffdf7;border:1px solid var(--paper-line);border-radius:6px;padding:16px;}
-  .carousel-card .ctitle{font-family:var(--serif);color:var(--navy);font-size:1.02rem;margin-bottom:4px;}
-  .carousel-card .cmeta{font-size:.75rem;color:#8a8468;margin-bottom:12px;}
-  .carousel-card button{background:var(--gold);border:none;color:var(--ink);padding:6px 14px;border-radius:4px;font:inherit;font-size:.82rem;cursor:pointer;font-weight:600;}
-  .carousel-card button:hover{background:var(--gold-soft);}
+  /* Billboard "Reprendre" — carte plein cadre qui défile (style panneau) */
+  .billboard{position:relative;width:100%;min-height:172px;border-radius:8px;overflow:hidden;
+    background:linear-gradient(135deg,var(--navy),var(--blue-mid));border:1px solid var(--beige-line);
+    margin:14px 0 26px;color:#fff;}
+  .billboard .bb-slide{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;
+    padding:24px 30px 42px;opacity:0;transform:translateX(24px);
+    transition:opacity .5s ease,transform .5s ease;pointer-events:none;}
+  .billboard .bb-slide.active{opacity:1;transform:translateX(0);pointer-events:auto;}
+  .billboard .bb-kicker{font-size:.68rem;text-transform:uppercase;letter-spacing:.14em;color:var(--gold-soft);margin-bottom:8px;}
+  .billboard .bb-title{font-family:var(--serif);font-size:1.45rem;line-height:1.2;margin-bottom:6px;}
+  .billboard .bb-meta{font-size:.82rem;color:#cfe0ee;margin-bottom:16px;}
+  .billboard .bb-btn{align-self:flex-start;background:var(--gold);border:none;color:var(--ink);
+    padding:8px 18px;border-radius:5px;font:inherit;font-size:.85rem;font-weight:700;cursor:pointer;}
+  .billboard .bb-btn:hover{background:var(--gold-soft);}
+  .billboard .bb-dots{position:absolute;left:0;right:0;bottom:12px;display:flex;justify-content:center;gap:8px;}
+  .billboard .bb-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.35);cursor:pointer;border:none;padding:0;transition:background .2s,transform .2s;}
+  .billboard .bb-dot.active{background:var(--gold);transform:scale(1.25);}
+  @media (max-width:520px){ .billboard{min-height:188px;} .billboard .bb-title{font-size:1.25rem;} }
   .section-title{font-family:var(--serif);color:var(--ink);font-size:1.15rem;margin:26px 0 4px;border-bottom:2px solid var(--gold);padding-bottom:6px;}
 
   /* Mini visionneuse PDF */
@@ -205,6 +224,32 @@
   .sous-partie .sp-link{font-size:.78rem;}
   .sous-partie.disabled .sp-titre{color:#a39c84;}
   .sous-partie.disabled .sp-link{color:#c7c0a8;font-style:italic;}
+
+  /* Accueil — titre de bienvenue */
+  .home-welcome{font-family:var(--serif);color:var(--navy);font-size:2.1rem;line-height:1.15;margin:6px 0 14px;}
+  @media (max-width:520px){ .home-welcome{font-size:1.7rem;} }
+
+  /* Documentation — listes d'articles repliables */
+  details.doc-refs{border:1px solid var(--paper-line);border-radius:5px;margin-top:10px;background:#fffdf7;}
+  details.doc-refs > summary{
+    cursor:pointer;list-style:none;padding:11px 14px;font-size:.85rem;font-weight:600;color:var(--navy);
+    display:flex;align-items:center;justify-content:space-between;gap:10px;
+  }
+  details.doc-refs > summary::-webkit-details-marker{display:none;}
+  details.doc-refs > summary::after{content:"▸";color:var(--blue-mid);transition:transform .2s ease;}
+  details.doc-refs[open] > summary::after{transform:rotate(90deg);}
+  details.doc-refs > summary:hover{background:var(--beige);}
+  details.doc-refs .refs-list{padding:0 14px 8px;}
+
+  /* Renvois notion <-> tableau */
+  .linked-tableaux{margin-top:16px;}
+  .linked-tableaux h4{font-family:var(--serif);color:var(--navy);margin:0 0 8px;}
+
+  /* Mentions légales */
+  .legal-body{line-height:1.6;color:var(--text);font-size:.92rem;}
+  .legal-body h3{font-family:var(--serif);color:var(--blue-mid);margin-top:22px;border-bottom:1px solid var(--beige-line);padding-bottom:4px;}
+  footer a.legal-link{color:var(--blue-mid);cursor:pointer;}
+  footer a.legal-link:hover{text-decoration:underline;}
 </style>
 </head>
 <body>
@@ -223,7 +268,10 @@
 </header>
 
 <header class="top2">
-  <div class="cohort" id="cohortHome">DSCG 2025 – 2027</div>
+  <div class="brand" id="cohortHome" title="Retour à l'accueil">
+    <span class="brand-name">LE PRÉCIS</span>
+    <span class="brand-sub">DSCG · UE1 · 2025–2027</span>
+  </div>
   <button id="menuToggle">☰</button>
 </header>
 
@@ -249,7 +297,10 @@
 
 <main id="app"></main>
 
-<footer>Site généré à partir des fiches vérifiées sur le Code de commerce / Code du travail — DSCG UE1.</footer>
+<footer>
+  Base de révision DSCG UE1 — contenu vérifié sur les textes officiels en vigueur (Code de commerce, Code du travail…).
+  &nbsp;·&nbsp; <a class="legal-link" id="legalLink">Mentions légales</a>
+</footer>
 
 <script id="bundle-data" type="application/json">__BUNDLE_JSON__</script>
 <script>
@@ -296,7 +347,7 @@ splash.addEventListener('touchend', dismissSplash, {passive:true});
 // ---- État global ----
 let state = { view: 'home', chapitreId: null, ficheId: null, chapTab: 'cours',
               listesScope: 'all', listesChapitreId: null, qrFocus: null,
-              tableauxChapitreId: null, refFocus: null };
+              tableauxChapitreId: null, tableauFocus: null, refFocus: null };
 
 function render(){
   setTopTabActive();
@@ -307,6 +358,7 @@ function render(){
   if(state.view === 'chapitre') return renderChapitre();
   if(state.view === 'listes') return renderListes();
   if(state.view === 'tableaux') return renderTableaux();
+  if(state.view === 'mentions') return renderMentions();
 }
 
 function setTopTabActive(){
@@ -317,6 +369,7 @@ function setTopTabActive(){
 // ============================================================
 // ACCUEIL
 // ============================================================
+let billboardTimer = null;
 function renderHome(){
   const recents = getRecentChapitres();
   const randomNotion = getRandomNotion();
@@ -326,27 +379,26 @@ function renderHome(){
     if(chap) slides.push({type:'notion', notion: randomNotion, chap});
   }
 
+  const billboard = slides.length ? `
+      <div class="section-title">Reprendre</div>
+      <div class="billboard" id="billboard">
+        ${slides.map((s,i) => `
+          <div class="bb-slide ${i===0?'active':''}" data-slide="${i}">
+            <div class="bb-kicker">${s.type==='chapitre' ? 'Dernier chapitre consulté' : 'Notion à revoir'}</div>
+            <div class="bb-title">${s.type==='chapitre' ? chapLabel(s.chap) : s.notion.titre}</div>
+            <div class="bb-meta">${s.type==='chapitre' ? 'Reprenez là où vous vous êtes arrêté.' : 'Chapitre « ' + chapLabel(s.chap) + ' »'}</div>
+            <button class="bb-btn" data-resume-chap="${s.chap.id}">Reprendre →</button>
+          </div>`).join('')}
+        ${slides.length>1 ? `<div class="bb-dots">${slides.map((_,i)=>`<button class="bb-dot ${i===0?'active':''}" data-dot="${i}" aria-label="Diapositive ${i+1}"></button>`).join('')}</div>` : ''}
+      </div>` : '';
+
   app.innerHTML = `
     <div class="panel">
-      ${slides.length ? `
-        <div class="section-title">Reprendre</div>
-        <div class="carousel">
-          ${slides.map(s => s.type === 'chapitre' ? `
-            <div class="carousel-card">
-              <div class="ctitle">${chapLabel(s.chap)}</div>
-              <div class="cmeta">Dernier chapitre consulté</div>
-              <button data-resume-chap="${s.chap.id}">Reprendre →</button>
-            </div>` : `
-            <div class="carousel-card">
-              <div class="ctitle">${s.notion.titre}</div>
-              <div class="cmeta">Notion du chapitre « ${chapLabel(s.chap)} »</div>
-              <button data-resume-chap="${s.chap.id}">Reprendre →</button>
-            </div>`).join('')}
-        </div>` : ''}
+      ${billboard}
 
-      <p><strong>Bienvenue sur la base documentaire UE1 — Gestion juridique, fiscale et sociale.</strong></p>
+      <h2 class="home-welcome">Bienvenue</h2>
       <p class="intro-block">
-        Ce site réunit les fiches de cours, les cartes de révision (Q/R), les tableaux de synthèse et les
+        Cette base réunit les fiches de cours, les cartes de révision (Q/R), les tableaux de synthèse et les
         références juridiques utiles à l'UE1 du DSCG. Le contenu est vérifié chapitre par chapitre directement
         à partir des textes officiels en vigueur, avec mention systématique des articles, délais et conditions.
       </p>
@@ -368,6 +420,23 @@ function renderHome(){
     render();
     window.scrollTo({top:0, behavior:'smooth'});
   });
+
+  // Défilement automatique du panneau "Reprendre"
+  if(billboardTimer){ clearInterval(billboardTimer); billboardTimer = null; }
+  const bb = document.getElementById('billboard');
+  if(bb && slides.length > 1){
+    const slideEls = [...bb.querySelectorAll('.bb-slide')];
+    const dotEls = [...bb.querySelectorAll('.bb-dot')];
+    let idx = 0;
+    const show = (n) => {
+      idx = (n + slideEls.length) % slideEls.length;
+      slideEls.forEach((el,i)=>el.classList.toggle('active', i===idx));
+      dotEls.forEach((el,i)=>el.classList.toggle('active', i===idx));
+    };
+    const restart = () => { clearInterval(billboardTimer); billboardTimer = setInterval(()=>show(idx+1), 5000); };
+    dotEls.forEach(d => d.addEventListener('click', () => { show(+d.dataset.dot); restart(); }));
+    restart();
+  }
 }
 
 // ============================================================
@@ -415,11 +484,13 @@ function renderDocumentation(){
         ${c.disponible
           ? `<iframe class="pdf-frame" src="${c.fichier}"></iframe>`
           : `<div class="pdf-missing">PDF non encore ajouté dans <code>${c.fichier}</code>.</div>`}
-        <div class="fiche-meta" style="margin-top:10px;">Références utilisées dans le cours (${refs.length}) — lien Légifrance à venir :</div>
-        <ul class="refs-list">
-          ${refs.map(r => `<li><div class="ref-title">📎 ${r.reference}</div>
-            <div>${(r.fiches_liees||[]).map(fid => `<a href="#" data-fiche="${fid}">${ficheById(fid) ? ficheById(fid).titre : fid}</a>`).join(' · ')}</div></li>`).join('') || "<li class=\"fiche-meta\">Aucune référence à ce code pour l'instant.</li>"}
-        </ul>
+        <details class="doc-refs">
+          <summary>Références utilisées dans le cours (${refs.length}) — lien Légifrance à venir</summary>
+          <ul class="refs-list">
+            ${refs.map(r => `<li><div class="ref-title">📎 ${r.reference}</div>
+              <div>${(r.fiches_liees||[]).map(fid => `<a href="#" data-fiche="${fid}">${ficheById(fid) ? ficheById(fid).titre : fid}</a>`).join(' · ')}</div></li>`).join('') || "<li class=\"fiche-meta\">Aucune référence à ce code pour l'instant.</li>"}
+          </ul>
+        </details>
       </div>`;
     }).join('')}
 
@@ -451,7 +522,8 @@ function navTree(activeFicheId, chapitreId){
   const notions = DATA.notions.filter(n => n.chapitre_id === chapitreId);
   let html = '<aside class="nav-tree"><h2>Notions</h2>';
   notions.forEach(n => {
-    const fiches = DATA.fiches.filter(f => f.notion_id === n.id);
+    const fiches = DATA.fiches.filter(f => f.notion_id === n.id && ficheById(f.id));
+    if(!fiches.length) return;
     html += `<div class="notion-group"><div class="gname">${n.titre}</div><ul>`;
     fiches.forEach(f => {
       html += `<li><a href="#" data-fiche="${f.id}" class="${f.id===activeFicheId?'active':''}">${f.titre}</a></li>`;
@@ -463,7 +535,15 @@ function navTree(activeFicheId, chapitreId){
 }
 
 function renderChapitre(){
-  const chapitre = chapById(state.chapitreId) || DATA.chapitres[0];
+  const chapitre = chapById(state.chapitreId);
+  if(!chapitre){
+    app.innerHTML = `<div class="panel">
+      <h1 class="page-title">Chapitre introuvable</h1>
+      <p class="fiche-meta">Aucun chapitre ne correspond à l'identifiant «&nbsp;${state.chapitreId ?? '—'}&nbsp;». Le lien pointe vers un <code>chapitre_id</code> qui n'existe pas dans <code>data/chapitres.json</code> (ou la casse diffère).</p>
+      <p class="fiche-meta">Identifiants disponibles&nbsp;: ${DATA.chapitres.map(c=>`<code>${c.id}</code>`).join(', ') || 'aucun'}.</p>
+    </div>`;
+    return;
+  }
   recordChapitreVisit(chapitre.id);
 
   const subtabsHtml = `<div class="tabs-sub">
@@ -489,11 +569,14 @@ function renderChapitre(){
 
   const chapFiches = DATA.fiches.filter(f => {
     const n = notionById(f.notion_id);
-    return n && n.chapitre_id === chapitre.id;
+    return n && n.chapitre_id === chapitre.id && ficheById(f.id);
   });
-  const fid = state.ficheId || (chapFiches[0] && chapFiches[0].id);
+  let fid = state.ficheId;
+  if(!fid || !ficheById(fid) || !chapFiches.some(f => f.id === fid)){
+    fid = chapFiches[0] && chapFiches[0].id;
+  }
   if(!fid){
-    app.innerHTML = `<div class="panel"><div class="fiche-meta">${chapLabel(chapitre)}</div><h1 class="page-title">${chapitre.titre}</h1>${subtabsHtml}<p>Aucune fiche dans ce chapitre pour l'instant.</p></div>`;
+    app.innerHTML = `<div class="panel"><div class="fiche-meta">${chapLabel(chapitre)}</div><h1 class="page-title">${chapitre.titre}</h1>${subtabsHtml}<p class="fiche-meta">Les fiches de ce chapitre ne sont pas encore disponibles (contenu en cours d'intégration). L'onglet POINTS D'ATTENTION reste consultable.</p></div>`;
     app.querySelectorAll('[data-ctab]').forEach(b => b.onclick = () => { state.chapTab = b.dataset.ctab; render(); });
     return;
   }
@@ -501,6 +584,10 @@ function renderChapitre(){
   const notion = notionById(fiche.notion_id);
   const refs = (fiche.references || []).map(refById).filter(Boolean);
   const cards = qrByFiche(fid);
+  const linkedTableaux = (DATA.tableaux_comparatifs || []).filter(t =>
+    (Array.isArray(t.notions_liees) && notion && t.notions_liees.includes(notion.id)) ||
+    (Array.isArray(fiche.tableaux_lies) && fiche.tableaux_lies.includes(t.id))
+  );
 
   app.innerHTML = `<div class="fiche-meta">${chapLabel(chapitre)}</div>
   <div class="layout">
@@ -513,6 +600,7 @@ function renderChapitre(){
       <div class="seealso">
         <h4>Références</h4>
         ${refs.length ? refs.map(r => `<span class="chip ref" data-ref="${r.id}">📎 ${r.reference}</span>`).join('') : '<span class="fiche-meta">Aucune référence rattachée.</span>'}
+        ${linkedTableaux.length ? `<h4 style="margin-top:16px;">Tableaux liés</h4>${linkedTableaux.map(t => `<span class="chip" data-tableau="${t.id}" style="background:#4f7a64;">▦ ${t.titre}</span>`).join('')}` : ''}
         <h4 style="margin-top:16px;">Cartes Q / R liées</h4>
         ${cards.length ? cards.map(c => `<span class="chip" data-qr="${c.id}">${c.id}</span>`).join('') : '<span class="fiche-meta">Aucune carte liée.</span>'}
       </div>
@@ -521,8 +609,18 @@ function renderChapitre(){
 
   app.querySelectorAll('[data-ctab]').forEach(b => b.onclick = () => { state.chapTab = b.dataset.ctab; render(); });
   app.querySelectorAll('[data-fiche]').forEach(a => a.onclick = (e) => { e.preventDefault(); state.ficheId = a.dataset.fiche; render(); window.scrollTo({top:0, behavior:'smooth'}); });
-  app.querySelectorAll('[data-ref]').forEach(c => c.onclick = () => { state.view='documentation'; render(); });
+  app.querySelectorAll('[data-ref]').forEach(c => c.onclick = () => { state.view='documentation'; render(); window.scrollTo({top:0, behavior:'smooth'}); });
   app.querySelectorAll('[data-qr]').forEach(c => c.onclick = () => { state.view='listes'; state.listesScope='chapitre'; state.listesChapitreId=chapitre.id; state.qrFocus = c.dataset.qr; render(); });
+  app.querySelectorAll('[data-tableau]').forEach(c => c.onclick = () => {
+    const t = (DATA.tableaux_comparatifs||[]).find(x => x.id === c.dataset.tableau);
+    state.view='tableaux'; state.tableauxChapitreId = t ? t.chapitre_id : chapitre.id; state.tableauFocus = c.dataset.tableau;
+    render(); window.scrollTo({top:0, behavior:'smooth'});
+  });
+  // Rendre les renvois d'articles du cours cliquables vers la Documentation
+  app.querySelectorAll('.fiche-body p.cite').forEach(p => {
+    p.style.cursor = 'pointer'; p.title = 'Voir dans la Documentation';
+    p.onclick = () => { state.view='documentation'; render(); window.scrollTo({top:0, behavior:'smooth'}); };
+  });
 }
 
 // ============================================================
@@ -552,7 +650,7 @@ function renderListes(){
     if(state.qrFocus === c.id){ card.classList.add('flipped'); }
     card.innerHTML = `<div class="inner">
         <div class="face front"><div class="lbl">Question</div><div class="qtext">${c.question}</div><div class="tag">clic pour retourner</div></div>
-        <div class="face back"><div class="lbl">Réponse</div><div class="atext">${c.reponse}</div><div class="tag"><a href="#" data-fiche="${c.fiche_id}">Voir la fiche →</a></div></div>
+        <div class="face back"><div class="lbl">Réponse</div><div class="atext">${c.reponse}</div><div class="tag">${ficheById(c.fiche_id) ? `<a href="#" data-fiche="${c.fiche_id}">Voir la fiche →</a>` : ''}</div></div>
       </div>`;
     card.onclick = (e) => { if(e.target.closest('a')) return; card.classList.toggle('flipped'); };
     grid.appendChild(card);
@@ -560,8 +658,12 @@ function renderListes(){
   app.querySelectorAll('[data-fiche]').forEach(a => a.onclick = (e) => {
     e.preventDefault(); e.stopPropagation();
     const f = ficheById(a.dataset.fiche);
-    state.chapitreId = notionById(f.notion_id).chapitre_id;
+    if(!f) return;
+    const n = notionById(f.notion_id);
+    if(!n) return;
+    state.chapitreId = n.chapitre_id;
     state.view='chapitre'; state.chapTab='cours'; state.ficheId = a.dataset.fiche; render();
+    window.scrollTo({top:0, behavior:'smooth'});
   });
 }
 
@@ -574,15 +676,60 @@ function renderTableaux(){
   const html = tableaux.map(t => {
     const cols = t.contenu.colonnes;
     const rows = t.contenu.lignes;
-    return `<h3>${t.titre}</h3>
+    const notionsLiees = (Array.isArray(t.notions_liees) ? t.notions_liees : [])
+      .map(notionById).filter(Boolean);
+    return `<div class="tab-block" id="tabblock-${t.id}">
+      <h3>${t.titre}</h3>
       <div class="table-wrap"><table class="cmp"><thead><tr>${cols.map(c=>`<th>${c}</th>`).join('')}</tr></thead>
       <tbody>${rows.map(r=>`<tr>${r.map(cell=>`<td>${cell}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
-      ${t.note ? `<p class="fiche-meta" style="font-style:italic;">${t.note}</p>` : ''}`;
+      ${t.note ? `<p class="fiche-meta" style="font-style:italic;">${t.note}</p>` : ''}
+      ${notionsLiees.length ? `<div class="linked-tableaux"><h4>Notions liées</h4>${notionsLiees.map(n=>`<span class="chip" data-go-notion="${n.id}">${n.titre}</span>`).join('')}</div>` : ''}
+    </div>`;
   }).join('<hr style="margin:30px 0;border-color:var(--paper-line);">');
   app.innerHTML = `<div class="panel">
     <div class="fiche-meta">${chap ? chapLabel(chap) : ''}</div>
     <h1 class="page-title">Tableaux de synthèse</h1>
     ${html || '<p class="fiche-meta">Aucun tableau pour ce chapitre.</p>'}
+  </div>`;
+
+  app.querySelectorAll('[data-go-notion]').forEach(c => c.onclick = () => {
+    const n = notionById(c.dataset.goNotion); if(!n) return;
+    const f = DATA.fiches.find(x => x.notion_id === n.id);
+    state.chapitreId = n.chapitre_id; state.ficheId = f ? f.id : null;
+    state.view = 'chapitre'; state.chapTab = 'cours';
+    render(); window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  if(state.tableauFocus){
+    const el = document.getElementById('tabblock-' + state.tableauFocus);
+    if(el){ el.scrollIntoView({behavior:'smooth', block:'start'}); }
+    state.tableauFocus = null;
+  }
+}
+
+// ============================================================
+// MENTIONS LÉGALES
+// ============================================================
+function renderMentions(){
+  app.innerHTML = `<div class="panel">
+    <h1 class="page-title">Mentions légales</h1>
+    <div class="legal-body">
+      <h3>Éditeur</h3>
+      <p>Ce site est un projet personnel à but pédagogique, édité et tenu à jour par <strong>[À COMPLÉTER : nom / prénom]</strong>, étudiant·e en DSCG. Contact&nbsp;: <strong>[À COMPLÉTER : adresse e-mail]</strong>. Site sans finalité commerciale, destiné au partage de notes de révision entre étudiants.</p>
+
+      <h3>Hébergement</h3>
+      <p>Le site est hébergé par GitHub, Inc. (GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.</p>
+
+      <h3>Propriété intellectuelle</h3>
+      <p>Les textes de loi et codes officiels reproduits ou cités (Code de commerce, Code du travail, etc.) sont des actes publics non couverts par le droit d'auteur. Le Bulletin officiel cité est un document public.</p>
+      <p>Les fiches de cours, synthèses et cartes de révision sont les productions propres de l'éditeur. Les sujets et corrigés officiels diffusés par le ministère restent la propriété de leur émetteur. <strong>Aucun corrigé d'éditeur privé</strong> (manuels, prépas) n'est reproduit ici&nbsp;: ces contenus sont protégés par le droit d'auteur.</p>
+
+      <h3>Données personnelles</h3>
+      <p>Ce site ne collecte aucune donnée personnelle sur un serveur et n'utilise pas de cookies de suivi. L'historique des derniers chapitres consultés est stocké uniquement dans votre navigateur (<em>localStorage</em>), reste sur votre appareil, et peut être effacé à tout moment en vidant les données du site.</p>
+
+      <h3>Responsabilité</h3>
+      <p>Le contenu est fourni à titre informatif et pédagogique, sans valeur officielle ni garantie d'exhaustivité ou d'actualité, et ne constitue pas un conseil juridique. En cas de doute, reportez-vous aux textes en vigueur sur Légifrance et aux supports officiels de votre formation.</p>
+    </div>
   </div>`;
 }
 
@@ -685,7 +832,11 @@ document.getElementById('globalSearch').addEventListener('input', e => {
   if(refHit){ state.view='documentation'; render(); }
 });
 
+document.getElementById('legalLink').addEventListener('click', () => {
+  state.view = 'mentions'; render(); window.scrollTo({top:0, behavior:'smooth'});
+});
+
 render();
 </script>
 </body>
-    </html>
+</html>
