@@ -1,0 +1,56 @@
+[
+  {
+    "annee": 2025,
+    "session": "",
+    "themes": "",
+    "url_sujet": "static/annales/dscg-ue1-2025-sujet.pdf",
+    "url_corrige": "static/annales/dscg-ue1-2025-corrige.pdf",
+    "sujet_disponible": false,
+    "corrige_disponible": false
+  },
+  {
+    "annee": 2024,
+    "session": "",
+    "themes": "",
+    "url_sujet": "static/annales/dscg-ue1-2024-sujet.pdf",
+    "url_corrige": "static/annales/dscg-ue1-2024-corrige.pdf",
+    "sujet_disponible": false,
+    "corrige_disponible": false
+  },
+  {
+    "annee": 2023,
+    "session": "",
+    "themes": "",
+    "url_sujet": "static/annales/dscg-ue1-2023-sujet.pdf",
+    "url_corrige": "static/annales/dscg-ue1-2023-corrige.pdf",
+    "sujet_disponible": false,
+    "corrige_disponible": false
+  },
+  {
+    "annee": 2022,
+    "session": "",
+    "themes": "",
+    "url_sujet": "static/annales/dscg-ue1-2022-sujet.pdf",
+    "url_corrige": "static/annales/dscg-ue1-2022-corrige.pdf",
+    "sujet_disponible": false,
+    "corrige_disponible": false
+  },
+  {
+    "annee": 2021,
+    "session": "",
+    "themes": "",
+    "url_sujet": "static/annales/dscg-ue1-2021-sujet.pdf",
+    "url_corrige": "static/annales/dscg-ue1-2021-corrige.pdf",
+    "sujet_disponible": false,
+    "corrige_disponible": false
+  },
+  {
+    "annee": 2020,
+    "session": "",
+    "themes": "",
+    "url_sujet": "static/annales/dscg-ue1-2020-sujet.pdf",
+    "url_corrige": "static/annales/dscg-ue1-2020-corrige.pdf",
+    "sujet_disponible": false,
+    "corrige_disponible": false
+  }
+]

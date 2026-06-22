@@ -31,7 +31,15 @@
     "note": "Synthèse art. L. 611-4, L. 611-5, L. 620-1, L. 628-1, L. 631-1, L. 640-1 C. com.",
     "fiches_liees": [],
     "qr_liees": [],
-    "annales_liees": []
+    "annales_liees": [],
+    "notions_liees": [
+      "entreprise-difficulte.definitions-cles",
+      "entreprise-difficulte.mandataire-ad-hoc",
+      "entreprise-difficulte.conciliation",
+      "entreprise-difficulte.sauvegarde-de-l-entreprise",
+      "entreprise-difficulte.redressement-judiciaire",
+      "entreprise-difficulte.liquidation-judiciaire"
+    ]
   },
   {
     "id": "tab-prevention-des-difficultes-procedures-extra-judici-2",
@@ -80,7 +88,14 @@
     "note": "Art. L. 611-3 à L. 611-15 C. com.",
     "fiches_liees": [],
     "qr_liees": [],
-    "annales_liees": []
+    "annales_liees": [],
+    "notions_liees": [
+      "entreprise-difficulte.mandataire-ad-hoc",
+      "entreprise-difficulte.conciliation",
+      "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+      "entreprise-difficulte.sauvegarde-de-l-entreprise",
+      "entreprise-difficulte.redressement-judiciaire"
+    ]
   },
   {
     "id": "tab-pour-chaque-procedure-judiciaire-synthese-3",
@@ -130,7 +145,12 @@
     "note": "Art. L. 620-1 à L. 644-6 C. com.",
     "fiches_liees": [],
     "qr_liees": [],
-    "annales_liees": []
+    "annales_liees": [],
+    "notions_liees": [
+      "entreprise-difficulte.sauvegarde-de-l-entreprise",
+      "entreprise-difficulte.redressement-judiciaire",
+      "entreprise-difficulte.liquidation-judiciaire"
+    ]
   },
   {
     "id": "tab-classement-des-creanciers-posterieurs-par-ordre-de-4",
@@ -164,7 +184,11 @@
     "note": "Art. L. 622-17, III C. com.",
     "fiches_liees": [],
     "qr_liees": [],
-    "annales_liees": []
+    "annales_liees": [],
+    "notions_liees": [
+      "entreprise-difficulte.sauvegarde-de-l-entreprise",
+      "entreprise-difficulte.redressement-judiciaire"
+    ]
   },
   {
     "id": "tab-ordre-de-paiement-des-creanciers-vente-d-immeuble--5",
@@ -202,7 +226,10 @@
     "note": "Mise à jour : recherche approfondie effectuée — l'art. L.642-18 C. com. renvoie, pour la vente elle-même, au Code des procédures civiles d'exécution (art. L.322-5 à L.322-12), et la purge des hypothèques renvoie à l'art. 2464 et s. du Code civil. Ni l'un ni l'autre n'étant disponibles dans cette conversation (le Code civil fourni ne couvre pas les articles sur les sûretés réelles), le classement précis ci-dessus reste non vérifiable en l'état — à confirmer avec ces codes si tu peux les fournir.",
     "fiches_liees": [],
     "qr_liees": [],
-    "annales_liees": []
+    "annales_liees": [],
+    "notions_liees": [
+      "entreprise-difficulte.liquidation-judiciaire"
+    ]
   },
   {
     "id": "tab-organes-des-procedures-collectives-6",
@@ -251,7 +278,12 @@
     "note": "Art. L. 621-4, L. 622-1, L. 631-12, L. 641-1 C. com.",
     "fiches_liees": [],
     "qr_liees": [],
-    "annales_liees": []
+    "annales_liees": [],
+    "notions_liees": [
+      "entreprise-difficulte.sauvegarde-de-l-entreprise",
+      "entreprise-difficulte.redressement-judiciaire",
+      "entreprise-difficulte.liquidation-judiciaire"
+    ]
   },
   {
     "id": "tab-acteurs-a-l-origine-de-la-procedure-d-alerte-7",
@@ -290,7 +322,10 @@
     "note": null,
     "fiches_liees": [],
     "qr_liees": [],
-    "annales_liees": []
+    "annales_liees": [],
+    "notions_liees": [
+      "entreprise-difficulte.droit-d-alerte-procedures-detaillees"
+    ]
   },
   {
     "id": "tab-cloture-pour-extinction-du-passif-vs-insuffisance--8",
@@ -319,7 +354,10 @@
     "note": "Art. L. 643-9 C. com.",
     "fiches_liees": [],
     "qr_liees": [],
-    "annales_liees": []
+    "annales_liees": [],
+    "notions_liees": [
+      "entreprise-difficulte.liquidation-judiciaire"
+    ]
   },
   {
     "id": "tab-confusion-de-patrimoines-vs-societe-fictive-9",
@@ -353,7 +391,10 @@
     "note": "Art. L. 621-2 C. com. (fondement textuel commun)",
     "fiches_liees": [],
     "qr_liees": [],
-    "annales_liees": []
+    "annales_liees": [],
+    "notions_liees": [
+      "entreprise-difficulte.sauvegarde-de-l-entreprise"
+    ]
   },
   {
     "id": "tab-modalites-de-la-constatation-vs-de-l-homologation--10",
@@ -387,7 +428,10 @@
     "note": "Art. L. 611-8 C. com.",
     "fiches_liees": [],
     "qr_liees": [],
-    "annales_liees": []
+    "annales_liees": [],
+    "notions_liees": [
+      "entreprise-difficulte.conciliation"
+    ]
   },
   {
     "id": "tab-notion-de-cessation-des-paiements-11",
@@ -409,7 +453,11 @@
     "note": "Art. L. 631-1 C. com.",
     "fiches_liees": [],
     "qr_liees": [],
-    "annales_liees": []
+    "annales_liees": [],
+    "notions_liees": [
+      "entreprise-difficulte.definitions-cles",
+      "entreprise-difficulte.definitions-complementaires"
+    ]
   },
   {
     "id": "tab-declaration-des-creances-deroulement-12",
@@ -439,7 +487,11 @@
     "note": null,
     "fiches_liees": [],
     "qr_liees": [],
-    "annales_liees": []
+    "annales_liees": [],
+    "notions_liees": [
+      "entreprise-difficulte.sauvegarde-de-l-entreprise",
+      "entreprise-difficulte.redressement-judiciaire"
+    ]
   },
   {
     "id": "tab-deroulement-de-la-liquidation-judiciaire-13",
@@ -477,6 +529,9 @@
     "note": "Art. L. 641-1, L. 641-10, L. 642-18, L. 642-19, L. 643-9 C. com.",
     "fiches_liees": [],
     "qr_liees": [],
-    "annales_liees": []
+    "annales_liees": [],
+    "notions_liees": [
+      "entreprise-difficulte.liquidation-judiciaire"
+    ]
   }
 ]
