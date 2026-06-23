@@ -2,19 +2,15 @@
 id: "alerte-economique-declenchee-par-le-cse-2-etapes-de-la-procedure"
 notion_id: "entreprise-difficulte.droit-d-alerte-procedures-detaillees"
 titre: "Alerte économique déclenchée par le CSE - 2 étapes de la procédure"
-mots_cles: []
-importance: "★★★"
-references: ["ref-art-l-2312-63-et-s-c-trav-15"]
+mots_cles: ["alerte", "CSE", "procédure"]
+importance: "★★"
+references: []
+tableaux_lies: []
 ---
 
-# Alerte économique déclenchée par le CSE - 2 étapes de la procédure
+# Alerte économique déclenchée par le CSE — 2 étapes
 
-R :
+- **Étape 1 — Demande d'explications à l'employeur** : le CSE demande par écrit des explications sur les faits constatés. La réponse de l'employeur est **inscrite au procès-verbal** de la séance.
+- **Étape 2 — Transmission / saisine** : si les explications sont insuffisantes ou si la situation persiste, le CSE établit un **rapport** transmis au commissaire aux comptes et, le cas échéant, à l'organe de surveillance et au comité de groupe.
 
-> 📎 *Art. L. 2312-63 et s. C. trav.*
-
-- Étape 1 — Le CSE demande, dans le cadre d'une réunion, des explications à l'employeur. Cette demande est inscrite de droit à l'ordre du jour de la prochaine réunion si elle n'a pu être traitée immédiatement.
-
-- Étape 2 — À défaut de réponse suffisante de l'employeur, ou si la situation reste préoccupante, le CSE établit un rapport qui est transmis au commissaire aux comptes et à l'employeur, et peut décider de saisir l'organe chargé de l'administration ou de la surveillance.
-
-### Alerte par les associés
+> 📎 Art. L. 2312-63 et s. C. trav.

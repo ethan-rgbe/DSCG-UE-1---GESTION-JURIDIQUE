@@ -2,15 +2,18 @@
 id: "alerte-declenchee-par-le-cac-art-l-611-2-2-cco"
 notion_id: "entreprise-difficulte.droit-d-alerte-procedures-detaillees"
 titre: "Alerte déclenchée par le CAC - art L.611-2-2 Cco"
-mots_cles: []
-importance: "★★★"
-references: ["ref-art-l-611-2-2-c-com-13"]
+mots_cles: ["alerte", "secret professionnel", "tribunal"]
+importance: "★★"
+references: []
+tableaux_lies: []
 ---
 
-# Alerte déclenchée par le CAC - art L.611-2-2 Cco
+# Alerte déclenchée par le CAC — art. L. 611-2-2 C. com.
 
-L'art. L. 611-2-2 prévoit un mécanisme d'urgence : lorsque l'urgence commande l'adoption de mesures immédiates et que le dirigeant refuse d'agir, ou envisage des mesures que le CAC juge insuffisantes, celui-ci peut informer directement le président du tribunal dès la première information donnée au dirigeant — sans devoir suivre l'ensemble des étapes de la procédure ordinaire des art. L. 234-1/L. 234-2.
+L'**art. L. 611-2-2 C. com.** constitue le fondement permettant au CAC de **lever le secret professionnel** à l'égard du président du tribunal lorsque la continuité de l'exploitation est menacée : il peut communiquer des informations confidentielles **sans engager sa responsabilité**.
 
-> 📎 *Art. L. 611-2-2 C. com.*
+L'appréciation se fait **in concreto**, à partir d'évènements convergents et suffisamment préoccupants — non limitée à une approche comptable (dégradation des équilibres financiers, sources de financement onéreuses, non-respect de la réglementation environnementale…).
 
-### Alerte économique déclenchée par le CSE
+Le CAC **ne se substitue pas aux dirigeants** (principe de non-éviction).
+
+> 📎 Art. L. 611-2-2 C. com.
