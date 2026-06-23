@@ -24,6 +24,28 @@
   }
   *{box-sizing:border-box;}
   body{margin:0;font-family:var(--sans);background:var(--paper);color:var(--text);}
+
+  /* ===== Mode sombre ===== */
+  body.dark{
+    --ink:#e6edf3; --navy:#cfe0ee; --blue-mid:#5aa6e8; --blue-soft:#7fb0d8;
+    --gold:#d4ad4f; --gold-soft:#e0bd66;
+    --beige:#262a31; --beige-line:#363b44;
+    --paper:#1b212a; --paper-line:#2b313b;
+    --text:#d7dce3; --red:#ff7a7a;
+    background:#12151a;
+  }
+  body.dark header.top1{background:#1b212a;border-bottom-color:#2b313b;}
+  body.dark #slideMenu{background:#1b212a;}
+  body.dark .search-wrap{background:#1b212a;}
+  body.dark .search-wrap input{background:#12151a;color:var(--text);border-color:#2b313b;}
+  body.dark .panel{background:#1b212a;}
+  body.dark .changelog-scroll,
+  body.dark details.doc-refs,
+  body.dark .quiz-card{background:#161b22;}
+  body.dark .flashcard .face.front{background:#1b212a;color:var(--text);}
+  body.dark .billboard{border-color:#2b313b;}
+  body.dark .report-bubble{box-shadow:0 3px 10px rgba(0,0,0,.6);}
+  header.top2 #themeToggle{background:transparent;border:none;color:#fff;font-size:1.15rem;cursor:pointer;line-height:1;padding:4px 6px;}
   a{color:var(--blue-mid);text-decoration:none;}
   a:hover{text-decoration:underline;}
 
@@ -127,6 +149,22 @@
   .report-hint{font-size:.72rem;color:#8a8468;}
   .report-bubble{position:absolute;z-index:9999;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:6px 12px;font:inherit;font-size:.8rem;font-weight:600;cursor:pointer;box-shadow:0 3px 10px rgba(0,0,0,.25);}
   .report-bubble:hover{background:var(--blue-mid);}
+
+  /* ===== Impression / PDF ===== */
+  @media print {
+    header.top1, header.top2, #slideMenu, #menuBackdrop, .search-wrap, footer,
+    .tabs-sub, .report-row, .nav-tree, .billboard, #splash, .report-bubble,
+    .listes-toolbar, #themeToggle, #menuToggle { display:none !important; }
+    body, body.dark { background:#fff !important; color:#000 !important; }
+    .layout{display:block !important;}
+    .panel{border:none !important;box-shadow:none !important;padding:0 !important;background:#fff !important;}
+    .page-title, .fiche-body h3, .fiche-body h4{color:#000 !important;}
+    .fiche-body table.cmp th{background:#eee !important;color:#000 !important;}
+    a{color:#000 !important;text-decoration:none !important;}
+    .printable, .printable * { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  }
+  .print-btn{background:transparent;border:1px solid var(--paper-line);color:var(--blue-mid);font:inherit;font-size:.78rem;padding:5px 12px;border-radius:5px;cursor:pointer;}
+  .print-btn:hover{background:var(--beige);}
   .fiche-body p.cite{font-style:italic;color:#6b6657;font-size:.9rem;background:var(--beige);display:inline-block;padding:4px 10px;border-radius:3px;}
   .fiche-body ul{padding-left:22px;line-height:1.55;}
   .fiche-body .table-wrap{width:100%;overflow-x:auto;margin:14px 0;}
@@ -330,6 +368,7 @@
     <span class="brand-name">LE PRÉCIS</span>
     <span class="brand-sub">DSCG · UE1 · 2025–2027</span>
   </div>
+  <button id="themeToggle" title="Mode clair / sombre">🌙</button>
   <button id="menuToggle">☰</button>
 </header>
 
@@ -453,6 +492,29 @@ function getRandomNotion(){
 const QR_STATE_KEY = 'dscg_qr_state';
 function loadQrState(){ try{ return JSON.parse(localStorage.getItem(QR_STATE_KEY) || '{}'); }catch(e){ return {}; } }
 function saveQrState(s){ try{ localStorage.setItem(QR_STATE_KEY, JSON.stringify(s)); }catch(e){} }
+function exportProgress(){
+  const data = { app:'le-precis', version:1, exported:new Date().toISOString(),
+    qr_state: loadQrState(), recents: JSON.parse(localStorage.getItem(RECENTS_KEY)||'[]') };
+  const blob = new Blob([JSON.stringify(data,null,2)], {type:'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'progression-le-precis.json';
+  document.body.appendChild(a); a.click();
+  setTimeout(()=>{ document.body.removeChild(a); URL.revokeObjectURL(url); }, 0);
+}
+function importProgress(file){
+  const reader = new FileReader();
+  reader.onload = () => {
+    try{
+      const data = JSON.parse(reader.result);
+      if(data.qr_state && typeof data.qr_state==='object') saveQrState(data.qr_state);
+      if(Array.isArray(data.recents)) localStorage.setItem(RECENTS_KEY, JSON.stringify(data.recents));
+      render();
+      alert('Progression importée.');
+    }catch(e){ alert("Fichier invalide : impossible d'importer la progression."); }
+  };
+  reader.readAsText(file);
+}
 function setQrStatus(id, status){
   const s = loadQrState();
   const cur = s[id] || { box: 1 };
@@ -711,7 +773,10 @@ function renderChapitre(){
       <button data-ctab="cours" class="${state.chapTab==='cours'?'active':''}">COURS</button>
       <button data-ctab="synthese" class="${state.chapTab==='synthese'?'active':''}">SYNTHÈSE</button>
       <button data-ctab="points" class="${state.chapTab==='points'?'active':''}">POINTS D'ATTENTION</button>
-    </div>${REPORT_CONFIGURED ? `<div class="report-row"><button class="report-btn">⚠ Signaler une anomalie</button><span class="report-hint">ou sélectionnez un passage</span></div>` : ''}`;
+    </div><div class="report-row">
+      <button class="print-btn">🖨 Imprimer / PDF</button>
+      ${REPORT_CONFIGURED ? `<button class="report-btn">⚠ Signaler une anomalie</button><span class="report-hint">ou sélectionnez un passage</span>` : ''}
+    </div>`;
 
   if(state.chapTab === 'synthese'){
     const coursHtml = (DATA.cours || {})[chapitre.id];
@@ -819,6 +884,9 @@ function renderListes(){
       <div class="tools">
         <button class="btn-primary" id="startQuiz">S'interroger</button>
         <button class="btn-ghost" id="resetProgress">Réinitialiser</button>
+        <button class="btn-ghost" id="exportProgress">Exporter</button>
+        <button class="btn-ghost" id="importProgress">Importer</button>
+        <input type="file" id="importFile" accept="application/json" style="display:none">
       </div>
     </div>
     <div class="qr-grid" id="qrGrid"></div>
@@ -875,6 +943,9 @@ function renderListes(){
   if(sq) sq.onclick = () => { state.quizScope = isAll ? 'all' : 'chapitre'; state.quizChapId = chap && chap.id; state.quiz = null; state.view = 'quiz'; render(); window.scrollTo({top:0, behavior:'smooth'}); };
   const rp = document.getElementById('resetProgress');
   if(rp) rp.onclick = () => { const s = loadQrState(); cards.forEach(c => { delete s[c.id]; }); saveQrState(s); render(); };
+  const ep = document.getElementById('exportProgress'); if(ep) ep.onclick = exportProgress;
+  const ip = document.getElementById('importProgress'); const ipf = document.getElementById('importFile');
+  if(ip && ipf){ ip.onclick = () => ipf.click(); ipf.onchange = () => { if(ipf.files && ipf.files[0]) importProgress(ipf.files[0]); }; }
 }
 
 // ============================================================
@@ -1139,6 +1210,26 @@ if(REPORT_CONFIGURED){
   });
   document.addEventListener('scroll', () => { if(reportBubble) reportBubble.style.display = 'none'; }, true);
 }
+
+// ----- Thème clair / sombre -----
+const THEME_KEY = 'dscg_theme';
+(function(){
+  const dark = localStorage.getItem(THEME_KEY) === 'dark';
+  document.body.classList.toggle('dark', dark);
+  const tt = document.getElementById('themeToggle');
+  if(tt) tt.textContent = dark ? '☀️' : '🌙';
+})();
+document.getElementById('themeToggle').addEventListener('click', () => {
+  const dark = !document.body.classList.contains('dark');
+  document.body.classList.toggle('dark', dark);
+  try{ localStorage.setItem(THEME_KEY, dark ? 'dark' : 'light'); }catch(e){}
+  document.getElementById('themeToggle').textContent = dark ? '☀️' : '🌙';
+});
+
+// ----- Impression / PDF -----
+document.addEventListener('click', (e) => {
+  if(e.target.closest && e.target.closest('.print-btn')) window.print();
+});
 
 render();
 </script>
