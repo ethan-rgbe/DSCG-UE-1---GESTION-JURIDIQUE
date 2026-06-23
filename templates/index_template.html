@@ -116,6 +116,17 @@
   .fiche-body h4{font-family:var(--serif);color:var(--blue-mid);margin-top:16px;}
   .fiche-body p{line-height:1.55;}
   .fiche-body strong{color:var(--gold);font-weight:700;}
+  .cours-redige h3{margin-top:26px;}
+  .cours-redige .table-wrap{margin:16px 0;}
+  .cours-redige p.cite{font-style:italic;}
+
+  /* Signalement d'anomalies */
+  .report-row{display:flex;align-items:center;gap:10px;margin:-4px 0 16px;flex-wrap:wrap;}
+  .report-btn{background:transparent;border:1px solid var(--paper-line);color:var(--blue-mid);font:inherit;font-size:.78rem;padding:5px 12px;border-radius:5px;cursor:pointer;}
+  .report-btn:hover{background:var(--beige);}
+  .report-hint{font-size:.72rem;color:#8a8468;}
+  .report-bubble{position:absolute;z-index:9999;background:var(--navy);color:#fff;border:none;border-radius:6px;padding:6px 12px;font:inherit;font-size:.8rem;font-weight:600;cursor:pointer;box-shadow:0 3px 10px rgba(0,0,0,.25);}
+  .report-bubble:hover{background:var(--blue-mid);}
   .fiche-body p.cite{font-style:italic;color:#6b6657;font-size:.9rem;background:var(--beige);display:inline-block;padding:4px 10px;border-radius:3px;}
   .fiche-body ul{padding-left:22px;line-height:1.55;}
   .fiche-body .table-wrap{width:100%;overflow-x:auto;margin:14px 0;}
@@ -355,8 +366,51 @@ const refById = id => DATA.references_textes.find(r => r.id === id);
 const qrByFiche = id => DATA.qr_cartes.filter(q => q.fiche_id === id);
 const chapById = id => DATA.chapitres.find(c => c.id === id);
 const chapLabel = c => c.numero ? `Chapitre ${c.numero} — ${c.titre}` : c.titre;
-const legifranceUrl = r => `https://www.legifrance.gouv.fr/search/all?tab_selection=all&searchField=ALL&query=${encodeURIComponent(((r && r.reference) || '') + ' ' + ((r && r.document) || ''))}&page=1&init=true`;
+function legifranceUrl(r){
+  const ref = (r && r.reference) || '';
+  // On ne garde que le 1er numéro d'article (préfixe L/R/D/A + numéro) : Légifrance le résout seul.
+  // Inclure en plus le nom du code dupliquait la référence et renvoyait "résultat non trouvé".
+  let q;
+  const m = ref.match(/\b([LRDA])\.?\s*-?\s*(\d+(?:[-.]\d+)*)/i);
+  if(m){ q = m[1].toUpperCase() + '. ' + m[2]; }
+  else { const m2 = ref.match(/(\d+(?:[-.]\d+)+)/); q = m2 ? m2[1] : ref.replace(/\s+/g,' ').trim(); }
+  return `https://www.legifrance.gouv.fr/search/all?tab_selection=all&searchField=ALL&query=${encodeURIComponent(q)}&page=1&init=true`;
+}
 function shuffle(arr){ const a = arr.slice(); for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+
+// ====== CONFIG — Signalement d'anomalies via Google Forms ======
+// 1) Crée un Google Form avec (au moins) 4 champs : Chapitre, Section, Passage concerné, Description.
+// 2) Menu ⋮ du formulaire → « Obtenir le lien pré-rempli » → mets des valeurs bidons → « Obtenir le lien ».
+// 3) Dans l'URL obtenue, recopie ci-dessous l'URL de base (avant « &entry… ») et les identifiants entry.XXXX.
+const REPORT_FORM = {
+  base:           "https://docs.google.com/forms/d/e/VOTRE_ID_FORMULAIRE/viewform?usp=pp_url",
+  entry_chapitre: "entry.VOTRE_ID_CHAPITRE",
+  entry_section:  "entry.VOTRE_ID_SECTION",
+  entry_passage:  "entry.VOTRE_ID_PASSAGE"
+};
+const REPORT_CONFIGURED = REPORT_FORM.base.indexOf("VOTRE_") === -1
+  && REPORT_FORM.entry_chapitre.indexOf("VOTRE_") === -1;
+
+function reportFormUrl(passage){
+  if(!REPORT_CONFIGURED) return null;
+  const chap = chapById(state.chapitreId);
+  const sectionMap = { cours: "Cours", synthese: "Synthèse", points: "Points d'attention" };
+  let section = sectionMap[state.chapTab] || state.chapTab || "";
+  if(state.chapTab === "cours" && state.ficheId && ficheById(state.ficheId)){
+    section += " — " + ficheById(state.ficheId).titre;
+  }
+  let p = (passage || "").replace(/\s+/g, " ").trim();
+  if(p.length > 600) p = p.slice(0, 600) + "…";
+  const params = new URLSearchParams();
+  params.set(REPORT_FORM.entry_chapitre, chap ? chapLabel(chap) : "");
+  params.set(REPORT_FORM.entry_section, section);
+  params.set(REPORT_FORM.entry_passage, p);
+  return REPORT_FORM.base + (REPORT_FORM.base.indexOf("?") === -1 ? "?" : "&") + params.toString();
+}
+function openReport(passage){
+  const url = reportFormUrl(passage);
+  if(url) window.open(url, "_blank", "noopener");
+}
 
 // ---- Suivi local "chapitres récemment consultés" ----
 const RECENTS_KEY = 'dscg_recent_chapitres';
@@ -635,8 +689,21 @@ function renderChapitre(){
 
   const subtabsHtml = `<div class="tabs-sub">
       <button data-ctab="cours" class="${state.chapTab==='cours'?'active':''}">COURS</button>
+      <button data-ctab="synthese" class="${state.chapTab==='synthese'?'active':''}">SYNTHÈSE</button>
       <button data-ctab="points" class="${state.chapTab==='points'?'active':''}">POINTS D'ATTENTION</button>
+    </div>${REPORT_CONFIGURED ? `<div class="report-row"><button class="report-btn">⚠ Signaler une anomalie</button><span class="report-hint">ou sélectionnez un passage</span></div>` : ''}`;
+
+  if(state.chapTab === 'synthese'){
+    const coursHtml = (DATA.cours || {})[chapitre.id];
+    app.innerHTML = `<div class="panel">
+      <div class="fiche-meta">${chapLabel(chapitre)}</div>
+      <h1 class="page-title">${chapitre.titre}</h1>
+      ${subtabsHtml}
+      <div class="fiche-body cours-redige">${coursHtml || "<p class=\"fiche-meta\">La synthèse rédigée de ce chapitre n'est pas encore disponible.</p>"}</div>
     </div>`;
+    app.querySelectorAll('[data-ctab]').forEach(b => b.onclick = () => { state.chapTab = b.dataset.ctab; render(); });
+    return;
+  }
 
   if(state.chapTab === 'points'){
     const pa = (DATA.points_attention || {})[chapitre.id] || {};
@@ -1016,6 +1083,42 @@ gs.addEventListener('keydown', e => { if(e.key === 'Enter') runGlobalSearch(); }
 document.getElementById('legalLink').addEventListener('click', () => {
   state.view = 'mentions'; render(); window.scrollTo({top:0, behavior:'smooth'});
 });
+
+// ----- Signalement d'anomalies : bouton de repli + bulle sur sélection -----
+if(REPORT_CONFIGURED){
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest && e.target.closest('.report-btn');
+    if(btn){ openReport(''); }
+  });
+
+  let reportBubble = null;
+  const hideBubble = () => { if(reportBubble) reportBubble.style.display = 'none'; };
+  document.addEventListener('mouseup', (e) => {
+    if(state.view !== 'chapitre'){ hideBubble(); return; }
+    const sel = window.getSelection ? window.getSelection() : null;
+    const text = sel ? sel.toString().trim() : '';
+    const within = e.target.closest && e.target.closest('#app .panel');
+    if(text.length >= 8 && within){
+      if(!reportBubble){
+        reportBubble = document.createElement('button');
+        reportBubble.className = 'report-bubble';
+        reportBubble.textContent = '⚠ Signaler ce passage';
+        reportBubble.addEventListener('mousedown', ev => ev.preventDefault());
+        reportBubble.addEventListener('click', () => {
+          const t = window.getSelection ? window.getSelection().toString().trim() : '';
+          openReport(t); hideBubble();
+        });
+        document.body.appendChild(reportBubble);
+      }
+      reportBubble.style.display = 'block';
+      reportBubble.style.top = (window.scrollY + e.clientY + 12) + 'px';
+      reportBubble.style.left = (window.scrollX + e.clientX - 10) + 'px';
+    } else {
+      hideBubble();
+    }
+  });
+  document.addEventListener('scroll', () => { if(reportBubble) reportBubble.style.display = 'none'; }, true);
+}
 
 render();
 </script>
