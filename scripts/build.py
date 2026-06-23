@@ -149,6 +149,58 @@ def md_to_html(body):
     return "\n".join(out)
 
 
+def validate(bundle):
+    warns = []
+    chap_ids = {c["id"] for c in bundle["chapitres"]}
+    notion_ids = {n["id"] for n in bundle["notions"]}
+    fiche_ids = {f["id"] for f in bundle["fiches"]}
+    code_titres = {c["titre"] for c in bundle["codes"]}
+
+    for n in bundle["notions"]:
+        if n.get("chapitre_id") not in chap_ids:
+            warns.append(f"notion '{n['id']}' -> chapitre_id inconnu '{n.get('chapitre_id')}'")
+    for f in bundle["fiches"]:
+        if f.get("notion_id") not in notion_ids:
+            warns.append(f"fiche '{f['id']}' -> notion_id inconnu '{f.get('notion_id')}'")
+    for c in bundle["qr_cartes"]:
+        if c.get("notion_id") not in notion_ids:
+            warns.append(f"carte '{c.get('id')}' -> notion_id inconnu '{c.get('notion_id')}'")
+        if c.get("fiche_id") and c["fiche_id"] not in fiche_ids:
+            warns.append(f"carte '{c.get('id')}' -> fiche_id inconnu '{c['fiche_id']}'")
+    for r in bundle["references_textes"]:
+        for fid in (r.get("fiches_liees") or []):
+            if fid not in fiche_ids:
+                warns.append(f"référence '{r.get('id')}' -> fiche_liee inconnue '{fid}'")
+        doc = r.get("document")
+        if doc and doc not in code_titres and not any(k in doc.lower() for k in ("texte", "loi", "ordonnance", "directive", "bo", "bulletin", "règlement")):
+            warns.append(f"référence '{r.get('id')}' -> document '{doc}' absent de codes.json")
+    for t in bundle["tableaux_comparatifs"]:
+        if t.get("chapitre_id") not in chap_ids:
+            warns.append(f"tableau '{t.get('id')}' -> chapitre_id inconnu '{t.get('chapitre_id')}'")
+        for nid in (t.get("notions_liees") or []):
+            if nid not in notion_ids:
+                warns.append(f"tableau '{t.get('id')}' -> notion_liee inconnue '{nid}'")
+    if isinstance(bundle["programme"], dict):
+        for p in bundle["programme"].get("parties", []):
+            for sp in p.get("sous_parties", []):
+                cid = sp.get("chapitre_id")
+                if cid and cid not in chap_ids:
+                    warns.append(f"programme -> '{sp.get('titre')}' pointe vers chapitre inconnu '{cid}'")
+
+    missing = [f["id"] for f in bundle["fiches"] if f["id"] not in bundle["fiches_full"]]
+
+    if warns:
+        print(f"\n⚠ Validation : {len(warns)} incohérence(s) référentielle(s) :")
+        for w in warns[:40]:
+            print("  -", w)
+        if len(warns) > 40:
+            print(f"  … (+{len(warns) - 40} autres)")
+    else:
+        print("✓ Validation : intégrité référentielle OK.")
+    if missing:
+        print(f"ℹ {len(missing)} fiche(s) de l'index sans contenu .md (l'onglet Cours les ignore).")
+
+
 def main():
     fiches_full = {}
     for path in sorted(glob.glob(os.path.join(CONTENT_DIR, "*.md"))):
@@ -180,6 +232,8 @@ def main():
         chap_id = os.path.splitext(os.path.basename(path))[0]
         cours[chap_id] = md_to_html(open(path, encoding="utf-8").read())
     bundle["cours"] = cours
+
+    validate(bundle)
 
     template = open(TEMPLATE_PATH, encoding="utf-8").read()
     bundle_json = json.dumps(bundle, ensure_ascii=False)
