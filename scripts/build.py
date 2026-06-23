@@ -43,6 +43,12 @@ def parse_fiche_md(path):
     return meta, body
 
 
+def inline(text):
+    esc = ihtml.escape(text)
+    esc = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", esc)
+    return esc
+
+
 def md_to_html(body):
     lines = body.split("\n")
     out = []
@@ -77,6 +83,24 @@ def md_to_html(body):
                     out.append("<tr>" + "".join(f"<td>{ihtml.escape(c)}</td>" for c in r) + "</tr>")
                 out.append("</tbody></table></div>")
             continue
+        if line.startswith("|") and i + 1 < n and re.match(r"^\|?[\s:|-]+\|?$", lines[i+1].strip()) and "-" in lines[i+1]:
+            if in_ul:
+                out.append("</ul>"); in_ul = False
+            def _cells(s):
+                return [c.strip() for c in s.strip().strip("|").split("|")]
+            header = _cells(line)
+            i += 2  # header + ligne de séparation
+            body_rows = []
+            while i < n and lines[i].strip().startswith("|"):
+                body_rows.append(_cells(lines[i].strip()))
+                i += 1
+            out.append('<div class="table-wrap"><table class="cmp"><thead><tr>')
+            out.append("".join(f"<th>{inline(h)}</th>" for h in header))
+            out.append("</tr></thead><tbody>")
+            for r in body_rows:
+                out.append("<tr>" + "".join(f"<td>{inline(c)}</td>" for c in r) + "</tr>")
+            out.append("</tbody></table></div>")
+            continue
         if line.startswith("::correction::"):
             content = line[len("::correction::"):].strip()
             out.append(f'<div class="correction-box"><strong>⚠️ Correction</strong><p>{ihtml.escape(content)}</p></div>')
@@ -105,7 +129,7 @@ def md_to_html(body):
         if line.startswith("- "):
             if not in_ul:
                 out.append("<ul>"); in_ul = True
-            out.append(f"<li>{ihtml.escape(line[2:])}</li>")
+            out.append(f"<li>{inline(line[2:])}</li>")
             i += 1
             continue
         if in_ul:
@@ -113,7 +137,7 @@ def md_to_html(body):
         if line.startswith(">"):
             content = line.lstrip(">").strip()
             cls = "cite" if content.startswith("📎") else ""
-            out.append(f'<p class="{cls}">{ihtml.escape(content)}</p>')
+            out.append(f'<p class="{cls}">{inline(content)}</p>')
             i += 1
             continue
         esc = ihtml.escape(line)
@@ -148,6 +172,14 @@ def main():
     bo_path = os.path.join(STATIC_DIR, "bo-ue1-dscg.pdf")
     bundle["has_bo_pdf"] = os.path.exists(bo_path)
     bundle["static_bo_path"] = "static/bo-ue1-dscg.pdf"
+
+    # Cours rédigés (onglet "Synthèse") : content/cours/<chapitre_id>.md
+    cours = {}
+    cours_dir = os.path.join(ROOT, "content", "cours")
+    for path in sorted(glob.glob(os.path.join(cours_dir, "*.md"))):
+        chap_id = os.path.splitext(os.path.basename(path))[0]
+        cours[chap_id] = md_to_html(open(path, encoding="utf-8").read())
+    bundle["cours"] = cours
 
     template = open(TEMPLATE_PATH, encoding="utf-8").read()
     bundle_json = json.dumps(bundle, ensure_ascii=False)
