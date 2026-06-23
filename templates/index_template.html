@@ -222,6 +222,11 @@
 
   /* Changelog */
   .changelog-item{border-left:3px solid var(--gold);padding:6px 0 6px 14px;margin-bottom:10px;}
+  .changelog-scroll{max-height:300px;overflow-y:auto;background:#fffdf7;border:1px solid var(--paper-line);border-radius:6px;padding:14px 14px 4px;}
+  .changelog-scroll::-webkit-scrollbar{width:8px;}
+  .changelog-scroll::-webkit-scrollbar-thumb{background:var(--beige-line);border-radius:4px;}
+  .changelog-scroll::-webkit-scrollbar-track{background:transparent;}
+  .changelog-scroll .changelog-item:last-child{margin-bottom:6px;}
   .changelog-item .cdate{font-size:.72rem;color:#8a8468;text-transform:uppercase;letter-spacing:.06em;}
   .changelog-item .ctitre{font-weight:600;color:var(--navy);}
 
@@ -535,12 +540,16 @@ function renderHome(){
       </div>`; })()}
 
       <div class="section-title">Dernières mises à jour</div>
-      ${(DATA.changelog || []).map(c => `
+      ${(DATA.changelog || []).length
+        ? `<div class="changelog-scroll">${[...DATA.changelog]
+            .sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')))
+            .map(c => `
         <div class="changelog-item">
           <div class="cdate">${c.date}</div>
           <div class="ctitre">${c.titre}</div>
           <div>${c.detail || ''}</div>
-        </div>`).join('') || '<p class="fiche-meta">Aucune mise à jour enregistrée.</p>'}
+        </div>`).join('')}</div>`
+        : '<p class="fiche-meta">Aucune mise à jour enregistrée.</p>'}
     </div>`;
 
   app.querySelectorAll('[data-resume-chap]').forEach(b => b.onclick = () => {
