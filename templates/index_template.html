@@ -101,11 +101,25 @@
   #menuBackdrop{position:fixed;inset:0;background:rgba(11,61,99,.25);z-index:800;display:none;}
   #menuBackdrop.show{display:block;}
 
-  .search-wrap{padding:14px 24px;background:#ffffff;border-bottom:1px solid var(--paper-line);}
+  .search-wrap{padding:14px 24px;background:#ffffff;border-bottom:1px solid var(--paper-line);position:relative;}
   .search-wrap input{
     width:100%;max-width:520px;padding:10px 14px;border:1px solid var(--paper-line);
     border-radius:3px;font:inherit;font-size:.95rem;background:#fff;
   }
+  .search-results{position:absolute;left:24px;right:24px;max-width:520px;top:calc(100% - 8px);
+    background:var(--paper);border:1px solid var(--paper-line);border-radius:6px;
+    box-shadow:0 8px 24px rgba(0,0,0,.14);max-height:360px;overflow-y:auto;z-index:60;display:none;}
+  .sr-item{display:flex;align-items:center;gap:10px;width:100%;text-align:left;background:transparent;
+    border:none;border-bottom:1px solid var(--paper-line);padding:9px 14px;cursor:pointer;font:inherit;}
+  .sr-item:last-child{border-bottom:none;}
+  .sr-item:hover,.sr-item.sr-active{background:var(--beige);}
+  .sr-type{font-size:.6rem;text-transform:uppercase;letter-spacing:.05em;padding:2px 7px;border-radius:10px;
+    background:var(--beige);color:var(--navy);flex-shrink:0;border:1px solid var(--beige-line);}
+  .sr-title{font-size:.9rem;color:var(--navy);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .sr-sub{font-size:.72rem;color:#8a8468;flex-shrink:0;}
+  .sr-empty{padding:12px 14px;color:#8a8468;font-size:.85rem;}
+  body.dark .search-results{background:#1b212a;}
+  body.dark .sr-type{background:#262a31;}
 
   main{padding:24px;max-width:1100px;margin:0 auto;}
   .layout{display:grid;grid-template-columns:260px 1fr;gap:28px;}
@@ -389,7 +403,8 @@
 </nav>
 
 <div class="search-wrap">
-  <input type="text" id="globalSearch" placeholder="Rechercher (notion, article, tableau…) puis Entrée">
+  <input type="text" id="globalSearch" placeholder="Rechercher (notion, fiche, article, tableau…)" autocomplete="off">
+  <div class="search-results" id="searchResults"></div>
 </div>
 
 <main id="app"></main>
@@ -438,10 +453,11 @@ function shuffle(arr){ const a = arr.slice(); for(let i=a.length-1;i>0;i--){ con
 // 2) Menu ⋮ du formulaire → « Obtenir le lien pré-rempli » → mets des valeurs bidons → « Obtenir le lien ».
 // 3) Dans l'URL obtenue, recopie ci-dessous l'URL de base (avant « &entry… ») et les identifiants entry.XXXX.
 const REPORT_FORM = {
-  base:           "https://docs.google.com/forms/d/e/1FAIpQLSfZNdoMlqRUupTufXwwhFJAUDa2p-JIinEdifN8srg7VFCnow/viewform?usp=pp_url",
-  entry_chapitre: "entry.1157134471",
-  entry_section:  "entry.1166179628",
-  entry_passage:  "entry.598475873"
+  base:           "https://docs.google.com/forms/d/e/VOTRE_ID_FORMULAIRE/viewform?usp=pp_url",
+  entry_chapitre: "entry.VOTRE_ID_CHAPITRE",
+  entry_section:  "entry.VOTRE_ID_SECTION",
+  entry_passage:  "entry.VOTRE_ID_PASSAGE",
+  entry_lien:     ""   // facultatif : ajoute un champ "Lien" au formulaire et colle ici son entry.XXXX pour recevoir l'URL exacte
 };
 const REPORT_CONFIGURED = REPORT_FORM.base.indexOf("VOTRE_") === -1
   && REPORT_FORM.entry_chapitre.indexOf("VOTRE_") === -1;
@@ -460,6 +476,9 @@ function reportFormUrl(passage){
   params.set(REPORT_FORM.entry_chapitre, chap ? chapLabel(chap) : "");
   params.set(REPORT_FORM.entry_section, section);
   params.set(REPORT_FORM.entry_passage, p);
+  if(REPORT_FORM.entry_lien && REPORT_FORM.entry_lien.indexOf("VOTRE_") === -1 && REPORT_FORM.entry_lien){
+    try{ params.set(REPORT_FORM.entry_lien, location.href); }catch(e){}
+  }
   return REPORT_FORM.base + (REPORT_FORM.base.indexOf("?") === -1 ? "?" : "&") + params.toString();
 }
 function openReport(passage){
@@ -551,7 +570,9 @@ let state = { view: 'home', chapitreId: null, ficheId: null, chapTab: 'cours',
               listesScope: 'all', listesChapitreId: null, qrFocus: null,
               tableauxChapitreId: null, tableauFocus: null, refFocus: null };
 
-function render(){
+let _suppressHash = false;
+
+function renderView(){
   setTopTabActive();
   if(state.view === 'home') return renderHome();
   if(state.view === 'sujets') return renderSujets();
@@ -562,6 +583,53 @@ function render(){
   if(state.view === 'tableaux') return renderTableaux();
   if(state.view === 'quiz') return renderQuiz();
   if(state.view === 'mentions') return renderMentions();
+}
+
+function render(){
+  renderView();
+  const h = stateToHash();
+  if(location.hash !== h){ _suppressHash = true; location.hash = h; }
+}
+
+// ----- Routing par section (URL = #/...) -----
+function stateToHash(){
+  switch(state.view){
+    case 'chapitre': {
+      let h = '#/chapitre/' + encodeURIComponent(state.chapitreId || '') + '/' + (state.chapTab || 'cours');
+      if(state.chapTab === 'cours' && state.ficheId) h += '/' + encodeURIComponent(state.ficheId);
+      return h;
+    }
+    case 'listes':
+      return '#/listes/' + (state.listesScope === 'all' ? 'all' : 'chapitre/' + encodeURIComponent(state.listesChapitreId || ''));
+    case 'tableaux':   return '#/tableaux/' + encodeURIComponent(state.tableauxChapitreId || '');
+    case 'documentation': return '#/documentation';
+    case 'sujets':     return '#/sujets';
+    case 'liens':      return '#/liens';
+    case 'mentions':   return '#/mentions';
+    case 'quiz':       return '#/quiz/' + (state.quizScope || 'all') + (state.quizChapId ? '/' + encodeURIComponent(state.quizChapId) : '');
+    default:           return '#/';
+  }
+}
+
+function applyHash(){
+  const parts = (location.hash || '').replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
+  const v = parts[0] || 'home';
+  if(v === 'chapitre'){
+    state.view = 'chapitre'; state.chapitreId = parts[1] || null;
+    state.chapTab = parts[2] || 'cours';
+    state.ficheId = (state.chapTab === 'cours' && parts[3]) ? parts[3] : null;
+  } else if(v === 'listes'){
+    state.view = 'listes';
+    if(parts[1] === 'chapitre'){ state.listesScope = 'chapitre'; state.listesChapitreId = parts[2] || null; }
+    else { state.listesScope = 'all'; state.listesChapitreId = null; }
+  } else if(v === 'tableaux'){ state.view = 'tableaux'; state.tableauxChapitreId = parts[1] || null; }
+  else if(v === 'documentation'){ state.view = 'documentation'; }
+  else if(v === 'sujets'){ state.view = 'sujets'; }
+  else if(v === 'liens'){ state.view = 'liens'; }
+  else if(v === 'mentions'){ state.view = 'mentions'; }
+  else if(v === 'quiz'){ state.view = 'quiz'; state.quizScope = parts[1] || 'all'; state.quizChapId = parts[2] || null; state.quiz = null; }
+  else { state.view = 'home'; }
+  render();
 }
 
 function setTopTabActive(){
@@ -658,18 +726,26 @@ function renderHome(){
 function renderSujets(){
   const annales = DATA.annales || [];
   const label = a => [a.annee, a.session, a.themes].filter(Boolean).join(' — ');
-  const link = (url, dispo) => (url && dispo !== false)
-    ? `<a class="sp-link" href="${url}" target="_blank" rel="noopener">Ouvrir ↗</a>`
-    : `<span class="sp-link">à venir</span>`;
+  const ext = (url, txt) => url ? `<a class="sp-link" href="${url}" target="_blank" rel="noopener">${txt} ↗</a>` : '';
+  const local = (url, dispo, txt) => (url && dispo !== false)
+    ? `<a class="sp-link" href="${url}" target="_blank" rel="noopener">${txt} (PDF) ↗</a>` : '';
   app.innerHTML = `<div class="panel">
     <h1 class="page-title">Sujets d'examens</h1>
-    <p class="fiche-meta">Sujets et corrigés officiels de l'UE1, par année. Les liens s'activeront une fois les PDF déposés dans <code>static/annales/</code>.</p>
-    ${annales.length ? annales.map(a => `
-      <div class="partie-block">
+    <p class="fiche-meta">Les sujets et corrigés ne sont pas hébergés sur ce site&nbsp;: ils sont publiés par des tiers (Compta&nbsp;Online, Ficheben) et restent leur propriété. Les liens ci-dessous renvoient vers leurs sites.</p>
+    ${annales.length ? annales.map(a => {
+      const src = a.source_url
+        ? `<div class="sous-partie"><span class="sp-titre">Sujet &amp; corrigé</span> ${ext(a.source_url, 'Consulter sur ' + (a.source_nom || 'le site source'))}</div>`
+        : `<div class="sous-partie"><span class="sp-titre">Sujet &amp; corrigé</span> <span class="sp-link">lien à venir</span></div>`;
+      const ls = local(a.url_sujet, a.sujet_disponible, 'Sujet');
+      const lc = local(a.url_corrige, a.corrige_disponible, 'Corrigé');
+      const hosted = (ls || lc) ? `<div class="sous-partie"><span class="sp-titre">Document officiel</span> ${ls} ${lc}</div>` : '';
+      return `<div class="partie-block">
         <div class="ptitre">${label(a)}</div>
-        <div class="sous-partie"><span class="sp-titre">Sujet</span> ${link(a.url_sujet, a.sujet_disponible)}</div>
-        <div class="sous-partie"><span class="sp-titre">Corrigé</span> ${link(a.url_corrige, a.corrige_disponible)}</div>
-      </div>`).join('') : "<p class=\"fiche-meta\">Aucun sujet n'a encore été ajouté.</p>"}
+        ${src}
+        ${hosted}
+      </div>`;
+    }).join('') : "<p class=\"fiche-meta\">Aucun sujet n'a encore été ajouté.</p>"}
+    <p class="fiche-meta" style="margin-top:18px">Les corrigés sont des « éléments indicatifs » diffusés par des éditeurs privés&nbsp;: ils sont protégés et ne sont pas reproduits ici (voir les mentions légales). Les rattachements aux chapitres proposés sur ce site sont des analyses propres à l'éditeur.</p>
   </div>`;
 }
 
@@ -1056,6 +1132,7 @@ function renderMentions(){
       <h3>Propriété intellectuelle</h3>
       <p>Les textes de loi et codes officiels reproduits ou cités (Code de commerce, Code du travail, etc.) sont des actes publics non couverts par le droit d'auteur. Le Bulletin officiel cité est un document public.</p>
       <p>Les fiches de cours, synthèses et cartes de révision sont les productions propres de l'éditeur. Les sujets et corrigés officiels diffusés par le ministère restent la propriété de leur émetteur. <strong>Aucun corrigé d'éditeur privé</strong> (manuels, prépas) n'est reproduit ici&nbsp;: ces contenus sont protégés par le droit d'auteur.</p>
+      <p><strong>Sujets et corrigés d'examen (onglet « Sujets »)</strong>&nbsp;: ils ne sont pas hébergés ni reproduits sur ce site. Ils sont publiés par des tiers — notamment <strong>Compta Online</strong> et <strong>Ficheben</strong> — et demeurent leur propriété&nbsp;; l'onglet dédié se limite à fournir des <strong>liens</strong> vers leurs sites. Les analyses de rattachement de ces annales aux chapitres du programme, proposées sur ce site, sont des productions propres de l'éditeur et ne reproduisent pas les corrigés.</p>
 
       <h3>Données personnelles</h3>
       <p>Ce site ne collecte aucune donnée personnelle sur un serveur et n'utilise pas de cookies de suivi. L'historique des derniers chapitres consultés ainsi que votre progression de révision (cartes « su / à revoir ») sont stockés uniquement dans votre navigateur (<em>localStorage</em>), restent sur votre appareil, et peuvent être effacés à tout moment en vidant les données du site.</p>
@@ -1154,22 +1231,56 @@ function buildMenuTrees(){
 buildMenuTrees();
 
 const gs = document.getElementById('globalSearch');
-function runGlobalSearch(){
-  const q = gs.value.trim().toLowerCase();
-  if(!q) return;
-  const ficheHit = DATA.fiches.find(f => f.titre.toLowerCase().includes(q) && ficheById(f.id));
-  if(ficheHit){
-    const n = notionById(ficheHit.notion_id);
-    if(n){ state.chapitreId = n.chapitre_id; state.view='chapitre'; state.chapTab='cours'; state.ficheId = ficheHit.id; render(); window.scrollTo({top:0, behavior:'smooth'}); return; }
-  }
-  const tabHit = (DATA.tableaux_comparatifs||[]).find(t => (t.titre||'').toLowerCase().includes(q));
-  if(tabHit){ state.view='tableaux'; state.tableauxChapitreId = tabHit.chapitre_id; state.tableauFocus = tabHit.id; render(); window.scrollTo({top:0, behavior:'smooth'}); return; }
-  const notionHit = DATA.notions.find(n => (n.titre||'').toLowerCase().includes(q));
-  if(notionHit){ state.view='listes'; state.listesScope='chapitre'; state.listesChapitreId = notionHit.chapitre_id; render(); window.scrollTo({top:0, behavior:'smooth'}); return; }
-  const refHit = DATA.references_textes.find(r => r.reference.toLowerCase().includes(q));
-  if(refHit){ state.view='documentation'; render(); window.scrollTo({top:0, behavior:'smooth'}); }
+const srBox = document.getElementById('searchResults');
+let _srResults = [];
+let _srActive = -1;
+const srEsc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+function collectResults(qraw){
+  const q = (qraw || '').trim().toLowerCase();
+  if(q.length < 2) return [];
+  const score = (t) => { t = (t||'').toLowerCase(); const i = t.indexOf(q); return i < 0 ? -1 : (t.startsWith(q) ? 0 : 1 + i*0.001); };
+  const res = [];
+  DATA.notions.forEach(n => { const s = score(n.titre); if(s>=0){ const c = chapById(n.chapitre_id);
+    res.push({type:'Notion', sc:s, cat:1, title:n.titre, sub:c?chapLabel(c):'', go:()=>{ state.view='listes'; state.listesScope='chapitre'; state.listesChapitreId=n.chapitre_id; state.qrFocus=null; }}); } });
+  DATA.fiches.forEach(f => { const s = score(f.titre); if(s>=0){ const n = notionById(f.notion_id); const c = n?chapById(n.chapitre_id):null;
+    res.push({type:'Fiche', sc:s, cat:2, title:f.titre, sub:c?chapLabel(c):'', go:()=>{ if(n){ state.chapitreId=n.chapitre_id; state.view='chapitre'; state.chapTab='cours'; state.ficheId = ficheById(f.id)?f.id:null; } }}); } });
+  (DATA.tableaux_comparatifs||[]).forEach(t => { const s = score(t.titre); if(s>=0){
+    res.push({type:'Tableau', sc:s, cat:3, title:t.titre, sub:'', go:()=>{ state.view='tableaux'; state.tableauxChapitreId=t.chapitre_id; state.tableauFocus=t.id; }}); } });
+  DATA.references_textes.forEach(r => { const s = score(r.reference); if(s>=0){
+    res.push({type:'Article', sc:s, cat:4, title:r.reference, sub:r.document||'', go:()=>{ state.view='documentation'; state.refFocus=r.id; }}); } });
+  res.sort((a,b)=> a.sc-b.sc || a.cat-b.cat || a.title.localeCompare(b.title));
+  return res.slice(0, 12);
 }
-gs.addEventListener('keydown', e => { if(e.key === 'Enter') runGlobalSearch(); });
+function renderSearchResults(){
+  const q = gs.value;
+  _srResults = collectResults(q); _srActive = -1;
+  if(q.trim().length < 2){ srBox.style.display='none'; srBox.innerHTML=''; return; }
+  if(_srResults.length === 0){ srBox.innerHTML = '<div class="sr-empty">Aucun résultat</div>'; srBox.style.display='block'; return; }
+  srBox.innerHTML = _srResults.map((r,i)=>
+    `<button class="sr-item" data-sr="${i}"><span class="sr-type">${r.type}</span><span class="sr-title">${srEsc(r.title)}</span>${r.sub?`<span class="sr-sub">${srEsc(r.sub)}</span>`:''}</button>`).join('');
+  srBox.style.display='block';
+  srBox.querySelectorAll('[data-sr]').forEach(b => b.onclick = () => selectResult(parseInt(b.dataset.sr,10)));
+}
+function selectResult(i){
+  const r = _srResults[i]; if(!r) return;
+  closeSearch(); gs.value='';
+  r.go(); render(); window.scrollTo({top:0, behavior:'smooth'});
+}
+function closeSearch(){ srBox.style.display='none'; srBox.innerHTML=''; _srActive=-1; }
+function moveActive(d){
+  if(!_srResults.length) return;
+  _srActive = (_srActive + d + _srResults.length) % _srResults.length;
+  [...srBox.querySelectorAll('.sr-item')].forEach((el,i)=> el.classList.toggle('sr-active', i===_srActive));
+}
+gs.addEventListener('input', renderSearchResults);
+gs.addEventListener('keydown', e => {
+  if(e.key === 'ArrowDown'){ e.preventDefault(); moveActive(1); }
+  else if(e.key === 'ArrowUp'){ e.preventDefault(); moveActive(-1); }
+  else if(e.key === 'Enter'){ e.preventDefault(); selectResult(_srActive >= 0 ? _srActive : 0); }
+  else if(e.key === 'Escape'){ closeSearch(); gs.blur(); }
+});
+document.addEventListener('click', e => { if(!(e.target.closest && e.target.closest('.search-wrap'))) closeSearch(); });
 
 document.getElementById('legalLink').addEventListener('click', () => {
   state.view = 'mentions'; render(); window.scrollTo({top:0, behavior:'smooth'});
@@ -1231,7 +1342,13 @@ document.addEventListener('click', (e) => {
   if(e.target.closest && e.target.closest('.print-btn')) window.print();
 });
 
-render();
+// ----- Routing : back/forward + URL partagée -----
+window.addEventListener('hashchange', () => {
+  if(_suppressHash){ _suppressHash = false; return; }
+  applyHash();
+});
+
+if(location.hash.length > 1){ applyHash(); } else { render(); }
 </script>
 </body>
 </html>
