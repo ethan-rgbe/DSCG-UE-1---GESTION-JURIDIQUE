@@ -7,9 +7,19 @@
     "url_corrige": "static/annales/dscg-ue1-2025-corrige.pdf",
     "sujet_disponible": false,
     "corrige_disponible": false,
-    "source_nom": "Compta Online",
-    "source_url": "https://www.compta-online.com/DSCGUE1",
-    "rattachement": []
+    "rattachement": [],
+    "sources": [
+      {
+        "nom": "Sujet & corrigé officiels (CRCF)",
+        "url": "https://www.crcf-edu.fr/category/ressources/enseignement-superieur/dcg-dscg/sujets-dscg/",
+        "type": "officiel"
+      },
+      {
+        "nom": "Corrigé commenté (Compta Online)",
+        "url": "https://www.compta-online.com/corrige-dscg-ue1-2025-gestion-juridique-fiscale-et-sociale-ao8137",
+        "type": "corrige"
+      }
+    ]
   },
   {
     "annee": 2024,
@@ -19,8 +29,6 @@
     "url_corrige": "static/annales/dscg-ue1-2024-corrige.pdf",
     "sujet_disponible": false,
     "corrige_disponible": false,
-    "source_nom": "Compta Online",
-    "source_url": "https://www.compta-online.com/DSCGUE1",
     "rattachement": [
       {
         "dossier": 1,
@@ -207,6 +215,18 @@
           }
         ]
       }
+    ],
+    "sources": [
+      {
+        "nom": "Sujet & corrigé officiels (CRCF)",
+        "url": "https://www.crcf-edu.fr/category/ressources/enseignement-superieur/dcg-dscg/sujets-dscg/",
+        "type": "officiel"
+      },
+      {
+        "nom": "Corrigé commenté (Compta Online)",
+        "url": "https://www.compta-online.com/corrige-dscg-ue1-2024-gestion-juridique-fiscale-et-sociale-ao7453",
+        "type": "corrige"
+      }
     ]
   },
   {
@@ -217,8 +237,6 @@
     "url_corrige": "static/annales/dscg-ue1-2023-corrige.pdf",
     "sujet_disponible": false,
     "corrige_disponible": false,
-    "source_nom": "Compta Online",
-    "source_url": "https://www.compta-online.com/DSCGUE1",
     "rattachement": [
       {
         "dossier": 1,
@@ -403,6 +421,18 @@
           }
         ]
       }
+    ],
+    "sources": [
+      {
+        "nom": "Sujet & corrigé officiels (CRCF)",
+        "url": "https://www.crcf-edu.fr/category/ressources/enseignement-superieur/dcg-dscg/sujets-dscg/",
+        "type": "officiel"
+      },
+      {
+        "nom": "Corrigé commenté (Compta Online)",
+        "url": "https://www.compta-online.com/corrige-dscg-ue1-2023-gestion-juridique-fiscale-et-sociale-ao6830",
+        "type": "corrige"
+      }
     ]
   },
   {
@@ -413,8 +443,6 @@
     "url_corrige": "static/annales/dscg-ue1-2022-corrige.pdf",
     "sujet_disponible": false,
     "corrige_disponible": false,
-    "source_nom": "Compta Online",
-    "source_url": "https://www.compta-online.com/DSCGUE1",
     "rattachement": [
       {
         "dossier": 1,
@@ -615,6 +643,18 @@
           }
         ]
       }
+    ],
+    "sources": [
+      {
+        "nom": "Sujet & corrigé officiels (CRCF)",
+        "url": "https://www.crcf-edu.fr/category/ressources/enseignement-superieur/dcg-dscg/sujets-dscg/",
+        "type": "officiel"
+      },
+      {
+        "nom": "Corrigé commenté (Compta Online)",
+        "url": "https://www.compta-online.com/corrige-dscg-ue1-2022-gestion-juridique-fiscale-et-sociale-ao6041",
+        "type": "corrige"
+      }
     ]
   },
   {
@@ -625,8 +665,6 @@
     "url_corrige": "static/annales/dscg-ue1-2021-corrige.pdf",
     "sujet_disponible": false,
     "corrige_disponible": false,
-    "source_nom": "Compta Online",
-    "source_url": "https://www.compta-online.com/DSCGUE1",
     "rattachement": [
       {
         "dossier": 1,
@@ -817,6 +855,18 @@
           }
         ]
       }
+    ],
+    "sources": [
+      {
+        "nom": "Sujet & corrigé officiels (CRCF)",
+        "url": "https://www.crcf-edu.fr/category/ressources/enseignement-superieur/dcg-dscg/sujets-dscg/",
+        "type": "officiel"
+      },
+      {
+        "nom": "Corrigé commenté (Compta Online)",
+        "url": "https://www.compta-online.com/corrige-dscg-2021-gestion-juridique-fiscale-et-sociale-ao5976",
+        "type": "corrige"
+      }
     ]
   },
   {
@@ -827,8 +877,13 @@
     "url_corrige": "static/annales/dscg-ue1-2020-corrige.pdf",
     "sujet_disponible": false,
     "corrige_disponible": false,
-    "source_nom": "Compta Online",
-    "source_url": "https://www.compta-online.com/DSCGUE1",
-    "rattachement": []
+    "rattachement": [],
+    "sources": [
+      {
+        "nom": "Sujet & corrigé officiels (CRCF)",
+        "url": "https://www.crcf-edu.fr/category/ressources/enseignement-superieur/dcg-dscg/sujets-dscg/",
+        "type": "officiel"
+      }
+    ]
   }
 ]
