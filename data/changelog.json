@@ -1,0 +1,37 @@
+[
+  {
+    "date": "2026-06-21",
+    "titre": "Refonte complète du site",
+    "detail": "Nouvelle navigation (bandeau Sujets examens/Liens utiles/Documentation + menu coulissant Programme/Listes/Tableaux), nouvelle identité visuelle (bleus/blanc/beige), onglets Cours/Points d'attention par chapitre, Listes et Tableaux triés par chapitre, page Documentation avec visionneuses PDF des codes."
+  },
+  {
+    "date": "2026-06-21",
+    "titre": "Mise à jour majeure — Entreprise en difficulté",
+    "detail": "Ajout de 127 fiches (Conciliation, Sauvegarde, Sauvegarde accélérée, Redressement, Liquidation, Rétablissement professionnel, Sanctions, Faillite internationale), 13 tableaux de synthèse, et un nouveau chapitre « Rappels DCG ». Les points non vérifiés sur un texte officiel sont signalés par un encadré « À prendre avec des pincettes »."
+  },
+  {
+    "date": "2026-06-21",
+    "titre": "Mise en place du site",
+    "detail": "Création de la base : chapitre 'Entreprise en difficulté' (45 fiches), cartes Q/R, références. Hébergement sur GitHub Pages."
+  },
+  {
+    "date": "2026-06-24",
+    "titre": "Annales reliées au programme",
+    "detail": "Onglet « Sujets » : rattachement de chaque dossier/question (2021-2024) aux chapitres officiels, avec liens cliquables vers les chapitres et notions déjà construits."
+  },
+  {
+    "date": "2026-06-24",
+    "titre": "Sources d'examens corrigées",
+    "detail": "Liens par année vers la source officielle (CRCF) et le corrigé commenté (Compta Online). Aucun PDF tiers n'est hébergé ; mentions légales mises à jour."
+  },
+  {
+    "date": "2026-06-23",
+    "titre": "Recherche en liste de résultats",
+    "detail": "La recherche affiche désormais une liste classée (notions, fiches, tableaux, articles) avec navigation au clavier."
+  },
+  {
+    "date": "2026-06-23",
+    "titre": "Navigation par adresse, mode sombre et impression",
+    "detail": "Chaque vue a sa propre URL (retour/partage), un thème sombre et une impression/PDF par chapitre ; export/import de la progression."
+  }
+]
