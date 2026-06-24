@@ -132,6 +132,7 @@
   .rt-chap{font-size:.82rem;margin-left:4px;}
   .rt-prog{color:#8a8468;font-size:.8rem;margin-left:4px;}
   body.dark .rt-chap,body.dark .rt-notion{color:#7fb0ee;}
+  .doc-refs > p{margin:6px 2px 2px;font-size:.88rem;line-height:1.55;color:var(--text);}
 
   main{padding:24px;max-width:1100px;margin:0 auto;}
   .layout{display:grid;grid-template-columns:260px 1fr;gap:28px;}
@@ -465,19 +466,26 @@ function shuffle(arr){ const a = arr.slice(); for(let i=a.length-1;i>0;i--){ con
 // 2) Menu ⋮ du formulaire → « Obtenir le lien pré-rempli » → mets des valeurs bidons → « Obtenir le lien ».
 // 3) Dans l'URL obtenue, recopie ci-dessous l'URL de base (avant « &entry… ») et les identifiants entry.XXXX.
 const REPORT_FORM = {
+  // Colle l'URL du formulaire jusqu'à "viewform?usp=pp_url".
   base:           "https://docs.google.com/forms/d/e/1FAIpQLSfZNdoMlqRUupTufXwwhFJAUDa2p-JIinEdifN8srg7VFCnow/viewform?usp=pp_url",
-  entry_chapitre: "entry.1157134471 ",
-  entry_section:  "entry.1166179628 ",
-  entry_passage:  "entry.598475873 ",
+  // Pour chaque champ, colle son identifiant — avec ou sans le préfixe "entry." (les deux marchent) :
+  entry_chapitre: "entry.1157134471",
+  entry_section:  "entry.1166179628",
+  entry_passage:  "entry.598475873",
   entry_lien:     ""   // facultatif : ajoute un champ "Lien" au formulaire et colle ici son entry.XXXX pour recevoir l'URL exacte
 };
 const REPORT_CONFIGURED = REPORT_FORM.base.indexOf("VOTRE_") === -1
   && REPORT_FORM.entry_chapitre.indexOf("VOTRE_") === -1;
 
+function entryKey(k){
+  // tolère un identifiant collé avec OU sans le préfixe "entry."
+  if(!k) return k;
+  return /^entry\./.test(k) ? k : ("entry." + String(k).replace(/^entry\.?/, ""));
+}
 function reportFormUrl(passage){
   if(!REPORT_CONFIGURED) return null;
   const chap = chapById(state.chapitreId);
-  const sectionMap = { cours: "Cours", synthese: "Synthèse", points: "Points d'attention" };
+  const sectionMap = { cours: "Cours", synthese: "Synthèse", points: "Points d'attention", annales: "Annales" };
   let section = sectionMap[state.chapTab] || state.chapTab || "";
   if(state.chapTab === "cours" && state.ficheId && ficheById(state.ficheId)){
     section += " — " + ficheById(state.ficheId).titre;
@@ -485,11 +493,11 @@ function reportFormUrl(passage){
   let p = (passage || "").replace(/\s+/g, " ").trim();
   if(p.length > 600) p = p.slice(0, 600) + "…";
   const params = new URLSearchParams();
-  params.set(REPORT_FORM.entry_chapitre, chap ? chapLabel(chap) : "");
-  params.set(REPORT_FORM.entry_section, section);
-  params.set(REPORT_FORM.entry_passage, p);
-  if(REPORT_FORM.entry_lien && REPORT_FORM.entry_lien.indexOf("VOTRE_") === -1 && REPORT_FORM.entry_lien){
-    try{ params.set(REPORT_FORM.entry_lien, location.href); }catch(e){}
+  params.set(entryKey(REPORT_FORM.entry_chapitre), chap ? chapLabel(chap) : "");
+  params.set(entryKey(REPORT_FORM.entry_section), section);
+  params.set(entryKey(REPORT_FORM.entry_passage), p);
+  if(REPORT_FORM.entry_lien && REPORT_FORM.entry_lien.indexOf("VOTRE_") === -1){
+    try{ params.set(entryKey(REPORT_FORM.entry_lien), location.href); }catch(e){}
   }
   return REPORT_FORM.base + (REPORT_FORM.base.indexOf("?") === -1 ? "?" : "&") + params.toString();
 }
@@ -822,7 +830,20 @@ function renderDocumentation(){
   const codes = DATA.codes || [];
   app.innerHTML = `<div class="panel">
     <h1 class="page-title">Documentation</h1>
-    <h2 style="text-decoration:underline;color:var(--navy);font-family:var(--serif);">CODES</h2>
+    <h2 style="text-decoration:underline;color:var(--navy);font-family:var(--serif);">GUIDE D'UTILISATION</h2>
+    <p class="fiche-meta">Comment utiliser les principales fonctionnalités du site (cliquez pour déplier).</p>
+    <div class="partie-block">
+      <details class="doc-refs"><summary>Naviguer dans le site</summary><p>Le menu de gauche donne accès au <strong>Programme</strong> (les chapitres), aux <strong>Listes</strong> (les cartes de révision) et aux <strong>Tableaux</strong> comparatifs. En haut, les onglets <strong>Sujets</strong> (annales), <strong>Liens</strong> utiles et <strong>Documentation</strong> (cette page). Le titre « LE PRÉCIS » ramène à l'accueil.</p></details>
+      <details class="doc-refs"><summary>Rechercher</summary><p>La barre de recherche en haut affiche, dès 2 caractères, une <strong>liste de résultats classés</strong> : notions, fiches, articles de loi et tableaux. Naviguez au clavier (flèches haut/bas, Entrée pour ouvrir, Échap pour fermer) ou cliquez un résultat pour aller directement au bon endroit.</p></details>
+      <details class="doc-refs"><summary>Étudier un chapitre</summary><p>Chaque chapitre a quatre onglets : <strong>Cours</strong> (les fiches détaillées, avec un sommaire à gauche), <strong>Synthèse</strong> (le cours rédigé d'ensemble), <strong>Points d'attention</strong> (les attendus officiels du programme) et <strong>Annales</strong> (les questions d'examen déjà tombées sur ce chapitre).</p></details>
+      <details class="doc-refs"><summary>Fiches, références et tableaux</summary><p>Dans une fiche, les <strong>références</strong> (📎) ouvrent l'article directement sur <strong>Légifrance</strong> (⚖︎). Les <strong>tableaux liés</strong> et les <strong>cartes Q/R liées</strong> sont accessibles en bas de chaque fiche.</p></details>
+      <details class="doc-refs"><summary>Réviser avec les cartes (Q/R)</summary><p>Dans <strong>Listes</strong>, chaque carte question/réponse se déplie. Auto-évaluez-vous avec <strong>« ✓ Su »</strong> ou <strong>« ↻ À revoir »</strong> : un système de répétition espacée (Leitner) suit votre progression, visible par la barre en haut. Le bouton <strong>« S'interroger »</strong> lance un mode quiz.</p></details>
+      <details class="doc-refs"><summary>Annales et rattachement au programme</summary><p>L'onglet <strong>Sujets</strong> liste les annales, chacune <strong>rattachée au programme</strong> dossier par dossier, avec des liens vers les sources officielles (CRCF) et un corrigé commenté (Compta Online). Inversement, l'onglet <strong>Annales</strong> d'un chapitre montre les questions d'examen qui le concernent. Les sujets et corrigés ne sont pas hébergés : seuls des liens sont fournis.</p></details>
+      <details class="doc-refs"><summary>Confort de lecture</summary><p>Le bouton <strong>🌙 / ☀️</strong> (en haut) bascule en <strong>mode sombre</strong>, mémorisé. Sur un chapitre, <strong>« 🖨 Imprimer / PDF »</strong> imprime le contenu sans le menu. Chaque vue a sa <strong>propre adresse (URL)</strong> : vous pouvez la partager ou utiliser le bouton « précédent » du navigateur.</p></details>
+      <details class="doc-refs"><summary>Sauvegarder sa progression</summary><p>Votre progression (cartes sues, chapitres récents) est enregistrée dans votre navigateur. Dans <strong>Listes</strong>, vous pouvez l'<strong>exporter</strong> dans un fichier puis la <strong>réimporter</strong> — utile pour changer d'appareil ou ne rien perdre.</p></details>
+      <details class="doc-refs"><summary>Signaler une anomalie</summary><p>Une erreur ? <strong>Sélectionnez le passage</strong> concerné : une bulle <strong>« ⚠ Signaler ce passage »</strong> apparaît. Vous pouvez aussi utiliser le bouton <strong>« ⚠ Signaler une anomalie »</strong> en haut d'un chapitre. Le formulaire s'ouvre prérempli (chapitre, section, passage).</p></details>
+    </div>
+    <h2 style="text-decoration:underline;color:var(--navy);font-family:var(--serif);margin-top:30px;">CODES</h2>
     ${codes.map(c => {
       const refs = DATA.references_textes.filter(r => r.document === c.titre);
       return `<div class="partie-block">
