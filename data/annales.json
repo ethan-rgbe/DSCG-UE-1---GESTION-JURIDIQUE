@@ -6,43 +6,53 @@
     "url_sujet": "static/annales/dscg-ue1-2025-sujet.pdf",
     "url_corrige": "static/annales/dscg-ue1-2025-corrige.pdf",
     "sujet_disponible": false,
-    "corrige_disponible": false
+    "corrige_disponible": false,
+    "source_nom": "Compta Online",
+    "source_url": "https://www.compta-online.com/DSCGUE1"
   },
   {
     "annee": 2024,
     "session": "",
-    "themes": "",
+    "themes": "Dissolution-liquidation amiable · Liquidation judiciaire & insuffisance d'actif · Droit pénal (CAC, blanchiment) · Financement (OCA) & cession de titres",
     "url_sujet": "static/annales/dscg-ue1-2024-sujet.pdf",
     "url_corrige": "static/annales/dscg-ue1-2024-corrige.pdf",
     "sujet_disponible": false,
-    "corrige_disponible": false
+    "corrige_disponible": false,
+    "source_nom": "Compta Online",
+    "source_url": "https://www.compta-online.com/DSCGUE1"
   },
   {
     "annee": 2023,
     "session": "",
-    "themes": "",
+    "themes": "Cession de fonds de commerce & fiscalité · Contrat d'assurance · Abus de biens sociaux · Associations",
     "url_sujet": "static/annales/dscg-ue1-2023-sujet.pdf",
     "url_corrige": "static/annales/dscg-ue1-2023-corrige.pdf",
     "sujet_disponible": false,
-    "corrige_disponible": false
+    "corrige_disponible": false,
+    "source_nom": "Compta Online",
+    "source_url": "https://www.compta-online.com/DSCGUE1"
   },
   {
     "annee": 2022,
     "session": "",
-    "themes": "",
+    "themes": "Réduction de capital & fiscalité des PV · TVA internationale & crédit de taxe · Intégration fiscale & mère-fille · Commerce électronique (preuve, signature) · Exception d'inexécution & contrat d'entreprise · Contrôle des concentrations · Fonctionnement de la SAS",
     "url_sujet": "static/annales/dscg-ue1-2022-sujet.pdf",
     "url_corrige": "static/annales/dscg-ue1-2022-corrige.pdf",
     "sujet_disponible": false,
-    "corrige_disponible": false
+    "corrige_disponible": false,
+    "source_nom": "Compta Online",
+    "source_url": "https://www.compta-online.com/DSCGUE1"
   },
   {
     "annee": 2021,
     "session": "",
-    "themes": "",
+    "themes": "Intégration fiscale & territorialité IS · Contrôle fiscal (acte anormal, prescription) · Résolution du contrat · Concurrence déloyale & ententes · Groupe (participations réciproques, autocontrôle, GIE) · Transformation/fusion & responsabilité pénale",
     "url_sujet": "static/annales/dscg-ue1-2021-sujet.pdf",
     "url_corrige": "static/annales/dscg-ue1-2021-corrige.pdf",
     "sujet_disponible": false,
-    "corrige_disponible": false
+    "corrige_disponible": false,
+    "source_nom": "Compta Online",
+    "source_url": "https://www.compta-online.com/DSCGUE1"
   },
   {
     "annee": 2020,
@@ -51,6 +61,8 @@
     "url_sujet": "static/annales/dscg-ue1-2020-sujet.pdf",
     "url_corrige": "static/annales/dscg-ue1-2020-corrige.pdf",
     "sujet_disponible": false,
-    "corrige_disponible": false
+    "corrige_disponible": false,
+    "source_nom": "Compta Online",
+    "source_url": "https://www.compta-online.com/DSCGUE1"
   }
 ]
