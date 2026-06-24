@@ -120,6 +120,18 @@
   .sr-empty{padding:12px 14px;color:#8a8468;font-size:.85rem;}
   body.dark .search-results{background:#1b212a;}
   body.dark .sr-type{background:#262a31;}
+  .rt-details{margin-top:12px;}
+  .rt-details summary{cursor:pointer;font-size:.85rem;color:var(--navy);font-weight:600;}
+  .rt-dossier{margin:10px 0 4px;padding-left:2px;}
+  .rt-dtitre{font-size:.88rem;color:var(--navy);margin-bottom:3px;}
+  .rt-qlist{margin:2px 0 6px;padding-left:20px;}
+  .rt-qlist li{font-size:.84rem;margin:3px 0;color:var(--text);}
+  .rt-num{font-weight:700;color:#bf9000;margin-right:5px;}
+  .rt-art{color:#8a8468;font-size:.77rem;}
+  .rt-chap,.rt-notion{background:none;border:none;padding:0;font:inherit;color:#1f5fb0;cursor:pointer;text-decoration:underline;text-align:left;}
+  .rt-chap{font-size:.82rem;margin-left:4px;}
+  .rt-prog{color:#8a8468;font-size:.8rem;margin-left:4px;}
+  body.dark .rt-chap,body.dark .rt-notion{color:#7fb0ee;}
 
   main{padding:24px;max-width:1100px;margin:0 auto;}
   .layout{display:grid;grid-template-columns:260px 1fr;gap:28px;}
@@ -729,9 +741,31 @@ function renderSujets(){
   const ext = (url, txt) => url ? `<a class="sp-link" href="${url}" target="_blank" rel="noopener">${txt} ↗</a>` : '';
   const local = (url, dispo, txt) => (url && dispo !== false)
     ? `<a class="sp-link" href="${url}" target="_blank" rel="noopener">${txt} (PDF) ↗</a>` : '';
+  function rattachHtml(a){
+    if(!a.rattachement || !a.rattachement.length) return '';
+    const blocks = a.rattachement.map(d => {
+      const chap = d.chapitre_id ? chapById(d.chapitre_id) : null;
+      const cible = chap
+        ? `<button class="rt-chap" data-goto-chap="${chap.id}">→ ${srEsc(chap.titre)}</button>`
+        : `<span class="rt-prog">${srEsc([d.partie, d.sous_partie].filter(Boolean).join(' — '))}</span>`;
+      const qs = (d.questions||[]).map(q => {
+        const notion = q.notion_id ? notionById(q.notion_id) : null;
+        const objet = notion
+          ? `<button class="rt-notion" data-goto-notion="${notion.id}">${srEsc(q.objet)}</button>`
+          : srEsc(q.objet);
+        const arts = (q.articles && q.articles.length) ? ` — <span class="rt-art">${srEsc(q.articles.join(' · '))}</span>` : '';
+        return `<li><span class="rt-num">${srEsc(q.num)}</span>${objet}${arts}</li>`;
+      }).join('');
+      return `<div class="rt-dossier">
+        <div class="rt-dtitre"><strong>Dossier ${srEsc(String(d.dossier))}</strong>${d.intitule ? ' — ' + srEsc(d.intitule) : ''} ${cible}</div>
+        <ul class="rt-qlist">${qs}</ul>
+      </div>`;
+    }).join('');
+    return `<details class="doc-refs rt-details"><summary>Rattachement au programme</summary>${blocks}</details>`;
+  }
   app.innerHTML = `<div class="panel">
     <h1 class="page-title">Sujets d'examens</h1>
-    <p class="fiche-meta">Les sujets et corrigés ne sont pas hébergés sur ce site&nbsp;: ils sont publiés par des tiers (Compta&nbsp;Online, Ficheben) et restent leur propriété. Les liens ci-dessous renvoient vers leurs sites.</p>
+    <p class="fiche-meta">Les sujets et corrigés ne sont pas hébergés sur ce site&nbsp;: ils sont publiés par des tiers (Compta&nbsp;Online, Ficheben) et restent leur propriété. Les liens ci-dessous renvoient vers leurs sites. Le <strong>rattachement au programme</strong> est une analyse propre à l'éditeur&nbsp;; les libellés soulignés mènent au chapitre ou à la notion correspondante du site.</p>
     ${annales.length ? annales.map(a => {
       const src = a.source_url
         ? `<div class="sous-partie"><span class="sp-titre">Sujet &amp; corrigé</span> ${ext(a.source_url, 'Consulter sur ' + (a.source_nom || 'le site source'))}</div>`
@@ -743,10 +777,20 @@ function renderSujets(){
         <div class="ptitre">${label(a)}</div>
         ${src}
         ${hosted}
+        ${rattachHtml(a)}
       </div>`;
     }).join('') : "<p class=\"fiche-meta\">Aucun sujet n'a encore été ajouté.</p>"}
-    <p class="fiche-meta" style="margin-top:18px">Les corrigés sont des « éléments indicatifs » diffusés par des éditeurs privés&nbsp;: ils sont protégés et ne sont pas reproduits ici (voir les mentions légales). Les rattachements aux chapitres proposés sur ce site sont des analyses propres à l'éditeur.</p>
+    <p class="fiche-meta" style="margin-top:18px">Les corrigés sont des « éléments indicatifs » diffusés par des éditeurs privés&nbsp;: ils sont protégés et ne sont pas reproduits ici (voir les mentions légales).</p>
   </div>`;
+  app.querySelectorAll('[data-goto-chap]').forEach(b => b.onclick = () => {
+    state.chapitreId = b.dataset.gotoChap; state.view = 'chapitre'; state.chapTab = 'cours'; state.ficheId = null;
+    render(); window.scrollTo({top:0, behavior:'smooth'});
+  });
+  app.querySelectorAll('[data-goto-notion]').forEach(b => b.onclick = () => {
+    const n = notionById(b.dataset.gotoNotion); if(!n) return;
+    state.view = 'listes'; state.listesScope = 'chapitre'; state.listesChapitreId = n.chapitre_id;
+    render(); window.scrollTo({top:0, behavior:'smooth'});
+  });
 }
 
 // ============================================================
