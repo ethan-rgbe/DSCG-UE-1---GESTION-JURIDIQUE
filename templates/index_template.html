@@ -765,10 +765,13 @@ function renderSujets(){
   }
   app.innerHTML = `<div class="panel">
     <h1 class="page-title">Sujets d'examens</h1>
-    <p class="fiche-meta">Les sujets et corrigés ne sont pas hébergés sur ce site&nbsp;: ils sont publiés par des tiers (Compta&nbsp;Online, Ficheben) et restent leur propriété. Les liens ci-dessous renvoient vers leurs sites. Le <strong>rattachement au programme</strong> est une analyse propre à l'éditeur&nbsp;; les libellés soulignés mènent au chapitre ou à la notion correspondante du site.</p>
+    <p class="fiche-meta">Les sujets et corrigés ne sont pas hébergés sur ce site. La source <strong>officielle</strong> est le <strong>CRCF</strong> (les sujets appartiennent au ministère de l'Éducation nationale, les corrigés indicatifs au CRCF)&nbsp;; des rediffuseurs comme <strong>Compta&nbsp;Online</strong> proposent aussi des corrigés commentés. Les liens ci-dessous renvoient vers ces sites. Le <strong>rattachement au programme</strong> est une analyse propre à l'éditeur&nbsp;; les libellés soulignés mènent au chapitre ou à la notion correspondante du site.</p>
     ${annales.length ? annales.map(a => {
-      const src = a.source_url
-        ? `<div class="sous-partie"><span class="sp-titre">Sujet &amp; corrigé</span> ${ext(a.source_url, 'Consulter sur ' + (a.source_nom || 'le site source'))}</div>`
+      const srcs = (a.sources && a.sources.length)
+        ? a.sources.map(s => ext(s.url, s.nom)).filter(Boolean).join(' · ')
+        : (a.source_url ? ext(a.source_url, 'Consulter sur ' + (a.source_nom || 'le site source')) : '');
+      const src = srcs
+        ? `<div class="sous-partie"><span class="sp-titre">Sujet &amp; corrigé</span> ${srcs}</div>`
         : `<div class="sous-partie"><span class="sp-titre">Sujet &amp; corrigé</span> <span class="sp-link">lien à venir</span></div>`;
       const ls = local(a.url_sujet, a.sujet_disponible, 'Sujet');
       const lc = local(a.url_corrige, a.corrige_disponible, 'Corrigé');
@@ -877,6 +880,22 @@ function navTree(activeFicheId, chapitreId){
   return html;
 }
 
+function annalesForChapitre(chap){
+  const chapNotionIds = new Set(DATA.notions.filter(n => n.chapitre_id === chap.id).map(n => n.id));
+  const out = [];
+  (DATA.annales || []).forEach(a => {
+    const dossiers = [];
+    (a.rattachement || []).forEach(d => {
+      const whole = d.chapitre_id === chap.id;
+      const qs = whole ? (d.questions || [])
+        : (d.questions || []).filter(q => q.notion_id && chapNotionIds.has(q.notion_id));
+      if(qs.length) dossiers.push({ dossier: d.dossier, intitule: d.intitule, questions: qs });
+    });
+    if(dossiers.length) out.push({ annale: a, dossiers });
+  });
+  out.sort((x, y) => (y.annale.annee || 0) - (x.annale.annee || 0));
+  return out;
+}
 function renderChapitre(){
   const chapitre = chapById(state.chapitreId);
   if(!chapitre){
@@ -893,6 +912,7 @@ function renderChapitre(){
       <button data-ctab="cours" class="${state.chapTab==='cours'?'active':''}">COURS</button>
       <button data-ctab="synthese" class="${state.chapTab==='synthese'?'active':''}">SYNTHÈSE</button>
       <button data-ctab="points" class="${state.chapTab==='points'?'active':''}">POINTS D'ATTENTION</button>
+      <button data-ctab="annales" class="${state.chapTab==='annales'?'active':''}">ANNALES</button>
     </div><div class="report-row">
       <button class="print-btn">🖨 Imprimer / PDF</button>
       ${REPORT_CONFIGURED ? `<button class="report-btn">⚠ Signaler une anomalie</button><span class="report-hint">ou sélectionnez un passage</span>` : ''}
@@ -923,6 +943,38 @@ function renderChapitre(){
       ${!pa.sens_et_portee && !(pa.attendus_examen||[]).length ? '<p class="fiche-meta">Pas encore de contenu pour ce chapitre.</p>' : ''}
     </div>`;
     app.querySelectorAll('[data-ctab]').forEach(b => b.onclick = () => { state.chapTab = b.dataset.ctab; render(); });
+    return;
+  }
+
+  if(state.chapTab === 'annales'){
+    const matches = annalesForChapitre(chapitre);
+    const body = matches.length ? matches.map(m => {
+      const a = m.annale;
+      const srcLinks = (a.sources || []).map(s => `<a class="sp-link" href="${s.url}" target="_blank" rel="noopener">${srEsc(s.nom)} ↗</a>`).join(' · ');
+      const doss = m.dossiers.map(d => {
+        const qs = d.questions.map(q => {
+          const notion = q.notion_id ? notionById(q.notion_id) : null;
+          const objet = notion ? `<button class="rt-notion" data-annale-notion="${notion.id}">${srEsc(q.objet)}</button>` : srEsc(q.objet);
+          const arts = (q.articles && q.articles.length) ? ` — <span class="rt-art">${srEsc(q.articles.join(' · '))}</span>` : '';
+          return `<li><span class="rt-num">${srEsc(q.num)}</span>${objet}${arts}</li>`;
+        }).join('');
+        return `<div class="rt-dossier"><div class="rt-dtitre"><strong>Dossier ${srEsc(String(d.dossier))}</strong>${d.intitule ? ' — ' + srEsc(d.intitule) : ''}</div><ul class="rt-qlist">${qs}</ul></div>`;
+      }).join('');
+      return `<div class="partie-block"><div class="ptitre">DSCG ${srEsc(String(a.annee))}${a.session ? ' — ' + srEsc(a.session) : ''}</div>${srcLinks ? `<div class="sous-partie">${srcLinks}</div>` : ''}${doss}</div>`;
+    }).join('') : `<p class="fiche-meta">Aucune annale n'est encore rattachée à ce chapitre.</p>`;
+    app.innerHTML = `<div class="panel">
+      <div class="fiche-meta">${chapLabel(chapitre)}</div>
+      <h1 class="page-title">${chapitre.titre}</h1>
+      ${subtabsHtml}
+      <p class="fiche-meta">Questions d'examen rattachées à ce chapitre (analyse de l'éditeur). Les sujets et corrigés ne sont pas hébergés&nbsp;: les liens renvoient vers les sources (CRCF, Compta&nbsp;Online). Les libellés soulignés ouvrent les cartes de la notion correspondante.</p>
+      ${body}
+    </div>`;
+    app.querySelectorAll('[data-ctab]').forEach(b => b.onclick = () => { state.chapTab = b.dataset.ctab; render(); });
+    app.querySelectorAll('[data-annale-notion]').forEach(b => b.onclick = () => {
+      const n = notionById(b.dataset.annaleNotion); if(!n) return;
+      state.view = 'listes'; state.listesScope = 'chapitre'; state.listesChapitreId = n.chapitre_id;
+      render(); window.scrollTo({top:0, behavior:'smooth'});
+    });
     return;
   }
 
@@ -1176,7 +1228,7 @@ function renderMentions(){
       <h3>Propriété intellectuelle</h3>
       <p>Les textes de loi et codes officiels reproduits ou cités (Code de commerce, Code du travail, etc.) sont des actes publics non couverts par le droit d'auteur. Le Bulletin officiel cité est un document public.</p>
       <p>Les fiches de cours, synthèses et cartes de révision sont les productions propres de l'éditeur. Les sujets et corrigés officiels diffusés par le ministère restent la propriété de leur émetteur. <strong>Aucun corrigé d'éditeur privé</strong> (manuels, prépas) n'est reproduit ici&nbsp;: ces contenus sont protégés par le droit d'auteur.</p>
-      <p><strong>Sujets et corrigés d'examen (onglet « Sujets »)</strong>&nbsp;: ils ne sont pas hébergés ni reproduits sur ce site. Ils sont publiés par des tiers — notamment <strong>Compta Online</strong> et <strong>Ficheben</strong> — et demeurent leur propriété&nbsp;; l'onglet dédié se limite à fournir des <strong>liens</strong> vers leurs sites. Les analyses de rattachement de ces annales aux chapitres du programme, proposées sur ce site, sont des productions propres de l'éditeur et ne reproduisent pas les corrigés.</p>
+      <p><strong>Sujets et corrigés d'examen (onglet « Sujets »)</strong>&nbsp;: ils ne sont pas hébergés ni reproduits sur ce site. La source <strong>officielle</strong> est le <strong>CRCF</strong> (Réseau national Centre de ressources comptabilité finance)&nbsp;: les sujets sont la propriété du ministère de l'Éducation nationale et les corrigés indicatifs celle du CRCF. Des rediffuseurs (Compta&nbsp;Online, Ficheben…) proposent par ailleurs des corrigés commentés et demeurent propriétaires de leurs versions. L'onglet dédié se limite à fournir des <strong>liens</strong> vers ces sites. Les analyses de rattachement de ces annales aux chapitres du programme, proposées sur ce site, sont des productions propres de l'éditeur et ne reproduisent pas les corrigés.</p>
 
       <h3>Données personnelles</h3>
       <p>Ce site ne collecte aucune donnée personnelle sur un serveur et n'utilise pas de cookies de suivi. L'historique des derniers chapitres consultés ainsi que votre progression de révision (cartes « su / à revoir ») sont stockés uniquement dans votre navigateur (<em>localStorage</em>), restent sur votre appareil, et peuvent être effacés à tout moment en vidant les données du site.</p>
