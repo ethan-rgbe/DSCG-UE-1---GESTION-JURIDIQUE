@@ -799,7 +799,7 @@ function renderSujets(){
   }
   app.innerHTML = `<div class="panel">
     <h1 class="page-title">Sujets d'examens</h1>
-    <p class="fiche-meta">Les sujets et corrigés ne sont pas hébergés sur ce site. La source <strong>officielle</strong> est le <strong>CRCF</strong> (les sujets appartiennent au ministère de l'Éducation nationale, les corrigés indicatifs au CRCF)&nbsp;; des rediffuseurs comme <strong>Compta&nbsp;Online</strong> proposent aussi des corrigés commentés. Les liens ci-dessous renvoient vers ces sites. Le <strong>rattachement au programme</strong> est une analyse propre à l'éditeur&nbsp;; les libellés soulignés mènent au chapitre ou à la notion correspondante du site.</p>
+    <p class="fiche-meta">Les sujets et corrigés ne sont pas hébergés sur ce site. Les corrigés officiels (« éléments indicatifs ») sont diffusés par le <strong>CRCF</strong>, mais en <strong>accès réservé</strong> (compte Éducation nationale)&nbsp;; les liens ci-dessous renvoient donc vers <strong>Compta&nbsp;Online</strong>, librement consultable (téléchargement après inscription gratuite). Le <strong>rattachement au programme</strong> est une analyse propre à l'éditeur&nbsp;; les libellés soulignés mènent au chapitre ou à la notion correspondante du site.</p>
     ${annales.length ? annales.map(a => {
       const srcs = (a.sources && a.sources.length)
         ? a.sources.map(s => ext(s.url, s.nom)).filter(Boolean).join(' · ')
