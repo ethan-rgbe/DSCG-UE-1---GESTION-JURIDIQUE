@@ -27,7 +27,7 @@
 
   /* ===== Mode sombre ===== */
   body.dark{
-    --ink:#e6edf3; --navy:#cfe0ee; --blue-mid:#5aa6e8; --blue-soft:#7fb0d8;
+    --ink:#e6edf3; --navy:#bcd0e1; --blue-mid:#82a6c9; --blue-soft:#5f7f9c;
     --gold:#d4ad4f; --gold-soft:#e0bd66;
     --beige:#262a31; --beige-line:#363b44;
     --paper:#1b212a; --paper-line:#2b313b;
@@ -131,7 +131,7 @@
   .rt-chap,.rt-notion{background:none;border:none;padding:0;font:inherit;color:#1f5fb0;cursor:pointer;text-decoration:underline;text-align:left;}
   .rt-chap{font-size:.82rem;margin-left:4px;}
   .rt-prog{color:#8a8468;font-size:.8rem;margin-left:4px;}
-  body.dark .rt-chap,body.dark .rt-notion{color:#7fb0ee;}
+  body.dark .rt-chap,body.dark .rt-notion{color:#82a6c9;}
   .doc-refs > p{margin:6px 2px 2px;font-size:.88rem;line-height:1.55;color:var(--text);}
 
   main{padding:24px;max-width:1100px;margin:0 auto;}
@@ -140,6 +140,21 @@
     .layout{grid-template-columns:1fr;}
     .layout .panel{order:1;}
     .layout aside.nav-tree{order:2;border-right:none;border-top:1px solid var(--paper-line);padding-right:0;padding-top:18px;margin-top:18px;}
+  }
+  @media (max-width:640px){
+    main{padding:14px;}
+    .panel{padding:16px 14px;}
+    header.top1{padding:8px 12px;}
+    header.top2{padding:10px 14px;}
+    header.top1 nav.tabs-right button{padding:6px 9px;font-size:.74rem;}
+    .search-wrap{padding:12px 14px;}
+    .search-results{left:14px;right:14px;}
+    .tabs-sub button{padding:9px 12px;font-size:.82rem;}
+    .subtabs{flex-wrap:wrap;}
+    .sous-partie{flex-wrap:wrap;gap:4px 10px;}
+    .pdf-frame{height:300px;}
+    h1.page-title{font-size:1.45rem;}
+    #slideMenu{width:88%;right:-92%;}
   }
 
   aside.nav-tree{border-right:1px solid var(--paper-line);padding-right:18px;}
@@ -154,8 +169,8 @@
   .notion-group li a:hover, .notion-group li a.active{border-left-color:var(--blue-mid);background:var(--beige);text-decoration:none;}
 
   .panel{background:#ffffff;border:1px solid var(--paper-line);border-radius:4px;padding:22px 26px;}
-  .tabs-sub{display:flex;gap:6px;margin-bottom:18px;border-bottom:2px solid var(--beige-line);}
-  .tabs-sub button{background:transparent;border:none;padding:9px 16px;font:inherit;font-size:.9rem;font-weight:600;color:#8a8a8a;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-2px;}
+  .tabs-sub{display:flex;gap:6px;margin-bottom:18px;border-bottom:2px solid var(--beige-line);overflow-x:auto;-webkit-overflow-scrolling:touch;}
+  .tabs-sub button{flex:0 0 auto;white-space:nowrap;background:transparent;border:none;padding:9px 16px;font:inherit;font-size:.9rem;font-weight:600;color:#8a8a8a;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-2px;}
   .tabs-sub button.active{color:var(--navy);border-bottom-color:var(--navy);}
 
   h1.page-title{font-family:var(--serif);font-size:1.7rem;color:var(--navy);margin:0 0 4px;border-bottom:2px solid var(--blue-soft);padding-bottom:8px;}
@@ -1411,32 +1426,48 @@ if(REPORT_CONFIGURED){
   });
 
   let reportBubble = null;
+  let lastSelText = '';
   const hideBubble = () => { if(reportBubble) reportBubble.style.display = 'none'; };
-  document.addEventListener('mouseup', (e) => {
-    if(state.view !== 'chapitre'){ hideBubble(); return; }
+  function selectionWithinPanel(sel){
+    if(!sel || sel.rangeCount === 0) return false;
+    let node = sel.anchorNode;
+    if(node && node.nodeType === 3) node = node.parentElement;
+    return !!(node && node.closest && node.closest('#app .panel'));
+  }
+  function showBubbleFromSelection(){
+    if(!REPORT_CONFIGURED || state.view !== 'chapitre'){ hideBubble(); return; }
     const sel = window.getSelection ? window.getSelection() : null;
     const text = sel ? sel.toString().trim() : '';
-    const within = e.target.closest && e.target.closest('#app .panel');
-    if(text.length >= 8 && within){
-      if(!reportBubble){
-        reportBubble = document.createElement('button');
-        reportBubble.className = 'report-bubble';
-        reportBubble.textContent = '⚠ Signaler ce passage';
-        reportBubble.addEventListener('mousedown', ev => ev.preventDefault());
-        reportBubble.addEventListener('click', () => {
-          const t = window.getSelection ? window.getSelection().toString().trim() : '';
-          openReport(t); hideBubble();
-        });
-        document.body.appendChild(reportBubble);
-      }
-      reportBubble.style.display = 'block';
-      reportBubble.style.top = (window.scrollY + e.clientY + 12) + 'px';
-      reportBubble.style.left = (window.scrollX + e.clientX - 10) + 'px';
-    } else {
-      hideBubble();
+    if(text.length < 8 || !selectionWithinPanel(sel)){ hideBubble(); return; }
+    let rect;
+    try { rect = sel.getRangeAt(0).getBoundingClientRect(); } catch(e){ return; }
+    if(!rect || (!rect.width && !rect.height)) return;
+    lastSelText = text;
+    if(!reportBubble){
+      reportBubble = document.createElement('button');
+      reportBubble.className = 'report-bubble';
+      reportBubble.textContent = '⚠ Signaler ce passage';
+      reportBubble.addEventListener('mousedown', ev => ev.preventDefault());
+      reportBubble.addEventListener('touchstart', ev => ev.preventDefault(), {passive:false});
+      reportBubble.addEventListener('click', () => { openReport(lastSelText); hideBubble(); });
+      document.body.appendChild(reportBubble);
     }
+    reportBubble.style.display = 'block';
+    const vw = document.documentElement.clientWidth;
+    let left = window.scrollX + rect.left;
+    const maxLeft = window.scrollX + vw - reportBubble.offsetWidth - 10;
+    if(left > maxLeft) left = Math.max(window.scrollX + 8, maxLeft);
+    reportBubble.style.top = (window.scrollY + rect.bottom + 8) + 'px';
+    reportBubble.style.left = left + 'px';
+  }
+  document.addEventListener('mouseup', showBubbleFromSelection);
+  document.addEventListener('touchend', () => setTimeout(showBubbleFromSelection, 0));
+  let selDebounce = null;
+  document.addEventListener('selectionchange', () => {
+    clearTimeout(selDebounce);
+    selDebounce = setTimeout(showBubbleFromSelection, 350);
   });
-  document.addEventListener('scroll', () => { if(reportBubble) reportBubble.style.display = 'none'; }, true);
+  document.addEventListener('scroll', hideBubble, true);
 }
 
 // ----- Thème clair / sombre -----
