@@ -8,7 +8,7 @@
     "question": "Alerte déclenchée par le CAC — Conditions",
     "reponse": "Art. L. 234-1 (SA) · Art. L. 234-2 (autres sociétés) C. com. Le CAC déclenche la procédure d'alerte dès qu'il relève, à l'occasion de l'exercice de sa mission, des faits de nature à compromettre la continuité de l'exploitation. Condition unique : constatation de faits menaçant la continuité de l'exploitation. Exemples : trésorerie négative persistante, capitaux propres inférieurs à la moitié du capital social, contentieux fiscal majeur, perte de contrat principal",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-001",
@@ -85,7 +85,7 @@
     "question": "Alerte par les associés — Procédure",
     "reponse": "Commune à toutes formes sociétaires : Question écrite posée au dirigeant. Réponse du dirigeant dans le délai imparti (1 mois en SARL, réponse communiquée au CAC en SA). À défaut de réponse satisfaisante : transmission au CAC pour information. Possibilité de saisir le président du tribunal ou de convoquer une assemblée extraordinaire",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-008",
@@ -129,7 +129,7 @@
     "question": "Alerte par le président du tribunal — Obtention de renseignements auprès de tiers",
     "reponse": "Art. L. 611-2 I al. 2 C. com. Dès l'envoi de la convocation, le président du tribunal peut, nonobstant toute disposition législative ou réglementaire contraire, obtenir communication par : les commissaires aux comptes ; les membres du comité social et économique ; les administrations publiques ; les organismes de sécurité et de prévoyance sociales ; les services chargés de la centralisation des risques bancaires et des incidents de paiement des renseignements de nature à lui donner une exacte information sur la situation économique et financière du débiteur. Cette levée du secret professionnel est légalement autorisée — elle ne peut pas être refusée par les destinataires de la demande",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-012",
@@ -151,7 +151,7 @@
     "question": "Mandataire ad hoc — Missions",
     "reponse": "La mission est définie librement par le président du tribunal dans l'ordonnance de désignation. Elle peut inclure : Assister le débiteur dans l'analyse de sa situation financière ; Faciliter les négociations avec les créanciers (banques, fournisseurs, fiscalité, social) ; Rechercher un accord amiable sur un rééchelonnement des dettes ; Préparer la cession de l'entreprise ou d'une branche d'activité ; Aider à la mise en place d'un partenariat ou d'une levée de fonds. Le mandataire n'a aucun pouvoir de gestion — il intervient uniquement en conseil et médiation",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-014",
@@ -162,7 +162,7 @@
     "question": "Mandataire ad hoc — Intérêt",
     "reponse": "Le mandataire ad hoc est la solution idéale pour une entreprise confrontée à des difficultés ponctuelles et surmontables qui ne justifient pas encore une procédure collective. Ses avantages : Souplesse totale : aucune publicité, aucun délai imposé, mission sur mesure ; Préservation des relations commerciales : les partenaires ne sont pas informés sauf volonté du débiteur ; Pas de suspension automatique des poursuites : à la différence de la conciliation ou de la sauvegarde ; Accessible avant toute difficulté avérée : même préventivement",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-015",
@@ -173,7 +173,7 @@
     "question": "Conciliation – Entreprises concernées",
     "reponse": "Procédure ouverte aux personnes exerçant une activité commerciale ou artisanale, aux personnes morales de droit privé, et aux personnes physiques exerçant une activité professionnelle indépendante, y compris une profession libérale soumise à un statut législatif ou réglementaire ou dont le titre est protégé. Art. L. 611-4 et L. 611-5 C. com. Point de vigilance : l'activité agricole n'est pas concernée par la conciliation — les agriculteurs relèvent d'une procédure de règlement amiable propre au Code rural",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-016",
@@ -272,7 +272,7 @@
     "question": "Conciliation – Contenu de l'accord entre débiteur et créanciers",
     "reponse": "Remises de dettes, partielles ou totales, ou échelonnement des paiements, de concours bancaires, de restructuration de l'entreprise débitrice, par exemple",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-025",
@@ -283,7 +283,7 @@
     "question": "Conciliation – Objectif de l'accord entre débiteur et créanciers",
     "reponse": "Mettre fin aux difficultés de l'entreprise débitrice",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-026",
@@ -305,7 +305,7 @@
     "question": "Conciliation – Moyens",
     "reponse": "Conclusion d'un accord avec des opérateurs économiques privés ou publics",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-028",
@@ -316,7 +316,7 @@
     "question": "Conciliation – Sujet des poursuites",
     "reponse": "Le conciliateur ne peut pas demander la suspension des poursuites exercées par un ou plusieurs créanciers — à la différence de l'administrateur en sauvegarde ou redressement",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-029",
@@ -327,7 +327,7 @@
     "question": "Conciliation – Cas d'un créancier qui exerce son droit de poursuite ou qui met en demeure le débiteur de s'exécuter",
     "reponse": "Le juge peut, compte tenu de la situation du débiteur et en considération des besoins du créancier, reporter ou échelonner, dans la limite de deux années, le paiement des sommes dues. Il peut subordonner cette mesure à l'accomplissement, par le débiteur, d'actes propres à faciliter ou garantir le paiement. La décision suspend les procédures d'exécution engagées par le créancier, et les majorations/pénalités de retard ne sont pas encourues pendant ce délai. Exclusion : dettes d'aliments. Art. 1343-5 C. civ",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-030",
@@ -338,7 +338,7 @@
     "question": "Conciliation – Bénéficiaires des délais de paiement imposés par le juge",
     "reponse": "L'entreprise débitrice et les personnes coobligées",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-031",
@@ -404,7 +404,7 @@
     "question": "Conciliation – Le mandataire à l'exécution de l'accord",
     "reponse": "Le conciliateur est potentiellement nommé, après homologation de l'accord, pour en contrôler l'application",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-037",
@@ -492,7 +492,7 @@
     "question": "Confusion de patrimoines – définition",
     "reponse": "Deux personnes physiques ou morales se sont comportées comme si elles avaient le même patrimoine",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-045",
@@ -503,7 +503,7 @@
     "question": "Confusion de patrimoine – justification de l'extension de la sauvegarde",
     "reponse": "Justifiée par le préjudice anormal subi par les créanciers quand le patrimoine de leur débiteur est appauvri du fait de cette confusion",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-046",
@@ -514,7 +514,7 @@
     "question": "Confusion de patrimoine – Charge de la preuve",
     "reponse": "Elle incombe à la personne qui invoque la confusion de patrimoines",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-047",
@@ -525,7 +525,7 @@
     "question": "Confusion de patrimoine – Moyens de preuve (selon la jurisprudence)",
     "reponse": "Prouver une imbrication des actifs et des dettes des deux partenaires ou une confusion des comptes ; prouver l'entretien de relations financières anormales, par exemple de multiples transferts d'actifs sans contrepartie au détriment de celui qui fait l'objet de l'extension de procédure. (Critères dégagés par la jurisprudence de la Cour de cassation, non textuels.)",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-048",
@@ -536,7 +536,7 @@
     "question": "Fictivité de la personne morale – Correspondance",
     "reponse": "Société écran — structure sans réalité économique ni autonomie de fonctionnement, créée pour masquer l'activité réelle d'une autre personne",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-049",
@@ -547,7 +547,7 @@
     "question": "Extension de la procédure de sauvegarde – Situation des entreprises visées",
     "reponse": "La situation financière des entreprises visées par l'extension n'a pas à être vérifiée — l'extension est fondée sur la confusion des patrimoines ou la fictivité, pas sur l'état de difficulté de l'entité visée par l'extension",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-050",
@@ -569,7 +569,7 @@
     "question": "Sauvegarde de l'entreprise – jugement d'ouverture de la procédure",
     "reponse": "Délivré par le tribunal matériellement et territorialement compétent",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-052",
@@ -580,7 +580,7 @@
     "question": "Jugement d'ouverture de la sauvegarde de l'entreprise – compétence territoriale des tribunaux",
     "reponse": "Pour les personnes physiques → ressort de l'adresse déclarée ; pour les personnes morales → ressort du siège social",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-053",
@@ -591,7 +591,7 @@
     "question": "Jugement d'ouverture de la sauvegarde de l'entreprise – compétence matérielle des tribunaux",
     "reponse": "Activité commerciale ou artisanale → tribunal de commerce ; activité agricole ou libérale → tribunal judiciaire. Art. L. 621-2 et L. 721-3 C. com. (pour le tribunal de commerce)",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-054",
@@ -635,7 +635,7 @@
     "question": "Juge commissaire – rôle",
     "reponse": "Veiller au déroulement rapide de la procédure et à la protection des intérêts en présence",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-058",
@@ -646,7 +646,7 @@
     "question": "Mandataire judiciaire – rôle",
     "reponse": "Assurer la défense des intérêts des créanciers ; liquidateur en cas de procédure de liquidation judiciaire",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-059",
@@ -712,7 +712,7 @@
     "question": "Contrôleurs – définition",
     "reponse": "Assiste le mandataire judiciaire dans ses fonctions et le juge-commissaire dans sa mission de surveillance de l'administration de l'entreprise",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-065",
@@ -723,7 +723,7 @@
     "question": "Contrôleurs – désignation",
     "reponse": "La désignation, par le juge-commissaire, d'un ou plusieurs contrôleurs (cinq au maximum) parmi les créanciers n'est obligatoire que si ces derniers en font la demande",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-066",
@@ -734,7 +734,7 @@
     "question": "Experts – rôle",
     "reponse": "Renseigner le tribunal sur la situation économique, financière et sociale de l'entreprise",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-067",
@@ -745,7 +745,7 @@
     "question": "Experts – désignation",
     "reponse": "Par le tribunal",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-068",
@@ -756,7 +756,7 @@
     "question": "Sauvegarde - publicité du jugement d'ouverture – conséquences",
     "reponse": "Début du délai de forclusion + opposabilité aux tiers",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-069",
@@ -767,7 +767,7 @@
     "question": "Sauvegarde – voies de recours – effets",
     "reponse": "La procédure est exécutoire de plein droit à titre provisoire dans tous les cas",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-070",
@@ -778,7 +778,7 @@
     "question": "Sauvegarde – voies de recours – deux options",
     "reponse": "Options ALTERNATIVES : Appel ou pourvoi en cassation par le débiteur, l'éventuel créancier ou le ministère public ; La tierce opposition, dans les 10 jours suivant la publication au BODACC, par un acteur qui n'a pas été partie à l'instance",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-071",
@@ -811,7 +811,7 @@
     "question": "Sauvegarde – Gestion de l'entreprise",
     "reponse": "Synthèse des art. L. 622-1, L. 622-3, L. 622-7 et L. 622-13 C. com. : l'administration de l'entreprise est assurée par son dirigeant (art. L. 622-1, I), qui continue à exercer sur son patrimoine les actes de disposition et d'administration non compris dans la mission de l'administrateur (art. L. 622-3) ; les actes de gestion courante qu'il accomplit seul restent valables à l'égard des tiers de bonne foi, sous réserve des règles de l'art. L. 622-7 (interdiction de payer les créances antérieures) et de l'art. L. 622-13 (poursuite des contrats en cours, qui relève de la seule initiative de l'administrateur). Art. L. 622-1, L. 622-3, L. 622-7, L. 622-13 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-074",
@@ -833,7 +833,7 @@
     "question": "Sauvegarde – Pouvoir du débiteur pendant la période d'observation – Actes de gestion",
     "reponse": "Pouvoirs réduits, contrôle a priori de l'administrateur qui autorise ou non les actes (lorsqu'il a une mission d'assistance)",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-076",
@@ -844,7 +844,7 @@
     "question": "Sauvegarde – Pouvoir du débiteur pendant la période d'observation – Autres missions",
     "reponse": "L'administrateur dispose de pouvoirs spécifiques, comme la possibilité d'exiger la poursuite des contrats en cours. Art. L. 622-13, II C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-077",
@@ -866,7 +866,7 @@
     "question": "Sauvegarde – Sort des créances antérieures - Principe",
     "reponse": "Interdiction de payer toute créance née antérieurement au jugement d'ouverture (art. L. 622-7, I). Implique la suspension des poursuites individuelles de ces créanciers antérieurs, sous peine de nullité outre sanctions pénales. Art. L. 622-7, I et III C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-079",
@@ -877,7 +877,7 @@
     "question": "Sauvegarde – Sort des créances antérieures – Exceptions (3)",
     "reponse": "Exceptions ALTERNATIVES à l'interdiction de payer les créances antérieures : Le paiement par compensation de créances connexes ; Le paiement des créances alimentaires ; Les paiements autorisés par le juge-commissaire : retrait d'un gage ou d'une chose retenue, retour de biens transférés en garantie dans un patrimoine fiduciaire, ou levée d'option d'achat d'un crédit-bail, lorsque ce paiement est justifié par la poursuite de l'activité. Art. L. 622-7, I et II C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-080",
@@ -888,7 +888,7 @@
     "question": "Le mécanisme de la compensation",
     "reponse": "Mécanisme d'extinction simultanée de deux dettes réciproques entre les mêmes personnes. Dans le cadre de la procédure collective, seule la compensation de créances connexes (nées d'un même contrat ou d'un ensemble contractuel unique) échappe à l'interdiction de payer les créances antérieures — la compensation entre créances non connexes reste, elle, soumise à l'interdiction. Art. L. 622-7, I C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-081",
@@ -899,7 +899,7 @@
     "question": "Sauvegarde – Actes contrôlés",
     "reponse": "Autorisation du juge-commissaire nécessaire pour les actes ne relevant pas de la gestion courante. Art. L. 622-7, II C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-082",
@@ -910,7 +910,7 @@
     "question": "Sauvegarde – Poursuite des contrats en cours - principe",
     "reponse": "« Nonobstant toute disposition légale ou toute clause contractuelle, aucune indivisibilité, résiliation ou résolution d'un contrat en cours ne peut résulter du seul fait de l'ouverture d'une procédure de sauvegarde ». Le cocontractant doit remplir ses obligations malgré le défaut d'exécution par le débiteur d'engagements antérieurs au jugement d'ouverture ; ce défaut d'exécution n'ouvre droit, pour le créancier, qu'à déclaration au passif. Art. L. 622-13, I C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-083",
@@ -932,7 +932,7 @@
     "question": "Sauvegarde – Poursuite des contrats en cours – modalités de l'option",
     "reponse": "Le choix de poursuivre ou non appartient à l'administrateur seul, « qui a seul la faculté d'exiger l'exécution des contrats en cours en fournissant la prestation promise au cocontractant ». S'il ne se prononce pas, le cocontractant peut le mettre en demeure de prendre parti ; à défaut de réponse dans le délai d'un mois, le contrat est résilié de plein droit. Le juge-commissaire peut, avant l'expiration de ce délai, l'écourter ou le prolonger sans excéder deux mois. Art. L. 622-13, II et III, 1° C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-085",
@@ -943,7 +943,7 @@
     "question": "Sauvegarde – Poursuite des contrats en cours – Obligation et garanties du cocontractants",
     "reponse": "Obligation de s'exécuter, avec pour garantie que les engagements du débiteur sont exécutés comme prévu dans la convention. La prestation correspond à celle prévue avant l'ouverture de la procédure. Art. L. 622-13, I et II C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-086",
@@ -954,7 +954,7 @@
     "question": "Sauvegarde - Poursuite des contrats en cours - Sanctions",
     "reponse": "Résiliation de plein droit, sauf accord du cocontractant quant à l'exécution du contrat — notamment à défaut de réponse de l'administrateur dans le délai d'un mois suivant mise en demeure, ou à défaut de paiement dans les conditions du II. Art. L. 622-13, III C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-087",
@@ -987,7 +987,7 @@
     "question": "Sauvegarde – Créances postérieures au jugement d'ouverture – privilège de procédure",
     "reponse": "Les créances nées régulièrement après le jugement d'ouverture, pour les besoins du déroulement de la procédure ou de la période d'observation, ou en contrepartie d'une prestation fournie au débiteur pendant cette période, sont payées à leur échéance (I) ; à défaut, elles sont payées par privilège avant toutes les autres créances, à l'exception du superprivilège des salaires, des frais de justice postérieurs et du privilège de conciliation (II). Art. L. 622-17, I et II C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-090",
@@ -998,7 +998,7 @@
     "question": "Sauvegarde – Créances postérieures au jugement d'ouverture – Droit à l'échéance",
     "reponse": "Si les fonds disponibles sont suffisants, paiement à l'échéance normale. Art. L. 622-17, I C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-091",
@@ -1009,7 +1009,7 @@
     "question": "Sauvegarde – Créances postérieures au jugement d'ouverture – Droit à un paiement prioritaire",
     "reponse": "Si les fonds disponibles sont insuffisants, elles sont payées en priorité selon un rang déterminé (voir classement ci-dessous). Art. L. 622-17, II et III C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-092",
@@ -1020,7 +1020,7 @@
     "question": "Sauvegarde – Classement des créanciers postérieurs par ordre de priorité",
     "reponse": "Classement fixé par l'art. L. 622-17, III C. com. : Rang Nature de la créance 1er rang (Superprivilège) Créances de salaires dont le montant n'a pas été avancé par l'AGS (art. L. 3253-6, L. 3253-8 à L. 3253-12 C. trav.) 2e rang Créances résultant d'un nouvel apport de trésorerie consenti en vue d'assurer la poursuite de l'activité pour la durée de la procédure (ordonnance du 15/09/2021) 3e rang Créances résultant de l'exécution des contrats poursuivis (art. L. 622-13) dont le cocontractant accepte un paiement différé 4e rang Autres créances, selon leur rang Art. L. 622-17, III C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-093",
@@ -1031,7 +1031,7 @@
     "question": "Sauvegarde – détermination du patrimoine du débiteur – Actif principe",
     "reponse": "Déterminé par la réalisation d’un inventaire précis des biens. L’actif réel dépend de deux procédure post jugement d’ouverture : 1 / les actions en nullité de la période suspecte (pour le redressement judiciaire et la liquidation judiciaire uniquement) ; 2 / les actions en revendication (pouvant être exercée durant les procédures de traitement des difficultés)",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-094",
@@ -1042,7 +1042,7 @@
     "question": "Sauvegarde – détermination du patrimoine du débiteur – Actif propriétaire d'immeubles",
     "reponse": "Les propriétaires des immeubles peuvent revendiquer leurs biens si leur droit est contesté, aucune discipline particulière",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-095",
@@ -1053,7 +1053,7 @@
     "question": "Sauvegarde – détermination du patrimoine du débiteur – Biens pouvant faire l’objet d’une revendication",
     "reponse": "Bien meuble du fait d’un contrat de dépôt, un prêt à l’usage, location, vente avec clause de réserve de propriété",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-096",
@@ -1064,7 +1064,7 @@
     "question": "Sauvegarde – détermination du patrimoine du débiteur – Actif propriétaire de biens meubles",
     "reponse": "Les propriétaires des meubles sont soumis à des règles strictes pour la revendication de leur bien. 2 cas majeurs : 1 / Si le bien meuble que le créancier a mis à disposition de l’entreprise débitrice a été vendu → revendication de tout ou partie du prix qui n’a pas encore été payé par le tiers acquéreur (subrogation réelle, le créancier est payé directement par l’acquéreur). Attention toutefois à l’état de la chose vendu (pour que la revendication puisse se faire il faut que le bien ait été vendu dans son état initial) ; 2 / Si le bien meuble a été détruit → demande pouvant être faite sur l’indemnité d’assurance versée au débiteur",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-097",
@@ -1097,7 +1097,7 @@
     "question": "Sauvegarde – Règles applicables à la déclaration des créances (5)",
     "reponse": "Présentation par hypothèse, en s'appuyant sur l'art. L. 622-24, al. 1 C. com. : Principe : à partir de la publication du jugement, tous les créanciers dont la créance est née antérieurement au jugement d'ouverture, à l'exception des salariés, adressent la déclaration de leur créance au mandataire judiciaire ; Créances titulaires d'une sûreté publiée ou liées au débiteur par un contrat publié : le délai de déclaration court à compter de la réception d'un avis personnel adressé par le mandataire judiciaire (et non de la seule publication du jugement) ; Créance postérieure au jugement d'ouverture non couverte par le privilège de l'art. L. 622-17 : déclaration obligatoire selon des modalités propres ; Créance civile née d'une infraction pénale : régime déclaratif particulier (point de départ du délai lié à la décision relative à l'existence et au montant de la créance) ; Créanciers qui ne demeurent pas en France métropolitaine : délai de déclaration allongé par décret (en principe 2 mois). Créanciers résultant de la réalisation d’ un contrat en cours : délai de 1 mois pour le cocontractant à partir de la réalisation de plein droit ou de la date de notification de la décision prononçant la réalisation",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-100",
@@ -1108,7 +1108,7 @@
     "question": "Sauvegarde – Règles applicables à la déclaration des créances – Le cas des salariés",
     "reponse": "Les créances résultant d'un contrat de travail ne sont pas déclarées par le salarié : elles sont établies par le mandataire judiciaire sous forme de relevés des créances, soumis au représentant des salariés puis visés par le juge-commissaire et déposés au greffe. Le salarié dont la créance ne figure pas sur le relevé peut saisir, à peine de forclusion, le conseil de prud'hommes dans un délai de deux mois à compter de la mesure de publicité. Art. L. 625-1 et L. 625-6 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-101",
@@ -1130,7 +1130,7 @@
     "question": "Sauvegarde – Règles applicables à la déclaration des créances – La forclusion",
     "reponse": "À défaut de déclaration dans les délais, les créanciers ne sont pas admis dans les répartitions et les dividendes, sauf relevé de forclusion par le juge-commissaire s'ils établissent que leur défaillance n'est pas due à leur fait ou qu'elle résulte d'une omission du débiteur. L'action en relevé de forclusion ne peut être exercée que dans le délai de six mois à compter de la publication du jugement d'ouverture (ou, pour les créances salariales garanties par l'AGS, de l'expiration du délai de garantie). Art. L. 622-26, al. 1 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-103",
@@ -1152,7 +1152,7 @@
     "question": "Sauvegarde – Règles applicables à la déclaration des créances – La consultation de la répertorisation des décisions du juge commissaire (2 cas d'admission)",
     "reponse": "Meilleure correspondance trouvée après recherche complémentaire : les décisions du juge-commissaire sur l'admission des créances sont portées sur l'état des créances déposé au greffe. Toute personne intéressée peut former une réclamation ou une tierce opposition contre ces décisions. Deux cas d'admission distincts apparaissent dans le corpus consulté : l'admission ordinaire par le juge-commissaire après vérification du mandataire judiciaire, et l'admission définitive de créances admises à titre provisionnel (notamment à la requête du Trésor public, une fois le titre exécutoire obtenu ou la créance non contestée). C’est le juge commissaire qui tranche en cas de contestation (la décision peut toujours être contestée dans les 10 jours suivants la notification). Art. L. 625-6 et R. 624-6 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-105",
@@ -1174,7 +1174,7 @@
     "question": "Sauvegarde – Le dénouement de la procédure – préparation du bilan",
     "reponse": "Étapes : bilan économique et social dressé par l'administrateur avec le concours du débiteur, précisant l'origine, l'importance et la nature des difficultés — complété d'un bilan environnemental pour les installations classées (art. L. 623-1) ; contenu du projet de plan établi par le débiteur avec le concours de l'administrateur, déterminant les perspectives de redressement et les modalités de règlement du passif (art. L. 626-2) ; classes de parties affectées pour les entreprises dépassant des seuils fixés par décret (art. L. 626-29 et L. 626-30) ; information et consultation des représentants du personnel sur le projet. Art. L. 623-1, L. 626-2, L. 626-29, L. 626-30 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-107",
@@ -1185,7 +1185,7 @@
     "question": "Sauvegarde – Le dénouement de la procédure – Adoption du plan de sauvegarde",
     "reponse": "Le tribunal arrête le plan après s'être assuré du sérieux de la possibilité de sauvegarde ; pour les entreprises soumises au système des classes de parties affectées, seules les parties affectées se prononcent sur le projet de plan, réparties en classes représentatives d'une communauté d'intérêt économique suffisante. Art. L. 626-1, L. 626-30 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-108",
@@ -1207,7 +1207,7 @@
     "question": "Sauvegarde – Le dénouement de la procédure – Effet du plan de sauvegarde",
     "reponse": "Durée : 10 ans maximum (15 ans pour une exploitation agricole). Pouvoirs du débiteur : il retrouve la pleine administration de son entreprise, sous le contrôle du commissaire à l'exécution du plan. Organes : désignation d'un commissaire à l'exécution du plan, chargé de veiller à sa bonne exécution et de répartir les fonds entre les créanciers. Conséquences en cas d'inexécution : résolution du plan pouvant être prononcée par le tribunal. Conséquences en cas d'échec : ouverture d'un redressement ou d'une liquidation judiciaire",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-110",
@@ -1229,7 +1229,7 @@
     "question": "Sauvegarde – Sauvegarde accélérée – Régime général",
     "reponse": "Articulation des deux procédures : la sauvegarde accélérée présuppose une conciliation en cours (art. L. 628-1, al. 2). Domaine d'application : tout débiteur éligible à la sauvegarde, sous condition de certification des comptes. Conditions d'ouverture : projet de plan élaboré pendant la conciliation, soutien suffisamment large prévisible ; la cessation des paiements ne fait pas obstacle à l'ouverture si elle ne précède pas de plus de 45 jours la demande d'ouverture de la conciliation préalable (sinon le ministère public peut saisir le tribunal pour y mettre fin, art. L. 628-5). Art. L. 628-1 et L. 628-5 C. com. Déclaration des créances : le débiteur établit une liste des créances de chaque partie affectée ayant participé à la conciliation, certifiée par le CAC ou attestée par l'expert-comptable, déposée au greffe ; son dépôt vaut déclaration au nom des parties affectées qui n'ont pas elles-mêmes déclaré (art. L. 628-7). Particularités de la continuation des contrats en cours : les III et IV de l'art. L. 622-13 (délai de mise en demeure et option d'achat de crédit-bail) ne sont pas applicables en sauvegarde accélérée (art. L. 628-1, al. 1). Éviction de la revendication de meubles : les sections 3 et 4 du chapitre IV (relatives à la revendication de certains biens meubles) ne sont pas applicables non plus (art. L. 628-1, al. 1). Adoption du plan : le tribunal doit l'arrêter dans un délai de deux mois à compter du jugement d'ouverture, prorogeable à la demande du débiteur et de l'administrateur judiciaire sans que la durée totale ne puisse excéder quatre mois — à défaut, le tribunal met fin à la procédure. Art. L. 628-7 et L. 628-8 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-112",
@@ -1240,7 +1240,7 @@
     "question": "Redressement judiciaire - définition",
     "reponse": "Procédure applicable à tout débiteur en cessation des paiements dont le redressement n'est pas manifestement impossible, destinée à permettre la poursuite de l'activité, le maintien de l'emploi et l'apurement du passif (art. L. 631-1, par renvoi des principes de la sauvegarde). La procédure dure le temps d'une période d'observation (art. L. 621-3, applicable par renvoi de l'art. L. 631-7) avant l'adoption éventuelle d'un plan de redressement, qui peut comporter des classes de parties affectées selon les seuils des art. L. 626-29 et L. 626-30 (rendus applicables par l'art. L. 631-19). Art. L. 631-2, L. 621-3, L. 626-29, L. 626-30 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-113",
@@ -1251,7 +1251,7 @@
     "question": "Redressement judiciaire – Ouverture de la procédure – Entreprises concernées",
     "reponse": "Toute personne exerçant une activité commerciale, artisanale ou agricole (au sens de l'art. L. 311-1 du Code rural), toute personne physique exerçant une activité professionnelle indépendante (y compris profession libérale réglementée), ainsi que toute personne morale de droit privé. Également applicable après la cessation de l'activité si le passif provient de cette dernière. Art. L. 631-2 et L. 631-3 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-114",
@@ -1284,7 +1284,7 @@
     "question": "Redressement judiciaire – Déroulement de la procédure – Période d'observation",
     "reponse": "Mesure non facultative (elle s'ouvre de plein droit avec le jugement d'ouverture, contrairement à ce qu'une formulation rapide pourrait suggérer). Durée : 6 mois, renouvelable une fois (12 mois maximum en principe), avec une prolongation exceptionnelle de 6 mois possible sur demande du procureur de la République (soit 18 mois maximum). ⚠️ Ce qui est facultatif, c'est la désignation d'un administrateur judiciaire en deçà des seuils de 20 salariés/3 M€ de CA (art. R. 621-3), pas la période d'observation elle-même. Art. L. 621-3 (par renvoi) et L. 631-7 C. com. La période d’observation peut être interrompue si : le tribunal estime que le redressement judiciare est manifestement impossible ou alors si le débiteur dispose des sommes suffisantes pour désintéresser les créanciers et acquitter les frais et dettes afférents à la procédure",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-117",
@@ -1317,7 +1317,7 @@
     "question": "Redressement judiciaire – Déroulement de la procédure – Droits des créanciers",
     "reponse": "Créanciers antérieurs : mêmes règles que la sauvegarde (interdiction de payer, arrêt des poursuites, arrêt du cours des intérêts, déclaration des créances — art. L. 622-7, L. 622-21 et s., L. 622-28). Créanciers postérieurs : mêmes règles de privilège qu'en sauvegarde (art. L. 622-17), payés à l'échéance ou par privilège selon le même classement par rang. Art. L. 622-7, L. 622-17, L. 622-28 C. com. (applicables par renvoi)",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-120",
@@ -1328,7 +1328,7 @@
     "question": "Redressement judiciaire – Déroulement de la procédure – Détermination du patrimoine du débiteur",
     "reponse": "Actif (deux actions possibles) : demande en revendication (art. L. 624-17, par renvoi) et action en nullité de la période suspecte. Nullités de la période suspecte — nullités de droit (liste d'actes obligatoirement annulés : actes à titre gratuit translatifs de propriété, paiements de dettes non échues, sûretés constituées pour dettes antérieures, etc. — art. L. 632-1) ; nullités facultatives (actes que le tribunal peut annuler : paiements de dettes échues et actes à titre onéreux conclus par un cocontractant ayant connaissance de la cessation des paiements — art. L. 632-2). Passif : déclaration et vérification des créances selon les mêmes règles qu'en sauvegarde. Art. L. 624-17, L. 632-1, L. 632-2 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-121",
@@ -1339,7 +1339,7 @@
     "question": "Redressement judiciaire – Dénouement de la procédure – Le plan de redressement",
     "reponse": "Choix du tribunal : plan de continuation ou plan de cession (totale ou partielle). Préparation : L'administrateur, avec le concours du débiteur, élabore le projet de plan et le présente, le cas échéant, aux classes de parties affectées (art. L. 631-19, I). Adoption : par le tribunal, après vote des classes ou, à défaut d'approbation, sur demande du débiteur/administrateur avec son accord/une partie affectée — le plan peut alors être imposé aux classes qui ont voté contre (art. L. 631-19). Contenu : identique au plan de sauvegarde (apurement du passif, restructuration...). Licenciement économique : possible pendant la période d'observation sur autorisation du juge-commissaire (art. L. 631-17, applicable). Remplacement des dirigeants : peut être prévu par le plan dans des conditions spécifiques au redressement. Droits des créanciers contre les garants : maintenus. Modification du capital : en cas de refus des assemblées d'adopter une augmentation de capital prévue par le plan, et sous conditions strictes (entreprise d'au moins 150 salariés, trouble grave à l'économie, délai de 3 mois après le jugement d'ouverture), le tribunal peut désigner un mandataire chargé de voter l'augmentation de capital à la place des associés opposants — l'augmentation devant être réalisée dans un délai maximal de 30 jours (art. L. 631-19-2). Effets du plan : identiques à la sauvegarde. Hypothèse du retour à la cessation des paiements : si la cessation des paiements est constatée pendant l'exécution du plan, le tribunal résout le plan et ouvre une liquidation judiciaire, après avoir examiné si une procédure de rétablissement professionnel est possible (art. L. 631-20). Art. L. 631-17, L. 631-19, L. 631-19-2, L. 631-20 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-122",
@@ -1361,7 +1361,7 @@
     "question": "Liquidation judiciaire – Principes généraux",
     "reponse": "Objectifs : mettre fin à l'activité ou réaliser le patrimoine du débiteur (art. L. 640-1). Cessation ou maintien de l'activité : en principe l'activité cesse, mais un maintien provisoire (3 mois maximum, renouvelable une fois) peut être autorisé si une cession totale/partielle est envisageable (art. L. 641-10). Liquidation judiciaire simplifiée : régime allégé applicable aux petites structures (voir fiche dédiée). Art. L. 640-1, L. 641-10 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-124",
@@ -1372,7 +1372,7 @@
     "question": "Liquidation judiciaire – Ouverture et prononcé de la liquidation judiciaire – ouverture sans période d'observation",
     "reponse": "Entreprises concernées : toute personne exerçant une activité commerciale, artisanale ou agricole, toute personne physique exerçant une activité professionnelle indépendante (y compris libérale réglementée), toute personne morale de droit privé (art. L. 640-2). Degré de difficulté justifiant la liquidation judiciaire (ALTERNATIF, deux cas) : Le débiteur est en cessation des paiements et son redressement est manifestement impossible dès l'ouverture (liquidation judiciaire directe, sans période d'observation) ; La cessation des paiements est constatée en cours d'exécution d'un plan de sauvegarde ou de redressement, et le rétablissement professionnel n'est pas possible (conversion, art. L. 631-20). Art. L. 640-1, L. 640-2 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-125",
@@ -1394,7 +1394,7 @@
     "question": "Liquidation judiciaire – déroulement de la procédure",
     "reponse": "Pouvoirs du débiteur : il est dessaisi de plein droit de l'administration et de la disposition de ses biens — ses droits et actions patrimoniaux sont exercés par le liquidateur (art. L. 641-9). Contrats en cours : mêmes règles que la sauvegarde (art. L. 622-13, par renvoi de l'art. L. 641-3). Droits des créanciers antérieurs : suspension des poursuites et interdiction de payer, comme en sauvegarde, par renvoi de l'art. L. 641-3 ; exigibilité immédiate de toutes les créances non échues (art. L. 643-1). Droits des créanciers postérieurs : créances régulières liées à la liquidation, payées par privilège. Détermination du patrimoine du débiteur : Actif réalisé par le liquidateur (ventes mobilières et immobilières) ; Passif vérifié et déclaré selon les mêmes règles que la sauvegarde/le redressement. Art. L. 641-3, L. 641-9, L. 643-1 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-127",
@@ -1405,7 +1405,7 @@
     "question": "Liquidation judiciaire – Opérations de liquidation – Cession d'actifs isolés",
     "reponse": "Champ d'application : concerne les biens du débiteur qui ne sont pas cédés dans le cadre d'un plan de cession global. Vente des immeubles : conformément aux règles du Code des procédures civiles d'exécution (art. L. 322-5 à L. 322-12, sous réserve des dispositions du Code de commerce) ; le juge-commissaire fixe la mise à prix et les conditions essentielles, et peut autoriser une vente de gré à gré ou par adjudication amiable si cela permet une cession dans de meilleures conditions (art. L. 642-18). Vente des meubles : le juge-commissaire ordonne soit la vente aux enchères publiques, soit autorise la vente de gré à gré aux prix et conditions qu'il détermine, lorsqu'elle garantit mieux les intérêts du débiteur (art. L. 642-19). Art. L. 642-18, L. 642-19 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-128",
@@ -1449,7 +1449,7 @@
     "question": "Liquidation judiciaire – Liquidation judiciaire simplifiée – Régime simplifié",
     "reponse": "Simplification de la vente des biens mobiliers : par dérogation à l'art. L. 642-19, le liquidateur procède à la vente de gré à gré ou aux enchères publiques dans les quatre mois suivant la décision ordonnant la procédure simplifiée — à l'issue, vente aux enchères publiques des biens subsistants (art. L. 644-2). Simplification du traitement du passif : vérification limitée aux seules créances susceptibles de venir en rang utile dans les répartitions et aux créances salariales (art. L. 644-3). Clôture (délais) : au plus tard dans le délai de 6 mois à compter de la décision d'application du régime simplifié — porté à 1 an si les seuils (salariés/CA) du débiteur sont supérieurs à des seuils fixés par décret ; prorogation possible de 3 mois maximum par jugement motivé (art. L. 644-5). Art. L. 642-19, L. 644-2, L. 644-3, L. 644-5 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-132",
@@ -1471,7 +1471,7 @@
     "question": "Liquidation judiciaire – Clôture de la liquidation judiciaire pour extinction du passif",
     "reponse": "Cause : il n'existe plus de passif exigible, ou le liquidateur dispose de sommes suffisantes pour désintéresser les créanciers. Effets : clôture de la procédure ; le débiteur retrouve la pleine administration de ses biens. Art. L. 643-9, al. 2 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-134",
@@ -1482,7 +1482,7 @@
     "question": "Liquidation judiciaire – Clôture de la liquidation judiciaire pour insuffisance d'actifs",
     "reponse": "Cause : la poursuite des opérations de liquidation est rendue impossible en raison de l'insuffisance de l'actif. Effets : clôture de la procédure. Extinction du droit de poursuite des créanciers impayés : en principe, la clôture pour insuffisance d'actif ne fait pas recouvrer aux créanciers leur droit de poursuite individuelle contre le débiteur personne physique (sauf cas de fraude, de faillite personnelle ou de banqueroute, ou de condamnation pour des infractions limitativement énumérées). Art. L. 643-9, al. 2 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-135",
@@ -1493,7 +1493,7 @@
     "question": "Liquidation judiciaire – Clôture de la liquidation judiciaire pour difficultés de réalisation des actifs résiduels",
     "reponse": "Cause alternative supplémentaire posée par le second alinéa de l'art. L. 643-9 : l'intérêt de la poursuite des opérations est disproportionné par rapport aux difficultés de réalisation des actifs résiduels — le tribunal peut alors prononcer la clôture en désignant, si besoin, un mandataire chargé de poursuivre les instances en cours et de répartir les sommes perçues à leur issue. Art. L. 643-9, al. 2 et 3 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-136",
@@ -1559,7 +1559,7 @@
     "question": "Sanction du dirigeants – Sanctions pénales – La banqueroute",
     "reponse": "Domaine : ouverture d'un redressement judiciaire ou d'une liquidation judiciaire du débiteur ou de la personne morale dirigée. Comportements sanctionnés (faits ALTERNATIFS) : avoir, dans l'intention d'éviter ou de retarder l'ouverture de la procédure, fait des achats en vue d'une revente au-dessous du cours ou employé des moyens ruineux pour se procurer des fonds ; avoir détourné ou dissimulé tout ou partie de l'actif ; avoir frauduleusement augmenté le passif ; avoir tenu une comptabilité fictive, fait disparaître des documents comptables, ou omis de tenir toute comptabilité obligatoire. Peines : 5 ans d'emprisonnement et 75 000 € d'amende, assortis de peines complémentaires possibles (interdiction de gérer, faillite personnelle). Art. L. 654-1 et L. 654-2 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-142",
@@ -1581,7 +1581,7 @@
     "question": "Activité commerciale – définition",
     "reponse": "Activité consistant à accomplir des actes de commerce (achat pour revendre, opérations de banque, courtage, manufacture, transport...) en en faisant sa profession habituelle. Art. L. 110-1 et L. 121-1 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-144",
@@ -1592,7 +1592,7 @@
     "question": "Activité artisanale – définition",
     "reponse": "Activité exercée par une personne physique ou une société, immatriculée au répertoire des métiers, consistant en la production, transformation, réparation ou prestation de services relevant des métiers de l'artisanat, généralement exercée à titre principal avec une qualification professionnelle et un effectif limité. ⚠️ Non sourcé sur un texte disponible (Code de l'artisanat non fourni) — réponse donnée de mémoire avec ton autorisation, à vérifier de ton côté",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-145",
@@ -1603,7 +1603,7 @@
     "question": "Activité agricole – définition",
     "reponse": "Activité correspondant à la maîtrise et l'exploitation d'un cycle biologique de caractère végétal ou animal et constituant une ou plusieurs étapes nécessaires au déroulement de ce cycle, ainsi que les activités dans le prolongement de l'acte de production ou ayant pour support l'exploitation (formule usuelle de l'art. L. 311-1 du Code rural, restituée de mémoire). ⚠️ Non sourcé sur un texte disponible (Code rural non fourni) — réponse donnée de mémoire avec ton autorisation, à vérifier impérativement de ton côté",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-146",
@@ -1614,7 +1614,7 @@
     "question": "Activité libérale – définition",
     "reponse": "Désignée par la formule récurrente du Code de commerce : « profession libérale soumise à un statut législatif ou réglementaire ou dont le titre est protégé ». Art. L. 620-2, L. 631-2, L. 640-2 C. com",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-147",
@@ -1625,7 +1625,7 @@
     "question": "Compétence territoriale des tribunaux – principe",
     "reponse": "Pour les personnes physiques → ressort de l'adresse déclarée ; pour les personnes morales → ressort du siège social",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-148",
@@ -1636,7 +1636,7 @@
     "question": "Compétence territoriale des tribunaux – exceptions",
     "reponse": "⚠️ : réponse à compléter ultérieurement",
     "mots_cles": [],
-    "source": "Word — chapitre 5.1 (v2)"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-149",
@@ -1669,7 +1669,7 @@
     "question": "Cessation des paiements - définition ?",
     "reponse": "État du débiteur dans l'impossibilité de faire face au passif exigible avec son actif disponible. (Art. L. 631-1 al. 1 C. com.)",
     "mots_cles": [],
-    "source": "fiche interne"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-152",
@@ -1680,7 +1680,7 @@
     "question": "Droit d'alerte - définition ?",
     "reponse": "Mécanisme de prévention permettant à certains acteurs de signaler des faits de nature à compromettre la continuité de l'exploitation, afin de déclencher des mesures correctives avant que la situation ne devienne irrémédiable.",
     "mots_cles": [],
-    "source": "fiche interne"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-153",
@@ -1691,7 +1691,7 @@
     "question": "Établissement des comptes annuels - obligations et exceptions (ref : C.com art 123-12 s + art L526-13) ?",
     "reponse": "Principe : tout commerçant, personne physique ou morale, doit procéder à l'enregistrement comptable chronologique des mouvements affectant son patrimoine, contrôler par inventaire au moins une fois tous les douze mois, et établir des comptes annuels à la clôture de l'exercice (bilan, compte de résultat, annexe, formant un tout indissociable). (Art. L. 123-12 et L. 123-13 C. com. ; Art. L. 526-13 C. com.)",
     "mots_cles": [],
-    "source": "fiche interne"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-154",
@@ -1702,7 +1702,7 @@
     "question": "Établissement des comptes annuels - seuils pm de droit privé non commerçante (⅔) (ref : C.com art 612-1) ?",
     "reponse": "Les personnes morales de droit privé non commerçantes ayant une activité économique doivent établir chaque année un bilan, un compte de résultat et une annexe dès qu'elles dépassent, pour deux des trois critères suivants, des seuils fixés par décret en Conseil d'État : (Art. L. 612-1 C. com. ; Art. L. 221-9 C. com. (SNC), L. 223-35 C. com. (SARL), L. 227-9-1 C. com. (SAS) ; seuils fixés par Art. D. 221-5 C. com. (SNC), D. 223-27 C. com. (SARL), D. 227-1 C. com. (SAS))",
     "mots_cles": [],
-    "source": "fiche interne"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-155",
@@ -1713,7 +1713,7 @@
     "question": "Contenu de la comptabilité (ref : C.com art L123-16 + D 123-200) ?",
     "reponse": "Le contenu général de l'obligation comptable (enregistrement chronologique, inventaire annuel, comptes annuels) résulte des art. L. 123-12 à L. 123-14 C. com.. L'art. L. 123-16, cité dans la question, porte plus précisément sur les dérogations de présentation : les petites entreprises peuvent adopter une présentation simplifiée de leurs comptes annuels, et les moyennes entreprises une présentation simplifiée de leur compte de résultat — dès lors qu'elles ne dépassent pas, sur le dernier exercice clos, 2 des 3 seuils (bilan, chiffre d'affaires net, effectif moyen) fixés par décret. (Art. L. 123-16 C. com.)",
     "mots_cles": [],
-    "source": "fiche interne"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-156",
@@ -1724,7 +1724,7 @@
     "question": "Code de commerce art D123-200 ?",
     "reponse": "Cet article fixe les livres comptables obligatoires que doit tenir toute personne tenue à l'enregistrement comptable : (Art. D. 123-200 C. com.)",
     "mots_cles": [],
-    "source": "fiche interne"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-157",
@@ -1735,7 +1735,7 @@
     "question": "Dépôt des comptes annuels - obligation (ref : C.com art L232-21 à L232-23, C.com R.247-3) ?",
     "reponse": "Les sociétés commerciales (à l'exception des sociétés en nom collectif dont tous les associés sont des personnes physiques) sont tenues de déposer au greffe du tribunal de commerce, pour être annexés au RCS, dans le mois suivant l'approbation des comptes annuels par l'assemblée : (Art. L. 232-21 à L. 232-23 C. com.)",
     "mots_cles": [],
-    "source": "fiche interne"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-158",
@@ -1746,7 +1746,7 @@
     "question": "Établissement des comptes prévisionnels - entreprises concernées ?",
     "reponse": "Sont tenues d'établir des comptes prévisionnels les sociétés commerciales qui répondent à l'un des critères suivants définis par décret (et non l'addition de plusieurs critères) : (Art. L. 232-2 C. com. ; Art. R. 232-2 C. com.)",
     "mots_cles": [],
-    "source": "fiche interne"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-159",
@@ -1757,7 +1757,7 @@
     "question": "Établissement des comptes prévisionnels - contenu ?",
     "reponse": "Les sociétés concernées doivent établir, en même temps que le bilan annuel : (Art. L. 232-2 C. com.)",
     "mots_cles": [],
-    "source": "fiche interne"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-160",
@@ -1768,7 +1768,7 @@
     "question": "Établissement des comptes prévisionnels - confidentialité ?",
     "reponse": "Les comptes prévisionnels sont des documents internes : ils ne sont pas déposés au greffe du tribunal de commerce et ne font pas l'objet d'une publicité au RCS, à la différence des comptes annuels.",
     "mots_cles": [],
-    "source": "fiche interne"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-161",
@@ -1779,7 +1779,7 @@
     "question": "Actif disponible - définition ?",
     "reponse": "Ensemble des liquidités immédiatement mobilisables par le débiteur pour faire face à ses dettes, sans délai ni formalité.",
     "mots_cles": [],
-    "source": "fiche interne"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-162",
@@ -1790,7 +1790,7 @@
     "question": "Passif exigible - définition ?",
     "reponse": "Ensemble des dettes certaines, liquides et exigibles, c'est-à-dire arrivées à échéance, que le débiteur doit payer immédiatement. (Notion constitutive de la cessation des paiements — Art. L. 631-1 C. com.)",
     "mots_cles": [],
-    "source": "fiche interne"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-163",
@@ -1801,7 +1801,7 @@
     "question": "Période suspecte - définition ?",
     "reponse": "Période comprise entre la date de cessation des paiements (fixée, le cas échéant rétroactivement, par le tribunal) et la date du jugement d'ouverture de la procédure collective. (Art. L. 631-8 et L. 632-1 et s. C. com.)",
     "mots_cles": [],
-    "source": "fiche interne"
+    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-164",
@@ -1812,6 +1812,6 @@
     "question": "Modifications de la loi PACTE ?",
     "reponse": "La loi n° 2019-486 du 22 mai 2019 (« PACTE ») a notamment : (Loi n° 2019-486 du 22 mai 2019)",
     "mots_cles": [],
-    "source": "fiche interne"
+    "source": "Chapitre 5.1"
   }
 ]
