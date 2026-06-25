@@ -27,7 +27,7 @@
 
   /* ===== Mode sombre ===== */
   body.dark{
-    --ink:#e6edf3; --navy:#bcd0e1; --blue-mid:#82a6c9; --blue-soft:#5f7f9c;
+    --ink:#e7e9ec; --navy:#e0e4e9; --blue-mid:#cdd4dc; --blue-soft:#454f5c;
     --gold:#d4ad4f; --gold-soft:#e0bd66;
     --beige:#262a31; --beige-line:#363b44;
     --paper:#1b212a; --paper-line:#2b313b;
@@ -44,7 +44,18 @@
   body.dark .quiz-card{background:#161b22;}
   body.dark .flashcard .face.front{background:#1b212a;color:var(--text);}
   body.dark .billboard{border-color:#2b313b;}
-  body.dark .report-bubble{box-shadow:0 3px 10px rgba(0,0,0,.6);}
+  body.dark .report-bubble{box-shadow:0 3px 10px rgba(0,0,0,.6);background:#343b46;color:#fff;}
+  body.dark .report-bubble:hover{background:#3f4753;}
+  body.dark header.top2{background:#161b22;}
+  body.dark header.top2 .brand .brand-sub{color:#9aa3ad;}
+  body.dark .billboard{background:linear-gradient(135deg,#222834,#2b313b);}
+  body.dark .billboard .bb-meta{color:#aab3bd;}
+  body.dark .billboard .bb-btn,body.dark .btn-primary{color:#161b22;}
+  body.dark table.cmp th,body.dark .fiche-body table.cmp th{background:#262a31;color:var(--text);}
+  body.dark .chip{background:#262a31;color:var(--text);}
+  body.dark .chip:hover{background:#343b46;}
+  body.dark .subtabs button.active{background:#343b46;color:var(--text);border-color:#343b46;}
+  body.dark header.top1 nav.tabs-right button.active{background:#343b46;color:#fff;}
   header.top2 #themeToggle{background:transparent;border:none;color:#fff;font-size:1.15rem;cursor:pointer;line-height:1;padding:4px 6px;}
   a{color:var(--blue-mid);text-decoration:none;}
   a:hover{text-decoration:underline;}
@@ -131,7 +142,7 @@
   .rt-chap,.rt-notion{background:none;border:none;padding:0;font:inherit;color:#1f5fb0;cursor:pointer;text-decoration:underline;text-align:left;}
   .rt-chap{font-size:.82rem;margin-left:4px;}
   .rt-prog{color:#8a8468;font-size:.8rem;margin-left:4px;}
-  body.dark .rt-chap,body.dark .rt-notion{color:#82a6c9;}
+  body.dark .rt-chap,body.dark .rt-notion{color:#cdd4dc;}
   .doc-refs > p{margin:6px 2px 2px;font-size:.88rem;line-height:1.55;color:var(--text);}
 
   main{padding:24px;max-width:1100px;margin:0 auto;}
