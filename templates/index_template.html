@@ -595,9 +595,11 @@ function progressFor(cards){
   const mastered = cards.filter(c => qrMastered(c.id)).length;
   return { total, mastered, pct: total ? Math.round(mastered/total*100) : 0 };
 }
-function cardsForScope(scope, chapId){
+function cardsForScope(scope, chapId, notionId){
   if(scope === 'chapitre' && chapId){
-    return DATA.qr_cartes.filter(c => { const n = notionById(c.notion_id); return n && n.chapitre_id === chapId; });
+    let list = DATA.qr_cartes.filter(c => { const n = notionById(c.notion_id); return n && n.chapitre_id === chapId; });
+    if(notionId) list = list.filter(c => c.notion_id === notionId);
+    return list;
   }
   return DATA.qr_cartes;
 }
@@ -613,7 +615,7 @@ splash.addEventListener('touchend', dismissSplash, {passive:true});
 
 // ---- État global ----
 let state = { view: 'home', chapitreId: null, ficheId: null, chapTab: 'cours',
-              listesScope: 'all', listesChapitreId: null, qrFocus: null,
+              listesScope: 'all', listesChapitreId: null, listesNotionId: null, qrFocus: null,
               tableauxChapitreId: null, tableauFocus: null, refFocus: null };
 
 let _suppressHash = false;
@@ -646,7 +648,7 @@ function stateToHash(){
       return h;
     }
     case 'listes':
-      return '#/listes/' + (state.listesScope === 'all' ? 'all' : 'chapitre/' + encodeURIComponent(state.listesChapitreId || ''));
+      return '#/listes/' + (state.listesScope === 'all' ? 'all' : 'chapitre/' + encodeURIComponent(state.listesChapitreId || '') + (state.listesNotionId ? '/' + encodeURIComponent(state.listesNotionId) : ''));
     case 'tableaux':   return '#/tableaux/' + encodeURIComponent(state.tableauxChapitreId || '');
     case 'documentation': return '#/documentation';
     case 'sujets':     return '#/sujets';
@@ -666,8 +668,8 @@ function applyHash(){
     state.ficheId = (state.chapTab === 'cours' && parts[3]) ? parts[3] : null;
   } else if(v === 'listes'){
     state.view = 'listes';
-    if(parts[1] === 'chapitre'){ state.listesScope = 'chapitre'; state.listesChapitreId = parts[2] || null; }
-    else { state.listesScope = 'all'; state.listesChapitreId = null; }
+    if(parts[1] === 'chapitre'){ state.listesScope = 'chapitre'; state.listesChapitreId = parts[2] || null; state.listesNotionId = parts[3] || null; }
+    else { state.listesScope = 'all'; state.listesChapitreId = null; state.listesNotionId = null; }
   } else if(v === 'tableaux'){ state.view = 'tableaux'; state.tableauxChapitreId = parts[1] || null; }
   else if(v === 'documentation'){ state.view = 'documentation'; }
   else if(v === 'sujets'){ state.view = 'sujets'; }
@@ -777,15 +779,15 @@ function renderSujets(){
     ? `<a class="sp-link" href="${url}" target="_blank" rel="noopener">${txt} (PDF) ↗</a>` : '';
   function rattachHtml(a){
     if(!a.rattachement || !a.rattachement.length) return '';
+    const primarySrc = (a.sources && a.sources[0]) ? a.sources[0] : null;
     const blocks = a.rattachement.map(d => {
       const chap = d.chapitre_id ? chapById(d.chapitre_id) : null;
       const cible = chap
         ? `<button class="rt-chap" data-goto-chap="${chap.id}">→ ${srEsc(chap.titre)}</button>`
         : `<span class="rt-prog">${srEsc([d.partie, d.sous_partie].filter(Boolean).join(' — '))}</span>`;
       const qs = (d.questions||[]).map(q => {
-        const notion = q.notion_id ? notionById(q.notion_id) : null;
-        const objet = notion
-          ? `<button class="rt-notion" data-goto-notion="${notion.id}">${srEsc(q.objet)}</button>`
+        const objet = primarySrc
+          ? `<a class="rt-notion" href="${primarySrc.url}" target="_blank" rel="noopener">${srEsc(q.objet)} ↗</a>`
           : srEsc(q.objet);
         const arts = (q.articles && q.articles.length) ? ` — <span class="rt-art">${srEsc(q.articles.join(' · '))}</span>` : '';
         return `<li><span class="rt-num">${srEsc(q.num)}</span>${objet}${arts}</li>`;
@@ -799,7 +801,7 @@ function renderSujets(){
   }
   app.innerHTML = `<div class="panel">
     <h1 class="page-title">Sujets d'examens</h1>
-    <p class="fiche-meta">Les sujets et corrigés ne sont pas hébergés sur ce site. Les corrigés officiels (« éléments indicatifs ») sont diffusés par le <strong>CRCF</strong>, mais en <strong>accès réservé</strong> (compte Éducation nationale)&nbsp;; les liens ci-dessous renvoient donc vers <strong>Compta&nbsp;Online</strong>, librement consultable (téléchargement après inscription gratuite). Le <strong>rattachement au programme</strong> est une analyse propre à l'éditeur&nbsp;; les libellés soulignés mènent au chapitre ou à la notion correspondante du site.</p>
+    <p class="fiche-meta">Les sujets et corrigés ne sont pas hébergés sur ce site. Les corrigés officiels (« éléments indicatifs ») sont diffusés par le <strong>CRCF</strong>, mais en <strong>accès réservé</strong> (compte Éducation nationale)&nbsp;; les liens ci-dessous renvoient donc vers <strong>Compta&nbsp;Online</strong>, librement consultable (téléchargement après inscription gratuite). Le <strong>rattachement au programme</strong> est une analyse propre à l'éditeur&nbsp;; chaque question renvoie vers la source de l'annale correspondante.</p>
     ${annales.length ? annales.map(a => {
       const srcs = (a.sources && a.sources.length)
         ? a.sources.map(s => ext(s.url, s.nom)).filter(Boolean).join(' · ')
@@ -821,11 +823,6 @@ function renderSujets(){
   </div>`;
   app.querySelectorAll('[data-goto-chap]').forEach(b => b.onclick = () => {
     state.chapitreId = b.dataset.gotoChap; state.view = 'chapitre'; state.chapTab = 'cours'; state.ficheId = null;
-    render(); window.scrollTo({top:0, behavior:'smooth'});
-  });
-  app.querySelectorAll('[data-goto-notion]').forEach(b => b.onclick = () => {
-    const n = notionById(b.dataset.gotoNotion); if(!n) return;
-    state.view = 'listes'; state.listesScope = 'chapitre'; state.listesChapitreId = n.chapitre_id;
     render(); window.scrollTo({top:0, behavior:'smooth'});
   });
 }
@@ -997,11 +994,13 @@ function renderChapitre(){
     const matches = annalesForChapitre(chapitre);
     const body = matches.length ? matches.map(m => {
       const a = m.annale;
+      const primarySrc = (a.sources && a.sources[0]) ? a.sources[0] : null;
       const srcLinks = (a.sources || []).map(s => `<a class="sp-link" href="${s.url}" target="_blank" rel="noopener">${srEsc(s.nom)} ↗</a>`).join(' · ');
       const doss = m.dossiers.map(d => {
         const qs = d.questions.map(q => {
-          const notion = q.notion_id ? notionById(q.notion_id) : null;
-          const objet = notion ? `<button class="rt-notion" data-annale-notion="${notion.id}">${srEsc(q.objet)}</button>` : srEsc(q.objet);
+          const objet = primarySrc
+            ? `<a class="rt-notion" href="${primarySrc.url}" target="_blank" rel="noopener">${srEsc(q.objet)} ↗</a>`
+            : srEsc(q.objet);
           const arts = (q.articles && q.articles.length) ? ` — <span class="rt-art">${srEsc(q.articles.join(' · '))}</span>` : '';
           return `<li><span class="rt-num">${srEsc(q.num)}</span>${objet}${arts}</li>`;
         }).join('');
@@ -1013,15 +1012,10 @@ function renderChapitre(){
       <div class="fiche-meta">${chapLabel(chapitre)}</div>
       <h1 class="page-title">${chapitre.titre}</h1>
       ${subtabsHtml}
-      <p class="fiche-meta">Questions d'examen rattachées à ce chapitre (analyse de l'éditeur). Les sujets et corrigés ne sont pas hébergés&nbsp;: les liens renvoient vers les sources (CRCF, Compta&nbsp;Online). Les libellés soulignés ouvrent les cartes de la notion correspondante.</p>
+      <p class="fiche-meta">Questions d'examen rattachées à ce chapitre (analyse de l'éditeur). Les sujets et corrigés ne sont pas hébergés sur ce site&nbsp;: chaque question renvoie vers la source de l'annale correspondante (Compta&nbsp;Online) pour consulter l'énoncé et le corrigé.</p>
       ${body}
     </div>`;
     app.querySelectorAll('[data-ctab]').forEach(b => b.onclick = () => { state.chapTab = b.dataset.ctab; render(); });
-    app.querySelectorAll('[data-annale-notion]').forEach(b => b.onclick = () => {
-      const n = notionById(b.dataset.annaleNotion); if(!n) return;
-      state.view = 'listes'; state.listesScope = 'chapitre'; state.listesChapitreId = n.chapitre_id;
-      render(); window.scrollTo({top:0, behavior:'smooth'});
-    });
     return;
   }
 
@@ -1068,7 +1062,7 @@ function renderChapitre(){
   app.querySelectorAll('[data-ctab]').forEach(b => b.onclick = () => { state.chapTab = b.dataset.ctab; render(); });
   app.querySelectorAll('[data-fiche]').forEach(a => a.onclick = (e) => { e.preventDefault(); state.ficheId = a.dataset.fiche; render(); window.scrollTo({top:0, behavior:'smooth'}); });
   app.querySelectorAll('[data-ref]').forEach(c => c.onclick = () => { state.view='documentation'; render(); window.scrollTo({top:0, behavior:'smooth'}); });
-  app.querySelectorAll('[data-qr]').forEach(c => c.onclick = () => { state.view='listes'; state.listesScope='chapitre'; state.listesChapitreId=chapitre.id; state.qrFocus = c.dataset.qr; render(); });
+  app.querySelectorAll('[data-qr]').forEach(c => c.onclick = () => { state.view='listes'; state.listesScope='chapitre'; state.listesChapitreId=chapitre.id; state.listesNotionId = notion ? notion.id : null; state.qrFocus = c.dataset.qr; render(); });
   app.querySelectorAll('[data-tableau]').forEach(c => c.onclick = () => {
     const t = (DATA.tableaux_comparatifs||[]).find(x => x.id === c.dataset.tableau);
     state.view='tableaux'; state.tableauxChapitreId = t ? t.chapitre_id : chapitre.id; state.tableauFocus = c.dataset.tableau;
@@ -1087,12 +1081,18 @@ function renderChapitre(){
 function renderListes(){
   const isAll = state.listesScope === 'all';
   const chap = !isAll ? chapById(state.listesChapitreId) : null;
-  const cards = cardsForScope(isAll ? 'all' : 'chapitre', chap && chap.id);
-  const title = isAll ? "Toutes les notions" : `Cartes — ${chapLabel(chap)}`;
+  const notionFilter = (!isAll && state.listesNotionId) ? notionById(state.listesNotionId) : null;
+  // si la notion ne correspond plus au chapitre (état incohérent), on l'ignore
+  const activeNotion = (notionFilter && chap && notionFilter.chapitre_id === chap.id) ? notionFilter : null;
+  if(state.listesNotionId && !activeNotion) state.listesNotionId = null;
+  const cards = cardsForScope(isAll ? 'all' : 'chapitre', chap && chap.id, activeNotion && activeNotion.id);
+  const title = isAll ? "Toutes les notions" : (activeNotion ? `Cartes — ${activeNotion.titre}` : `Cartes — ${chapLabel(chap)}`);
+  const subtitle = activeNotion ? `<p class="fiche-meta">${chapLabel(chap)} <a href="#" id="clearNotionFilter">— voir toutes les cartes du chapitre</a></p>` : '';
   const pr = progressFor(cards);
 
   app.innerHTML = `<div class="panel">
     <h1 class="page-title">${title}</h1>
+    ${subtitle}
     <div class="listes-toolbar">
       <div style="flex:1;min-width:220px;">
         <div class="progress-wrap">
@@ -1111,11 +1111,16 @@ function renderListes(){
     <div class="qr-grid" id="qrGrid"></div>
   </div>`;
 
+  const clearLink = document.getElementById('clearNotionFilter');
+  if(clearLink) clearLink.onclick = (e) => { e.preventDefault(); state.listesNotionId = null; render(); window.scrollTo({top:0, behavior:'smooth'}); };
+
   const grid = document.getElementById('qrGrid');
+  let focusedEl = null;
   cards.forEach(c => {
     const card = document.createElement('div');
     card.className = 'flashcard' + (qrMastered(c.id) ? ' mastered' : '');
-    if(state.qrFocus === c.id){ card.classList.add('flipped'); }
+    card.dataset.cardId = c.id;
+    if(state.qrFocus === c.id){ card.classList.add('flipped'); focusedEl = card; }
     const info = qrInfo(c.id);
     const badge = info && info.status ? `<div class="qr-badge ${info.status}">${info.status==='known' ? '✓ su' : '↻ à revoir'}</div>` : '';
     card.innerHTML = `<div class="inner">
@@ -1128,6 +1133,7 @@ function renderListes(){
     card.onclick = (e) => { if(e.target.closest('a') || e.target.closest('button')) return; card.classList.toggle('flipped'); };
     grid.appendChild(card);
   });
+  if(focusedEl) setTimeout(() => focusedEl.scrollIntoView({block:'center', behavior:'smooth'}), 30);
 
   function refreshProgress(){
     const p = progressFor(cards);
@@ -1362,6 +1368,7 @@ function buildMenuTrees(){
     const v = a.dataset.goListes;
     state.listesScope = (v === 'all') ? 'all' : 'chapitre';
     state.listesChapitreId = (v === 'all') ? null : v;
+    state.listesNotionId = null;
     state.qrFocus = null;
     state.view = 'listes'; closeMenu(); render(); window.scrollTo({top:0, behavior:'smooth'});
   });
@@ -1385,7 +1392,7 @@ function collectResults(qraw){
   const score = (t) => { t = (t||'').toLowerCase(); const i = t.indexOf(q); return i < 0 ? -1 : (t.startsWith(q) ? 0 : 1 + i*0.001); };
   const res = [];
   DATA.notions.forEach(n => { const s = score(n.titre); if(s>=0){ const c = chapById(n.chapitre_id);
-    res.push({type:'Notion', sc:s, cat:1, title:n.titre, sub:c?chapLabel(c):'', go:()=>{ state.view='listes'; state.listesScope='chapitre'; state.listesChapitreId=n.chapitre_id; state.qrFocus=null; }}); } });
+    res.push({type:'Notion', sc:s, cat:1, title:n.titre, sub:c?chapLabel(c):'', go:()=>{ state.view='listes'; state.listesScope='chapitre'; state.listesChapitreId=n.chapitre_id; state.listesNotionId=n.id; state.qrFocus=null; }}); } });
   DATA.fiches.forEach(f => { const s = score(f.titre); if(s>=0){ const n = notionById(f.notion_id); const c = n?chapById(n.chapitre_id):null;
     res.push({type:'Fiche', sc:s, cat:2, title:f.titre, sub:c?chapLabel(c):'', go:()=>{ if(n){ state.chapitreId=n.chapitre_id; state.view='chapitre'; state.chapTab='cours'; state.ficheId = ficheById(f.id)?f.id:null; } }}); } });
   (DATA.tableaux_comparatifs||[]).forEach(t => { const s = score(t.titre); if(s>=0){
