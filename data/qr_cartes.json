@@ -11,28 +11,6 @@
     "source": "Chapitre 5.1"
   },
   {
-    "id": "qr-entr-001",
-    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
-    "fiche_id": "alerte-declenchee-par-le-cac-procedure-en-4-etapes",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Alerte déclenchée par le CAC — Procédure en 4 étapes",
-    "reponse": "Étape 1 — Information du dirigeant (par lettre recommandée) : le CAC demande des explications au dirigeant. Délai de réponse du dirigeant : 15 jours. Étape 2 — Information du conseil d'administration ou de surveillance (ou des associés) : à défaut de réponse satisfaisante, le CAC établit un rapport spécial et le présente à l'organe collégial (CA, CS) ou convoque une assemblée si absence d'organe. Étape 3 — Information du président du tribunal : si à l'issue de l'étape 2 les décisions prises ne permettent pas d'assurer la continuité de l'exploitation, le CAC informe le président du tribunal de commerce. Il reste tenu au secret professionnel pour les autres tiers. Étape 4 — Rapport à l'assemblée générale : le CAC établit un rapport spécial soumis à la prochaine assemblée générale si la situation n'est pas résolue",
-    "mots_cles": [],
-    "source": "Art. L. 234-1 et s. C. com."
-  },
-  {
-    "id": "qr-entr-002",
-    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
-    "fiche_id": "",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Alerte déclenchée par le CAC — Art. L. 611-2-2 C. com.",
-    "reponse": "Lorsque le CAC d'une société, dans l'exercice de sa mission, relève des faits susceptibles d'affecter de manière préoccupante la situation financière de la société, il en informe les dirigeants et, le cas échéant, lui demande des explications. Cet article constitue le fondement légal permettant au CAC de rompre son secret professionnel à l'égard du président du tribunal lorsque la continuité de l'exploitation est menacée. Le CAC peut ainsi communiquer des informations confidentielles au tribunal sans engager sa responsabilité. Il se base sur des évènements convergeants suffissamment préoccupant → Appréciation in concreto non limitée à une approche comptable (ex : baisse des équilibres financiers ; sources de financement onéreuses ; non respect de la réglementation environmentale). Il ne se substitue pas aux dirigeants (principe de non éviction)",
-    "mots_cles": [],
-    "source": "Art. L. 611-2-2 C. com."
-  },
-  {
     "id": "qr-entr-003",
     "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
     "fiche_id": "alerte-economique-declenchee-par-le-cse-conditions",
@@ -42,17 +20,6 @@
     "reponse": "Le CSE peut déclencher l'alerte économique lorsque : ① Il a connaissance de faits de nature à affecter de manière préoccupante la situation économique de l'entreprise ; ② Ces faits sont objectifs et documentés (pas de simples rumeurs). Délai : la procédure doit être engagée sans délai après la constatation des faits",
     "mots_cles": [],
     "source": "Art. L. 2312-63 C. trav."
-  },
-  {
-    "id": "qr-entr-004",
-    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
-    "fiche_id": "",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Alerte économique déclenchée par le CSE — 2 étapes",
-    "reponse": "Étape 1 — Demande d'explication à l'employeur : le CSE demande par écrit à l'employeur des explications sur les faits constatés. L'employeur répond dans le délai prévu par la loi. Sa réponse est inscrite au procès-verbal de la séance. Étape 2 — Saisine du CAC ou du commissaire aux comptes : si les explications sont insuffisantes ou si la situation persiste, le CSE peut établir un rapport transmis au CAC, à l'organe de surveillance et au comité de groupe le cas échéant",
-    "mots_cles": [],
-    "source": "Art. L. 2312-63 et s. C. trav."
   },
   {
     "id": "qr-entr-005",
@@ -119,50 +86,6 @@
     "reponse": "En présence d'éléments compromettant la continuité de l'exploitation, le président du tribunal peut convoquer les dirigeants pour que soient envisagées les mesures propres à redresser la situation. Cet entretien est confidentiel. Le président peut être assisté par toute personne dont il estime l'audition utile. Issue possible : le président peut inviter le débiteur à saisir le tribunal, à conclure un accord amiable (conciliation), ou à ouvrir une procédure de sauvegarde",
     "mots_cles": [],
     "source": "Art. L. 611-2 I C. com."
-  },
-  {
-    "id": "qr-entr-011",
-    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
-    "fiche_id": "",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Alerte par le président du tribunal — Obtention de renseignements auprès de tiers",
-    "reponse": "Art. L. 611-2 I al. 2 C. com. Dès l'envoi de la convocation, le président du tribunal peut, nonobstant toute disposition législative ou réglementaire contraire, obtenir communication par : les commissaires aux comptes ; les membres du comité social et économique ; les administrations publiques ; les organismes de sécurité et de prévoyance sociales ; les services chargés de la centralisation des risques bancaires et des incidents de paiement des renseignements de nature à lui donner une exacte information sur la situation économique et financière du débiteur. Cette levée du secret professionnel est légalement autorisée — elle ne peut pas être refusée par les destinataires de la demande",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
-    "id": "qr-entr-012",
-    "notion_id": "entreprise-difficulte.mandataire-ad-hoc",
-    "fiche_id": "mandataire-ad-hoc-principes-du-dispositif",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Mandataire ad hoc — Principes du dispositif",
-    "reponse": "Procédure de prévention confidentielle, non judiciaire au sens plein, ouverte à la demande du débiteur sans aucune condition préalable (pas de cessation des paiements requise, pas de seuil de difficultés). Le mandataire est désigné par le président du tribunal. Sa mission est librement définie par ordonnance. Le débiteur peut proposer le nom d'un mandataire ad hoc. Confidentialité totale : ni publiée au BODACC, ni inscrite au RCS. Les créanciers ne sont pas informés sauf si le débiteur décide de les impliquer dans les négociations",
-    "mots_cles": [],
-    "source": "Art. L. 611-3 C. com."
-  },
-  {
-    "id": "qr-entr-013",
-    "notion_id": "entreprise-difficulte.mandataire-ad-hoc",
-    "fiche_id": "",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Mandataire ad hoc — Missions",
-    "reponse": "La mission est définie librement par le président du tribunal dans l'ordonnance de désignation. Elle peut inclure : Assister le débiteur dans l'analyse de sa situation financière ; Faciliter les négociations avec les créanciers (banques, fournisseurs, fiscalité, social) ; Rechercher un accord amiable sur un rééchelonnement des dettes ; Préparer la cession de l'entreprise ou d'une branche d'activité ; Aider à la mise en place d'un partenariat ou d'une levée de fonds. Le mandataire n'a aucun pouvoir de gestion — il intervient uniquement en conseil et médiation",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
-    "id": "qr-entr-014",
-    "notion_id": "entreprise-difficulte.mandataire-ad-hoc",
-    "fiche_id": "mandataire-ad-hoc-interet",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Mandataire ad hoc — Intérêt",
-    "reponse": "Le mandataire ad hoc est la solution idéale pour une entreprise confrontée à des difficultés ponctuelles et surmontables qui ne justifient pas encore une procédure collective. Ses avantages : Souplesse totale : aucune publicité, aucun délai imposé, mission sur mesure ; Préservation des relations commerciales : les partenaires ne sont pas informés sauf volonté du débiteur ; Pas de suspension automatique des poursuites : à la différence de la conciliation ou de la sauvegarde ; Accessible avant toute difficulté avérée : même préventivement",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-015",
@@ -671,17 +594,6 @@
     "source": "Art. L. 621-4 C. com."
   },
   {
-    "id": "qr-entr-061",
-    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
-    "fiche_id": "administrateur-judiciaire-role",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Administrateur judiciaire – rôle",
-    "reponse": "Dans une procédure de sauvegarde → surveillance du débiteur dans sa gestion ou assistance pour tous les actes de gestion ou pour certains d'entre eux ; dans une procédure de redressement judiciaire → peut aller de l'assistance à la représentation. Dans ce dernier cas, il assure seul, entièrement ou en partie, l'administration de l'entreprise. Il ne peut pas être désigné pour une simple mission de surveillance en redressement judiciaire. Art. L. 622-1 C. com. (sauvegarde) ; Art. L. 631-12 C. com. (redressement)",
-    "mots_cles": [],
-    "source": "Art. L. 622-1 C. com.; Art. L. 631-12 C. com."
-  },
-  {
     "id": "qr-entr-062",
     "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
     "fiche_id": "administrateur-judiciaire-definition-art-l-811-11-c-com",
@@ -790,28 +702,6 @@
     "reponse": "Délai maximum de 6 mois fixé par le juge, renouvelable une fois. Art. L. 621-3 C. com",
     "mots_cles": [],
     "source": "Art. L. 621-3 C. com."
-  },
-  {
-    "id": "qr-entr-072",
-    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
-    "fiche_id": "sauvegarde-la-modification-ou-interruption-de-la-periode-d-observation",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Sauvegarde – la modification ou interruption de la période d'observation",
-    "reponse": "Possible selon l'un des cas ALTERNATIFS suivants : Conversion en procédure de redressement judiciaire due à une cessation des paiements survenue en cours de période d'observation ; Si l'adoption d'un plan de sauvegarde est manifestement impossible et si la clôture de la procédure conduirait, de manière certaine et à bref délai, à la cessation des paiements → le débiteur peut demander l'ouverture d'une procédure de redressement judiciaire ; Conversion en liquidation judiciaire lorsque les difficultés sont si graves que le redressement est manifestement impossible ; Clôture de la procédure lorsque les difficultés qui ont justifié la procédure de sauvegarde ont disparu. Art. L. 622-12 C. com",
-    "mots_cles": [],
-    "source": "Art. L. 622-12 C. com."
-  },
-  {
-    "id": "qr-entr-073",
-    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
-    "fiche_id": "sauvegarde-gestion-de-l-entreprise",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Sauvegarde – Gestion de l'entreprise",
-    "reponse": "Synthèse des art. L. 622-1, L. 622-3, L. 622-7 et L. 622-13 C. com. : l'administration de l'entreprise est assurée par son dirigeant (art. L. 622-1, I), qui continue à exercer sur son patrimoine les actes de disposition et d'administration non compris dans la mission de l'administrateur (art. L. 622-3) ; les actes de gestion courante qu'il accomplit seul restent valables à l'égard des tiers de bonne foi, sous réserve des règles de l'art. L. 622-7 (interdiction de payer les créances antérieures) et de l'art. L. 622-13 (poursuite des contrats en cours, qui relève de la seule initiative de l'administrateur). Art. L. 622-1, L. 622-3, L. 622-7, L. 622-13 C. com",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-074",
@@ -924,17 +814,6 @@
     "source": "Art. L. 622-13 C. com."
   },
   {
-    "id": "qr-entr-084",
-    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
-    "fiche_id": "sauvegarde-poursuite-des-contrats-en-cours-modalites-de-l-option",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Sauvegarde – Poursuite des contrats en cours – modalités de l'option",
-    "reponse": "Le choix de poursuivre ou non appartient à l'administrateur seul, « qui a seul la faculté d'exiger l'exécution des contrats en cours en fournissant la prestation promise au cocontractant ». S'il ne se prononce pas, le cocontractant peut le mettre en demeure de prendre parti ; à défaut de réponse dans le délai d'un mois, le contrat est résilié de plein droit. Le juge-commissaire peut, avant l'expiration de ce délai, l'écourter ou le prolonger sans excéder deux mois. Art. L. 622-13, II et III, 1° C. com",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
     "id": "qr-entr-085",
     "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
     "fiche_id": "sauvegarde-poursuite-des-contrats-en-cours-obligation-et-garanties-du-cocontractants",
@@ -966,17 +845,6 @@
     "reponse": "Créanciers qui bénéficient d'un traitement de faveur car ils exécutent des prestations utiles à la société pendant la procédure (voir fiche dédiée sur le privilège des créances postérieures). Art. L. 622-17 C. com",
     "mots_cles": [],
     "source": "Art. L. 622-17 C. com."
-  },
-  {
-    "id": "qr-entr-088",
-    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
-    "fiche_id": "sauvegarde-droits-des-creanciers-anterieurs-au-jugement-d-ouverture-3-regles",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Sauvegarde – Droits des créanciers antérieurs au jugement d'ouverture (3 règles)",
-    "reponse": "Trois règles d'ordre public ( Art. L. 622-29 C. com.) : Règle 1 — Arrêt des poursuites individuelles : les personnes physiques coobligées ou ayant consenti une sûreté personnelle (cautions) peuvent se prévaloir de l'arrêt du cours des intérêts (voir règle 3), mais ne bénéficient pas, en tant que telles, de l'arrêt des poursuites engagées contre elles par le créancier — l'art. L. 622-28, al. 2 vise spécifiquement le bénéfice des dispositions sur les intérêts pour les coobligés et garants personnes physiques. Règle 2 — Interdiction des inscriptions de sûreté : les hypothèques, gages, nantissements et privilèges ne peuvent plus être inscrits postérieurement au jugement d'ouverture, sauf exceptions — le Trésor public conserve son privilège pour les créances qu'il n'était pas tenu d'inscrire avant le jugement, et le vendeur du fonds de commerce peut, par dérogation, inscrire son privilège (art. L. 622-30). Règle 3 — Arrêt du cours des intérêts : le jugement d'ouverture arrête le cours des intérêts légaux et conventionnels, ainsi que de tous intérêts de retard et majorations, sauf s'il s'agit d'intérêts résultant de contrats de prêt conclus pour une durée égale ou supérieure à un an ou de contrats assortis d'un paiement différé d'un an ou plus (art. L. 622-28, al. 1). Les personnes physiques coobligées ou ayant consenti une sûreté personnelle ou ayant affecté/cédé un bien en garantie peuvent se prévaloir de cette règle (art. L. 622-28, al. 2). Distinction Code civil entre les deux types d'intérêts visés par la règle 3 : Intérêts légaux (art. 1231-6 C. civ.) : dus de plein droit en cas de retard de paiement d'une somme d'argent, à compter de la mise en demeure, sans que le créancier soit tenu de justifier d'aucune perte ; en cas de mauvaise foi du débiteur, le créancier peut en outre obtenir des dommages-intérêts distincts de l'intérêt moratoire. Intérêts conventionnels : taux fixé librement par le contrat entre les parties, distinct du taux légal. Art. 1231-6 et 1231-7 C. civ",
-    "mots_cles": [],
-    "source": "Art. L. 622-29 C. com."
   },
   {
     "id": "qr-entr-089",
@@ -1018,7 +886,7 @@
     "type_question": "notion",
     "difficulte": "moyen",
     "question": "Sauvegarde – Classement des créanciers postérieurs par ordre de priorité",
-    "reponse": "Classement fixé par l'art. L. 622-17, III C. com. : Rang Nature de la créance 1er rang (Superprivilège) Créances de salaires dont le montant n'a pas été avancé par l'AGS (art. L. 3253-6, L. 3253-8 à L. 3253-12 C. trav.) 2e rang Créances résultant d'un nouvel apport de trésorerie consenti en vue d'assurer la poursuite de l'activité pour la durée de la procédure (ordonnance du 15/09/2021) 3e rang Créances résultant de l'exécution des contrats poursuivis (art. L. 622-13) dont le cocontractant accepte un paiement différé 4e rang Autres créances, selon leur rang Art. L. 622-17, III C. com",
+    "reponse": "1er rang (superprivilège) : créances de salaires non avancées par l'AGS. 2e rang : créances résultant d'un nouvel apport de trésorerie pour la poursuite de l'activité. 3e rang : créances résultant de contrats poursuivis (art. L. 622-13) dont le cocontractant accepte un paiement différé. 4e rang : autres créances, selon leur rang. (Art. L. 622-17, III C. com.)",
     "mots_cles": [],
     "source": "Chapitre 5.1"
   },
@@ -1056,17 +924,6 @@
     "source": "Chapitre 5.1"
   },
   {
-    "id": "qr-entr-096",
-    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
-    "fiche_id": "sauvegarde-determination-du-patrimoine-du-debiteur-actif-proprietaire-de-biens-meubles",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Sauvegarde – détermination du patrimoine du débiteur – Actif propriétaire de biens meubles",
-    "reponse": "Les propriétaires des meubles sont soumis à des règles strictes pour la revendication de leur bien. 2 cas majeurs : 1 / Si le bien meuble que le créancier a mis à disposition de l’entreprise débitrice a été vendu → revendication de tout ou partie du prix qui n’a pas encore été payé par le tiers acquéreur (subrogation réelle, le créancier est payé directement par l’acquéreur). Attention toutefois à l’état de la chose vendu (pour que la revendication puisse se faire il faut que le bien ait été vendu dans son état initial) ; 2 / Si le bien meuble a été détruit → demande pouvant être faite sur l’indemnité d’assurance versée au débiteur",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
     "id": "qr-entr-097",
     "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
     "fiche_id": "sauvegarde-determination-du-patrimoine-du-debiteur-demande-en-revendication",
@@ -1089,28 +946,6 @@
     "source": "Art. L. 622-24 et s. C. com."
   },
   {
-    "id": "qr-entr-099",
-    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
-    "fiche_id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-5",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Sauvegarde – Règles applicables à la déclaration des créances (5)",
-    "reponse": "Présentation par hypothèse, en s'appuyant sur l'art. L. 622-24, al. 1 C. com. : Principe : à partir de la publication du jugement, tous les créanciers dont la créance est née antérieurement au jugement d'ouverture, à l'exception des salariés, adressent la déclaration de leur créance au mandataire judiciaire ; Créances titulaires d'une sûreté publiée ou liées au débiteur par un contrat publié : le délai de déclaration court à compter de la réception d'un avis personnel adressé par le mandataire judiciaire (et non de la seule publication du jugement) ; Créance postérieure au jugement d'ouverture non couverte par le privilège de l'art. L. 622-17 : déclaration obligatoire selon des modalités propres ; Créance civile née d'une infraction pénale : régime déclaratif particulier (point de départ du délai lié à la décision relative à l'existence et au montant de la créance) ; Créanciers qui ne demeurent pas en France métropolitaine : délai de déclaration allongé par décret (en principe 2 mois). Créanciers résultant de la réalisation d’ un contrat en cours : délai de 1 mois pour le cocontractant à partir de la réalisation de plein droit ou de la date de notification de la décision prononçant la réalisation",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
-    "id": "qr-entr-100",
-    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
-    "fiche_id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-le-cas-des-salaries",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Sauvegarde – Règles applicables à la déclaration des créances – Le cas des salariés",
-    "reponse": "Les créances résultant d'un contrat de travail ne sont pas déclarées par le salarié : elles sont établies par le mandataire judiciaire sous forme de relevés des créances, soumis au représentant des salariés puis visés par le juge-commissaire et déposés au greffe. Le salarié dont la créance ne figure pas sur le relevé peut saisir, à peine de forclusion, le conseil de prud'hommes dans un délai de deux mois à compter de la mesure de publicité. Art. L. 625-1 et L. 625-6 C. com",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
     "id": "qr-entr-101",
     "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
     "fiche_id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-le-cas-des-creances-devant-obligatoirement-etre-declarees-2",
@@ -1120,17 +955,6 @@
     "reponse": "Cas Les créances antérieures au jugement d'ouverture ; Les créances postérieures qui ne bénéficient pas du privilège de l'art. L. 622-17. Art. L. 622-17 C. com",
     "mots_cles": [],
     "source": "Art. L. 622-17 C. com."
-  },
-  {
-    "id": "qr-entr-102",
-    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
-    "fiche_id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-la-forclusion",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Sauvegarde – Règles applicables à la déclaration des créances – La forclusion",
-    "reponse": "À défaut de déclaration dans les délais, les créanciers ne sont pas admis dans les répartitions et les dividendes, sauf relevé de forclusion par le juge-commissaire s'ils établissent que leur défaillance n'est pas due à leur fait ou qu'elle résulte d'une omission du débiteur. L'action en relevé de forclusion ne peut être exercée que dans le délai de six mois à compter de la publication du jugement d'ouverture (ou, pour les créances salariales garanties par l'AGS, de l'expiration du délai de garantie). Art. L. 622-26, al. 1 C. com",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-103",
@@ -1144,17 +968,6 @@
     "source": "Art. L. 622-27 C. com."
   },
   {
-    "id": "qr-entr-104",
-    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
-    "fiche_id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-la-consultation-de-la-repertorisation-des-decisions-du-juge-commissaire-2-cas-d-admission",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Sauvegarde – Règles applicables à la déclaration des créances – La consultation de la répertorisation des décisions du juge commissaire (2 cas d'admission)",
-    "reponse": "Meilleure correspondance trouvée après recherche complémentaire : les décisions du juge-commissaire sur l'admission des créances sont portées sur l'état des créances déposé au greffe. Toute personne intéressée peut former une réclamation ou une tierce opposition contre ces décisions. Deux cas d'admission distincts apparaissent dans le corpus consulté : l'admission ordinaire par le juge-commissaire après vérification du mandataire judiciaire, et l'admission définitive de créances admises à titre provisionnel (notamment à la requête du Trésor public, une fois le titre exécutoire obtenu ou la créance non contestée). C’est le juge commissaire qui tranche en cas de contestation (la décision peut toujours être contestée dans les 10 jours suivants la notification). Art. L. 625-6 et R. 624-6 C. com",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
     "id": "qr-entr-105",
     "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
     "fiche_id": "sauvegarde-le-denouement-de-la-procedure-le-plan-de-sauvegarde",
@@ -1164,17 +977,6 @@
     "reponse": "Lorsqu'il existe une possibilité sérieuse pour l'entreprise d'être sauvegardée, le tribunal arrête un plan qui met fin à la période d'observation. Contenu : engagements personnels ; restructuration de l'entreprise (le plan comporte, s'il y a lieu, l'arrêt, l'adjonction ou la cession d'une ou plusieurs activités, art. L. 626-1, al. 2) ; modification des statuts ; apurement du passif (délais et remises). Art. L. 626-1 C. com",
     "mots_cles": [],
     "source": "Art. L. 626-1 C. com."
-  },
-  {
-    "id": "qr-entr-106",
-    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
-    "fiche_id": "sauvegarde-le-denouement-de-la-procedure-preparation-du-bilan",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Sauvegarde – Le dénouement de la procédure – préparation du bilan",
-    "reponse": "Étapes : bilan économique et social dressé par l'administrateur avec le concours du débiteur, précisant l'origine, l'importance et la nature des difficultés — complété d'un bilan environnemental pour les installations classées (art. L. 623-1) ; contenu du projet de plan établi par le débiteur avec le concours de l'administrateur, déterminant les perspectives de redressement et les modalités de règlement du passif (art. L. 626-2) ; classes de parties affectées pour les entreprises dépassant des seuils fixés par décret (art. L. 626-29 et L. 626-30) ; information et consultation des représentants du personnel sur le projet. Art. L. 623-1, L. 626-2, L. 626-29, L. 626-30 C. com",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
   },
   {
     "id": "qr-entr-107",
@@ -1199,50 +1001,6 @@
     "source": "Art. L. 626-1 C. com."
   },
   {
-    "id": "qr-entr-109",
-    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
-    "fiche_id": "sauvegarde-le-denouement-de-la-procedure-effet-du-plan-de-sauvegarde",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Sauvegarde – Le dénouement de la procédure – Effet du plan de sauvegarde",
-    "reponse": "Durée : 10 ans maximum (15 ans pour une exploitation agricole). Pouvoirs du débiteur : il retrouve la pleine administration de son entreprise, sous le contrôle du commissaire à l'exécution du plan. Organes : désignation d'un commissaire à l'exécution du plan, chargé de veiller à sa bonne exécution et de répartir les fonds entre les créanciers. Conséquences en cas d'inexécution : résolution du plan pouvant être prononcée par le tribunal. Conséquences en cas d'échec : ouverture d'un redressement ou d'une liquidation judiciaire",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
-    "id": "qr-entr-110",
-    "notion_id": "entreprise-difficulte.sauvegarde-acceleree-et-sfa",
-    "fiche_id": "sauvegarde-sauvegarde-acceleree-definition",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Sauvegarde – Sauvegarde accélérée - définition",
-    "reponse": "Procédure de sauvegarde soumise aux règles de la sauvegarde de droit commun, sous réserve de règles propres, ouverte à la demande d'un débiteur déjà engagé dans une procédure de conciliation qui justifie avoir élaboré un projet de plan tendant à assurer la pérennité de l'entreprise, susceptible de recueillir un soutien suffisamment large des parties affectées. La procédure ne peut être ouverte qu'à l'égard d'un débiteur dont les comptes ont été certifiés par un commissaire aux comptes ou établis par un expert-comptable. Art. L. 628-1 C. com. ⚠️ : la « SFA » (Sauvegarde Financière Accélérée) n'est plus une procédure autonome distincte depuis l'ordonnance n° 2021-1193 du 15 septembre 2021 : elle correspond désormais à la situation, prévue par l'art. L. 628-1, al. 3, où « les comptes du débiteur font apparaître que la nature de l'endettement rend vraisemblable l'adoption d'un plan par les seuls créanciers » financiers (sociétés de financement, établissements de crédit, obligataires...) — dans ce cas, les effets de la sauvegarde accélérée sont limités à ces seuls créanciers. Il n'existe plus d'articles L. 628-9 et suivants dédiés à une SFA séparée",
-    "mots_cles": [],
-    "source": "Art. L. 628-1 C. com."
-  },
-  {
-    "id": "qr-entr-111",
-    "notion_id": "entreprise-difficulte.sauvegarde-acceleree-et-sfa",
-    "fiche_id": "sauvegarde-sauvegarde-acceleree-regime-general",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Sauvegarde – Sauvegarde accélérée – Régime général",
-    "reponse": "Articulation des deux procédures : la sauvegarde accélérée présuppose une conciliation en cours (art. L. 628-1, al. 2). Domaine d'application : tout débiteur éligible à la sauvegarde, sous condition de certification des comptes. Conditions d'ouverture : projet de plan élaboré pendant la conciliation, soutien suffisamment large prévisible ; la cessation des paiements ne fait pas obstacle à l'ouverture si elle ne précède pas de plus de 45 jours la demande d'ouverture de la conciliation préalable (sinon le ministère public peut saisir le tribunal pour y mettre fin, art. L. 628-5). Art. L. 628-1 et L. 628-5 C. com. Déclaration des créances : le débiteur établit une liste des créances de chaque partie affectée ayant participé à la conciliation, certifiée par le CAC ou attestée par l'expert-comptable, déposée au greffe ; son dépôt vaut déclaration au nom des parties affectées qui n'ont pas elles-mêmes déclaré (art. L. 628-7). Particularités de la continuation des contrats en cours : les III et IV de l'art. L. 622-13 (délai de mise en demeure et option d'achat de crédit-bail) ne sont pas applicables en sauvegarde accélérée (art. L. 628-1, al. 1). Éviction de la revendication de meubles : les sections 3 et 4 du chapitre IV (relatives à la revendication de certains biens meubles) ne sont pas applicables non plus (art. L. 628-1, al. 1). Adoption du plan : le tribunal doit l'arrêter dans un délai de deux mois à compter du jugement d'ouverture, prorogeable à la demande du débiteur et de l'administrateur judiciaire sans que la durée totale ne puisse excéder quatre mois — à défaut, le tribunal met fin à la procédure. Art. L. 628-7 et L. 628-8 C. com",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
-    "id": "qr-entr-112",
-    "notion_id": "entreprise-difficulte.redressement-judiciaire",
-    "fiche_id": "redressement-judiciaire-definition",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Redressement judiciaire - définition",
-    "reponse": "Procédure applicable à tout débiteur en cessation des paiements dont le redressement n'est pas manifestement impossible, destinée à permettre la poursuite de l'activité, le maintien de l'emploi et l'apurement du passif (art. L. 631-1, par renvoi des principes de la sauvegarde). La procédure dure le temps d'une période d'observation (art. L. 621-3, applicable par renvoi de l'art. L. 631-7) avant l'adoption éventuelle d'un plan de redressement, qui peut comporter des classes de parties affectées selon les seuils des art. L. 626-29 et L. 626-30 (rendus applicables par l'art. L. 631-19). Art. L. 631-2, L. 621-3, L. 626-29, L. 626-30 C. com",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
     "id": "qr-entr-113",
     "notion_id": "entreprise-difficulte.redressement-judiciaire",
     "fiche_id": "redressement-judiciaire-ouverture-de-la-procedure-entreprises-concernees",
@@ -1265,39 +1023,6 @@
     "source": "Art. L. 631-1 C. com."
   },
   {
-    "id": "qr-entr-115",
-    "notion_id": "entreprise-difficulte.redressement-judiciaire",
-    "fiche_id": "redressement-judiciaire-ouverture-de-la-procedure-jugement-d-ouverture-de-la-procedure",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Redressement judiciaire – Ouverture de la procédure – Jugement d'ouverture de la procédure",
-    "reponse": "Tribunal compétent : tribunal de commerce (activité commerciale/artisanale) ou tribunal judiciaire (activité agricole/libérale), comme pour la sauvegarde. Saisine : par le débiteur lui-même — obligatoirement dans les 45 jours de la cessation des paiements, sauf demande d'ouverture d'une conciliation dans ce délai —, par un créancier, ou par le ministère public. Choix de la procédure : le tribunal ouvre un redressement judiciaire si la cessation des paiements est caractérisée et le redressement possible ; à défaut de possibilité sérieuse, il ouvre directement une liquidation judiciaire. Art. L. 631-4 et L. 631-5 C. com. (saisine) ; Art. L. 640-1 C. com. (renvoi en liquidation)",
-    "mots_cles": [],
-    "source": "Art. L. 640-1 C. com."
-  },
-  {
-    "id": "qr-entr-116",
-    "notion_id": "entreprise-difficulte.redressement-judiciaire",
-    "fiche_id": "redressement-judiciaire-deroulement-de-la-procedure-periode-d-observation",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Redressement judiciaire – Déroulement de la procédure – Période d'observation",
-    "reponse": "Mesure non facultative (elle s'ouvre de plein droit avec le jugement d'ouverture, contrairement à ce qu'une formulation rapide pourrait suggérer). Durée : 6 mois, renouvelable une fois (12 mois maximum en principe), avec une prolongation exceptionnelle de 6 mois possible sur demande du procureur de la République (soit 18 mois maximum). ⚠️ Ce qui est facultatif, c'est la désignation d'un administrateur judiciaire en deçà des seuils de 20 salariés/3 M€ de CA (art. R. 621-3), pas la période d'observation elle-même. Art. L. 621-3 (par renvoi) et L. 631-7 C. com. La période d’observation peut être interrompue si : le tribunal estime que le redressement judiciare est manifestement impossible ou alors si le débiteur dispose des sommes suffisantes pour désintéresser les créanciers et acquitter les frais et dettes afférents à la procédure",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
-    "id": "qr-entr-117",
-    "notion_id": "entreprise-difficulte.redressement-judiciaire",
-    "fiche_id": "redressement-judiciaire-deroulement-de-la-procedure-gestion-de-l-entreprise",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Redressement judiciaire – Déroulement de la procédure – Gestion de l'entreprise",
-    "reponse": "Pouvoirs du débiteur : réduits si l'administrateur a une mission de représentation. Missions de l'administrateur judiciaire : peut aller de l'assistance à la représentation — dans ce dernier cas il assure seul, entièrement ou en partie, l'administration de l'entreprise (art. L. 631-12) ; il ne peut pas être désigné pour une simple mission de surveillance en redressement judiciaire (à la différence de la sauvegarde). Actes réglementés : les actes étrangers à la gestion courante restent soumis à autorisation du juge-commissaire, comme en sauvegarde. Art. L. 631-12 C. com",
-    "mots_cles": [],
-    "source": "Art. L. 631-12 C. com."
-  },
-  {
     "id": "qr-entr-118",
     "notion_id": "entreprise-difficulte.redressement-judiciaire",
     "fiche_id": "redressement-judiciaire-deroulement-de-la-procedure-poursuite-des-contrats-en-cours",
@@ -1316,28 +1041,6 @@
     "difficulte": "moyen",
     "question": "Redressement judiciaire – Déroulement de la procédure – Droits des créanciers",
     "reponse": "Créanciers antérieurs : mêmes règles que la sauvegarde (interdiction de payer, arrêt des poursuites, arrêt du cours des intérêts, déclaration des créances — art. L. 622-7, L. 622-21 et s., L. 622-28). Créanciers postérieurs : mêmes règles de privilège qu'en sauvegarde (art. L. 622-17), payés à l'échéance ou par privilège selon le même classement par rang. Art. L. 622-7, L. 622-17, L. 622-28 C. com. (applicables par renvoi)",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
-    "id": "qr-entr-120",
-    "notion_id": "entreprise-difficulte.redressement-judiciaire",
-    "fiche_id": "redressement-judiciaire-deroulement-de-la-procedure-determination-du-patrimoine-du-debiteur",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Redressement judiciaire – Déroulement de la procédure – Détermination du patrimoine du débiteur",
-    "reponse": "Actif (deux actions possibles) : demande en revendication (art. L. 624-17, par renvoi) et action en nullité de la période suspecte. Nullités de la période suspecte — nullités de droit (liste d'actes obligatoirement annulés : actes à titre gratuit translatifs de propriété, paiements de dettes non échues, sûretés constituées pour dettes antérieures, etc. — art. L. 632-1) ; nullités facultatives (actes que le tribunal peut annuler : paiements de dettes échues et actes à titre onéreux conclus par un cocontractant ayant connaissance de la cessation des paiements — art. L. 632-2). Passif : déclaration et vérification des créances selon les mêmes règles qu'en sauvegarde. Art. L. 624-17, L. 632-1, L. 632-2 C. com",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
-    "id": "qr-entr-121",
-    "notion_id": "entreprise-difficulte.redressement-judiciaire",
-    "fiche_id": "redressement-judiciaire-denouement-de-la-procedure-le-plan-de-redressement",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Redressement judiciaire – Dénouement de la procédure – Le plan de redressement",
-    "reponse": "Choix du tribunal : plan de continuation ou plan de cession (totale ou partielle). Préparation : L'administrateur, avec le concours du débiteur, élabore le projet de plan et le présente, le cas échéant, aux classes de parties affectées (art. L. 631-19, I). Adoption : par le tribunal, après vote des classes ou, à défaut d'approbation, sur demande du débiteur/administrateur avec son accord/une partie affectée — le plan peut alors être imposé aux classes qui ont voté contre (art. L. 631-19). Contenu : identique au plan de sauvegarde (apurement du passif, restructuration...). Licenciement économique : possible pendant la période d'observation sur autorisation du juge-commissaire (art. L. 631-17, applicable). Remplacement des dirigeants : peut être prévu par le plan dans des conditions spécifiques au redressement. Droits des créanciers contre les garants : maintenus. Modification du capital : en cas de refus des assemblées d'adopter une augmentation de capital prévue par le plan, et sous conditions strictes (entreprise d'au moins 150 salariés, trouble grave à l'économie, délai de 3 mois après le jugement d'ouverture), le tribunal peut désigner un mandataire chargé de voter l'augmentation de capital à la place des associés opposants — l'augmentation devant être réalisée dans un délai maximal de 30 jours (art. L. 631-19-2). Effets du plan : identiques à la sauvegarde. Hypothèse du retour à la cessation des paiements : si la cessation des paiements est constatée pendant l'exécution du plan, le tribunal résout le plan et ouvre une liquidation judiciaire, après avoir examiné si une procédure de rétablissement professionnel est possible (art. L. 631-20). Art. L. 631-17, L. 631-19, L. 631-19-2, L. 631-20 C. com",
     "mots_cles": [],
     "source": "Chapitre 5.1"
   },
@@ -1364,17 +1067,6 @@
     "source": "Chapitre 5.1"
   },
   {
-    "id": "qr-entr-124",
-    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
-    "fiche_id": "liquidation-judiciaire-ouverture-et-prononce-de-la-liquidation-judiciaire-ouverture-sans-periode-d-observation",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Liquidation judiciaire – Ouverture et prononcé de la liquidation judiciaire – ouverture sans période d'observation",
-    "reponse": "Entreprises concernées : toute personne exerçant une activité commerciale, artisanale ou agricole, toute personne physique exerçant une activité professionnelle indépendante (y compris libérale réglementée), toute personne morale de droit privé (art. L. 640-2). Degré de difficulté justifiant la liquidation judiciaire (ALTERNATIF, deux cas) : Le débiteur est en cessation des paiements et son redressement est manifestement impossible dès l'ouverture (liquidation judiciaire directe, sans période d'observation) ; La cessation des paiements est constatée en cours d'exécution d'un plan de sauvegarde ou de redressement, et le rétablissement professionnel n'est pas possible (conversion, art. L. 631-20). Art. L. 640-1, L. 640-2 C. com",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
     "id": "qr-entr-125",
     "notion_id": "entreprise-difficulte.liquidation-judiciaire",
     "fiche_id": "liquidation-judiciaire-ouverture-et-prononce-de-la-liquidation-judiciaire-jugement-d-ouverture-de-la-procedure",
@@ -1384,39 +1076,6 @@
     "reponse": "Généralités : mêmes règles de compétence et de saisine que pour le redressement judiciaire (tribunal de commerce ou judiciaire selon l'activité ; saisine par le débiteur, un créancier ou le ministère public). Prononcé de la liquidation : le tribunal qui constate la cessation des paiements et l'impossibilité manifeste de redressement prononce directement la liquidation judiciaire — sans phase de période d'observation contrairement à la sauvegarde et au redressement. Art. L. 640-1 C. com",
     "mots_cles": [],
     "source": "Art. L. 640-1 C. com."
-  },
-  {
-    "id": "qr-entr-126",
-    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
-    "fiche_id": "liquidation-judiciaire-deroulement-de-la-procedure",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Liquidation judiciaire – déroulement de la procédure",
-    "reponse": "Pouvoirs du débiteur : il est dessaisi de plein droit de l'administration et de la disposition de ses biens — ses droits et actions patrimoniaux sont exercés par le liquidateur (art. L. 641-9). Contrats en cours : mêmes règles que la sauvegarde (art. L. 622-13, par renvoi de l'art. L. 641-3). Droits des créanciers antérieurs : suspension des poursuites et interdiction de payer, comme en sauvegarde, par renvoi de l'art. L. 641-3 ; exigibilité immédiate de toutes les créances non échues (art. L. 643-1). Droits des créanciers postérieurs : créances régulières liées à la liquidation, payées par privilège. Détermination du patrimoine du débiteur : Actif réalisé par le liquidateur (ventes mobilières et immobilières) ; Passif vérifié et déclaré selon les mêmes règles que la sauvegarde/le redressement. Art. L. 641-3, L. 641-9, L. 643-1 C. com",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
-    "id": "qr-entr-127",
-    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
-    "fiche_id": "liquidation-judiciaire-operations-de-liquidation-cession-d-actifs-isoles",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Liquidation judiciaire – Opérations de liquidation – Cession d'actifs isolés",
-    "reponse": "Champ d'application : concerne les biens du débiteur qui ne sont pas cédés dans le cadre d'un plan de cession global. Vente des immeubles : conformément aux règles du Code des procédures civiles d'exécution (art. L. 322-5 à L. 322-12, sous réserve des dispositions du Code de commerce) ; le juge-commissaire fixe la mise à prix et les conditions essentielles, et peut autoriser une vente de gré à gré ou par adjudication amiable si cela permet une cession dans de meilleures conditions (art. L. 642-18). Vente des meubles : le juge-commissaire ordonne soit la vente aux enchères publiques, soit autorise la vente de gré à gré aux prix et conditions qu'il détermine, lorsqu'elle garantit mieux les intérêts du débiteur (art. L. 642-19). Art. L. 642-18, L. 642-19 C. com",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
-    "id": "qr-entr-128",
-    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
-    "fiche_id": "liquidation-judiciaire-operations-de-liquidation-cession-de-l-entreprise",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Liquidation judiciaire – Opérations de liquidation – Cession de l'entreprise",
-    "reponse": "« La cession de l'entreprise a pour but d'assurer le maintien d'activités susceptibles d'exploitation autonome, de tout ou partie des emplois qui y sont attachés et d'apurer le passif » (art. L. 642-1, al. 1). Elle peut être totale ou partielle (al. 2). Redressement ou liquidation judiciaire : la cession peut intervenir dans les deux procédures. Offres de reprise — qui ne peut pas en formuler (art. L. 642-3, confirmé) : le débiteur (au titre de l'un quelconque de ses patrimoines), les dirigeants de droit ou de fait de la personne morale en liquidation, les parents ou alliés jusqu'au deuxième degré inclusivement de ces dirigeants ou du débiteur personne physique, et les personnes ayant ou ayant eu la qualité de contrôleur — ni directement, ni par personne interposée. Ces mêmes personnes ne peuvent acquérir, dans les cinq années suivant la cession, tout ou partie des biens cédés. Exception : pour une exploitation agricole, le tribunal peut déroger à ces interdictions (à l'exception des contrôleurs et du débiteur). Formalisme des offres : encadré par l'art. L. 642-2, II (contenu obligatoire de l'offre). Publicité des offres : assurée par le greffe/liquidateur. Adoption du plan de cession : par le tribunal, après avoir fixé le délai de réception des offres (art. L. 642-2, I). Contenu du plan de cession : transmission totale (l'ensemble des actifs) ou partielle (une ou plusieurs branches complètes et autonomes d'activité). Transmission de certains contrats en cours : contrat de travail (art. L. 1224-1 C. trav. — maintien des contrats de travail en cas de transfert d'entreprise) ; contrat d'assurance (art. L. 121-10 C. assur. — l'assurance continue de plein droit au profit de l'acquéreur) ; crédit-bail, location financière et contrats de fourniture nécessaires au maintien de l'activité (art. L. 642-7 — ces contrats sont cédés de plein droit avec le jugement arrêtant le plan, aux conditions en vigueur au jour de l'ouverture). Détermination et répartition du prix : fixés par le tribunal/liquidateur. Engagements personnels du repreneur : peuvent être exigés par le tribunal. Transfert de propriété : au jugement arrêtant le plan de cession. Inexécution et résolution du plan : en cas de non-respect par le repreneur de ses obligations, le tribunal peut prononcer la résolution du plan de cession. Art. L. 642-1, L. 642-2, L. 642-3, L. 642-7 C. com. ; Art. L. 1224-1 C. trav. ; Art. L. 121-10 C. assur",
-    "mots_cles": [],
-    "source": "art. L. 1224-1 C. trav.; art. L. 121-10 C. assur.; Art. L. 1224-1 C. trav.; Art. L. 121-10 C. assur."
   },
   {
     "id": "qr-entr-129",
@@ -1441,17 +1100,6 @@
     "source": "Art. L. 641-2 C. com.; Art. D. 641-10 C. com."
   },
   {
-    "id": "qr-entr-131",
-    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
-    "fiche_id": "liquidation-judiciaire-liquidation-judiciaire-simplifiee-regime-simplifie",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Liquidation judiciaire – Liquidation judiciaire simplifiée – Régime simplifié",
-    "reponse": "Simplification de la vente des biens mobiliers : par dérogation à l'art. L. 642-19, le liquidateur procède à la vente de gré à gré ou aux enchères publiques dans les quatre mois suivant la décision ordonnant la procédure simplifiée — à l'issue, vente aux enchères publiques des biens subsistants (art. L. 644-2). Simplification du traitement du passif : vérification limitée aux seules créances susceptibles de venir en rang utile dans les répartitions et aux créances salariales (art. L. 644-3). Clôture (délais) : au plus tard dans le délai de 6 mois à compter de la décision d'application du régime simplifié — porté à 1 an si les seuils (salariés/CA) du débiteur sont supérieurs à des seuils fixés par décret ; prorogation possible de 3 mois maximum par jugement motivé (art. L. 644-5). Art. L. 642-19, L. 644-2, L. 644-3, L. 644-5 C. com",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
     "id": "qr-entr-132",
     "notion_id": "entreprise-difficulte.liquidation-judiciaire",
     "fiche_id": "liquidation-judiciaire-cloture-de-la-liquidation-judiciaire-definition-generale",
@@ -1474,17 +1122,6 @@
     "source": "Chapitre 5.1"
   },
   {
-    "id": "qr-entr-134",
-    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
-    "fiche_id": "liquidation-judiciaire-cloture-de-la-liquidation-judiciaire-pour-insuffisance-d-actifs",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Liquidation judiciaire – Clôture de la liquidation judiciaire pour insuffisance d'actifs",
-    "reponse": "Cause : la poursuite des opérations de liquidation est rendue impossible en raison de l'insuffisance de l'actif. Effets : clôture de la procédure. Extinction du droit de poursuite des créanciers impayés : en principe, la clôture pour insuffisance d'actif ne fait pas recouvrer aux créanciers leur droit de poursuite individuelle contre le débiteur personne physique (sauf cas de fraude, de faillite personnelle ou de banqueroute, ou de condamnation pour des infractions limitativement énumérées). Art. L. 643-9, al. 2 C. com",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
     "id": "qr-entr-135",
     "notion_id": "entreprise-difficulte.liquidation-judiciaire",
     "fiche_id": "liquidation-judiciaire-cloture-de-la-liquidation-judiciaire-pour-difficultes-de-realisation-des-actifs-residuels",
@@ -1494,83 +1131,6 @@
     "reponse": "Cause alternative supplémentaire posée par le second alinéa de l'art. L. 643-9 : l'intérêt de la poursuite des opérations est disproportionné par rapport aux difficultés de réalisation des actifs résiduels — le tribunal peut alors prononcer la clôture en désignant, si besoin, un mandataire chargé de poursuivre les instances en cours et de répartir les sommes perçues à leur issue. Art. L. 643-9, al. 2 et 3 C. com",
     "mots_cles": [],
     "source": "Chapitre 5.1"
-  },
-  {
-    "id": "qr-entr-136",
-    "notion_id": "entreprise-difficulte.retablissement-professionnel",
-    "fiche_id": "retablissement-professionnel-definition",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Rétablissement professionnel – Définition",
-    "reponse": "Procédure sans liquidation, ouverte à tout débiteur personne physique en cessation des paiements dont le redressement est manifestement impossible, qui n'a pas cessé son activité depuis plus d'un an, n'a employé aucun salarié au cours des six derniers mois et dont l'actif déclaré a une valeur inférieure à un montant fixé par décret (15 000€). A pour objet le traitement simplifié du passif grevant le ou les patrimoines du débiteur. Art. L. 645-1 C. com. ⚠️ : issue de la réforme de 2014 (ordonnance n° 2014-326 du 12 mars 2014) — seul le texte actuel du Code de commerce (art. L. 645-1 et s.) a pu être vérifié",
-    "mots_cles": [],
-    "source": "Art. L. 645-1 C. com."
-  },
-  {
-    "id": "qr-entr-137",
-    "notion_id": "entreprise-difficulte.retablissement-professionnel",
-    "fiche_id": "retablissement-professionnel-principes-generaux",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Rétablissement professionnel – Principes généraux",
-    "reponse": "Entreprises concernées (délais et seuils) : personne physique, actif déclaré inférieur à 15 000 € (les biens insaisissables de droit n'étant pas pris en compte), n'ayant pas cessé son activité depuis plus d'un an, aucun salarié employé dans les 6 derniers mois. Exclusion : pas d'ouverture possible si le débiteur a déjà bénéficié, depuis moins de 5 ans, d'une liquidation judiciaire clôturée pour insuffisance d'actif ou d'une clôture de rétablissement professionnel. Degré de difficulté : cessation des paiements + redressement manifestement impossible. Ouverture : le tribunal ne l'ouvre qu'après s'être assuré que les conditions légales sont remplies, après avis du ministère public. Déroulement : 4 mois maximum. Dénouement : clôture (le débiteur est libéré de ses dettes sans liquidation ni vente de biens) ou, si les conditions ne sont pas remplies, ouverture d'une liquidation judiciaire. Art. L. 645-1, L. 645-2, L. 645-3 C. com. ; Art. R. 645-1 C. com. (seuil de 15 000 €)",
-    "mots_cles": [],
-    "source": "Art. R. 645-1 C. com."
-  },
-  {
-    "id": "qr-entr-138",
-    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
-    "fiche_id": "sanction-des-dirigeants-responsabilite-pour-insuffisance-d-actif",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Sanction des dirigeants – Responsabilité pour insuffisance d'actif",
-    "reponse": "Lorsque la liquidation judiciaire d'une personne morale fait apparaître une insuffisance d'actif, le tribunal peut, en cas de faute de gestion ayant contribué à cette insuffisance d'actif, décider que le montant de cette insuffisance sera supporté, en tout ou en partie, par tous les dirigeants de droit ou de fait, ou certains d'entre eux — solidairement en cas de pluralité, par décision motivée. La simple négligence du dirigeant ne peut pas engager sa responsabilité à ce titre. Régime particulier pour les associations loi 1901 non assujetties à l'IS : la faute de gestion s'apprécie au regard de la qualité de bénévole du dirigeant. Art. L. 651-2 C. com",
-    "mots_cles": [],
-    "source": "Art. L. 651-2 C. com."
-  },
-  {
-    "id": "qr-entr-139",
-    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
-    "fiche_id": "sanction-du-dirigeants-sanction-professionnelles-faillite-personnelle",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Sanction du dirigeants – Sanction professionnelles – Faillite personnelle",
-    "reponse": "« La faillite personnelle emporte interdiction de diriger, gérer, administrer ou contrôler, directement ou indirectement, toute entreprise commerciale ou artisanale, toute exploitation agricole ou toute entreprise ayant toute autre activité indépendante et toute personne morale ». Sanction civile (non pénale). Art. L. 653-2 C. com. Principaux faits pouvant la justifier (listes ALTERNATIVES, art. L. 653-3 à L. 653-6) : poursuite abusive d'une exploitation déficitaire ; détournement/dissimulation d'actif ou augmentation frauduleuse du passif ; usage des biens/du crédit de l'entreprise à des fins personnelles ; disposition des biens de la personne morale comme des siens propres ; comptabilité fictive, manifestement incomplète ou irrégulière, ou absence de comptabilité obligatoire ; paiement préférentiel d'un créancier en connaissance de la cessation des paiements ; non-paiement des dettes mises à la charge du dirigeant au titre de l'insuffisance d'actif (art. L. 653-6). Durée de 15 ans max",
-    "mots_cles": [],
-    "source": "Art. L. 653-2 C. com."
-  },
-  {
-    "id": "qr-entr-140",
-    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
-    "fiche_id": "sanction-du-dirigeants-sanction-professionnelles-interdiction-de-gerer",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Sanction du dirigeants – Sanction professionnelles – Interdiction de gérer",
-    "reponse": "Étendue de l'interdiction : diriger, gérer, administrer ou contrôler, directement ou indirectement, soit toute entreprise commerciale/artisanale, toute exploitation agricole et toute personne morale, soit une ou plusieurs de celles-ci seulement — sanction modulable, contrairement à la faillite personnelle qui est générale. Comportements sanctionnés : les mêmes faits que ceux des art. L. 653-3 à L. 653-6 (prononcée par le tribunal à la place de la faillite personnelle) — ainsi que le fait, de mauvaise foi, de ne pas avoir remis au mandataire judiciaire, à l'administrateur ou au liquidateur les renseignements qu'il est tenu de communiquer. Art. L. 653-8 C. com. ⚠️ : délai de 45 jours pour la déclaration de cessation des paiements (art. L. 631-4/L. 640-4), qui peut indirectement motiver des poursuites, mais ce lien n'est pas textuellement établi dans les articles de sanctions eux-mêmes + obligation d’informer un créancier le poursuivant en justice de l’ouverture de la procédure collective dans les 10 jours de l’ouverture de la procédure",
-    "mots_cles": [],
-    "source": "Art. L. 653-8 C. com."
-  },
-  {
-    "id": "qr-entr-141",
-    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
-    "fiche_id": "sanction-du-dirigeants-sanctions-penales-la-banqueroute",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Sanction du dirigeants – Sanctions pénales – La banqueroute",
-    "reponse": "Domaine : ouverture d'un redressement judiciaire ou d'une liquidation judiciaire du débiteur ou de la personne morale dirigée. Comportements sanctionnés (faits ALTERNATIFS) : avoir, dans l'intention d'éviter ou de retarder l'ouverture de la procédure, fait des achats en vue d'une revente au-dessous du cours ou employé des moyens ruineux pour se procurer des fonds ; avoir détourné ou dissimulé tout ou partie de l'actif ; avoir frauduleusement augmenté le passif ; avoir tenu une comptabilité fictive, fait disparaître des documents comptables, ou omis de tenir toute comptabilité obligatoire. Peines : 5 ans d'emprisonnement et 75 000 € d'amende, assortis de peines complémentaires possibles (interdiction de gérer, faillite personnelle). Art. L. 654-1 et L. 654-2 C. com",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
-    "id": "qr-entr-142",
-    "notion_id": "entreprise-difficulte.faillite-internationale",
-    "fiche_id": "faillite-internationale",
-    "type_question": "notion",
-    "difficulte": "moyen",
-    "question": "Faillite internationale",
-    "reponse": "Définition : traitement d'une procédure d'insolvabilité transfrontalière. En l'absence de norme internationale : c'est le droit international privé commun (compétence des juridictions, reconnaissance des jugements étrangers) qui s'applique, en dehors du champ d'application du règlement européen. Règlement européen : le règlement (UE) 2015/848 du 20 mai 2015 organise, au sein de l'Union européenne, la coordination des procédures d'insolvabilité — le tribunal saisi peut ouvrir soit une procédure d'insolvabilité principale (dans l'État du centre des intérêts principaux du débiteur, à effets universels dans l'UE), soit une procédure territoriale ou secondaire (effets limités à l'État où elle est ouverte). Art. L. 690-1 C. com. ; Règlement (UE) n° 2015/848 du 20 mai 2015",
-    "mots_cles": [],
-    "source": "Art. L. 690-1 C. com."
   },
   {
     "id": "qr-entr-143",
@@ -1600,9 +1160,9 @@
     "fiche_id": "activite-agricole-definition",
     "type_question": "notion",
     "difficulte": "moyen",
-    "question": "Activité agricole – définition",
-    "reponse": "Activité correspondant à la maîtrise et l'exploitation d'un cycle biologique de caractère végétal ou animal et constituant une ou plusieurs étapes nécessaires au déroulement de ce cycle, ainsi que les activités dans le prolongement de l'acte de production ou ayant pour support l'exploitation (formule usuelle de l'art. L. 311-1 du Code rural, restituée de mémoire). ⚠️ Non sourcé sur un texte disponible (Code rural non fourni) — réponse donnée de mémoire avec ton autorisation, à vérifier impérativement de ton côté",
     "mots_cles": [],
+    "question": "Activité agricole – définition",
+    "reponse": "Toutes les activités correspondant à la maîtrise et à l'exploitation d'un cycle biologique de caractère végétal ou animal, constituant une ou plusieurs étapes nécessaires à ce cycle, ainsi que les activités exercées par un exploitant agricole qui sont dans le prolongement de l'acte de production ou qui ont pour support l'exploitation. (Art. L. 311-1 C. rural — vérifié sur Légifrance)",
     "source": "Chapitre 5.1"
   },
   {
@@ -1690,28 +1250,6 @@
     "difficulte": "moyen",
     "question": "Établissement des comptes annuels - obligations et exceptions (ref : C.com art 123-12 s + art L526-13) ?",
     "reponse": "Principe : tout commerçant, personne physique ou morale, doit procéder à l'enregistrement comptable chronologique des mouvements affectant son patrimoine, contrôler par inventaire au moins une fois tous les douze mois, et établir des comptes annuels à la clôture de l'exercice (bilan, compte de résultat, annexe, formant un tout indissociable). (Art. L. 123-12 et L. 123-13 C. com. ; Art. L. 526-13 C. com.)",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
-    "id": "qr-entr-154",
-    "notion_id": "entreprise-difficulte.obligations-comptables",
-    "fiche_id": "etablissement-des-comptes-annuels-seuils-pm-de-droit-prive-non-commercante-23-ref-c-com-art-612-1",
-    "type_question": "definition",
-    "difficulte": "moyen",
-    "question": "Établissement des comptes annuels - seuils pm de droit privé non commerçante (⅔) (ref : C.com art 612-1) ?",
-    "reponse": "Les personnes morales de droit privé non commerçantes ayant une activité économique doivent établir chaque année un bilan, un compte de résultat et une annexe dès qu'elles dépassent, pour deux des trois critères suivants, des seuils fixés par décret en Conseil d'État : (Art. L. 612-1 C. com. ; Art. L. 221-9 C. com. (SNC), L. 223-35 C. com. (SARL), L. 227-9-1 C. com. (SAS) ; seuils fixés par Art. D. 221-5 C. com. (SNC), D. 223-27 C. com. (SARL), D. 227-1 C. com. (SAS))",
-    "mots_cles": [],
-    "source": "Chapitre 5.1"
-  },
-  {
-    "id": "qr-entr-155",
-    "notion_id": "entreprise-difficulte.obligations-comptables",
-    "fiche_id": "contenu-de-la-comptabilite-ref-c-com-art-l123-16-d-123-200",
-    "type_question": "definition",
-    "difficulte": "moyen",
-    "question": "Contenu de la comptabilité (ref : C.com art L123-16 + D 123-200) ?",
-    "reponse": "Le contenu général de l'obligation comptable (enregistrement chronologique, inventaire annuel, comptes annuels) résulte des art. L. 123-12 à L. 123-14 C. com.. L'art. L. 123-16, cité dans la question, porte plus précisément sur les dérogations de présentation : les petites entreprises peuvent adopter une présentation simplifiée de leurs comptes annuels, et les moyennes entreprises une présentation simplifiée de leur compte de résultat — dès lors qu'elles ne dépassent pas, sur le dernier exercice clos, 2 des 3 seuils (bilan, chiffre d'affaires net, effectif moyen) fixés par décret. (Art. L. 123-16 C. com.)",
     "mots_cles": [],
     "source": "Chapitre 5.1"
   },
@@ -1811,6 +1349,1293 @@
     "difficulte": "moyen",
     "question": "Modifications de la loi PACTE ?",
     "reponse": "La loi n° 2019-486 du 22 mai 2019 (« PACTE ») a notamment : (Loi n° 2019-486 du 22 mai 2019)",
+    "mots_cles": [],
+    "source": "Chapitre 5.1"
+  },
+  {
+    "question": "Alerte CAC – Étape 1 (information du dirigeant) ?",
+    "reponse": "Le CAC demande par lettre recommandée des explications au dirigeant, qui doit répondre dans un délai de 15 jours.",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "fiche_id": "alerte-declenchee-par-le-cac-procedure-en-4-etapes",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-165"
+  },
+  {
+    "question": "Alerte CAC – Étape 2 (organe collégial) ?",
+    "reponse": "À défaut de réponse satisfaisante, le CAC établit un rapport spécial présenté au conseil d'administration ou de surveillance (ou aux associés via une assemblée convoquée à cet effet en l'absence d'organe collégial).",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "fiche_id": "alerte-declenchee-par-le-cac-procedure-en-4-etapes",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-166"
+  },
+  {
+    "question": "Alerte CAC – Étape 3 (président du tribunal) ?",
+    "reponse": "Si les décisions prises à l'étape 2 ne permettent pas d'assurer la continuité de l'exploitation, le CAC informe le président du tribunal de commerce ; il reste tenu au secret professionnel envers les autres tiers.",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "fiche_id": "alerte-declenchee-par-le-cac-procedure-en-4-etapes",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-167"
+  },
+  {
+    "question": "Alerte CAC – Étape 4 (assemblée générale) ?",
+    "reponse": "Si la situation n'est pas résolue, le CAC établit un rapport spécial soumis à la prochaine assemblée générale.",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "fiche_id": "alerte-declenchee-par-le-cac-procedure-en-4-etapes",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-168"
+  },
+  {
+    "question": "Alerte CAC – Art. L. 611-2-2 C. com., quand est-elle déclenchée ?",
+    "reponse": "Lorsque le CAC, dans l'exercice de sa mission, relève des faits susceptibles d'affecter de manière préoccupante la situation financière de la société, il en informe les dirigeants et, le cas échéant, leur demande des explications.",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "fiche_id": null,
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-169"
+  },
+  {
+    "question": "Alerte CAC – fondement de la levée du secret professionnel ?",
+    "reponse": "L'art. L. 611-2-2 C. com. permet au CAC de rompre son secret professionnel envers le président du tribunal lorsque la continuité de l'exploitation est menacée, sans engager sa responsabilité.",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "fiche_id": null,
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-170"
+  },
+  {
+    "question": "Alerte CAC – comment les faits déclencheurs sont-ils appréciés ?",
+    "reponse": "De manière in concreto, non limitée à une approche comptable (ex. baisse des équilibres financiers, financement onéreux, non-respect de la réglementation environnementale) ; le CAC ne se substitue pas aux dirigeants (principe de non-éviction).",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "fiche_id": null,
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-171"
+  },
+  {
+    "question": "Alerte CSE – Étape 1 (demande d'explication) ?",
+    "reponse": "Le CSE demande par écrit à l'employeur des explications sur les faits constatés ; sa réponse est inscrite au procès-verbal de la séance.",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "fiche_id": null,
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-172"
+  },
+  {
+    "question": "Alerte CSE – Étape 2 (saisine du CAC) ?",
+    "reponse": "Si les explications sont insuffisantes ou si la situation persiste, le CSE peut établir un rapport transmis au CAC, à l'organe de surveillance et, le cas échéant, au comité de groupe.",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "fiche_id": null,
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-173"
+  },
+  {
+    "question": "Alerte par le président du tribunal – auprès de qui peut-il obtenir des renseignements ?",
+    "reponse": "Dès l'envoi de la convocation, auprès des commissaires aux comptes, des membres du CSE, des administrations publiques, des organismes de sécurité et de prévoyance sociales, et des services de centralisation des risques bancaires/incidents de paiement — nonobstant toute disposition contraire (art. L. 611-2, I, al. 2 C. com.).",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "fiche_id": null,
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-174"
+  },
+  {
+    "question": "Alerte par le président du tribunal – cette levée du secret peut-elle être refusée ?",
+    "reponse": "Non : cette communication est légalement autorisée et ne peut pas être refusée par les destinataires de la demande.",
+    "notion_id": "entreprise-difficulte.droit-d-alerte-procedures-detaillees",
+    "fiche_id": null,
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-175"
+  },
+  {
+    "question": "Faillite internationale – définition et droit applicable en l'absence de règlement ?",
+    "reponse": "Traitement d'une procédure d'insolvabilité transfrontalière. En l'absence de règlement européen applicable, c'est le droit international privé commun (compétence des juridictions, reconnaissance des jugements étrangers) qui s'applique.",
+    "notion_id": "entreprise-difficulte.faillite-internationale",
+    "fiche_id": "faillite-internationale",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-176"
+  },
+  {
+    "question": "Faillite internationale – règlement (UE) 2015/848 ?",
+    "reponse": "Il organise, au sein de l'UE, la coordination des procédures d'insolvabilité : ouverture d'une procédure principale (État du centre des intérêts principaux du débiteur, effets universels dans l'UE) ou d'une procédure territoriale/secondaire (effets limités à l'État d'ouverture). (Art. L. 690-1 C. com. ; Règl. (UE) 2015/848 du 20 mai 2015)",
+    "notion_id": "entreprise-difficulte.faillite-internationale",
+    "fiche_id": "faillite-internationale",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-177"
+  },
+  {
+    "question": "Liquidation judiciaire – qui est concerné ?",
+    "reponse": "Toute personne exerçant une activité commerciale, artisanale ou agricole, toute personne physique exerçant une activité professionnelle indépendante (y compris libérale réglementée), et toute personne morale de droit privé. (Art. L. 640-2 C. com.)",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-ouverture-et-prononce-de-la-liquidation-judiciaire-ouverture-sans-periode-d-observation",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-178"
+  },
+  {
+    "question": "Liquidation judiciaire – dans quels cas est-elle ouverte ?",
+    "reponse": "Alternativement : le débiteur est en cessation des paiements et son redressement est manifestement impossible dès l'ouverture (liquidation directe, sans période d'observation) ; ou la cessation des paiements est constatée en cours d'exécution d'un plan de sauvegarde/redressement et le rétablissement professionnel n'est pas possible (conversion). (Art. L. 640-1 ; L. 631-20 C. com.)",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-ouverture-et-prononce-de-la-liquidation-judiciaire-ouverture-sans-periode-d-observation",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-179"
+  },
+  {
+    "question": "Liquidation judiciaire – pouvoirs du débiteur ?",
+    "reponse": "Il est dessaisi de plein droit de l'administration et de la disposition de ses biens ; ses droits et actions patrimoniaux sont exercés par le liquidateur. (Art. L. 641-9 C. com.)",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-deroulement-de-la-procedure",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-180"
+  },
+  {
+    "question": "Liquidation judiciaire – contrats en cours et créanciers antérieurs ?",
+    "reponse": "Mêmes règles qu'en sauvegarde par renvoi de l'art. L. 641-3 : poursuite des contrats en cours (art. L. 622-13), suspension des poursuites et interdiction de payer les créances antérieures ; toutes les créances non échues deviennent immédiatement exigibles (art. L. 643-1).",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-deroulement-de-la-procedure",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-181"
+  },
+  {
+    "question": "Liquidation judiciaire – droits des créanciers postérieurs ?",
+    "reponse": "Les créances régulières liées à la liquidation sont payées par privilège.",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-deroulement-de-la-procedure",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-182"
+  },
+  {
+    "question": "Liquidation judiciaire – détermination du patrimoine du débiteur ?",
+    "reponse": "L'actif est réalisé par le liquidateur (ventes mobilières et immobilières) ; le passif est vérifié et déclaré selon les mêmes règles qu'en sauvegarde/redressement.",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-deroulement-de-la-procedure",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-183"
+  },
+  {
+    "question": "Liquidation judiciaire – cession d'actifs isolés, champ d'application ?",
+    "reponse": "Concerne les biens du débiteur qui ne sont pas cédés dans le cadre d'un plan de cession global.",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-operations-de-liquidation-cession-d-actifs-isoles",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-184"
+  },
+  {
+    "question": "Liquidation judiciaire – vente des immeubles et des meubles isolés ?",
+    "reponse": "Immeubles : règles du Code des procédures civiles d'exécution (art. L. 322-5 à L. 322-12) ; le juge-commissaire fixe la mise à prix et peut autoriser une vente de gré à gré ou par adjudication amiable si elle est plus favorable (art. L. 642-18). Meubles : le juge-commissaire ordonne la vente aux enchères publiques ou autorise une vente de gré à gré si elle garantit mieux les intérêts du débiteur (art. L. 642-19).",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-operations-de-liquidation-cession-d-actifs-isoles",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-185"
+  },
+  {
+    "question": "Liquidation judiciaire – cession de l'entreprise, objectif ?",
+    "reponse": "Assurer le maintien d'activités susceptibles d'exploitation autonome, de tout ou partie des emplois qui y sont attachés, et apurer le passif. Elle peut être totale ou partielle, et intervenir en redressement comme en liquidation judiciaire. (Art. L. 642-1 C. com.)",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-operations-de-liquidation-cession-de-l-entreprise",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-186"
+  },
+  {
+    "question": "Liquidation judiciaire – qui ne peut pas formuler d'offre de reprise ?",
+    "reponse": "Le débiteur, les dirigeants de droit ou de fait de la personne morale en liquidation, leurs parents/alliés jusqu'au 2e degré inclus, et les personnes ayant eu la qualité de contrôleur — ni directement, ni par personne interposée. Ces personnes ne peuvent pas non plus acquérir les biens cédés dans les 5 ans suivant la cession. (Art. L. 642-3 C. com.)",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-operations-de-liquidation-cession-de-l-entreprise",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-187"
+  },
+  {
+    "question": "Liquidation judiciaire – exception à l'interdiction de reprise par les proches du débiteur ?",
+    "reponse": "Pour une exploitation agricole, le tribunal peut déroger à ces interdictions (à l'exception du débiteur et des contrôleurs).",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-operations-de-liquidation-cession-de-l-entreprise",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-188"
+  },
+  {
+    "question": "Liquidation judiciaire – formalisme et adoption du plan de cession ?",
+    "reponse": "Le contenu de l'offre est encadré par l'art. L. 642-2, II ; sa publicité est assurée par le greffe/liquidateur ; le plan est adopté par le tribunal après fixation du délai de réception des offres (art. L. 642-2, I).",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-operations-de-liquidation-cession-de-l-entreprise",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-189"
+  },
+  {
+    "question": "Liquidation judiciaire – contenu du plan de cession ?",
+    "reponse": "Transmission totale (ensemble des actifs) ou partielle (une ou plusieurs branches complètes et autonomes d'activité) ; prix et répartition fixés par le tribunal/liquidateur ; des engagements personnels peuvent être exigés du repreneur.",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-operations-de-liquidation-cession-de-l-entreprise",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-190"
+  },
+  {
+    "question": "Liquidation judiciaire – quels contrats sont transmis de plein droit lors de la cession ?",
+    "reponse": "Le contrat de travail (art. L. 1224-1 C. trav.) ; le contrat d'assurance, qui continue au profit de l'acquéreur (art. L. 121-10 C. assur.) ; le crédit-bail, la location financière et les contrats de fourniture nécessaires au maintien de l'activité, cédés aux conditions en vigueur au jour de l'ouverture (art. L. 642-7 C. com.).",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-operations-de-liquidation-cession-de-l-entreprise",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-191"
+  },
+  {
+    "question": "Liquidation judiciaire – transfert de propriété et inexécution du plan de cession ?",
+    "reponse": "La propriété est transférée au jugement arrêtant le plan. En cas de non-respect par le repreneur de ses obligations, le tribunal peut prononcer la résolution du plan de cession.",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-operations-de-liquidation-cession-de-l-entreprise",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-192"
+  },
+  {
+    "question": "Liquidation judiciaire simplifiée – vente des biens mobiliers ?",
+    "reponse": "Par dérogation à l'art. L. 642-19, le liquidateur procède à la vente de gré à gré ou aux enchères publiques dans les 4 mois suivant la décision ordonnant la procédure simplifiée ; à l'issue, vente aux enchères publiques des biens subsistants. (Art. L. 644-2 C. com.)",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-liquidation-judiciaire-simplifiee-regime-simplifie",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-193"
+  },
+  {
+    "question": "Liquidation judiciaire simplifiée – traitement du passif ?",
+    "reponse": "La vérification des créances est limitée aux créances susceptibles de venir en rang utile dans les répartitions et aux créances salariales. (Art. L. 644-3 C. com.)",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-liquidation-judiciaire-simplifiee-regime-simplifie",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-194"
+  },
+  {
+    "question": "Liquidation judiciaire simplifiée – délai de clôture ?",
+    "reponse": "6 mois maximum à compter de la décision d'application du régime simplifié, porté à 1 an si les seuils (salariés/CA) sont dépassés ; prorogation possible de 3 mois maximum par jugement motivé. (Art. L. 644-5 C. com.)",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-liquidation-judiciaire-simplifiee-regime-simplifie",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-195"
+  },
+  {
+    "question": "Liquidation judiciaire – clôture pour insuffisance d'actif, cause et effet ?",
+    "reponse": "La poursuite des opérations de liquidation devient impossible en raison de l'insuffisance de l'actif ; elle entraîne la clôture de la procédure.",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-cloture-de-la-liquidation-judiciaire-pour-insuffisance-d-actifs",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-196"
+  },
+  {
+    "question": "Liquidation judiciaire – la clôture pour insuffisance d'actif fait-elle recouvrer aux créanciers leur droit de poursuite ?",
+    "reponse": "En principe non : sauf fraude, faillite personnelle, banqueroute, ou condamnation pour certaines infractions limitativement énumérées, les créanciers impayés ne retrouvent pas leur droit de poursuite individuelle contre le débiteur personne physique. (Art. L. 643-9, al. 2 C. com.)",
+    "notion_id": "entreprise-difficulte.liquidation-judiciaire",
+    "fiche_id": "liquidation-judiciaire-cloture-de-la-liquidation-judiciaire-pour-insuffisance-d-actifs",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-197"
+  },
+  {
+    "question": "Mandataire ad hoc – nature et ouverture de la procédure ?",
+    "reponse": "Procédure de prévention confidentielle, non judiciaire au sens plein, ouverte à la demande du débiteur sans condition préalable (ni cessation des paiements, ni seuil de difficultés). Le mandataire est désigné par le président du tribunal ; sa mission est librement définie par ordonnance.",
+    "notion_id": "entreprise-difficulte.mandataire-ad-hoc",
+    "fiche_id": "mandataire-ad-hoc-principes-du-dispositif",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-198"
+  },
+  {
+    "question": "Mandataire ad hoc – confidentialité ?",
+    "reponse": "Totale : ni publiée au BODACC, ni inscrite au RCS. Les créanciers ne sont informés que si le débiteur décide de les impliquer dans les négociations.",
+    "notion_id": "entreprise-difficulte.mandataire-ad-hoc",
+    "fiche_id": "mandataire-ad-hoc-principes-du-dispositif",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-199"
+  },
+  {
+    "question": "Mandataire ad hoc – comment sa mission est-elle définie ?",
+    "reponse": "Librement, par le président du tribunal dans l'ordonnance de désignation ; le mandataire n'a aucun pouvoir de gestion, il intervient uniquement en conseil et médiation.",
+    "notion_id": "entreprise-difficulte.mandataire-ad-hoc",
+    "fiche_id": null,
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-200"
+  },
+  {
+    "question": "Mandataire ad hoc – exemples de missions possibles ?",
+    "reponse": "Assister le débiteur dans l'analyse de sa situation financière ; faciliter les négociations avec les créanciers ; rechercher un accord amiable de rééchelonnement des dettes ; préparer la cession de l'entreprise ou d'une branche d'activité ; aider à un partenariat ou une levée de fonds.",
+    "notion_id": "entreprise-difficulte.mandataire-ad-hoc",
+    "fiche_id": null,
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-201"
+  },
+  {
+    "question": "Mandataire ad hoc – pour quel type d'entreprise est-il adapté ?",
+    "reponse": "Une entreprise confrontée à des difficultés ponctuelles et surmontables, ne justifiant pas encore une procédure collective — y compris préventivement, avant toute difficulté avérée.",
+    "notion_id": "entreprise-difficulte.mandataire-ad-hoc",
+    "fiche_id": "mandataire-ad-hoc-interet",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-202"
+  },
+  {
+    "question": "Mandataire ad hoc – quels sont ses avantages ?",
+    "reponse": "Souplesse totale (aucune publicité, aucun délai imposé, mission sur mesure), préservation des relations commerciales (partenaires non informés sauf volonté du débiteur), et absence de suspension automatique des poursuites (à la différence de la conciliation ou de la sauvegarde).",
+    "notion_id": "entreprise-difficulte.mandataire-ad-hoc",
+    "fiche_id": "mandataire-ad-hoc-interet",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-203"
+  },
+  {
+    "question": "Contenu de l'obligation comptable générale (base légale) ?",
+    "reponse": "Enregistrement chronologique, inventaire annuel et comptes annuels. (Art. L. 123-12 à L. 123-14 C. com.)",
+    "notion_id": "entreprise-difficulte.obligations-comptables",
+    "fiche_id": "contenu-de-la-comptabilite-ref-c-com-art-l123-16-d-123-200",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-204"
+  },
+  {
+    "question": "Présentation simplifiée des comptes — pour qui ?",
+    "reponse": "Les petites entreprises peuvent adopter une présentation simplifiée de leurs comptes annuels, et les moyennes entreprises une présentation simplifiée de leur compte de résultat, dès lors qu'elles ne dépassent pas 2 des 3 seuils (bilan, CA net, effectif moyen) sur le dernier exercice clos. (Art. L. 123-16 C. com.)",
+    "notion_id": "entreprise-difficulte.obligations-comptables",
+    "fiche_id": "contenu-de-la-comptabilite-ref-c-com-art-l123-16-d-123-200",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-205"
+  },
+  {
+    "question": "Redressement judiciaire – définition et objectif ?",
+    "reponse": "Procédure applicable à tout débiteur en cessation des paiements dont le redressement n'est pas manifestement impossible, destinée à permettre la poursuite de l'activité, le maintien de l'emploi et l'apurement du passif. (Art. L. 631-1 C. com., par renvoi des principes de la sauvegarde)",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-definition",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-206"
+  },
+  {
+    "question": "Redressement judiciaire – déroulement général ?",
+    "reponse": "La procédure dure le temps d'une période d'observation (art. L. 621-3, par renvoi de l'art. L. 631-7) avant l'adoption éventuelle d'un plan de redressement, pouvant comporter des classes de parties affectées selon les seuils des art. L. 626-29 et L. 626-30 (applicables par renvoi de l'art. L. 631-19).",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-definition",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-207"
+  },
+  {
+    "question": "Redressement judiciaire – tribunal compétent ?",
+    "reponse": "Tribunal de commerce pour une activité commerciale/artisanale, tribunal judiciaire pour une activité agricole/libérale — comme pour la sauvegarde.",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-ouverture-de-la-procedure-jugement-d-ouverture-de-la-procedure",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-208"
+  },
+  {
+    "question": "Redressement judiciaire – qui peut saisir le tribunal ?",
+    "reponse": "Le débiteur lui-même (obligatoirement dans les 45 jours de la cessation des paiements, sauf demande d'ouverture d'une conciliation dans ce délai), un créancier, ou le ministère public. (Art. L. 631-4, L. 631-5 C. com.)",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-ouverture-de-la-procedure-jugement-d-ouverture-de-la-procedure",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-209"
+  },
+  {
+    "question": "Redressement judiciaire – comment le tribunal choisit-il entre redressement et liquidation ?",
+    "reponse": "Il ouvre un redressement judiciaire si la cessation des paiements est caractérisée et le redressement possible ; à défaut de possibilité sérieuse, il ouvre directement une liquidation judiciaire. (Art. L. 640-1 C. com.)",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-ouverture-de-la-procedure-jugement-d-ouverture-de-la-procedure",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-210"
+  },
+  {
+    "question": "Redressement judiciaire – la période d'observation est-elle facultative ?",
+    "reponse": "Non, elle s'ouvre de plein droit avec le jugement d'ouverture. Ce qui est facultatif, c'est la désignation d'un administrateur judiciaire en deçà des seuils de 20 salariés/3 M€ de CA (art. R. 621-3).",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-deroulement-de-la-procedure-periode-d-observation",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-211"
+  },
+  {
+    "question": "Redressement judiciaire – durée de la période d'observation ?",
+    "reponse": "6 mois, renouvelable une fois (12 mois maximum en principe), avec une prolongation exceptionnelle de 6 mois possible sur demande du procureur de la République (18 mois maximum). (Art. L. 621-3 par renvoi, L. 631-7 C. com.)",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-deroulement-de-la-procedure-periode-d-observation",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-212"
+  },
+  {
+    "question": "Redressement judiciaire – dans quels cas la période d'observation peut-elle être interrompue ?",
+    "reponse": "Si le tribunal estime le redressement manifestement impossible, ou si le débiteur dispose de sommes suffisantes pour désintéresser les créanciers et acquitter les frais et dettes de la procédure.",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-deroulement-de-la-procedure-periode-d-observation",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-213"
+  },
+  {
+    "question": "Redressement judiciaire – missions de l'administrateur judiciaire ?",
+    "reponse": "De l'assistance à la représentation : dans ce dernier cas, il assure seul, entièrement ou en partie, l'administration de l'entreprise. Il ne peut pas être désigné pour une simple mission de surveillance en redressement judiciaire (à la différence de la sauvegarde). (Art. L. 631-12 C. com.)",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-deroulement-de-la-procedure-gestion-de-l-entreprise",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-214"
+  },
+  {
+    "question": "Redressement judiciaire – actes réglementés ?",
+    "reponse": "Les actes étrangers à la gestion courante restent soumis à autorisation du juge-commissaire, comme en sauvegarde.",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-deroulement-de-la-procedure-gestion-de-l-entreprise",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-215"
+  },
+  {
+    "question": "Redressement judiciaire – actions possibles sur l'actif ?",
+    "reponse": "Demande en revendication (art. L. 624-17, par renvoi) et action en nullité de la période suspecte.",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-deroulement-de-la-procedure-determination-du-patrimoine-du-debiteur",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-216"
+  },
+  {
+    "question": "Redressement judiciaire – nullités de droit de la période suspecte ?",
+    "reponse": "Liste d'actes obligatoirement annulés : actes à titre gratuit translatifs de propriété, paiements de dettes non échues, sûretés constituées pour dettes antérieures, etc. (Art. L. 632-1 C. com.)",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-deroulement-de-la-procedure-determination-du-patrimoine-du-debiteur",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-217"
+  },
+  {
+    "question": "Redressement judiciaire – nullités facultatives de la période suspecte ?",
+    "reponse": "Le tribunal peut annuler les paiements de dettes échues et les actes à titre onéreux conclus par un cocontractant ayant connaissance de la cessation des paiements. (Art. L. 632-2 C. com.)",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-deroulement-de-la-procedure-determination-du-patrimoine-du-debiteur",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-218"
+  },
+  {
+    "question": "Redressement judiciaire – quels plans le tribunal peut-il choisir ?",
+    "reponse": "Un plan de continuation, ou un plan de cession (totale ou partielle).",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-denouement-de-la-procedure-le-plan-de-redressement",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-219"
+  },
+  {
+    "question": "Redressement judiciaire – préparation et adoption du plan ?",
+    "reponse": "L'administrateur, avec le concours du débiteur, élabore le projet et le présente, le cas échéant, aux classes de parties affectées (art. L. 631-19, I). Le tribunal l'adopte après vote des classes ou, à défaut, sur demande du débiteur/administrateur ; il peut alors être imposé aux classes ayant voté contre.",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-denouement-de-la-procedure-le-plan-de-redressement",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-220"
+  },
+  {
+    "question": "Redressement judiciaire – licenciement économique et remplacement des dirigeants ?",
+    "reponse": "Un licenciement économique est possible pendant la période d'observation sur autorisation du juge-commissaire (art. L. 631-17). Le plan peut prévoir le remplacement des dirigeants dans des conditions spécifiques au redressement.",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-denouement-de-la-procedure-le-plan-de-redressement",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-221"
+  },
+  {
+    "question": "Redressement judiciaire – modification forcée du capital ?",
+    "reponse": "En cas de refus des assemblées d'adopter une augmentation de capital prévue par le plan, sous conditions strictes (≥150 salariés, trouble grave à l'économie, délai de 3 mois après le jugement), le tribunal peut désigner un mandataire chargé de voter l'augmentation à la place des associés opposants, réalisée sous 30 jours maximum. (Art. L. 631-19-2 C. com.)",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-denouement-de-la-procedure-le-plan-de-redressement",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-222"
+  },
+  {
+    "question": "Redressement judiciaire – retour à la cessation des paiements pendant le plan ?",
+    "reponse": "Le tribunal résout le plan et ouvre une liquidation judiciaire, après avoir examiné si un rétablissement professionnel est possible. (Art. L. 631-20 C. com.)",
+    "notion_id": "entreprise-difficulte.redressement-judiciaire",
+    "fiche_id": "redressement-judiciaire-denouement-de-la-procedure-le-plan-de-redressement",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-223"
+  },
+  {
+    "question": "Rétablissement professionnel – définition et objet ?",
+    "reponse": "Procédure sans liquidation, ouverte à tout débiteur personne physique dont le redressement est manifestement impossible ; elle a pour objet le traitement simplifié du passif grevant son ou ses patrimoines. (Art. L. 645-1 C. com.)",
+    "notion_id": "entreprise-difficulte.retablissement-professionnel",
+    "fiche_id": "retablissement-professionnel-definition",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-224"
+  },
+  {
+    "question": "Rétablissement professionnel – conditions d'ouverture (seuils) ?",
+    "reponse": "Personne physique, actif déclaré inférieur à 15 000 € (hors biens insaisissables de droit), n'ayant pas cessé son activité depuis plus d'un an, n'ayant employé aucun salarié dans les 6 derniers mois, en cessation des paiements. (Art. L. 645-1 C. com. ; seuil fixé par Art. R. 645-1 C. com.)",
+    "notion_id": "entreprise-difficulte.retablissement-professionnel",
+    "fiche_id": "retablissement-professionnel-principes-generaux",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-225"
+  },
+  {
+    "question": "Rétablissement professionnel – cas d'exclusion ?",
+    "reponse": "Pas d'ouverture possible si le débiteur a déjà bénéficié, depuis moins de 5 ans, d'une liquidation judiciaire clôturée pour insuffisance d'actif ou d'une clôture de rétablissement professionnel.",
+    "notion_id": "entreprise-difficulte.retablissement-professionnel",
+    "fiche_id": "retablissement-professionnel-principes-generaux",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-226"
+  },
+  {
+    "question": "Rétablissement professionnel – ouverture et déroulement ?",
+    "reponse": "Le tribunal l'ouvre après s'être assuré que les conditions légales sont remplies et après avis du ministère public ; la procédure dure 4 mois maximum. (Art. L. 645-2, L. 645-3 C. com.)",
+    "notion_id": "entreprise-difficulte.retablissement-professionnel",
+    "fiche_id": "retablissement-professionnel-principes-generaux",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-227"
+  },
+  {
+    "question": "Rétablissement professionnel – dénouement ?",
+    "reponse": "Clôture (le débiteur est libéré de ses dettes sans liquidation ni vente de biens), ou, si les conditions ne sont pas remplies, ouverture d'une liquidation judiciaire.",
+    "notion_id": "entreprise-difficulte.retablissement-professionnel",
+    "fiche_id": "retablissement-professionnel-principes-generaux",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-228"
+  },
+  {
+    "question": "Sanction des dirigeants – responsabilité pour insuffisance d'actif, principe ?",
+    "reponse": "Quand la liquidation judiciaire d'une personne morale fait apparaître une insuffisance d'actif, le tribunal peut, en cas de faute de gestion y ayant contribué, décider que son montant sera supporté, en tout ou partie, par les dirigeants de droit ou de fait — solidairement en cas de pluralité. La simple négligence ne peut pas engager cette responsabilité. (Art. L. 651-2 C. com.)",
+    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
+    "fiche_id": "sanction-des-dirigeants-responsabilite-pour-insuffisance-d-actif",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-229"
+  },
+  {
+    "question": "Sanction des dirigeants – régime particulier des associations loi 1901 ?",
+    "reponse": "Pour les associations non assujetties à l'IS, la faute de gestion s'apprécie au regard de la qualité de bénévole du dirigeant.",
+    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
+    "fiche_id": "sanction-des-dirigeants-responsabilite-pour-insuffisance-d-actif",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-230"
+  },
+  {
+    "question": "Faillite personnelle – définition et nature ?",
+    "reponse": "Elle emporte interdiction de diriger, gérer, administrer ou contrôler, directement ou indirectement, toute entreprise commerciale/artisanale, toute exploitation agricole, toute activité indépendante, et toute personne morale. C'est une sanction civile, non pénale. (Art. L. 653-2 C. com.)",
+    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
+    "fiche_id": "sanction-du-dirigeants-sanction-professionnelles-faillite-personnelle",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-231"
+  },
+  {
+    "question": "Faillite personnelle – principaux faits pouvant la justifier ?",
+    "reponse": "Poursuite abusive d'une exploitation déficitaire ; détournement/dissimulation d'actif ou augmentation frauduleuse du passif ; usage des biens/du crédit de l'entreprise à des fins personnelles ; disposition des biens de la personne morale comme des siens propres ; comptabilité fictive, incomplète, irrégulière ou absente ; paiement préférentiel d'un créancier en connaissance de la cessation des paiements ; non-paiement des dettes mises à sa charge au titre de l'insuffisance d'actif. (Art. L. 653-3 à L. 653-6 C. com.)",
+    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
+    "fiche_id": "sanction-du-dirigeants-sanction-professionnelles-faillite-personnelle",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-232"
+  },
+  {
+    "question": "Faillite personnelle – durée maximale ?",
+    "reponse": "15 ans.",
+    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
+    "fiche_id": "sanction-du-dirigeants-sanction-professionnelles-faillite-personnelle",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-233"
+  },
+  {
+    "question": "Interdiction de gérer – différence avec la faillite personnelle ?",
+    "reponse": "Sanction modulable : elle peut viser toute entreprise commerciale/artisanale, exploitation agricole et personne morale, ou seulement une/plusieurs de celles-ci — contrairement à la faillite personnelle qui est générale. Elle sanctionne les mêmes faits (art. L. 653-3 à L. 653-6), prononcée à la place de la faillite personnelle. (Art. L. 653-8 C. com.)",
+    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
+    "fiche_id": "sanction-du-dirigeants-sanction-professionnelles-interdiction-de-gerer",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-234"
+  },
+  {
+    "question": "Interdiction de gérer – fait spécifique sanctionné ?",
+    "reponse": "Le fait, de mauvaise foi, de ne pas avoir remis au mandataire judiciaire, à l'administrateur ou au liquidateur les renseignements qu'il est tenu de communiquer. (Art. L. 653-8 C. com.)",
+    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
+    "fiche_id": "sanction-du-dirigeants-sanction-professionnelles-interdiction-de-gerer",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-235"
+  },
+  {
+    "question": "Interdiction de gérer – obligation d'information des créanciers poursuivants ?",
+    "reponse": "Le débiteur doit informer un créancier qui le poursuit en justice de l'ouverture de la procédure collective, dans les 10 jours de cette ouverture.",
+    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
+    "fiche_id": "sanction-du-dirigeants-sanction-professionnelles-interdiction-de-gerer",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-236"
+  },
+  {
+    "question": "Banqueroute – domaine d'application ?",
+    "reponse": "Ouverture d'un redressement judiciaire ou d'une liquidation judiciaire du débiteur ou de la personne morale dirigée.",
+    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
+    "fiche_id": "sanction-du-dirigeants-sanctions-penales-la-banqueroute",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-237"
+  },
+  {
+    "question": "Banqueroute – comportements sanctionnés ?",
+    "reponse": "Avoir, pour éviter/retarder l'ouverture de la procédure, fait des achats en vue d'une revente au-dessous du cours ou employé des moyens ruineux pour se procurer des fonds ; avoir détourné/dissimulé l'actif ; avoir frauduleusement augmenté le passif ; avoir tenu une comptabilité fictive, fait disparaître des documents comptables, ou omis toute comptabilité obligatoire. (Art. L. 654-2 C. com.)",
+    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
+    "fiche_id": "sanction-du-dirigeants-sanctions-penales-la-banqueroute",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-238"
+  },
+  {
+    "question": "Banqueroute – peines encourues ?",
+    "reponse": "5 ans d'emprisonnement et 75 000 € d'amende, avec des peines complémentaires possibles (interdiction de gérer, faillite personnelle). (Art. L. 654-1 C. com.)",
+    "notion_id": "entreprise-difficulte.sanctions-des-dirigeants",
+    "fiche_id": "sanction-du-dirigeants-sanctions-penales-la-banqueroute",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-239"
+  },
+  {
+    "question": "Sauvegarde accélérée – définition ?",
+    "reponse": "Procédure de sauvegarde soumise aux règles de la sauvegarde de droit commun, sous réserve de règles propres, ouverte à la demande d'un débiteur déjà engagé en conciliation, qui justifie avoir élaboré un projet de plan susceptible de recueillir un soutien suffisamment large des parties affectées. (Art. L. 628-1 C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-acceleree-et-sfa",
+    "fiche_id": "sauvegarde-sauvegarde-acceleree-definition",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-240"
+  },
+  {
+    "question": "Sauvegarde accélérée – condition tenant aux comptes du débiteur ?",
+    "reponse": "Les comptes doivent avoir été certifiés par un commissaire aux comptes ou établis par un expert-comptable.",
+    "notion_id": "entreprise-difficulte.sauvegarde-acceleree-et-sfa",
+    "fiche_id": "sauvegarde-sauvegarde-acceleree-definition",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-241"
+  },
+  {
+    "question": "Sauvegarde accélérée – la SFA existe-t-elle encore comme procédure autonome ?",
+    "reponse": "Non, depuis l'ordonnance n° 2021-1193 du 15 septembre 2021. Elle correspond désormais à la situation, prévue par l'art. L. 628-1, al. 3, où les comptes du débiteur rendent vraisemblable l'adoption d'un plan par les seuls créanciers financiers — dans ce cas, les effets de la sauvegarde accélérée sont limités à ces créanciers.",
+    "notion_id": "entreprise-difficulte.sauvegarde-acceleree-et-sfa",
+    "fiche_id": "sauvegarde-sauvegarde-acceleree-definition",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-242"
+  },
+  {
+    "question": "Sauvegarde accélérée – articulation avec la conciliation ?",
+    "reponse": "Elle présuppose une conciliation en cours. (Art. L. 628-1, al. 2 C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-acceleree-et-sfa",
+    "fiche_id": "sauvegarde-sauvegarde-acceleree-regime-general",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-243"
+  },
+  {
+    "question": "Sauvegarde accélérée – conditions d'ouverture ?",
+    "reponse": "Un projet de plan élaboré pendant la conciliation, avec un soutien suffisamment large prévisible. La cessation des paiements n'y fait pas obstacle si elle ne précède pas de plus de 45 jours la demande d'ouverture de la conciliation préalable (sinon le ministère public peut saisir le tribunal pour y mettre fin). (Art. L. 628-1, L. 628-5 C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-acceleree-et-sfa",
+    "fiche_id": "sauvegarde-sauvegarde-acceleree-regime-general",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-244"
+  },
+  {
+    "question": "Sauvegarde accélérée – déclaration des créances ?",
+    "reponse": "Le débiteur établit une liste des créances par partie affectée ayant participé à la conciliation, certifiée par le CAC ou attestée par l'expert-comptable, déposée au greffe ; son dépôt vaut déclaration au nom des parties qui n'ont pas déclaré elles-mêmes. (Art. L. 628-7 C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-acceleree-et-sfa",
+    "fiche_id": "sauvegarde-sauvegarde-acceleree-regime-general",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-245"
+  },
+  {
+    "question": "Sauvegarde accélérée – particularités sur les contrats en cours ?",
+    "reponse": "Le délai de mise en demeure et l'option d'achat du crédit-bail (III et IV de l'art. L. 622-13) ainsi que la revendication de certains biens meubles (sections 3 et 4 du chapitre IV) ne sont pas applicables. (Art. L. 628-1, al. 1 C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-acceleree-et-sfa",
+    "fiche_id": "sauvegarde-sauvegarde-acceleree-regime-general",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-246"
+  },
+  {
+    "question": "Sauvegarde accélérée – délai d'adoption du plan ?",
+    "reponse": "Deux mois à compter du jugement d'ouverture, prorogeable à la demande du débiteur et de l'administrateur judiciaire sans dépasser quatre mois au total ; à défaut, le tribunal met fin à la procédure. (Art. L. 628-8 C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-acceleree-et-sfa",
+    "fiche_id": "sauvegarde-sauvegarde-acceleree-regime-general",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-247"
+  },
+  {
+    "question": "Administrateur judiciaire – rôle en sauvegarde ?",
+    "reponse": "Surveillance du débiteur dans sa gestion, ou assistance pour tous les actes de gestion ou certains d'entre eux. (Art. L. 622-1 C. com. — pour son rôle en redressement judiciaire, voir la notion « redressement judiciaire ».)",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "administrateur-judiciaire-role",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-248"
+  },
+  {
+    "question": "Sauvegarde – conversion en redressement judiciaire (cas 1) ?",
+    "reponse": "En cas de cessation des paiements survenue en cours de période d'observation.",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-la-modification-ou-interruption-de-la-periode-d-observation",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-249"
+  },
+  {
+    "question": "Sauvegarde – conversion en redressement judiciaire (cas 2) ?",
+    "reponse": "Si l'adoption d'un plan de sauvegarde est manifestement impossible et que la clôture de la procédure conduirait, de manière certaine et à bref délai, à la cessation des paiements — le débiteur peut alors demander l'ouverture d'un redressement judiciaire.",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-la-modification-ou-interruption-de-la-periode-d-observation",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-250"
+  },
+  {
+    "question": "Sauvegarde – conversion en liquidation judiciaire ?",
+    "reponse": "Lorsque les difficultés sont si graves que le redressement est manifestement impossible. (Art. L. 622-12 C. com. pour l'ensemble des cas de conversion/clôture.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-la-modification-ou-interruption-de-la-periode-d-observation",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-251"
+  },
+  {
+    "question": "Sauvegarde – clôture de la procédure pour disparition des difficultés ?",
+    "reponse": "Lorsque les difficultés ayant justifié la sauvegarde ont disparu. (Art. L. 622-12 C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-la-modification-ou-interruption-de-la-periode-d-observation",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-252"
+  },
+  {
+    "question": "Sauvegarde – qui administre l'entreprise ?",
+    "reponse": "Le dirigeant (art. L. 622-1, I), qui continue à exercer sur son patrimoine les actes de disposition et d'administration non compris dans la mission de l'administrateur (art. L. 622-3).",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-gestion-de-l-entreprise",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-253"
+  },
+  {
+    "question": "Sauvegarde – validité des actes de gestion courante du dirigeant ?",
+    "reponse": "Les actes de gestion courante accomplis seul par le dirigeant restent valables à l'égard des tiers de bonne foi, sous réserve de l'interdiction de payer les créances antérieures (art. L. 622-7) et des règles de poursuite des contrats en cours, qui relève de la seule initiative de l'administrateur (art. L. 622-13).",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-gestion-de-l-entreprise",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-254"
+  },
+  {
+    "question": "Sauvegarde – qui décide de poursuivre un contrat en cours ?",
+    "reponse": "L'administrateur seul, qui a seul la faculté d'exiger l'exécution du contrat en fournissant la prestation promise au cocontractant. (Art. L. 622-13, II C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-poursuite-des-contrats-en-cours-modalites-de-l-option",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-255"
+  },
+  {
+    "question": "Sauvegarde – que se passe-t-il si l'administrateur ne se prononce pas sur un contrat en cours ?",
+    "reponse": "Le cocontractant peut le mettre en demeure de prendre parti ; à défaut de réponse dans le délai d'un mois, le contrat est résilié de plein droit. Le juge-commissaire peut écourter ou prolonger ce délai (sans excéder 2 mois) avant son expiration. (Art. L. 622-13, III, 1° C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-poursuite-des-contrats-en-cours-modalites-de-l-option",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-256"
+  },
+  {
+    "question": "Sauvegarde – Règle 1, arrêt des poursuites individuelles et coobligés ?",
+    "reponse": "Les personnes physiques coobligées ou ayant consenti une sûreté personnelle (cautions) ne bénéficient pas, en tant que telles, de l'arrêt des poursuites engagées contre elles par le créancier — elles ne peuvent se prévaloir que de l'arrêt du cours des intérêts. (Art. L. 622-28, al. 2 ; L. 622-29 C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-droits-des-creanciers-anterieurs-au-jugement-d-ouverture-3-regles",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-257"
+  },
+  {
+    "question": "Sauvegarde – Règle 2, interdiction des inscriptions de sûreté ?",
+    "reponse": "Les hypothèques, gages, nantissements et privilèges ne peuvent plus être inscrits après le jugement d'ouverture, sauf exceptions : le Trésor public conserve son privilège pour les créances qu'il n'était pas tenu d'inscrire avant le jugement, et le vendeur du fonds de commerce peut, par dérogation, inscrire le sien. (Art. L. 622-30 C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-droits-des-creanciers-anterieurs-au-jugement-d-ouverture-3-regles",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-258"
+  },
+  {
+    "question": "Sauvegarde – Règle 3, arrêt du cours des intérêts ?",
+    "reponse": "Le jugement d'ouverture arrête le cours des intérêts légaux et conventionnels ainsi que tous intérêts de retard et majorations, sauf pour les prêts d'une durée ≥ 1 an ou les contrats à paiement différé ≥ 1 an. Les coobligés/garants personnes physiques peuvent s'en prévaloir. (Art. L. 622-28, al. 1 et 2 C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-droits-des-creanciers-anterieurs-au-jugement-d-ouverture-3-regles",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-259"
+  },
+  {
+    "question": "Sauvegarde – intérêts légaux vs conventionnels, distinction ?",
+    "reponse": "Les intérêts légaux (art. 1231-6 C. civ.) sont dus de plein droit en cas de retard de paiement, à compter de la mise en demeure, sans que le créancier doive justifier d'une perte ; en cas de mauvaise foi du débiteur, des dommages-intérêts distincts peuvent s'y ajouter. Les intérêts conventionnels ont un taux librement fixé par le contrat.",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-droits-des-creanciers-anterieurs-au-jugement-d-ouverture-3-regles",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-260"
+  },
+  {
+    "question": "Sauvegarde – revendication d'un bien meuble vendu par le débiteur ?",
+    "reponse": "Le créancier propriétaire peut revendiquer tout ou partie du prix non encore payé par le tiers acquéreur (subrogation réelle), à condition que le bien ait été vendu dans son état initial.",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-determination-du-patrimoine-du-debiteur-actif-proprietaire-de-biens-meubles",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-261"
+  },
+  {
+    "question": "Sauvegarde – revendication en cas de destruction du bien meuble ?",
+    "reponse": "La demande peut porter sur l'indemnité d'assurance versée au débiteur.",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-determination-du-patrimoine-du-debiteur-actif-proprietaire-de-biens-meubles",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-262"
+  },
+  {
+    "question": "Sauvegarde – déclaration des créances, principe ?",
+    "reponse": "À partir de la publication du jugement, tous les créanciers dont la créance est née antérieurement au jugement d'ouverture (sauf les salariés) adressent leur déclaration au mandataire judiciaire. (Art. L. 622-24, al. 1 C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-5",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-263"
+  },
+  {
+    "question": "Sauvegarde – délai de déclaration pour les créances avec sûreté publiée ?",
+    "reponse": "Il court à compter de la réception d'un avis personnel adressé par le mandataire judiciaire, et non de la seule publication du jugement.",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-5",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-264"
+  },
+  {
+    "question": "Sauvegarde – déclaration d'une créance postérieure non couverte par le privilège de l'art. L. 622-17 ?",
+    "reponse": "Déclaration obligatoire, selon des modalités qui lui sont propres.",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-5",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-265"
+  },
+  {
+    "question": "Sauvegarde – déclaration d'une créance civile née d'une infraction pénale ?",
+    "reponse": "Régime déclaratif particulier : le point de départ du délai est lié à la décision relative à l'existence et au montant de la créance.",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-5",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-266"
+  },
+  {
+    "question": "Sauvegarde – délai de déclaration hors métropole et pour un contrat poursuivi ?",
+    "reponse": "Créanciers hors métropole : délai allongé par décret (en principe 2 mois). Créance née de la réalisation d'un contrat en cours : délai d'1 mois pour le cocontractant à partir de la réalisation de plein droit ou de la notification de la décision.",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-5",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-267"
+  },
+  {
+    "question": "Sauvegarde – comment les créances salariales sont-elles déclarées ?",
+    "reponse": "Elles ne sont pas déclarées par le salarié : elles sont établies par le mandataire judiciaire sous forme de relevés, soumis au représentant des salariés puis visés par le juge-commissaire et déposés au greffe. (Art. L. 625-1 C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-le-cas-des-salaries",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-268"
+  },
+  {
+    "question": "Sauvegarde – recours du salarié en cas d'omission de sa créance ?",
+    "reponse": "Il peut saisir, à peine de forclusion, le conseil de prud'hommes dans un délai de 2 mois à compter de la mesure de publicité. (Art. L. 625-6 C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-le-cas-des-salaries",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-269"
+  },
+  {
+    "question": "Sauvegarde – conséquence du défaut de déclaration dans les délais ?",
+    "reponse": "Les créanciers ne sont pas admis dans les répartitions et les dividendes, sauf relevé de forclusion par le juge-commissaire s'ils établissent que leur défaillance n'est pas due à leur fait ou résulte d'une omission du débiteur.",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-la-forclusion",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-270"
+  },
+  {
+    "question": "Sauvegarde – délai pour agir en relevé de forclusion ?",
+    "reponse": "6 mois à compter de la publication du jugement d'ouverture (ou, pour les créances salariales garanties par l'AGS, de l'expiration du délai de garantie). (Art. L. 622-26, al. 1 C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-la-forclusion",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-271"
+  },
+  {
+    "question": "Sauvegarde – contestation des décisions du juge-commissaire sur les créances ?",
+    "reponse": "Toute personne intéressée peut former une réclamation ou une tierce opposition contre une décision d'admission, dans les 10 jours suivant sa notification.",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-la-consultation-de-la-repertorisation-des-decisions-du-juge-commissaire-2-cas-d-admission",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-272"
+  },
+  {
+    "question": "Sauvegarde – les deux cas d'admission d'une créance ?",
+    "reponse": "L'admission ordinaire par le juge-commissaire après vérification du mandataire judiciaire ; et l'admission définitive d'une créance admise à titre provisionnel (notamment à la requête du Trésor public, une fois le titre exécutoire obtenu ou la créance non contestée). (Art. L. 625-6, R. 624-6 C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-regles-applicables-a-la-declaration-des-creances-la-consultation-de-la-repertorisation-des-decisions-du-juge-commissaire-2-cas-d-admission",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-273"
+  },
+  {
+    "question": "Sauvegarde – bilan économique et social ?",
+    "reponse": "Dressé par l'administrateur avec le concours du débiteur, il précise l'origine, l'importance et la nature des difficultés ; complété d'un bilan environnemental pour les installations classées. (Art. L. 623-1 C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-le-denouement-de-la-procedure-preparation-du-bilan",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-274"
+  },
+  {
+    "question": "Sauvegarde – contenu du projet de plan ?",
+    "reponse": "Établi par le débiteur avec le concours de l'administrateur, il détermine les perspectives de redressement et les modalités de règlement du passif ; des classes de parties affectées sont constituées pour les entreprises dépassant certains seuils. (Art. L. 626-2, L. 626-29, L. 626-30 C. com.)",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-le-denouement-de-la-procedure-preparation-du-bilan",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-275"
+  },
+  {
+    "question": "Sauvegarde – rôle des représentants du personnel sur le projet de plan ?",
+    "reponse": "Ils sont informés et consultés sur le projet de plan.",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-le-denouement-de-la-procedure-preparation-du-bilan",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-276"
+  },
+  {
+    "question": "Plan de sauvegarde – durée ?",
+    "reponse": "10 ans maximum (15 ans pour une exploitation agricole).",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-le-denouement-de-la-procedure-effet-du-plan-de-sauvegarde",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-277"
+  },
+  {
+    "question": "Plan de sauvegarde – pouvoirs du débiteur et organe de contrôle ?",
+    "reponse": "Le débiteur retrouve la pleine administration de son entreprise, sous le contrôle du commissaire à l'exécution du plan, chargé de veiller à sa bonne exécution et de répartir les fonds entre les créanciers.",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-le-denouement-de-la-procedure-effet-du-plan-de-sauvegarde",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-278"
+  },
+  {
+    "question": "Plan de sauvegarde – conséquences en cas d'inexécution ou d'échec ?",
+    "reponse": "Le tribunal peut prononcer la résolution du plan ; en cas d'échec, ouverture d'un redressement ou d'une liquidation judiciaire.",
+    "notion_id": "entreprise-difficulte.sauvegarde-de-l-entreprise",
+    "fiche_id": "sauvegarde-le-denouement-de-la-procedure-effet-du-plan-de-sauvegarde",
+    "type_question": "notion",
+    "difficulte": "moyen",
+    "mots_cles": [],
+    "source": "Chapitre 5.1",
+    "id": "qr-entr-279"
+  },
+  {
+    "id": "qr-entr-280",
+    "notion_id": "entreprise-difficulte.obligations-comptables",
+    "fiche_id": "etablissement-des-comptes-annuels-seuils-pm-de-droit-prive-non-commercante-23-ref-c-com-art-612-1",
+    "type_question": "definition",
+    "difficulte": "moyen",
+    "question": "Établissement des comptes annuels – seuils pour les PM de droit privé non commerçantes ?",
+    "reponse": "Elles doivent établir chaque année un bilan, un compte de résultat et une annexe dès qu'elles dépassent, pour 2 des 3 critères suivants, des seuils fixés par décret en Conseil d'État. (Art. L. 612-1 C. com.)",
+    "mots_cles": [],
+    "source": "Chapitre 5.1"
+  },
+  {
+    "id": "qr-entr-281",
+    "notion_id": "entreprise-difficulte.obligations-comptables",
+    "fiche_id": "etablissement-des-comptes-annuels-seuils-pm-de-droit-prive-non-commercante-23-ref-c-com-art-612-1",
+    "type_question": "definition",
+    "difficulte": "moyen",
+    "question": "Établissement des comptes annuels – textes selon la forme sociale ?",
+    "reponse": "SNC : Art. L. 221-9, seuils D. 221-5 C. com. SARL : Art. L. 223-35, seuils D. 223-27 C. com. SAS : Art. L. 227-9-1, seuils D. 227-1 C. com.",
     "mots_cles": [],
     "source": "Chapitre 5.1"
   }
