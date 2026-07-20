@@ -97,4 +97,27 @@
     "description": "",
     "mots_cles": []
   }
+  [
+  {
+    "id": "diversite-contrats.notions-generales-assurance",
+    "chapitre_id": "diversite-contrats",
+    "titre": "Notions générales de l'assurance",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "diversite-contrats.sur-assurance-et-cumul-d-assurance",
+    "chapitre_id": "diversite-contrats",
+    "titre": "Sur-assurance et cumul d'assurance",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "diversite-contrats.coassurance-et-reassurance",
+    "chapitre_id": "diversite-contrats",
+    "titre": "Coassurance et réassurance",
+    "description": "",
+    "mots_cles": []
+  }
+]
 ]
