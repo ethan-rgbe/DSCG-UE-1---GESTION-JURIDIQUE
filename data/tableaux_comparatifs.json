@@ -534,4 +534,24 @@
       "entreprise-difficulte.liquidation-judiciaire"
     ]
   }
+  {
+  "id": "tab-sur-assurance-cumul-coassurance-reassurance",
+  "titre": "Sur-assurance, cumul, coassurance et réassurance",
+  "chapitre_id": "diversite-contrats",
+  "notion_id": null,
+  "contenu": {
+    "colonnes": ["Notion", "Définition", "Structure", "Texte de référence"],
+    "lignes": [
+      ["Sur-assurance", "Un seul contrat conclu pour une valeur supérieure à la valeur réelle du bien assuré", "Un assureur, un contrat", "Art. L. 121-3 C. assur."],
+      ["Cumul d'assurance", "Un même risque assuré auprès de plusieurs assureurs par plusieurs polices indépendantes", "Plusieurs assureurs, plusieurs contrats distincts", "Art. L. 121-4 C. assur."],
+      ["Coassurance", "Un même risque réparti entre plusieurs assureurs au moyen d'un seul contrat, chacun garant de sa quote-part", "Plusieurs assureurs, un seul contrat", "Non codifié de façon unique (doctrine)"],
+      ["Réassurance", "L'assureur cède tout ou partie du risque qu'il a souscrit à un autre organisme ; l'assuré est étranger à cette relation", "Assureur / réassureur, hors de la connaissance de l'assuré", "Art. L. 310-1-1 C. assur."]
+    ]
+  },
+  "note": "Piège classique : sur-assurance ≠ cumul (un contrat mal calibré vs plusieurs contrats) ; coassurance ≠ réassurance (l'assuré connaît les coassureurs, jamais le réassureur).",
+  "fiches_liees": ["sur-assurance-definition", "cumul-d-assurance-definition", "coassurance-definition", "reassurance-definition"],
+  "qr_liees": [],
+  "annales_liees": [],
+  "notions_liees": ["diversite-contrats.sur-assurance-et-cumul-d-assurance", "diversite-contrats.coassurance-et-reassurance"]
+}
 ]
