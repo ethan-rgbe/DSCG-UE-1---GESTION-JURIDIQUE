@@ -1936,4 +1936,51 @@
       "competence-materielle-des-tribunaux-principe"
     ]
   }
+  [
+  {
+    "id": "ref-art-l121-3-c-assur",
+    "type_source": "code",
+    "document": "Code des assurances",
+    "reference": "Art. L. 121-3 C. assur.",
+    "intitule": "",
+    "chapitre_id": "diversite-contrats",
+    "notion_id": "diversite-contrats.sur-assurance-et-cumul-d-assurance",
+    "importance": "★★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": ["sur-assurance-definition", "sur-assurance-dol-ou-fraude", "sur-assurance-absence-de-dol-ou-fraude"]
+  },
+  {
+    "id": "ref-art-l121-4-c-assur",
+    "type_source": "code",
+    "document": "Code des assurances",
+    "reference": "Art. L. 121-4 C. assur.",
+    "intitule": "",
+    "chapitre_id": "diversite-contrats",
+    "notion_id": "diversite-contrats.sur-assurance-et-cumul-d-assurance",
+    "importance": "★★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": ["cumul-d-assurance-definition", "cumul-d-assurance-obligation-de-l-assure", "cumul-d-assurance-sanctions"]
+  },
+  {
+    "id": "ref-art-l310-1-1-c-assur",
+    "type_source": "code",
+    "document": "Code des assurances",
+    "reference": "Art. L. 310-1-1 C. assur.",
+    "intitule": "",
+    "chapitre_id": "diversite-contrats",
+    "notion_id": "diversite-contrats.coassurance-et-reassurance",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": ["reassurance-definition"]
+  }
+]
 ]
