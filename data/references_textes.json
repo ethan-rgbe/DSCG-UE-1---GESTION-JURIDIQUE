@@ -1935,8 +1935,7 @@
     "fiches_liees": [
       "competence-materielle-des-tribunaux-principe"
     ]
-  }
-  [
+  },
   {
     "id": "ref-art-l121-3-c-assur",
     "type_source": "code",
@@ -1981,6 +1980,9 @@
     "resume": "",
     "mots_cles": [],
     "fiches_liees": ["reassurance-definition"]
-  }
-]
+  },
+  { "id": "ref-art-l112-2-c-assur", "type_source": "code", "document": "Code des assurances", "reference": "Art. L. 112-2 C. assur.", "intitule": "", "chapitre_id": "diversite-contrats", "notion_id": "diversite-contrats.formation-du-contrat-d-assurance", "importance": "★★★", "page_pdf": null, "url_pdf": null, "resume": "", "mots_cles": [], "fiches_liees": ["formation-du-contrat-processus-contractuel", "notice-d-information-definition", "modification-du-contrat-par-le-silence"] },
+  { "id": "ref-art-l112-2-1-c-assur", "type_source": "code", "document": "Code des assurances", "reference": "Art. L. 112-2-1 C. assur.", "intitule": "", "chapitre_id": "diversite-contrats", "notion_id": "diversite-contrats.formation-du-contrat-d-assurance", "importance": "★★★", "page_pdf": null, "url_pdf": null, "resume": "", "mots_cles": [], "fiches_liees": ["contrat-a-distance-et-demarchage-delais-de-renonciation"] },
+  { "id": "ref-art-l112-9-c-assur", "type_source": "code", "document": "Code des assurances", "reference": "Art. L. 112-9 C. assur.", "intitule": "", "chapitre_id": "diversite-contrats", "notion_id": "diversite-contrats.formation-du-contrat-d-assurance", "importance": "★★★", "page_pdf": null, "url_pdf": null, "resume": "", "mots_cles": [], "fiches_liees": ["contrat-a-distance-et-demarchage-delais-de-renonciation"] },
+  { "id": "ref-art-l112-3-c-assur", "type_source": "code", "document": "Code des assurances", "reference": "Art. L. 112-3 C. assur.", "intitule": "", "chapitre_id": "diversite-contrats", "notion_id": "diversite-contrats.formation-du-contrat-d-assurance", "importance": "★★", "page_pdf": null, "url_pdf": null, "resume": "", "mots_cles": [], "fiches_liees": ["preuve-du-contrat-d-assurance", "modification-du-contrat-d-assurance"] }
 ]
