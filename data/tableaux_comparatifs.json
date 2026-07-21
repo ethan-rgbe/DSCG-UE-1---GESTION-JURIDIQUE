@@ -533,7 +533,7 @@
     "notions_liees": [
       "entreprise-difficulte.liquidation-judiciaire"
     ]
-  }
+  },
   {
   "id": "tab-sur-assurance-cumul-coassurance-reassurance",
   "titre": "Sur-assurance, cumul, coassurance et réassurance",
@@ -553,5 +553,24 @@
   "qr_liees": [],
   "annales_liees": [],
   "notions_liees": ["diversite-contrats.sur-assurance-et-cumul-d-assurance", "diversite-contrats.coassurance-et-reassurance"]
+},
+{
+  "id": "tab-contrat-a-distance-et-demarchage-delais",
+  "titre": "Délais de renonciation : contrat à distance vs démarchage",
+  "chapitre_id": "diversite-contrats",
+  "notion_id": "diversite-contrats.formation-du-contrat-d-assurance",
+  "contenu": {
+    "colonnes": ["Mode de conclusion", "Délai de renonciation", "Point de départ du délai", "Texte de référence"],
+    "lignes": [
+      ["Contrat à distance (hors assurance-vie)", "14 jours calendaires révolus", "Jour où l'assuré est informé que le contrat à distance a été conclu", "Art. L. 112-2-1 C. assur."],
+      ["Contrat à distance - assurance-vie", "30 jours calendaires révolus", "Même point de départ que ci-dessus", "Art. L. 112-2-1 C. assur."],
+      ["Démarchage (domicile, résidence, lieu de travail)", "14 jours calendaires révolus", "Jour de la conclusion du contrat", "Art. L. 112-9 C. assur."]
+    ]
+  },
+  "note": "À ne pas confondre avec l'art. L. 112-10 C. assur. (Loi Hamon) : ce texte ouvre un droit de renonciation distinct de 14 jours pour un contrat faisant double emploi avec une garantie déjà détenue par ailleurs (assurance complémentaire à un bien/service vendu) — ce n'est pas le régime de la vente à distance.",
+  "fiches_liees": ["contrat-a-distance-et-demarchage-delais-de-renonciation"],
+  "qr_liees": [],
+  "annales_liees": [],
+  "notions_liees": ["diversite-contrats.formation-du-contrat-d-assurance"]
 }
 ]
