@@ -96,8 +96,7 @@
     "titre": "Rappels DCG — à ranger dans un chapitre « extra »",
     "description": "",
     "mots_cles": []
-  }
-  [
+  },
   {
     "id": "diversite-contrats.notions-generales-assurance",
     "chapitre_id": "diversite-contrats",
@@ -118,6 +117,19 @@
     "titre": "Coassurance et réassurance",
     "description": "",
     "mots_cles": []
+  },
+  {
+    "id": "diversite-contrats.classification-dommage-personnes",
+    "chapitre_id": "diversite-contrats",
+    "titre": "Classification : assurances de dommage et de personnes",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "diversite-contrats.formation-du-contrat-d-assurance",
+    "chapitre_id": "diversite-contrats",
+    "titre": "Formation du contrat d'assurance",
+    "description": "",
+    "mots_cles": []
   }
-]
 ]
