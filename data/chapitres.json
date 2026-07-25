@@ -18,12 +18,12 @@
     "partie_titre": null
   },
   {
-  "id": "diversite-contrats",
-  "titre": "La diversité des contrats",
-  "ordre": 2,
-  "description": "Étude des principaux contrats spéciaux mobilisés par l'entreprise — premier volet : le contrat d'assurance (programme DSCG UE1, rubrique 1.2).",
-  "numero": "1.2",
-  "partie_numero": 1,
-  "partie_titre": "L'entreprise et son environnement"
-}
+    "id": "diversite-des-contrats",
+    "titre": "La diversité des contrats",
+    "ordre": 2,
+    "description": "Panorama des principaux contrats spéciaux utilisés par l'entreprise (programme DSCG UE1, rubrique 1.2). Premier volet : le contrat d'assurance ; les autres contrats seront ajoutés ultérieurement.",
+    "numero": "1.2",
+    "partie_numero": 1,
+    "partie_titre": "L'entreprise et son environnement"
+  }
 ]
