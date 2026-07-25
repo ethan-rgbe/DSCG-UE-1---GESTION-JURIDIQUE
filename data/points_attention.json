@@ -26,5 +26,28 @@
     "attendus_examen": [
       "Ne pas perdre de temps en examen à re-démontrer ces notions : elles doivent être mobilisées rapidement pour qualifier la situation avant d'enchaîner sur la question DSCG proprement dite."
     ]
+  },
+  "diversite-des-contrats": {
+    "sens_et_portee": "Au-delà des contrats généraux (formation, exécution, inexécution), l'entreprise conclut des contrats spéciaux propres à des besoins précis. Le contrat d'assurance en est un exemple central : il permet à l'entreprise de transférer un risque à un professionnel spécialisé, moyennant le paiement de primes, selon un mécanisme et des règles qui lui sont propres (Code des assurances).",
+    "competences_visees": [
+      "Qualifier un contrat d'assurance et identifier le régime applicable selon le type de risque couvert (dommages ou personnes).",
+      "Analyser la formation, la vie et l'exécution d'un contrat d'assurance à partir d'un cas pratique (délais de renonciation, résiliation, déclaration de sinistre, indemnisation).",
+      "Identifier les responsabilités et assurances propres au dirigeant et à l'entreprise (RC exploitation/produits, RC du dirigeant, assurance homme-clé)."
+    ],
+    "notions_et_contenus": [
+      "Le mécanisme et les techniques assurantielles (sur-assurance, sous-assurance, cumul, coassurance, réassurance)",
+      "La formation et la vie du contrat d'assurance (formation, preuve, durée, renouvellement, résiliation, renonciation)",
+      "La classification des assurances et des risques",
+      "Les assurances de responsabilité civile de l'entreprise et du dirigeant, l'assurance « homme-clé »",
+      "L'assurance-vie (mécanisme, clause bénéficiaire, stipulation pour autrui)",
+      "L'exécution du contrat et la gestion du sinistre (obligations de l'assuré et de l'assureur, indemnisation)"
+    ],
+    "attendus_examen": [
+      "Savoir distinguer précisément les régimes de la sur-assurance, du cumul d'assurance et de la coassurance — des notions proches, souvent confondues.",
+      "Connaître les délais chiffrés du contrat d'assurance (renonciation, résiliation, déclaration de sinistre, recouvrement des primes) : c'est le type de détail qui fait perdre des points faute de précision.",
+      "Bien distinguer la loi Chatel (rappel de la date limite de non-renouvellement) de la loi Hamon (résiliation infra-annuelle, après un an) — une confusion fréquente.",
+      "Savoir appliquer le principe indemnitaire (l'assurance ne peut être source de profit) et le mobiliser pour qualifier une situation de sur-assurance ou de sous-assurance dans un cas pratique.",
+      "Sur l'assurance-vie, maîtriser le mécanisme de la clause bénéficiaire (acceptation, révocation) et la stipulation pour autrui, régulièrement testés en cas pratique."
+    ]
   }
 }
