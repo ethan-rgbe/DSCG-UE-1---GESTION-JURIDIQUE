@@ -292,12 +292,12 @@
         "intitule": "Société Bel Air",
         "partie": "1. L'entreprise et son environnement",
         "sous_partie": "La diversité des contrats (assurance)",
-        "chapitre_id": null,
+        "chapitre_id": "diversite-des-contrats",
         "questions": [
           {
             "num": "2.1",
             "objet": "Éléments caractérisant le contrat d'assurance",
-            "notion_id": null,
+            "notion_id": "diversite-des-contrats.mecanisme-et-technique-assurantielle",
             "articles": [
               "Contrat aléatoire"
             ]
@@ -305,7 +305,7 @@
           {
             "num": "2.2",
             "objet": "Obligation d'assurance des biens (locaux)",
-            "notion_id": null,
+            "notion_id": "diversite-des-contrats.classification-des-assurances-et-risques",
             "articles": [
               "Assurance de dommages aux biens"
             ]
@@ -313,7 +313,7 @@
           {
             "num": "2.3",
             "objet": "Assurance pertes d'exploitation : risques couverts",
-            "notion_id": null,
+            "notion_id": "diversite-des-contrats.classification-des-assurances-et-risques",
             "articles": [
               "Perte de CA consécutive à un sinistre"
             ]
@@ -321,7 +321,7 @@
           {
             "num": "2.4",
             "objet": "Assurance RC du dirigeant : finalité, caractère facultatif",
-            "notion_id": null,
+            "notion_id": "diversite-des-contrats.assurance-de-responsabilite-et-homme-cle",
             "articles": [
               "Souscription non obligatoire"
             ]
