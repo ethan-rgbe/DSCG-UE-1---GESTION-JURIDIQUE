@@ -64,5 +64,11 @@
     "titre": "Code des relations entre le public et l'administration",
     "fichier": "static/codes/code-des-relations-entre-le-public-et-l-administration.pdf",
     "disponible": true
+  },
+  {
+    "id": "code-penal",
+    "titre": "Code pénal",
+    "fichier": "static/codes/code-penal.pdf",
+    "disponible": false
   }
 ]
