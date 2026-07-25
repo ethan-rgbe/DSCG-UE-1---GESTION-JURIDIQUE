@@ -535,42 +535,294 @@
     ]
   },
   {
-  "id": "tab-sur-assurance-cumul-coassurance-reassurance",
-  "titre": "Sur-assurance, cumul, coassurance et réassurance",
-  "chapitre_id": "diversite-contrats",
-  "notion_id": null,
-  "contenu": {
-    "colonnes": ["Notion", "Définition", "Structure", "Texte de référence"],
-    "lignes": [
-      ["Sur-assurance", "Un seul contrat conclu pour une valeur supérieure à la valeur réelle du bien assuré", "Un assureur, un contrat", "Art. L. 121-3 C. assur."],
-      ["Cumul d'assurance", "Un même risque assuré auprès de plusieurs assureurs par plusieurs polices indépendantes", "Plusieurs assureurs, plusieurs contrats distincts", "Art. L. 121-4 C. assur."],
-      ["Coassurance", "Un même risque réparti entre plusieurs assureurs au moyen d'un seul contrat, chacun garant de sa quote-part", "Plusieurs assureurs, un seul contrat", "Non codifié de façon unique (doctrine)"],
-      ["Réassurance", "L'assureur cède tout ou partie du risque qu'il a souscrit à un autre organisme ; l'assuré est étranger à cette relation", "Assureur / réassureur, hors de la connaissance de l'assuré", "Art. L. 310-1-1 C. assur."]
-    ]
+    "id": "tab-divc-001",
+    "titre": "Délais de renonciation selon le mode de conclusion du contrat",
+    "chapitre_id": "diversite-des-contrats",
+    "notion_id": "diversite-des-contrats.formation-et-vie-du-contrat-assurance",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Cas",
+        "Délai de renonciation",
+        "Point de départ du délai"
+      ],
+      "lignes": [
+        [
+          "Contrat à distance (hors assurance-vie)",
+          "14 jours calendaires révolus",
+          "Conclusion du contrat, ou réception des conditions contractuelles et informations si elle est postérieure"
+        ],
+        [
+          "Contrat à distance — assurance-vie",
+          "30 jours calendaires",
+          "Premier versement (règle générale de renonciation en assurance-vie, applicable que la souscription soit à distance ou non)"
+        ],
+        [
+          "Démarchage (domicile, résidence, lieu de travail)",
+          "14 jours calendaires",
+          "Conclusion du contrat"
+        ]
+      ]
+    }
   },
-  "note": "Piège classique : sur-assurance ≠ cumul (un contrat mal calibré vs plusieurs contrats) ; coassurance ≠ réassurance (l'assuré connaît les coassureurs, jamais le réassureur).",
-  "fiches_liees": ["sur-assurance-definition", "cumul-d-assurance-definition", "coassurance-definition", "reassurance-definition"],
-  "qr_liees": [],
-  "annales_liees": [],
-  "notions_liees": ["diversite-contrats.sur-assurance-et-cumul-d-assurance", "diversite-contrats.coassurance-et-reassurance"]
-},
-{
-  "id": "tab-contrat-a-distance-et-demarchage-delais",
-  "titre": "Délais de renonciation : contrat à distance vs démarchage",
-  "chapitre_id": "diversite-contrats",
-  "notion_id": "diversite-contrats.formation-du-contrat-d-assurance",
-  "contenu": {
-    "colonnes": ["Mode de conclusion", "Délai de renonciation", "Point de départ du délai", "Texte de référence"],
-    "lignes": [
-      ["Contrat à distance (hors assurance-vie)", "14 jours calendaires révolus", "Jour où l'assuré est informé que le contrat à distance a été conclu", "Art. L. 112-2-1 C. assur."],
-      ["Contrat à distance - assurance-vie", "30 jours calendaires révolus", "Même point de départ que ci-dessus", "Art. L. 112-2-1 C. assur."],
-      ["Démarchage (domicile, résidence, lieu de travail)", "14 jours calendaires révolus", "Jour de la conclusion du contrat", "Art. L. 112-9 C. assur."]
-    ]
+  {
+    "id": "tab-divc-002",
+    "titre": "Résiliation du contrat d'assurance — 3 cas (droit commun, hors risques professionnels et assurance-vie)",
+    "chapitre_id": "diversite-des-contrats",
+    "notion_id": "diversite-des-contrats.formation-et-vie-du-contrat-assurance",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Cas",
+        "Régime"
+      ],
+      "lignes": [
+        [
+          "Contrat d'une durée ≤ 1 an",
+          "Droit commun des contrats : le contrat prend fin à son terme, sans possibilité de résiliation anticipée"
+        ],
+        [
+          "Contrat d'une durée > 1 an, ou indéterminée",
+          "Résiliation unilatérale possible chaque année, par lettre recommandée envoyée 2 mois avant la date d'échéance, sauf pour les contrats couvrant des risques professionnels"
+        ],
+        [
+          "Résiliation irrégulière (formalités non respectées)",
+          "Le contrat se poursuit"
+        ]
+      ]
+    }
   },
-  "note": "À ne pas confondre avec l'art. L. 112-10 C. assur. (Loi Hamon) : ce texte ouvre un droit de renonciation distinct de 14 jours pour un contrat faisant double emploi avec une garantie déjà détenue par ailleurs (assurance complémentaire à un bien/service vendu) — ce n'est pas le régime de la vente à distance.",
-  "fiches_liees": ["contrat-a-distance-et-demarchage-delais-de-renonciation"],
-  "qr_liees": [],
-  "annales_liees": [],
-  "notions_liees": ["diversite-contrats.formation-du-contrat-d-assurance"]
-}
+  {
+    "id": "tab-divc-003",
+    "titre": "Assurances de dommages vs assurances de personnes",
+    "chapitre_id": "diversite-des-contrats",
+    "notion_id": "diversite-des-contrats.classification-des-assurances-et-risques",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Critère",
+        "Assurances de dommages",
+        "Assurances de personnes"
+      ],
+      "lignes": [
+        [
+          "Objet garanti",
+          "Un bien, ou la responsabilité d'une personne",
+          "Le corps ou la vie d'une personne"
+        ],
+        [
+          "Nature de la prestation",
+          "Indemnitaire : l'indemnité ne peut dépasser le préjudice réellement subi (principe indemnitaire, L. 121-1)",
+          "Le plus souvent forfaitaire : un capital ou une rente fixés d'avance, indépendamment du préjudice réel (sauf certains contrats à caractère indemnitaire, ex. frais de santé)"
+        ],
+        [
+          "Exemples",
+          "Incendie, automobile, vol, perte d'exploitation, RC professionnelle",
+          "Assurance-vie ou décès, invalidité, accidents corporels, homme-clé"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-divc-004",
+    "titre": "Classification des risques",
+    "chapitre_id": "diversite-des-contrats",
+    "notion_id": "diversite-des-contrats.classification-des-assurances-et-risques",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Critère de classification",
+        "Exemples de catégories"
+      ],
+      "lignes": [
+        [
+          "Selon la chose assurée",
+          "Assurance de dommages ou assurance de personnes"
+        ],
+        [
+          "Selon leur caractère",
+          "Risque simple / risque aggravé"
+        ],
+        [
+          "Selon le mode de souscription",
+          "Souscription individuelle / souscription collective (contrat de groupe)"
+        ],
+        [
+          "Selon l'événement assuré",
+          "Ex. : incendie, décès, invalidité, responsabilité civile"
+        ],
+        [
+          "Selon l'importance numérique",
+          "Petits risques / grands risques (au sens du Code des assurances)"
+        ],
+        [
+          "Selon le mode de gestion",
+          "Gestion par capitalisation ou par répartition"
+        ],
+        [
+          "Selon la catégorie",
+          "Risques professionnels / risques non professionnels"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-divc-005",
+    "titre": "Classification des assurances (typologie usuelle)",
+    "chapitre_id": "diversite-des-contrats",
+    "notion_id": "diversite-des-contrats.classification-des-assurances-et-risques",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Catégorie",
+        "Remarque"
+      ],
+      "lignes": [
+        [
+          "Assurances professionnelles",
+          "Importantes pour l'entreprise ; ne couvrent pas la faute de gestion du dirigeant"
+        ],
+        [
+          "Assurances par répartition",
+          "Financement par les cotisations de l'exercice en cours (par opposition à la capitalisation)"
+        ],
+        [
+          "Assurances obligatoires / facultatives",
+          "—"
+        ],
+        [
+          "Assurances individuelles / collectives",
+          "—"
+        ],
+        [
+          "Assurances-crédit",
+          "Contre les risques d'impayés"
+        ],
+        [
+          "Assurances de responsabilité civile de l'entreprise",
+          "Importantes"
+        ],
+        [
+          "Assurances de responsabilité produit",
+          "Contre les dommages causés aux tiers du fait des produits de l'entreprise ; importantes"
+        ],
+        [
+          "Assurances de responsabilité civile du chef d'entreprise",
+          "Importantes"
+        ],
+        [
+          "Assurances « homme-clé »",
+          "Importantes"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-divc-006",
+    "titre": "Assurance de responsabilité civile de l'entreprise — 2 branches",
+    "chapitre_id": "diversite-des-contrats",
+    "notion_id": "diversite-des-contrats.assurance-de-responsabilite-et-homme-cle",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Branche",
+        "Objet"
+      ],
+      "lignes": [
+        [
+          "RC relative à l'exploitation",
+          "Garantit les cas où la responsabilité extracontractuelle de l'entreprise est engagée, au cours de son exploitation, du fait de ses préposés, de son bâtiment, de son matériel, ou de la livraison de produits chez un client"
+        ],
+        [
+          "RC relative à la fourniture de produits",
+          "Garantit les cas où l'entreprise cause un dommage (corporel, matériel ou immatériel) à un tiers (ex. un client) du fait de la livraison d'un produit"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-divc-007",
+    "titre": "Assurance de responsabilité civile du chef d'entreprise",
+    "chapitre_id": "diversite-des-contrats",
+    "notion_id": "diversite-des-contrats.assurance-de-responsabilite-et-homme-cle",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Élément",
+        "Contenu"
+      ],
+      "lignes": [
+        [
+          "Principe",
+          "L'entreprise souscrit l'assurance ; l'assuré est le dirigeant ; le contrat porte sur les cas où la responsabilité civile de ce dernier est engagée au titre de l'exercice de ses fonctions (ex. faute de gestion, violation de la loi)"
+        ],
+        [
+          "Portée",
+          "Les conséquences pécuniaires de cette responsabilité, à l'égard des tiers (créanciers, État, clients, etc.)"
+        ],
+        [
+          "Effet",
+          "Couvre tous les actes accomplis durant le mandat du dirigeant ; en cas de changement de dirigeant, l'assureur doit être prévenu. Des exclusions de garantie peuvent être prévues au contrat (ex. détournement d'actifs, fraude fiscale)"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-divc-008",
+    "titre": "Les 3 principaux types de contrats d'assurance-vie",
+    "chapitre_id": "diversite-des-contrats",
+    "notion_id": "diversite-des-contrats.assurance-vie",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Type",
+        "Mécanisme"
+      ],
+      "lignes": [
+        [
+          "Assurance en cas de vie",
+          "Versement d'un capital ou d'une rente (en contrepartie de primes) à une date déterminée au bénéficiaire, si l'assuré est encore en vie à cette date"
+        ],
+        [
+          "Assurance en cas de décès",
+          "Versement d'un capital ou d'une rente au bénéficiaire si l'assuré est décédé avant le terme du contrat"
+        ],
+        [
+          "Assurance mixte",
+          "Versement d'un capital ou d'une rente au bénéficiaire, soit au décès de l'assuré si celui-ci intervient avant l'échéance, soit après l'échéance si l'assuré est encore en vie"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-divc-009",
+    "titre": "Procédure de recouvrement des primes impayées",
+    "chapitre_id": "diversite-des-contrats",
+    "notion_id": "diversite-des-contrats.execution-du-contrat-et-sinistre",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Étape",
+        "Délai"
+      ],
+      "lignes": [
+        [
+          "Échéance de la prime non payée",
+          "10 jours après l'échéance : l'assureur peut adresser une mise en demeure"
+        ],
+        [
+          "Mise en demeure envoyée",
+          "La garantie ne peut être suspendue que 30 jours après la mise en demeure (et non avant)"
+        ],
+        [
+          "Suspension de la garantie",
+          "Intervient au plus tôt 30 jours après la mise en demeure"
+        ],
+        [
+          "Résiliation du contrat",
+          "Possible 10 jours après l'expiration du délai de 30 jours (soit 40 jours après la mise en demeure)"
+        ]
+      ]
+    }
+  }
 ]
