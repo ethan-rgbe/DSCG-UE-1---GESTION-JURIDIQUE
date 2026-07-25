@@ -1475,26 +1475,58 @@
     "importance": "★★★",
     "slug": "competence-materielle-des-tribunaux-exceptions"
   },
-  { "id": "operation-assurance-mecanisme", "notion_id": "diversite-contrats.notions-generales-assurance", "titre": "L'opération d'assurance - mécanisme", "resume": "L'assureur calcule la probabilité de survenance du risque garanti à partir de données statistiques historiques.", "mots_cles": [], "importance": "★★", "slug": "operation-assurance-mecanisme" },
-  { "id": "contrat-assurance-mecanisme", "notion_id": "diversite-contrats.notions-generales-assurance", "titre": "Le contrat d'assurance - définition et mécanisme", "resume": "Contrat consensuel et aléatoire : la prestation de l'assureur dépend d'un risque incertain, celle de l'assuré (la prime) est certaine.", "mots_cles": [], "importance": "★★★", "slug": "contrat-assurance-mecanisme" },
-  { "id": "systeme-assurance-mecanisme", "notion_id": "diversite-contrats.notions-generales-assurance", "titre": "Le système d'assurance - mutualisation des risques", "resume": "Mode de fonctionnement de l'assureur : compensation des risques par regroupement d'un grand nombre d'assurés.", "mots_cles": [], "importance": "★★", "slug": "systeme-assurance-mecanisme" },
-  { "id": "sur-assurance-definition", "notion_id": "diversite-contrats.sur-assurance-et-cumul-d-assurance", "titre": "La sur-assurance - définition", "resume": "Contrat consenti pour une somme supérieure à la valeur de la chose assurée.", "mots_cles": [], "importance": "★★★", "slug": "sur-assurance-definition" },
-  { "id": "sur-assurance-dol-ou-fraude", "notion_id": "diversite-contrats.sur-assurance-et-cumul-d-assurance", "titre": "La sur-assurance - en cas de dol ou de fraude", "resume": "Nullité du contrat et dommages-intérêts possibles pour la partie non fautive.", "mots_cles": [], "importance": "★★★", "slug": "sur-assurance-dol-ou-fraude" },
-  { "id": "sur-assurance-absence-de-dol-ou-fraude", "notion_id": "diversite-contrats.sur-assurance-et-cumul-d-assurance", "titre": "La sur-assurance - en l'absence de dol ou de fraude", "resume": "Contrat valable dans la limite de la valeur réelle du bien ; pas de droit aux primes de l'excédent.", "mots_cles": [], "importance": "★★", "slug": "sur-assurance-absence-de-dol-ou-fraude" },
-  { "id": "cumul-d-assurance-definition", "notion_id": "diversite-contrats.sur-assurance-et-cumul-d-assurance", "titre": "Le cumul d'assurance - définition", "resume": "Une même personne assurée auprès de plusieurs assureurs, par plusieurs polices, pour un même risque.", "mots_cles": [], "importance": "★★★", "slug": "cumul-d-assurance-definition" },
-  { "id": "cumul-d-assurance-obligation-de-l-assure", "notion_id": "diversite-contrats.sur-assurance-et-cumul-d-assurance", "titre": "Le cumul d'assurance - obligation de l'assuré", "resume": "Obligation de déclarer immédiatement à chaque assureur le nom des autres assureurs et la somme assurée.", "mots_cles": [], "importance": "★★", "slug": "cumul-d-assurance-obligation-de-l-assure" },
-  { "id": "cumul-d-assurance-sanctions", "notion_id": "diversite-contrats.sur-assurance-et-cumul-d-assurance", "titre": "Le cumul d'assurance - sanctions", "resume": "Sanctions de la sur-assurance dolosive applicables en cas de cumul frauduleux.", "mots_cles": [], "importance": "★★", "slug": "cumul-d-assurance-sanctions" },
-  { "id": "coassurance-definition", "notion_id": "diversite-contrats.coassurance-et-reassurance", "titre": "La coassurance - définition", "resume": "Répartition d'un même risque entre plusieurs assureurs via un seul contrat, chacun garant de sa quote-part.", "mots_cles": [], "importance": "★★", "slug": "coassurance-definition" },
-  { "id": "reassurance-definition", "notion_id": "diversite-contrats.coassurance-et-reassurance", "titre": "La réassurance - définition", "resume": "Cession par un assureur de tout ou partie de ses risques à un réassureur ; l'assuré reste étranger à la relation.", "mots_cles": [], "importance": "★★", "slug": "reassurance-definition" },
-  { "id": "assurances-de-dommage-definition", "notion_id": "diversite-contrats.classification-dommage-personnes", "titre": "Les assurances de dommage", "resume": "Garantissent les dommages subis par un bien ou la responsabilité d'une personne.", "mots_cles": [], "importance": "★★", "slug": "assurances-de-dommage-definition" },
-  { "id": "assurances-de-personnes-definition", "notion_id": "diversite-contrats.classification-dommage-personnes", "titre": "Les assurances de personnes", "resume": "Garantissent les conséquences d'un sinistre affectant le corps ou la vie d'une personne.", "mots_cles": [], "importance": "★★", "slug": "assurances-de-personnes-definition" },
-  { "id": "formation-du-contrat-processus-contractuel", "notion_id": "diversite-contrats.formation-du-contrat-d-assurance", "titre": "La formation du contrat - processus contractuel", "resume": "3 étapes : informations précontractuelles, proposition d'assurance, acceptation de l'assureur.", "mots_cles": [], "importance": "★★★", "slug": "formation-du-contrat-processus-contractuel" },
-  { "id": "notice-d-information-definition", "notion_id": "diversite-contrats.formation-du-contrat-d-assurance", "titre": "La notice d'information sur le contrat", "resume": "Décrit précisément les garanties assorties des exclusions et les obligations de l'assuré.", "mots_cles": [], "importance": "★★", "slug": "notice-d-information-definition" },
-  { "id": "police-d-assurance-definition", "notion_id": "diversite-contrats.formation-du-contrat-d-assurance", "titre": "La police d'assurance", "resume": "Document signé constatant les engagements réciproques des parties.", "mots_cles": [], "importance": "★★", "slug": "police-d-assurance-definition" },
-  { "id": "contrat-a-distance-et-demarchage-delais-de-renonciation", "notion_id": "diversite-contrats.formation-du-contrat-d-assurance", "titre": "Contrat à distance et démarchage - délais de renonciation", "resume": "14 jours (30 pour l'assurance-vie) pour un contrat à distance ; 14 jours à compter de la conclusion en cas de démarchage.", "mots_cles": [], "importance": "★★★", "slug": "contrat-a-distance-et-demarchage-delais-de-renonciation" },
-  { "id": "prise-d-effet-du-contrat", "notion_id": "diversite-contrats.formation-du-contrat-d-assurance", "titre": "La prise d'effet du contrat", "resume": "À défaut de clause spécifique, prend effet le jour de la conclusion du contrat.", "mots_cles": [], "importance": "★★", "slug": "prise-d-effet-du-contrat" },
-  { "id": "note-de-couverture-definition", "notion_id": "diversite-contrats.formation-du-contrat-d-assurance", "titre": "La note de couverture", "resume": "Contrat provisoire de courte durée pendant l'instruction de la proposition d'assurance.", "mots_cles": [], "importance": "★★", "slug": "note-de-couverture-definition" },
-  { "id": "preuve-du-contrat-d-assurance", "notion_id": "diversite-contrats.formation-du-contrat-d-assurance", "titre": "La preuve du contrat d'assurance", "resume": "Écrit exigé mais pas comme condition de validité du contrat.", "mots_cles": [], "importance": "★★", "slug": "preuve-du-contrat-d-assurance" },
-  { "id": "modification-du-contrat-d-assurance", "notion_id": "diversite-contrats.formation-du-contrat-d-assurance", "titre": "La modification du contrat d'assurance", "resume": "Régie par le droit commun des contrats ; avenant signé exigé comme preuve, pas comme condition de validité.", "mots_cles": [], "importance": "★★", "slug": "modification-du-contrat-d-assurance" },
-  { "id": "modification-du-contrat-par-le-silence", "notion_id": "diversite-contrats.formation-du-contrat-d-assurance", "titre": "La modification du contrat par le silence de l'assureur", "resume": "Le silence de l'assureur pendant 10 jours vaut acceptation de la proposition de modification.", "mots_cles": [], "importance": "★★★", "slug": "modification-du-contrat-par-le-silence" }
+  {
+    "id": "le-mecanisme-et-les-techniques-assurantielles",
+    "notion_id": "diversite-des-contrats.mecanisme-et-technique-assurantielle",
+    "titre": "Le mécanisme et les techniques assurantielles",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "le-mecanisme-et-les-techniques-assurantielles"
+  },
+  {
+    "id": "formation-et-vie-du-contrat-d-assurance",
+    "notion_id": "diversite-des-contrats.formation-et-vie-du-contrat-assurance",
+    "titre": "Formation et vie du contrat d'assurance",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "formation-et-vie-du-contrat-d-assurance"
+  },
+  {
+    "id": "classification-des-assurances-et-des-risques",
+    "notion_id": "diversite-des-contrats.classification-des-assurances-et-risques",
+    "titre": "Classification des assurances et des risques",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "classification-des-assurances-et-des-risques"
+  },
+  {
+    "id": "assurances-de-responsabilite-civile-et-assurance-homme-cle",
+    "notion_id": "diversite-des-contrats.assurance-de-responsabilite-et-homme-cle",
+    "titre": "Assurances de responsabilité civile et assurance « homme-clé »",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "assurances-de-responsabilite-civile-et-assurance-homme-cle"
+  },
+  {
+    "id": "l-assurance-vie",
+    "notion_id": "diversite-des-contrats.assurance-vie",
+    "titre": "L'assurance-vie",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "l-assurance-vie"
+  },
+  {
+    "id": "execution-du-contrat-et-gestion-du-sinistre",
+    "notion_id": "diversite-des-contrats.execution-du-contrat-et-sinistre",
+    "titre": "Exécution du contrat et gestion du sinistre",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "execution-du-contrat-et-gestion-du-sinistre"
+  }
 ]
