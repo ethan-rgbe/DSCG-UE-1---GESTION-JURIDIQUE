@@ -98,37 +98,44 @@
     "mots_cles": []
   },
   {
-    "id": "diversite-contrats.notions-generales-assurance",
-    "chapitre_id": "diversite-contrats",
-    "titre": "Notions générales de l'assurance",
+    "id": "diversite-des-contrats.mecanisme-et-technique-assurantielle",
+    "chapitre_id": "diversite-des-contrats",
+    "titre": "Le mécanisme et les techniques assurantielles",
     "description": "",
     "mots_cles": []
   },
   {
-    "id": "diversite-contrats.sur-assurance-et-cumul-d-assurance",
-    "chapitre_id": "diversite-contrats",
-    "titre": "Sur-assurance et cumul d'assurance",
+    "id": "diversite-des-contrats.formation-et-vie-du-contrat-assurance",
+    "chapitre_id": "diversite-des-contrats",
+    "titre": "Formation et vie du contrat d'assurance",
     "description": "",
     "mots_cles": []
   },
   {
-    "id": "diversite-contrats.coassurance-et-reassurance",
-    "chapitre_id": "diversite-contrats",
-    "titre": "Coassurance et réassurance",
+    "id": "diversite-des-contrats.classification-des-assurances-et-risques",
+    "chapitre_id": "diversite-des-contrats",
+    "titre": "Classification des assurances et des risques",
     "description": "",
     "mots_cles": []
   },
   {
-    "id": "diversite-contrats.classification-dommage-personnes",
-    "chapitre_id": "diversite-contrats",
-    "titre": "Classification : assurances de dommage et de personnes",
+    "id": "diversite-des-contrats.assurance-de-responsabilite-et-homme-cle",
+    "chapitre_id": "diversite-des-contrats",
+    "titre": "Assurances de responsabilité civile et assurance « homme-clé »",
     "description": "",
     "mots_cles": []
   },
   {
-    "id": "diversite-contrats.formation-du-contrat-d-assurance",
-    "chapitre_id": "diversite-contrats",
-    "titre": "Formation du contrat d'assurance",
+    "id": "diversite-des-contrats.assurance-vie",
+    "chapitre_id": "diversite-des-contrats",
+    "titre": "L'assurance-vie",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "diversite-des-contrats.execution-du-contrat-et-sinistre",
+    "chapitre_id": "diversite-des-contrats",
+    "titre": "Exécution du contrat et gestion du sinistre",
     "description": "",
     "mots_cles": []
   }
