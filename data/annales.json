@@ -139,7 +139,7 @@
         "intitule": "SA ImmoBat",
         "partie": "1. L'entreprise et son environnement",
         "sous_partie": "Droit pénal",
-        "chapitre_id": null,
+        "chapitre_id": "rappels-dcg",
         "questions": [
           {
             "num": "3.1",
@@ -152,7 +152,7 @@
           {
             "num": "3.2",
             "objet": "Délit de non-révélation de faits délictueux par le CAC",
-            "notion_id": null,
+            "notion_id": "rappels-dcg.penal-concurrence-social",
             "articles": [
               "C. com. L. 821-9"
             ]
@@ -172,12 +172,12 @@
         "intitule": "SAS Autoplus",
         "partie": "Transversal (3 · 4 · 5)",
         "sous_partie": "Financement · Groupe · Transmission",
-        "chapitre_id": null,
+        "chapitre_id": "financement-de-l-entreprise",
         "questions": [
           {
             "num": "4.1",
             "objet": "Compétence pour émettre un emprunt obligataire convertible (SAS) — financement",
-            "notion_id": null,
+            "notion_id": "financement-de-l-entreprise.financement-par-le-credit",
             "articles": [
               "C. com. L. 228-40",
               "L. 225-129",
@@ -187,7 +187,7 @@
           {
             "num": "4.2",
             "objet": "Licéité de la conversion des OCA en cas de défaut — financement",
-            "notion_id": null,
+            "notion_id": "financement-de-l-entreprise.financement-par-le-credit",
             "articles": [
               "C. com. L. 228-36-A"
             ]
@@ -333,12 +333,12 @@
         "intitule": "Société Pro-Giciel",
         "partie": "1. L'entreprise et son environnement",
         "sous_partie": "Droit pénal (et droit des sociétés)",
-        "chapitre_id": null,
+        "chapitre_id": "rappels-dcg",
         "questions": [
           {
             "num": "3.1",
             "objet": "Qualification pénale : abus de biens sociaux",
-            "notion_id": null,
+            "notion_id": "rappels-dcg.penal-concurrence-social",
             "articles": [
               "C. com. L. 242-6 (via L. 244-1)"
             ]
@@ -354,7 +354,7 @@
           {
             "num": "3.3",
             "objet": "Transaction et action publique",
-            "notion_id": null,
+            "notion_id": "rappels-dcg.contrats-et-juridictions",
             "articles": [
               "C. civ. 2044",
               "C. civ. 2046"
@@ -434,7 +434,7 @@
         "intitule": "SA Mercier",
         "partie": "1 / 4 (fiscalité · groupe)",
         "sous_partie": "Administration fiscale · Groupe",
-        "chapitre_id": null,
+        "chapitre_id": "rappels-dcg",
         "questions": [
           {
             "num": "1.1",
@@ -455,7 +455,7 @@
           {
             "num": "1.3",
             "objet": "Qualification TVA des ventes Italie / Royaume-Uni",
-            "notion_id": null,
+            "notion_id": "rappels-dcg.fiscal",
             "articles": [
               "LIC / exportation — exonérées"
             ]
@@ -540,12 +540,12 @@
         "intitule": "SA Omnicanal",
         "partie": "1. L'entreprise et son environnement",
         "sous_partie": "Contrats · Concurrence (concentrations)",
-        "chapitre_id": null,
+        "chapitre_id": "rappels-dcg",
         "questions": [
           {
             "num": "3.1",
             "objet": "Refus de payer une échéance : exception d'inexécution",
-            "notion_id": null,
+            "notion_id": "rappels-dcg.contrats-et-juridictions",
             "articles": [
               "C. civ. 1219"
             ]
@@ -553,7 +553,7 @@
           {
             "num": "3.2",
             "objet": "Qualification du contrat (contrat d'entreprise)",
-            "notion_id": null,
+            "notion_id": "rappels-dcg.contrats-et-juridictions",
             "articles": [
               "C. civ. 1710"
             ]
@@ -570,7 +570,7 @@
           {
             "num": "3.4",
             "objet": "Concentration réalisée sans notification",
-            "notion_id": null,
+            "notion_id": "rappels-dcg.penal-concurrence-social",
             "articles": [
               "C. com. L. 430-8"
             ]
@@ -700,7 +700,7 @@
         "intitule": "SA Hydrocar",
         "partie": "1. L'entreprise et son environnement",
         "sous_partie": "Contrats · Concurrence",
-        "chapitre_id": null,
+        "chapitre_id": "rappels-dcg",
         "questions": [
           {
             "num": "2.1",
@@ -721,7 +721,7 @@
           {
             "num": "2.3",
             "objet": "Conditions de l'action en concurrence déloyale",
-            "notion_id": null,
+            "notion_id": "rappels-dcg.penal-concurrence-social",
             "articles": [
               "Faute / préjudice / lien de causalité ; Cass. com. 24 oct. 2000"
             ]
@@ -737,7 +737,7 @@
           {
             "num": "2.5",
             "objet": "Qualification : entente illicite",
-            "notion_id": null,
+            "notion_id": "rappels-dcg.penal-concurrence-social",
             "articles": [
               "C. com. L. 420-1"
             ]
