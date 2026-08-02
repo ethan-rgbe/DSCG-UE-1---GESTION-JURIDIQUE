@@ -1405,7 +1405,7 @@
   },
   {
     "id": "activite-commerciale-definition",
-    "notion_id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
+    "notion_id": "rappels-dcg.droit-des-societes",
     "titre": "Activité commerciale – définition",
     "resume": "Activité consistant à accomplir des actes de commerce (achat pour revendre, opérations de banque, courtage, manufacture, transport...) en en faisant sa professi…",
     "mots_cles": [],
@@ -1414,7 +1414,7 @@
   },
   {
     "id": "activite-artisanale-definition",
-    "notion_id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
+    "notion_id": "rappels-dcg.droit-des-societes",
     "titre": "Activité artisanale – définition",
     "resume": "Activité exercée par une personne physique ou une société, immatriculée au répertoire des métiers, consistant en la production, transformation, réparation ou pr…",
     "mots_cles": [],
@@ -1423,7 +1423,7 @@
   },
   {
     "id": "activite-agricole-definition",
-    "notion_id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
+    "notion_id": "rappels-dcg.droit-des-societes",
     "titre": "Activité agricole – définition",
     "resume": "Activité correspondant à la maîtrise et l'exploitation d'un cycle biologique de caractère végétal ou animal et constituant une ou plusieurs étapes nécessaires a…",
     "mots_cles": [],
@@ -1432,7 +1432,7 @@
   },
   {
     "id": "activite-liberale-definition",
-    "notion_id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
+    "notion_id": "rappels-dcg.droit-des-societes",
     "titre": "Activité libérale – définition",
     "resume": "Désignée par la formule récurrente du Code de commerce : « profession libérale soumise à un statut législatif ou réglementaire ou dont le titre est protégé ».",
     "mots_cles": [],
@@ -1441,7 +1441,7 @@
   },
   {
     "id": "competence-territoriale-des-tribunaux-principe",
-    "notion_id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
     "titre": "Compétence territoriale des tribunaux – principe",
     "resume": "Pour les personnes physiques → ressort de l'adresse déclarée ; pour les personnes morales → ressort du siège social.",
     "mots_cles": [],
@@ -1450,7 +1450,7 @@
   },
   {
     "id": "competence-territoriale-des-tribunaux-exceptions",
-    "notion_id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
     "titre": "Compétence territoriale des tribunaux – exceptions",
     "resume": "",
     "mots_cles": [],
@@ -1459,7 +1459,7 @@
   },
   {
     "id": "competence-materielle-des-tribunaux-principe",
-    "notion_id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
     "titre": "Compétence matérielle des tribunaux – principe",
     "resume": "Activité commerciale ou artisanale → tribunal de commerce ; activité agricole ou libérale → tribunal judiciaire.",
     "mots_cles": [],
@@ -1468,7 +1468,7 @@
   },
   {
     "id": "competence-materielle-des-tribunaux-exceptions",
-    "notion_id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
     "titre": "Compétence matérielle des tribunaux – exceptions",
     "resume": "Tribunaux de commerce spécialement désignés pour les procédures collectives des entreprises dépassant certains seuils (250 salariés et 20 M€ de CA, ou 40 M€ de …",
     "mots_cles": [],
@@ -1528,5 +1528,176 @@
     "mots_cles": [],
     "importance": "★★★",
     "slug": "execution-du-contrat-et-gestion-du-sinistre"
+  },
+  {
+    "id": "l-interet-social-et-la-raison-d-etre",
+    "notion_id": "dimension-environnementale.raison-d-etre-et-interet-social",
+    "titre": "L'intérêt social et la raison d'être",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "l-interet-social-et-la-raison-d-etre"
+  },
+  {
+    "id": "les-sanctions-et-le-regime-des-nullites",
+    "notion_id": "dimension-environnementale.nullite-des-societes",
+    "titre": "Les sanctions et le régime des nullités",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "les-sanctions-et-le-regime-des-nullites"
+  },
+  {
+    "id": "la-societe-a-mission",
+    "notion_id": "dimension-environnementale.societe-a-mission",
+    "titre": "La société à mission",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "la-societe-a-mission"
+  },
+  {
+    "id": "la-rse-notion-sources-et-formalisation-volontaire",
+    "notion_id": "dimension-environnementale.rse-notion-et-formalisation",
+    "titre": "La RSE : notion, sources et formalisation volontaire",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "la-rse-notion-sources-et-formalisation-volontaire"
+  },
+  {
+    "id": "clauses-contractuelles-rse-et-responsabilite-civile",
+    "notion_id": "dimension-environnementale.rse-responsabilite-et-clauses",
+    "titre": "Clauses contractuelles RSE et responsabilité civile",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "clauses-contractuelles-rse-et-responsabilite-civile"
+  },
+  {
+    "id": "isr-et-taxonomie-verte",
+    "notion_id": "dimension-environnementale.isr-et-taxonomie-verte",
+    "titre": "ISR et taxonomie verte",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "isr-et-taxonomie-verte"
+  },
+  {
+    "id": "transparence-extra-financiere-et-plan-de-vigilance",
+    "notion_id": "dimension-environnementale.transparence-extra-financiere",
+    "titre": "Transparence extra-financière et plan de vigilance",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "transparence-extra-financiere-et-plan-de-vigilance"
+  },
+  {
+    "id": "la-fondation-reconnue-d-utilite-publique",
+    "notion_id": "dimension-environnementale.fondation-utilite-publique",
+    "titre": "La fondation reconnue d'utilité publique",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "la-fondation-reconnue-d-utilite-publique"
+  },
+  {
+    "id": "le-financement-par-fonds-propres",
+    "notion_id": "financement-de-l-entreprise.financement-par-fonds-propres",
+    "titre": "Le financement par fonds propres",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "le-financement-par-fonds-propres"
+  },
+  {
+    "id": "le-financement-par-recours-aux-marches-financiers",
+    "notion_id": "financement-de-l-entreprise.financement-par-marches-financiers",
+    "titre": "Le financement par recours aux marchés financiers",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "le-financement-par-recours-aux-marches-financiers"
+  },
+  {
+    "id": "le-financement-par-compte-courant-d-associe",
+    "notion_id": "financement-de-l-entreprise.financement-par-compte-courant",
+    "titre": "Le financement par compte courant d'associé",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "le-financement-par-compte-courant-d-associe"
+  },
+  {
+    "id": "les-pactes-d-actionnaires",
+    "notion_id": "financement-de-l-entreprise.pactes-d-actionnaires",
+    "titre": "Les pactes d'actionnaires",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "les-pactes-d-actionnaires"
+  },
+  {
+    "id": "le-financement-par-le-credit",
+    "notion_id": "financement-de-l-entreprise.financement-par-le-credit",
+    "titre": "Le financement par le crédit",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "le-financement-par-le-credit"
+  },
+  {
+    "id": "les-garanties-du-credit-consenti-a-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.garanties-du-credit",
+    "titre": "Les garanties du crédit consenti à l'entreprise",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "les-garanties-du-credit-consenti-a-l-entreprise"
+  },
+  {
+    "id": "lexique-de-precision",
+    "notion_id": "rappels-dcg.lexique-de-precision",
+    "titre": "Lexique de précision",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "lexique-de-precision"
+  },
+  {
+    "id": "contrats-et-juridictions",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "titre": "Contrats et institutions juridiques",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "contrats-et-juridictions"
+  },
+  {
+    "id": "fiscal",
+    "notion_id": "rappels-dcg.fiscal",
+    "titre": "Fiscal",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "fiscal"
+  },
+  {
+    "id": "penal-concurrence-social",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "titre": "Pénal des affaires, concurrence, social",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "penal-concurrence-social"
+  },
+  {
+    "id": "droit-des-societes",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "titre": "Droit des sociétés",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "droit-des-societes"
   }
 ]
