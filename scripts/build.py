@@ -43,10 +43,40 @@ def parse_fiche_md(path):
     return meta, body
 
 
+FRONT_MATTER_RE = re.compile(r"^---\n(.*?)\n---\n+", re.S)
+
+
+def split_front_matter(text):
+    """Sépare un éventuel front-matter du corps. Les fichiers de cours n'en ont pas
+    tous ; sans ce filtre, celui des fichiers qui en ont s'affiche en clair."""
+    m = FRONT_MATTER_RE.match(text)
+    if not m:
+        return {}, text
+    meta = {}
+    for line in m.group(1).split("\n"):
+        if ": " not in line:
+            continue
+        k, v = line.split(": ", 1)
+        try:
+            meta[k] = json.loads(v)
+        except Exception:
+            meta[k] = v
+    return meta, text[m.end():]
+
+
 def inline(text):
     esc = ihtml.escape(text)
     esc = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", esc)
     return esc
+
+
+def table_hint(ncols):
+    """Indice de défilement, affiché par le CSS sur petit écran uniquement, et seulement
+    pour les tables trop larges pour un téléphone (à partir de 4 colonnes)."""
+    if ncols < 4:
+        return ""
+    return ('<p class="table-hint">Tableau large — faites glisser horizontalement '
+            'pour voir toutes les colonnes.</p>')
 
 
 def md_to_html(body):
@@ -76,12 +106,15 @@ def md_to_html(body):
                 i += 1
             i += 1  # skip closing :::
             if rows:
-                out.append('<div class="table-wrap"><table class="cmp"><thead><tr>')
-                out.append("".join(f"<th>{ihtml.escape(h)}</th>" for h in rows[0]))
+                # --cols : nombre de colonnes, exploite par le CSS pour activer le
+                # defilement horizontal sur mobile (min-width proportionnel).
+                out.append(f'<div class="table-wrap"><table class="cmp" style="--cols:{len(rows[0])}"><thead><tr>')
+                out.append("".join(f"<th>{inline(h)}</th>" for h in rows[0]))
                 out.append("</tr></thead><tbody>")
                 for r in rows[1:]:
-                    out.append("<tr>" + "".join(f"<td>{ihtml.escape(c)}</td>" for c in r) + "</tr>")
+                    out.append("<tr>" + "".join(f"<td>{inline(c)}</td>" for c in r) + "</tr>")
                 out.append("</tbody></table></div>")
+                out.append(table_hint(len(rows[0])))
             continue
         if line.startswith("|") and i + 1 < n and re.match(r"^\|?[\s:|-]+\|?$", lines[i+1].strip()) and "-" in lines[i+1]:
             if in_ul:
@@ -94,12 +127,13 @@ def md_to_html(body):
             while i < n and lines[i].strip().startswith("|"):
                 body_rows.append(_cells(lines[i].strip()))
                 i += 1
-            out.append('<div class="table-wrap"><table class="cmp"><thead><tr>')
+            out.append(f'<div class="table-wrap"><table class="cmp" style="--cols:{len(header)}"><thead><tr>')
             out.append("".join(f"<th>{inline(h)}</th>" for h in header))
             out.append("</tr></thead><tbody>")
             for r in body_rows:
                 out.append("<tr>" + "".join(f"<td>{inline(c)}</td>" for c in r) + "</tr>")
             out.append("</tbody></table></div>")
+            out.append(table_hint(len(header)))
             continue
         if line.startswith("::correction::"):
             content = line[len("::correction::"):].strip()
@@ -180,6 +214,17 @@ def validate(bundle):
         for nid in (t.get("notions_liees") or []):
             if nid not in notion_ids:
                 warns.append(f"tableau '{t.get('id')}' -> notion_liee inconnue '{nid}'")
+        contenu = t.get("contenu") or {}
+        cols = contenu.get("colonnes") or []
+        for idx, ligne in enumerate(contenu.get("lignes") or [], 1):
+            if len(ligne) != len(cols):
+                warns.append(
+                    f"tableau '{t.get('id')}' -> ligne {idx} : {len(ligne)} cellules "
+                    f"pour {len(cols)} colonnes (décalage à l'affichage)")
+
+    for cle in bundle.get("cours_orphelins", []):
+        warns.append(f"cours 'content/cours/{cle}.md' -> ne correspond ni à un chapitre "
+                     f"ni à une notion : il ne sera affiché nulle part")
     if isinstance(bundle["programme"], dict):
         for p in bundle["programme"].get("parties", []):
             for sp in p.get("sous_parties", []):
@@ -225,13 +270,43 @@ def main():
     bundle["has_bo_pdf"] = os.path.exists(bo_path)
     bundle["static_bo_path"] = "static/bo-ue1-dscg.pdf"
 
-    # Cours rédigés (onglet "Synthèse") : content/cours/<chapitre_id>.md
+    # Cours rédigés (onglet "Synthèse").
+    #   content/cours/<chapitre_id>.md          -> synthèse du chapitre
+    #   content/cours/<suffixe_de_notion>.md    -> synthèse d'une matière du chapitre,
+    #                                              rattachée via l'id de notion
+    #                                              "<chapitre_id>.<suffixe>"
     cours = {}
     cours_dir = os.path.join(ROOT, "content", "cours")
+    cours_meta = {}
     for path in sorted(glob.glob(os.path.join(cours_dir, "*.md"))):
-        chap_id = os.path.splitext(os.path.basename(path))[0]
-        cours[chap_id] = md_to_html(open(path, encoding="utf-8").read())
+        key = os.path.splitext(os.path.basename(path))[0]
+        meta, corps = split_front_matter(open(path, encoding="utf-8").read())
+        cours_meta[key] = meta
+        cours[key] = md_to_html(corps)
     bundle["cours"] = cours
+
+    # Index : chapitre -> matières disponibles (permet d'afficher les fichiers de cours
+    # qui ne portent pas le nom d'un chapitre, sinon jamais rendus).
+    chap_ids = {c["id"] for c in bundle["chapitres"]}
+    notion_titres = {n["id"]: n.get("titre", n["id"]) for n in bundle["notions"]}
+    cours_index = {}
+    cours_orphelins = []
+    for key in sorted(cours):
+        if key in chap_ids:
+            continue  # synthèse de chapitre, servie directement par bundle["cours"]
+        rattache = False
+        for cid in chap_ids:
+            nid = f"{cid}.{key}"
+            if nid in notion_titres:
+                titre = notion_titres[nid] or cours_meta.get(key, {}).get("titre") or key
+                cours_index.setdefault(cid, []).append(
+                    {"cle": key, "notion_id": nid, "titre": titre})
+                rattache = True
+                break
+        if not rattache:
+            cours_orphelins.append(key)
+    bundle["cours_index"] = cours_index
+    bundle["cours_orphelins"] = cours_orphelins
 
     validate(bundle)
 
