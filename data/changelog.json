@@ -58,5 +58,40 @@
     "date": "2026-07-22",
     "titre": "Nouveau chapitre 1.2 — La diversité des contrats (contrat d'assurance)",
     "detail": "Premier volet du chapitre 1.2 : le mécanisme assurantiel, la formation et la vie du contrat, les assurances de responsabilité et l'assurance-vie. 58 cartes de révision, 9 tableaux, rattachement à l'annale DSCG 2023 (Dossier 2). Les autres contrats de ce chapitre seront ajoutés ultérieurement."
+  },
+  {
+    "date": "2026-08-01",
+    "titre": "Nouveau chapitre 1.5 — L'entreprise et la dimension environnementale",
+    "detail": "Intérêt social élargi, raison d'être, nullités des sociétés (réforme du 12 mars 2025), société à mission, RSE, ISR/taxonomie verte, transparence extra-financière (CSRD), plan de vigilance, fondations. 30 cartes de révision, 4 tableaux."
+  },
+  {
+    "date": "2026-08-01",
+    "titre": "Nouveau chapitre 3.1 — Le financement de l'entreprise",
+    "detail": "Premier volet : fonds propres, marchés financiers (offre au public, Euronext), compte courant d'associé, pactes d'actionnaires, crédit et garanties. 22 cartes de révision, 4 tableaux. Plusieurs points recherchés et complétés sur sites officiels (Légifrance, service-public.fr) à la demande explicite du fichier source."
+  },
+  {
+    "date": "2026-08-01",
+    "titre": "Nouveau chapitre « Rappels DCG » — Lexique de précision",
+    "detail": "Nouvelle architecture transversale par matière (lexique, sociétés, fiscal, contrats/juridictions, pénal/concurrence/social). Premier volet complet : 32 entrées du lexique de précision (définitions légales, conditions cumulatives, mots-clés à restituer), 64 cartes. Les 22 cartes déjà existantes (activités, compétences, dol, faux, preuve...) ont été migrées vers cette nouvelle structure."
+  },
+  {
+    "date": "2026-08-01",
+    "titre": "Rappels DCG — Contrats et institutions juridiques",
+    "detail": "Classification des contrats, période précontractuelle, formation et nullités, vices du consentement, effets et inexécution du contrat, contrats spéciaux de l'entreprise, sources du droit, hiérarchie des normes, juridictions, voies de recours et modes amiables. 17 cartes, 12 tableaux. Rattaché aux annales 2022 (Dossier 3) et 2023 (Dossier 3)."
+  },
+  {
+    "date": "2026-08-01",
+    "titre": "Rappels DCG — Fiscal",
+    "detail": "TVA (champ d'application, déductibilité, régularisations, immobilier, intracommunautaire), IS (résultat fiscal, amortissements, plus-values, déficits), IR (barème, catégories BIC/BNC/BA/RF/RCM, plus-values des particuliers), fiscalité locale (CFE, CVAE, taxe foncière, taxe sur les salaires). 26 cartes, 18 tableaux. Barème IR corrigé (181 917 € et non 181 327 € pour la dernière tranche) ; seuils de franchise TVA vérifiés malgré la réforme 2025-2026 finalement abrogée."
+  },
+  {
+    "date": "2026-08-01",
+    "titre": "Rappels DCG — Pénal des affaires, concurrence, social",
+    "detail": "Infractions spécifiques aux sociétés (ABS, comptes inexacts), infractions du Code pénal (faux, corruption, abus de confiance, escroquerie), responsabilité pénale des personnes morales, pratiques anticoncurrentielles, contrôle des concentrations, concurrence déloyale/parasitisme, pratiques restrictives, contrat de travail (formation, exécution, rupture), représentation du personnel, durée du travail. 18 cartes, 10 tableaux. 5 nouveaux rattachements d'annales (2021, 2022, 2023, 2024)."
+  },
+  {
+    "date": "2026-08-01",
+    "titre": "Rappels DCG — Droit des sociétés (dernier volet)",
+    "detail": "Caractéristiques communes (intérêt social, abus de majorité/minorité/égalité, contrat de société, apports, nullité, dissolution), SNC, SARL (vote, conventions réglementées, fiscal, social du gérant), SA (CA, directoire/CS, assemblées, fiscal/social), grand tableau comparatif de 8 formes sociétaires, synthèse fiscale/sociale, et tableau des pièges/confusions classiques (13 points). 24 cartes, 14 tableaux. Les 5 cartes déjà migrées (activités, convention réglementée) sont désormais reliées à une vraie fiche."
   }
 ]
