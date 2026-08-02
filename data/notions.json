@@ -91,13 +91,6 @@
     "mots_cles": []
   },
   {
-    "id": "rappels-dcg-commercial.rappels-dcg-a-ranger-dans-un-chapitre-extra",
-    "chapitre_id": "rappels-dcg-commercial",
-    "titre": "Rappels DCG — à ranger dans un chapitre « extra »",
-    "description": "",
-    "mots_cles": []
-  },
-  {
     "id": "diversite-des-contrats.mecanisme-et-technique-assurantielle",
     "chapitre_id": "diversite-des-contrats",
     "titre": "Le mécanisme et les techniques assurantielles",
@@ -136,6 +129,139 @@
     "id": "diversite-des-contrats.execution-du-contrat-et-sinistre",
     "chapitre_id": "diversite-des-contrats",
     "titre": "Exécution du contrat et gestion du sinistre",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "dimension-environnementale.raison-d-etre-et-interet-social",
+    "chapitre_id": "dimension-environnementale",
+    "titre": "L'intérêt social et la raison d'être",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "dimension-environnementale.nullite-des-societes",
+    "chapitre_id": "dimension-environnementale",
+    "titre": "Les sanctions et le régime des nullités",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "dimension-environnementale.societe-a-mission",
+    "chapitre_id": "dimension-environnementale",
+    "titre": "La société à mission",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "dimension-environnementale.rse-notion-et-formalisation",
+    "chapitre_id": "dimension-environnementale",
+    "titre": "La RSE : notion, sources et formalisation volontaire",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "dimension-environnementale.rse-responsabilite-et-clauses",
+    "chapitre_id": "dimension-environnementale",
+    "titre": "Clauses contractuelles RSE et responsabilité civile",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "dimension-environnementale.isr-et-taxonomie-verte",
+    "chapitre_id": "dimension-environnementale",
+    "titre": "ISR et taxonomie verte",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "dimension-environnementale.transparence-extra-financiere",
+    "chapitre_id": "dimension-environnementale",
+    "titre": "Transparence extra-financière et plan de vigilance",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "dimension-environnementale.fondation-utilite-publique",
+    "chapitre_id": "dimension-environnementale",
+    "titre": "La fondation reconnue d'utilité publique",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "financement-de-l-entreprise.financement-par-fonds-propres",
+    "chapitre_id": "financement-de-l-entreprise",
+    "titre": "Le financement par fonds propres",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "financement-de-l-entreprise.financement-par-marches-financiers",
+    "chapitre_id": "financement-de-l-entreprise",
+    "titre": "Le financement par recours aux marchés financiers",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "financement-de-l-entreprise.financement-par-compte-courant",
+    "chapitre_id": "financement-de-l-entreprise",
+    "titre": "Le financement par compte courant d'associé",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "financement-de-l-entreprise.pactes-d-actionnaires",
+    "chapitre_id": "financement-de-l-entreprise",
+    "titre": "Les pactes d'actionnaires",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "financement-de-l-entreprise.financement-par-le-credit",
+    "chapitre_id": "financement-de-l-entreprise",
+    "titre": "Le financement par le crédit",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "financement-de-l-entreprise.garanties-du-credit",
+    "chapitre_id": "financement-de-l-entreprise",
+    "titre": "Les garanties du crédit consenti à l'entreprise",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "rappels-dcg.lexique-de-precision",
+    "chapitre_id": "rappels-dcg",
+    "titre": "Lexique de précision",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "rappels-dcg.droit-des-societes",
+    "chapitre_id": "rappels-dcg",
+    "titre": "Droit des sociétés",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "rappels-dcg.fiscal",
+    "chapitre_id": "rappels-dcg",
+    "titre": "Fiscal",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "rappels-dcg.contrats-et-juridictions",
+    "chapitre_id": "rappels-dcg",
+    "titre": "Contrats et institutions juridiques",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "rappels-dcg.penal-concurrence-social",
+    "chapitre_id": "rappels-dcg",
+    "titre": "Pénal des affaires, concurrence, social",
     "description": "",
     "mots_cles": []
   }
