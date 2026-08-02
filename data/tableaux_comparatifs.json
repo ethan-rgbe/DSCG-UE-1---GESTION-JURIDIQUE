@@ -824,5 +824,2681 @@
         ]
       ]
     }
+  },
+  {
+    "id": "tab-dimenv-001",
+    "titre": "Régime des nullités depuis la réforme du 12 mars 2025",
+    "chapitre_id": "dimension-environnementale",
+    "notion_id": "dimension-environnementale.nullite-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Nullité visée",
+        "Causes possibles (droit en vigueur)"
+      ],
+      "lignes": [
+        [
+          "Nullité de la société elle-même",
+          "Limitée à deux causes : l'incapacité de tous les fondateurs, ou la violation des règles fixant un nombre minimal d'associés ; ou l'une des causes de nullité des contrats en général."
+        ],
+        [
+          "Nullité des décisions sociales (actes et délibérations)",
+          "Violation d'une disposition impérative du droit des sociétés (à l'exception du dernier alinéa de l'art. 1833), ou l'une des causes de nullité des contrats en général."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-dimenv-002",
+    "titre": "Les trois types de formalisation de la RSE",
+    "chapitre_id": "dimension-environnementale",
+    "notion_id": "dimension-environnementale.rse-notion-et-formalisation",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Type",
+        "Caractéristiques"
+      ],
+      "lignes": [
+        [
+          "1er type",
+          "Codes qui dépendent étroitement des textes légaux et réglementaires applicables : ils reprennent et explicitent des obligations déjà contraignantes."
+        ],
+        [
+          "2e type",
+          "Codes à formules souples, non contraignantes (« la société encourage », « suggère », « recommande »)."
+        ],
+        [
+          "3e type",
+          "Codes qui s'ajoutent aux dispositions légales existantes et posent des exigences nouvelles, sous des formules contraignantes pour l'entreprise elle-même."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-dimenv-003",
+    "titre": "Cycle des clauses contractuelles RSE",
+    "chapitre_id": "dimension-environnementale",
+    "notion_id": "dimension-environnementale.rse-responsabilite-et-clauses",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Étape",
+        "Objet",
+        "Sanction en cas de manquement"
+      ],
+      "lignes": [
+        [
+          "Contrats avec les partenaires professionnels",
+          "Insertion de clauses RSE dans le contrat",
+          "Contractualisation des engagements RSE"
+        ],
+        [
+          "Exécution du contrat",
+          "Respect du contrat et des engagements pris",
+          "Suivi du respect des engagements pris"
+        ],
+        [
+          "Sanction contractuelle",
+          "Résiliation du contrat",
+          "Résiliation du contrat ; dommages-intérêts"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-dimenv-004",
+    "titre": "Textes clés — chapitre 1.5",
+    "chapitre_id": "dimension-environnementale",
+    "notion_id": "dimension-environnementale.transparence-extra-financiere",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Texte",
+        "Objet"
+      ],
+      "lignes": [
+        [
+          "Art. 1833 C. civ. (loi PACTE, 2019)",
+          "Intérêt social + prise en considération des enjeux sociaux et environnementaux"
+        ],
+        [
+          "Art. 1835 C. civ. (loi PACTE, 2019)",
+          "Faculté d'inscrire une raison d'être dans les statuts"
+        ],
+        [
+          "Art. 1844-10 et s. C. civ. (ordonnance du 12 mars 2025, en vigueur depuis le 1er octobre 2025)",
+          "Régime unifié des nullités des sociétés et des décisions sociales"
+        ],
+        [
+          "Art. L. 210-10 à L. 210-12 C. com. (loi PACTE, 2019)",
+          "Société à mission : conditions, comité de mission, OTI, sanction"
+        ],
+        [
+          "Livre vert COM(2001) 366 (Commission européenne, juillet 2001)",
+          "Premier cadre européen de promotion de la RSE"
+        ],
+        [
+          "Pacte mondial des Nations Unies / Global Compact (2000)",
+          "Dix principes internationaux de RSE"
+        ],
+        [
+          "Norme ISO 26000 (2010)",
+          "Lignes directrices internationales relatives à la responsabilité sociétale"
+        ],
+        [
+          "Règlement (UE) 2020/852 (taxonomie verte, 18 juin 2020)",
+          "Classification des activités économiques durables sur le plan environnemental"
+        ],
+        [
+          "Ordonnance n° 2023-1142 du 6 décembre 2023 (transposition CSRD)",
+          "Rapport de durabilité (remplace la DPEF) — art. L. 230-1 et L. 232-6-3 C. com."
+        ],
+        [
+          "Loi n° 2017-399 du 27 mars 2017",
+          "Devoir de vigilance — plan de vigilance (art. L. 225-102-4 C. com.)"
+        ],
+        [
+          "Loi n° 87-571 du 23 juillet 1987",
+          "Fondations reconnues d'utilité publique et mécénat"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fin-001",
+    "titre": "Nomenclature des marchés financiers français",
+    "chapitre_id": "financement-de-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.financement-par-marches-financiers",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Marché",
+        "Régime",
+        "Seuils / caractéristiques"
+      ],
+      "lignes": [
+        [
+          "Euronext Paris — Compartiment A",
+          "Marché réglementé",
+          "Capitalisation boursière supérieure à 1 milliard d'euros (« blue chips »)"
+        ],
+        [
+          "Euronext Paris — Compartiment B",
+          "Marché réglementé",
+          "Capitalisation comprise entre 150 millions et 1 milliard d'euros"
+        ],
+        [
+          "Euronext Paris — Compartiment C",
+          "Marché réglementé",
+          "Capitalisation inférieure à 150 millions d'euros"
+        ],
+        [
+          "Euronext Growth (ex-Alternext)",
+          "Marché non réglementé (système multilatéral de négociation)",
+          "PME, capitalisation généralement inférieure à 1 milliard d'euros, flottant minimum de 2,5 millions d'euros ; conditions d'accès allégées mais obligations d'information périodique"
+        ],
+        [
+          "Euronext Access (ex-marché libre)",
+          "Marché non réglementé",
+          "Très petites capitalisations, conditions d'accès et de transparence les plus souples des marchés Euronext"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fin-002",
+    "titre": "Formalisme du compte courant d'associé — mentions obligatoires",
+    "chapitre_id": "financement-de-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.financement-par-compte-courant",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Mention obligatoire",
+        "Contenu"
+      ],
+      "lignes": [
+        [
+          "Taux nominal",
+          "Fixe ou variable, base du contrat."
+        ],
+        [
+          "TAEG",
+          "Coût total du crédit, tout compris."
+        ],
+        [
+          "Taux d'usure",
+          "Taux maximum légal ; le taux moyen est communiqué trimestriellement par la Banque de France, par catégorie de crédit. Tout dépassement est sanctionné pénalement (emprisonnement, amende)."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fin-003",
+    "titre": "Les types d'obligations selon la rémunération",
+    "chapitre_id": "financement-de-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.financement-par-le-credit",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Type d'obligation",
+        "Caractéristique"
+      ],
+      "lignes": [
+        [
+          "Obligation ordinaire (à coupon fixe)",
+          "Coupon fixe versé périodiquement ; remboursement du montant nominal à l'échéance."
+        ],
+        [
+          "Obligation à coupon zéro",
+          "Émise à un prix décoté (inférieur au nominal) ; aucun intérêt versé pendant la durée du prêt : le montant capitalisé est versé en une seule fois au remboursement."
+        ],
+        [
+          "Obligation à coupon unique",
+          "Un seul versement d'intérêts effectué (souvent à l'émission ou au terme), distinct du remboursement du capital."
+        ],
+        [
+          "Obligation participante",
+          "Taux fixe + une partie variable indexée sur les résultats de la société (tout ou partie du coupon indexé sur le chiffre d'affaires ou le résultat)."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fin-004",
+    "titre": "Les titres composés (donnant accès au capital)",
+    "chapitre_id": "financement-de-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.financement-par-le-credit",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Sigle",
+        "Définition"
+      ],
+      "lignes": [
+        [
+          "OCA",
+          "Obligations convertibles en actions : l'obligataire peut convertir sa créance en actions, à un prix et pendant une période déterminés. L'émission suppose une augmentation de capital corrélative."
+        ],
+        [
+          "OBSA",
+          "Obligations à bons de souscription d'actions : obligation classique assortie de bons détachables permettant de souscrire des actions à un prix fixé à l'avance."
+        ],
+        [
+          "OBRA",
+          "Obligations remboursables en actions : le remboursement s'effectue obligatoirement en actions à l'échéance. Peu utilisées par les acteurs cotés ; l'objectif est d'apporter des fonds propres à moyen terme."
+        ],
+        [
+          "OBSO",
+          "Obligations à bons de souscription d'obligations : émises seules, elles donnent le droit (et non l'obligation) de souscrire à d'autres obligations."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-cj-001",
+    "titre": "Classification des contrats — 7 critères",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Critère",
+        "Catégorie A",
+        "Catégorie B",
+        "Enjeu juridique"
+      ],
+      "lignes": [
+        [
+          "Mode de formation",
+          "Contrat consensuel — se forme par le seul échange des consentements (droit commun)",
+          "Contrat solennel — nécessite une formalité (acte notarié) / contrat réel — se forme par remise de la chose (prêt, dépôt)",
+          "Condition de validité — vice = nullité"
+        ],
+        [
+          "Contenu des obligations",
+          "Contrat synallagmatique — obligations réciproques (vente : livrer ↔ payer)",
+          "Contrat unilatéral — une seule partie est obligée (donation, cautionnement)",
+          "Exception d'inexécution possible seulement en synallagmatique"
+        ],
+        [
+          "Contrepartie",
+          "Contrat à titre onéreux — chaque partie reçoit un avantage en contrepartie",
+          "Contrat à titre gratuit — une partie procure un avantage sans contrepartie (libéralité)",
+          "Régime de la lésion, garanties, responsabilité différents"
+        ],
+        [
+          "Équilibre des prestations",
+          "Contrat commutatif — prestations certaines et déterminées dès la formation",
+          "Contrat aléatoire — avantage dépendant d'un événement incertain (assurance, rente viagère)",
+          "Lésion applicable aux commutatifs / pas aux aléatoires"
+        ],
+        [
+          "Durée d'exécution",
+          "Contrat à exécution instantanée — exécuté en une seule fois",
+          "Contrat à exécution successive — s'exécute dans le temps (bail, travail)",
+          "Résolution rétroactive (instantané) vs résiliation pour l'avenir (successif)"
+        ],
+        [
+          "Négociation",
+          "Contrat de gré à gré — clauses librement négociées",
+          "Contrat d'adhésion — conditions générales prédéfinies par une partie ; contrôle des clauses abusives",
+          "Clauses abusives dans les contrats d'adhésion (art. 1171 C. civ.)"
+        ],
+        [
+          "Intuitu personae",
+          "Contrat conclu intuitu personae — la personne du cocontractant est déterminante (mandat, travail)",
+          "Contrat non intuitu personae — la personne est indifférente (vente de marchandises)",
+          "Cessibilité du contrat ; erreur sur la personne = vice"
+        ],
+        [
+          "Régime légal",
+          "Contrat nommé — régi par des règles spéciales (vente, bail, mandat…)",
+          "Contrat innommé — soumis au seul droit commun (contrats informatiques, sui generis)",
+          "Les règles spéciales priment sur le droit commun"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-cj-002",
+    "titre": "Les avant-contrats",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Avant-contrat",
+        "Mécanisme",
+        "Sanction du non-respect"
+      ],
+      "lignes": [
+        [
+          "Promesse unilatérale",
+          "Le promettant s'engage à conclure ; le bénéficiaire dispose d'une option.",
+          "Si le bénéficiaire lève l'option avant la révocation, le juge peut ordonner la formation forcée du contrat définitif."
+        ],
+        [
+          "Promesse synallagmatique (compromis)",
+          "Les deux parties s'engagent ; vaut vente (art. 1589 C. civ.).",
+          "La rupture constitue une inexécution du contrat."
+        ],
+        [
+          "Pacte de préférence",
+          "Priorité donnée au bénéficiaire en cas de vente future.",
+          "Nullité de la vente conclue avec un tiers, ou substitution du bénéficiaire au tiers si celui-ci était de mauvaise foi."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-cj-003",
+    "titre": "Nullité relative vs nullité absolue",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "",
+        "Nullité relative",
+        "Nullité absolue"
+      ],
+      "lignes": [
+        [
+          "Cause",
+          "Vice du consentement, incapacité",
+          "Objet ou cause illicite, ordre public"
+        ],
+        [
+          "Titulaire de l'action",
+          "La partie protégée uniquement",
+          "Tout intéressé + ministère public"
+        ],
+        [
+          "Prescription",
+          "5 ans",
+          "5 ans"
+        ],
+        [
+          "Confirmation possible ?",
+          "Oui, par la partie protégée",
+          "Non"
+        ],
+        [
+          "Exemples",
+          "Dol, violence, erreur, lésion",
+          "Vente d'organes, contrat illicite, fraude"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-cj-004",
+    "titre": "Les trois vices du consentement",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Vice",
+        "Définition",
+        "Conditions",
+        "Preuve",
+        "Sanction"
+      ],
+      "lignes": [
+        [
+          "Erreur (art. 1132)",
+          "Fausse représentation de la réalité qui a déterminé le consentement",
+          "Erreur sur les qualités essentielles de la prestation OU sur la personne (si intuitu personae) ; erreur excusable (pas d'erreur grossière) ; l'erreur sur la valeur ou sur les motifs n'est en principe pas viciante",
+          "Apportée par celui qui invoque la nullité",
+          "Nullité relative (5 ans) + dommages-intérêts si dommage"
+        ],
+        [
+          "Dol (art. 1137)",
+          "Manœuvres frauduleuses, mensonges ou réticences intentionnels d'une partie pour obtenir le consentement de l'autre",
+          "Manœuvre intentionnelle et déterminante du consentement ; dol du cocontractant en principe (pas du tiers) ; la réticence dolosive (silence sur une information déterminante) suffit",
+          "Charge sur la victime — allégée par la réticence dolosive",
+          "Nullité relative (5 ans) + dommages-intérêts délictuels, cumulables"
+        ],
+        [
+          "Violence (art. 1140)",
+          "Contrainte physique ou morale inspirant la crainte d'un mal considérable, déterminant le consentement",
+          "Contrainte grave et déterminante ; la violence d'un tiers est retenue (contrairement au dol) ; la violence économique (état de dépendance) est reconnue sous conditions",
+          "Charge sur la victime",
+          "Nullité relative (5 ans) + dommages-intérêts"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-cj-005",
+    "titre": "Cession de contrat vs cession de créance",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "",
+        "Cession de contrat (art. 1216)",
+        "Cession de créance (art. 1321)"
+      ],
+      "lignes": [
+        [
+          "Objet",
+          "Le cédant transmet sa position contractuelle entière (droits et obligations) au cessionnaire",
+          "Le créancier (cédant) transfère seulement sa créance à un tiers (cessionnaire)"
+        ],
+        [
+          "Accord du cocontractant cédé",
+          "Obligatoire",
+          "Non requis"
+        ],
+        [
+          "Sort du cédant",
+          "Libéré si le cédé y consent expressément ; sinon, garant subsidiaire",
+          "Sans objet (le débiteur cédé n'est pas partie à la cession)"
+        ],
+        [
+          "Opposabilité",
+          "Selon les modalités convenues avec le cédé",
+          "Notification ou reconnaissance par le débiteur cédé ; la créance est transmise avec ses accessoires (sûretés, intérêts)"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-cj-006",
+    "titre": "Les 5 sanctions de l'inexécution (art. 1217 C. civ.)",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Sanction",
+        "Mécanisme",
+        "Particularité"
+      ],
+      "lignes": [
+        [
+          "Exception d'inexécution (art. 1219)",
+          "Refus d'exécuter tant que l'autre partie n'exécute pas les siennes",
+          "Mesure provisoire, ne met pas fin au contrat ; conditions : contrat synallagmatique, inexécution suffisamment grave, obligations simultanées. Variante : exception par anticipation (art. 1220) si l'inexécution future est manifeste."
+        ],
+        [
+          "Exécution forcée en nature (art. 1221)",
+          "Contraindre le débiteur à exécuter, au besoin sous astreinte",
+          "Écartée si l'exécution est impossible, ou si son coût est manifestement disproportionné par rapport à l'intérêt du créancier. L'exécution peut aussi être obtenue aux frais du débiteur, par un tiers."
+        ],
+        [
+          "Réduction du prix (art. 1223)",
+          "En cas d'exécution imparfaite, réduction proportionnelle du prix",
+          "Le créancier doit notifier sa décision au débiteur avant toute mise en œuvre ; restitution partielle si le prix a déjà été payé. Mécanisme issu de la réforme de 2016."
+        ],
+        [
+          "Résolution du contrat (art. 1224)",
+          "Anéantissement du contrat",
+          "Par clause résolutoire (automatique si les conditions prévues sont réunies), par notification unilatérale motivée (art. 1226, à ses risques et périls, en cas d'inexécution suffisamment grave), ou par voie judiciaire. Effet rétroactif si exécution instantanée, résiliation pour l'avenir si exécution successive."
+        ],
+        [
+          "Dommages-intérêts (art. 1231)",
+          "Réparation du préjudice causé par l'inexécution",
+          "Conditions : inexécution, préjudice, lien de causalité. Compensatoires (inexécution totale) ou moratoires (retard). Une clause pénale peut en fixer le montant forfaitaire (révisable si manifestement excessif ou dérisoire) ; seul le préjudice prévisible à la formation du contrat est réparable, sauf dol ou faute lourde."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-cj-007",
+    "titre": "Panorama des contrats spéciaux de l'entreprise",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Contrat",
+        "Définition",
+        "Obligations clés",
+        "Point DSCG"
+      ],
+      "lignes": [
+        [
+          "Vente (art. 1582)",
+          "Convention par laquelle le vendeur s'oblige à livrer un bien et l'acheteur à en payer le prix",
+          "Vendeur : délivrance conforme, garantie des vices cachés, garantie d'éviction. Acheteur : payer le prix, prendre livraison.",
+          "Le transfert de propriété emporte transfert des risques (sauf clause contraire). Garantie légale des vices cachés : 2 ans."
+        ],
+        [
+          "Bail commercial (art. L. 145-1 C. com.)",
+          "Location d'un immeuble à usage commercial, industriel ou artisanal pour l'exploitation d'un fonds de commerce",
+          "Bailleur : délivrance, entretien, garantie. Locataire : payer le loyer, exploiter le fonds, entretenir les locaux.",
+          "Durée minimale de 9 ans. Droit au renouvellement ou indemnité d'éviction. Révision triennale du loyer (ILC ou ILAT)."
+        ],
+        [
+          "Mandat (art. 1984)",
+          "Convention par laquelle le mandant charge le mandataire d'accomplir des actes juridiques en son nom et pour son compte",
+          "Mandataire : exécution personnelle, reddition de comptes, restitution. Mandant : rémunérer, rembourser les frais, exécuter les actes conclus dans les limites du mandat.",
+          "Les actes hors mandat sont inopposables au mandant, sauf ratification. Fin du mandat : révocation, renonciation, décès, incapacité."
+        ],
+        [
+          "Contrat d'entreprise (art. 1710)",
+          "Convention par laquelle l'entrepreneur s'engage à réaliser un ouvrage ou une prestation pour le maître d'ouvrage, en toute indépendance",
+          "Entrepreneur : réaliser selon le cahier des charges, garantie décennale (construction). Maître d'ouvrage : payer le prix, réceptionner.",
+          "Absence de lien de subordination (à la différence du contrat de travail). Sous-traitance possible sous conditions (loi de 1975 : paiement direct)."
+        ],
+        [
+          "Franchise",
+          "Contrat par lequel le franchiseur autorise le franchisé à exploiter son enseigne, son savoir-faire et ses méthodes commerciales contre une redevance",
+          "Franchiseur : fournir savoir-faire, assistance, exclusivité de zone. Franchisé : payer les redevances, respecter le concept, maintenir l'enseigne.",
+          "Document d'information précontractuelle (DIP) obligatoire 20 jours avant signature. Contrat intuitu personae."
+        ],
+        [
+          "Concession commerciale",
+          "Contrat par lequel le concédant confie au concessionnaire la distribution exclusive de ses produits sur une zone géographique déterminée",
+          "Concédant : livrer, exclusivité, assistance. Concessionnaire : acheter un minimum, promouvoir la marque, assurer le service après-vente.",
+          "Rupture brutale ouvrant droit à indemnité ; obligation de préavis proportionnel à la durée."
+        ],
+        [
+          "Transaction (art. 2044)",
+          "Contrat par lequel les parties mettent fin à une contestation née ou à naître, par des concessions réciproques",
+          "Concessions réciproques obligatoires ; la chose transigée a l'autorité de la chose jugée entre les parties.",
+          "Irrévocable ; ne peut être attaquée que pour dol, violence ou erreur sur la personne."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-cj-008",
+    "titre": "Répartition des compétences normatives",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Domaine",
+        "Compétence",
+        "Auteur"
+      ],
+      "lignes": [
+        [
+          "Droits civiques, libertés, nationalité, état des personnes, droit pénal, fiscalité, droit du travail, droit des sociétés…",
+          "Lois (art. 34 Constitution)",
+          "Parlement (Assemblée nationale + Sénat)"
+        ],
+        [
+          "Toutes les matières non réservées à la loi",
+          "Règlements (art. 37 Constitution)",
+          "Gouvernement (décrets, arrêtés)"
+        ],
+        [
+          "Application et précision des lois",
+          "Décrets d'application",
+          "Premier ministre ou Président de la République"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-cj-009",
+    "titre": "Les 4 contrôles de conformité des normes",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Contrôle",
+        "Norme contrôlée",
+        "Organe",
+        "Moment"
+      ],
+      "lignes": [
+        [
+          "Contrôle de constitutionnalité a priori",
+          "Loi avant promulgation",
+          "Conseil constitutionnel",
+          "Avant publication"
+        ],
+        [
+          "Question prioritaire de constitutionnalité (QPC)",
+          "Loi déjà en vigueur",
+          "Conseil constitutionnel (saisi via Cass. ou CE)",
+          "Lors d'un procès"
+        ],
+        [
+          "Contrôle de conventionnalité",
+          "Loi vs traité / Convention CEDH",
+          "Juridictions ordinaires (Cass., CE)",
+          "À tout moment"
+        ],
+        [
+          "Contrôle de légalité",
+          "Acte réglementaire vs loi",
+          "Conseil d'État",
+          "Recours pour excès de pouvoir"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-cj-010",
+    "titre": "Juridictions de l'ordre judiciaire",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Juridiction",
+        "Compétence matière",
+        "Compétence territoriale",
+        "Composition"
+      ],
+      "lignes": [
+        [
+          "Tribunal judiciaire (TJ)",
+          "Litiges civils de droit commun (personnes, famille, contrats civils, immobilier, nationalité) ; compétence exclusive pour certaines matières (état civil, propriété intellectuelle, concurrence…)",
+          "TJ du domicile du défendeur, ou lieu d'exécution du contrat, ou lieu du fait dommageable",
+          "Juges professionnels ; chambre de proximité pour les litiges inférieurs à 10 000 €"
+        ],
+        [
+          "Tribunal de commerce",
+          "Litiges entre commerçants, actes de commerce, sociétés commerciales, procédures collectives",
+          "Lieu du domicile du défendeur ou lieu d'exécution du contrat commercial",
+          "Juges élus, non professionnels, issus du monde commercial — composition paritaire"
+        ],
+        [
+          "Conseil de prud'hommes (CPH)",
+          "Litiges individuels entre salariés et employeurs nés du contrat de travail",
+          "Lieu du travail habituel ou domicile du salarié",
+          "Composition paritaire : conseillers salariés et conseillers employeurs élus"
+        ],
+        [
+          "Tribunal correctionnel",
+          "Délits (peine d'emprisonnement de 10 jours à 10 ans, et amendes)",
+          "Lieu de l'infraction ou domicile du prévenu",
+          "3 juges professionnels, ou juge unique pour les délits simples"
+        ],
+        [
+          "Tribunal criminel départemental / Cour d'assises",
+          "Crimes (peines supérieures à 10 ans) ; le tribunal criminel départemental juge les crimes punis de 15 à 20 ans",
+          "Lieu du crime",
+          "Cour d'assises : 3 magistrats + 6 jurés populaires"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-cj-011",
+    "titre": "Les voies de recours",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Voie de recours",
+        "Objet",
+        "Délai",
+        "Effet"
+      ],
+      "lignes": [
+        [
+          "Appel",
+          "Rejuger en fait et en droit la décision de première instance",
+          "1 mois (civil) / 10 jours (pénal) / 15 jours (prud'homal)",
+          "Suspensif en principe"
+        ],
+        [
+          "Pourvoi en cassation",
+          "Contrôle de la seule légalité (pas de rejugement des faits) ; moyen de cassation obligatoire",
+          "2 mois à compter de la signification",
+          "Non suspensif en principe"
+        ],
+        [
+          "Opposition",
+          "Voie de rétractation contre un jugement rendu par défaut",
+          "1 mois",
+          "Suspensif"
+        ],
+        [
+          "Tierce opposition",
+          "Permettre à un tiers lésé par une décision de la contester",
+          "30 ans en principe",
+          "Non suspensif"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-cj-012",
+    "titre": "Les modes amiables de règlement des différends (MARD)",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Mode",
+        "Mécanisme",
+        "Issue"
+      ],
+      "lignes": [
+        [
+          "Médiation",
+          "Un tiers neutre (médiateur), sans pouvoir décisionnaire, aide les parties à trouver un accord ; judiciaire (ordonnée par le juge) ou conventionnelle",
+          "L'accord, avisé par le juge, acquiert force exécutoire"
+        ],
+        [
+          "Conciliation",
+          "Un tiers (conciliateur de justice, bénévole) rapproche les parties ; gratuite ; obligatoire avant certaines actions",
+          "L'accord donne lieu à un procès-verbal de conciliation, titre exécutoire"
+        ],
+        [
+          "Arbitrage",
+          "Les parties confient leur litige à un ou plusieurs arbitres privés, par clause compromissoire (avant tout litige) ou compromis (après la naissance du litige)",
+          "Sentence arbitrale ayant force obligatoire ; appel possible devant la cour d'appel. Avantages : confidentialité, rapidité, expertise"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-001",
+    "titre": "Régimes déclaratifs de TVA selon le chiffre d'affaires",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Régime",
+        "Seuil (année précédente)",
+        "Seuil (année en cours, tolérance)",
+        "Conséquence"
+      ],
+      "lignes": [
+        [
+          "Franchise en base — ventes / activités mixtes",
+          "85 000 €",
+          "93 500 €",
+          "Pas de TVA collectée ni déduite. Mention « TVA non applicable, art. 293 B CGI »."
+        ],
+        [
+          "Franchise en base — prestations de services",
+          "37 500 €",
+          "41 250 €",
+          "Même régime."
+        ],
+        [
+          "Régime réel simplifié",
+          "Entre les seuils de franchise et 840 000 € (ventes) / 254 000 € (services)",
+          "—",
+          "2 acomptes (juillet et décembre) + déclaration annuelle CA12."
+        ],
+        [
+          "Régime réel normal",
+          "Au-delà des seuils du réel simplifié",
+          "—",
+          "Déclaration mensuelle CA3 (trimestrielle si TVA due < 4 000 €/an)."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-002",
+    "titre": "Fait générateur et exigibilité selon le type d'opération",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Type d'opération",
+        "Fait générateur",
+        "Exigibilité"
+      ],
+      "lignes": [
+        [
+          "Livraison de biens",
+          "Transfert du bien (livraison)",
+          "= Fait générateur (coïncident)"
+        ],
+        [
+          "Prestations de services — droit commun",
+          "Achèvement de la prestation",
+          "Encaissement (acompte reçu ou solde)"
+        ],
+        [
+          "Prestations de services — option débits",
+          "Achèvement de la prestation",
+          "Débit (facturation)"
+        ],
+        [
+          "Acquisitions intracommunautaires (AIC)",
+          "Livraison du bien dans l'État de départ",
+          "15 du mois suivant l'AIC, ou date de facture si antérieure"
+        ],
+        [
+          "Importations",
+          "Entrée sur le territoire douanier",
+          "= Fait générateur"
+        ],
+        [
+          "Acomptes",
+          "Inchangé",
+          "À la date d'encaissement de l'acompte"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-003",
+    "titre": "La méthode des 3 coefficients de déduction (depuis 2008)",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Coefficient",
+        "Mesure",
+        "Valeurs"
+      ],
+      "lignes": [
+        [
+          "D'assujettissement",
+          "Proportion d'utilisation du bien/service dans le champ de la TVA",
+          "0 si 100 % hors champ ; 1 si 100 % dans le champ ; valeur intermédiaire si usage mixte"
+        ],
+        [
+          "De taxation",
+          "Proportion des opérations ouvrant droit à déduction",
+          "1 si 100 % taxées ou exonérées avec droit à déduction ; 0 si 100 % exonérées sans droit à déduction ; si mixte, prorata = CA ouvrant droit / CA total"
+        ],
+        [
+          "D'admission",
+          "Exclusions légales",
+          "0 = exclusion (ex. véhicules de tourisme) ; 1 = déductible (droit commun) ; jamais de valeur intermédiaire"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-004",
+    "titre": "Régularisations de la TVA déduite",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Événement",
+        "Régularisation",
+        "Période"
+      ],
+      "lignes": [
+        [
+          "Cession avant fin de la période de régularisation",
+          "Reversement de TVA proratisé",
+          "Meubles : 5 ans / Immeubles : 20 ans"
+        ],
+        [
+          "Passage d'une affectation taxée à exonérée",
+          "Reversement (1/5 ou 1/20 par an)",
+          "Durée résiduelle"
+        ],
+        [
+          "Passage d'une affectation exonérée à taxée",
+          "Déduction complémentaire",
+          "Durée résiduelle"
+        ],
+        [
+          "Destruction involontaire prouvée",
+          "Pas de reversement",
+          "—"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-005",
+    "titre": "TVA sur les opérations immobilières",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Opération",
+        "Régime TVA",
+        "Base",
+        "Remarque"
+      ],
+      "lignes": [
+        [
+          "Vente d'immeuble neuf (≤ 5 ans) par un assujetti",
+          "TVA 20 % obligatoire",
+          "Prix total",
+          "Neuf = achevé depuis moins de 5 ans ou jamais habité"
+        ],
+        [
+          "Vente d'immeuble ancien (> 5 ans) par un assujetti",
+          "Exonérée, option possible",
+          "Prix total ou marge si option",
+          "TVA sur marge si le bien a été acquis sans TVA déductible"
+        ],
+        [
+          "Vente de terrain à bâtir par un assujetti",
+          "TVA obligatoire",
+          "Prix total ou marge",
+          "Terrain sur lequel une construction est autorisée"
+        ],
+        [
+          "Vente de terrain non constructible",
+          "Hors champ de la TVA",
+          "—",
+          "Droits d'enregistrement applicables"
+        ],
+        [
+          "Location nue à usage d'habitation",
+          "Exonérée sans option",
+          "—",
+          "Pas de droit à déduction sur les dépenses liées"
+        ],
+        [
+          "Location nue à usage professionnel",
+          "Exonérée, option TVA possible",
+          "Loyers HT",
+          "L'option permet la déduction de la TVA sur travaux et charges"
+        ],
+        [
+          "Location meublée / hôtelière",
+          "TVA obligatoire à 10 %",
+          "Loyers HT",
+          "Les services hôteliers relèvent du taux de 10 %"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-006",
+    "titre": "TVA sur les opérations intracommunautaires et internationales",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Opération",
+        "Sens",
+        "TVA applicable",
+        "Mécanisme"
+      ],
+      "lignes": [
+        [
+          "Livraison intracommunautaire — LIC (B2B)",
+          "France → UE",
+          "Exonérée en France",
+          "Taxation dans le pays de l'acheteur (via l'AIC)"
+        ],
+        [
+          "Acquisition intracommunautaire — AIC (B2B)",
+          "UE → France",
+          "TVA française due",
+          "Auto-liquidation par l'acheteur"
+        ],
+        [
+          "Exportation",
+          "France → hors UE",
+          "Exonérée",
+          "Justificatif douanier obligatoire (DAE)"
+        ],
+        [
+          "Importation",
+          "Hors UE → France",
+          "TVA française due",
+          "Auto-liquidation depuis 2022"
+        ],
+        [
+          "Prestation B2B intracommunautaire",
+          "France → UE",
+          "Hors champ en France",
+          "Auto-liquidation par le preneur (art. 44 de la directive TVA)"
+        ],
+        [
+          "Prestation B2C intracommunautaire",
+          "France → UE",
+          "TVA du pays du client",
+          "Guichet unique OSS"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-007",
+    "titre": "Charges à réintégrer pour le calcul du résultat fiscal",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Charge comptabilisée",
+        "Traitement fiscal"
+      ],
+      "lignes": [
+        [
+          "Amortissements excédentaires",
+          "Réintégration de l'excédent au-delà du linéaire fiscal"
+        ],
+        [
+          "Provisions non déductibles",
+          "Réintégration totale (risque non précis ou non probable)"
+        ],
+        [
+          "Amendes et pénalités fiscales",
+          "Réintégration totale — toujours non déductibles"
+        ],
+        [
+          "Impôt sur les sociétés lui-même",
+          "Non déductible — réintégration systématique"
+        ],
+        [
+          "Rémunération excessive du dirigeant",
+          "Réintégration de la partie jugée excessive"
+        ],
+        [
+          "Dépenses somptuaires (chasse, pêche, résidences de plaisance…)",
+          "Réintégration totale"
+        ],
+        [
+          "Intérêts de comptes courants d'associés au-delà du taux légal",
+          "Réintégration de l'excédent"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-008",
+    "titre": "Produits à déduire pour le calcul du résultat fiscal",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Produit comptabilisé",
+        "Traitement fiscal"
+      ],
+      "lignes": [
+        [
+          "Dividendes reçus de filiales (régime mère-fille)",
+          "Déduction à 95 % — réintégration d'une quote-part de frais de 5 %"
+        ],
+        [
+          "Plus-values à long terme sur titres de participation (détention ≥ 2 ans, participation ≥ 5 %)",
+          "Exonérées — réintégration d'une quote-part de frais de 12 %"
+        ],
+        [
+          "Reprises de provisions antérieurement non déduites",
+          "Déduction (règle de neutralité)"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-009",
+    "titre": "Modes d'amortissement fiscal",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Mode",
+        "Calcul",
+        "Remarques"
+      ],
+      "lignes": [
+        [
+          "Linéaire",
+          "Base × taux × (jours/360) la 1ère année",
+          "Droit commun. Base = valeur d'origine (pas de valeur résiduelle)."
+        ],
+        [
+          "Dégressif",
+          "Valeur nette comptable × (taux linéaire × coefficient)",
+          "Réservé aux biens neufs d'une durée ≥ 3 ans. Coefficients : 1,25 (3-4 ans), 1,75 (5-6 ans), 2,25 (≥ 7 ans). Passage au linéaire dès que celui-ci devient plus favorable."
+        ],
+        [
+          "Exceptionnel",
+          "100 % la 1ère année",
+          "PME : matériels de R&D, robots, logiciels. Prorata en jours."
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-010",
+    "titre": "Plus-values professionnelles à l'IS",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Catégorie",
+        "Condition",
+        "Taux IS",
+        "Traitement"
+      ],
+      "lignes": [
+        [
+          "Plus-value à court terme (PVCT)",
+          "Biens détenus depuis moins de 2 ans, ou amortissements sur des biens détenus ≥ 2 ans",
+          "25 % (taux normal)",
+          "Intégrée au résultat ordinaire"
+        ],
+        [
+          "Plus-value à long terme (PVLT)",
+          "Biens détenus ≥ 2 ans (hors amortissements)",
+          "15 %",
+          "Imposition séparée ; compensation possible avec les moins-values à long terme"
+        ],
+        [
+          "PVLT sur titres de participation",
+          "Détention ≥ 2 ans, participation ≥ 5 %",
+          "0 %",
+          "Exonérée — réintégration d'une quote-part de frais de 12 %"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-011",
+    "titre": "Barème de l'impôt sur le revenu (revenus 2025, imposition 2026)",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Fraction du revenu net imposable (par part)",
+        "Taux marginal"
+      ],
+      "lignes": [
+        [
+          "Jusqu'à 11 600 €",
+          "0 %"
+        ],
+        [
+          "De 11 600 € à 29 579 €",
+          "11 %"
+        ],
+        [
+          "De 29 579 € à 84 577 €",
+          "30 %"
+        ],
+        [
+          "De 84 577 € à 181 917 €",
+          "41 %"
+        ],
+        [
+          "Au-delà de 181 917 €",
+          "45 %"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-012",
+    "titre": "Les catégories de revenus de l'impôt sur le revenu",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Catégorie",
+        "Abréviation",
+        "Activités concernées"
+      ],
+      "lignes": [
+        [
+          "Traitements et salaires",
+          "TS",
+          "Salaires, pensions, rentes viagères à titre onéreux"
+        ],
+        [
+          "Bénéfices industriels et commerciaux",
+          "BIC",
+          "Activités commerciales, industrielles, artisanales"
+        ],
+        [
+          "Bénéfices non commerciaux",
+          "BNC",
+          "Professions libérales, charges et offices, droits d'auteur"
+        ],
+        [
+          "Bénéfices agricoles",
+          "BA",
+          "Exploitations agricoles et forestières"
+        ],
+        [
+          "Revenus fonciers",
+          "RF",
+          "Locations nues d'immeubles bâtis et non bâtis"
+        ],
+        [
+          "Revenus de capitaux mobiliers",
+          "RCM",
+          "Dividendes, intérêts, produits de placements"
+        ],
+        [
+          "Plus-values des particuliers",
+          "PV",
+          "Cessions de valeurs mobilières, d'immeubles"
+        ],
+        [
+          "Rémunérations des dirigeants",
+          "Art. 62 CGI",
+          "Gérants majoritaires de SARL, associés de SNC, gérants d'EURL"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-013",
+    "titre": "Bénéfices agricoles (BA) — régimes déclaratifs",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Régime",
+        "Seuil (recettes moyennes triennales)",
+        "Méthode"
+      ],
+      "lignes": [
+        [
+          "Micro-BA",
+          "≤ 91 900 €",
+          "Recettes × 87 % (abattement de 13 %)"
+        ],
+        [
+          "Réel simplifié",
+          "De 91 900 € à 391 000 €",
+          "Recettes − dépenses, comptabilité allégée"
+        ],
+        [
+          "Réel normal",
+          "Au-delà de 391 000 €",
+          "Comptabilité complète"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-014",
+    "titre": "Revenus de capitaux mobiliers — PFU vs option pour le barème",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Type de revenu",
+        "PFU (régime par défaut)",
+        "Option pour le barème IR"
+      ],
+      "lignes": [
+        [
+          "Dividendes",
+          "30 % (12,8 % IR + 17,2 % prélèvements sociaux)",
+          "Barème + 17,2 % PS, après abattement de 40 %"
+        ],
+        [
+          "Intérêts",
+          "30 % (12,8 % IR + 17,2 % PS)",
+          "Barème + 17,2 % PS, sans abattement"
+        ],
+        [
+          "Assurance-vie > 8 ans (versements ≤ 150 000 €)",
+          "24,7 % (7,5 % + 17,2 % PS)",
+          "Barème + 17,2 % PS, après abattement de 4 600 € (ou 9 200 € pour un couple)"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-015",
+    "titre": "Cotisation foncière des entreprises (CFE)",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Critère",
+        "Règle"
+      ],
+      "lignes": [
+        [
+          "Redevables",
+          "Toute personne exerçant à titre habituel une activité non salariée en France"
+        ],
+        [
+          "Base d'imposition",
+          "Valeur locative cadastrale des biens immobiliers utilisés pour l'activité"
+        ],
+        [
+          "Bénéficiaire",
+          "Commune ou établissement public de coopération intercommunale (EPCI) du lieu d'établissement"
+        ],
+        [
+          "Date d'imposition",
+          "Au 1er janvier de l'année"
+        ],
+        [
+          "Paiement",
+          "15 décembre (acompte au 15 juin si la CFE excède 3 000 €)"
+        ],
+        [
+          "1ère année",
+          "Exonération totale la première année civile ; base réduite de moitié en N+1"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-016",
+    "titre": "Cotisation sur la valeur ajoutée des entreprises (CVAE)",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Critère",
+        "Règle"
+      ],
+      "lignes": [
+        [
+          "Redevables",
+          "Entreprises dont le chiffre d'affaires HT dépasse 500 000 € (obligation déclarative dès 152 500 €)"
+        ],
+        [
+          "Base",
+          "Valeur ajoutée fiscale, plafonnée à 80 % du chiffre d'affaires (industrie) ou 85 % (autres activités)"
+        ],
+        [
+          "Taux",
+          "En baisse progressive dans le cadre de la suppression annoncée de la CVAE — vérifier le taux applicable à l'exercice concerné"
+        ],
+        [
+          "Plafonnement",
+          "CFE + CVAE plafonnées ensemble à 1,5 % de la valeur ajoutée (plafonnement de la contribution économique territoriale, CET)"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-017",
+    "titre": "Taxe foncière sur les propriétés bâties (TFB)",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Critère",
+        "Règle"
+      ],
+      "lignes": [
+        [
+          "Redevable",
+          "Propriétaire ou usufruitier au 1er janvier de l'année"
+        ],
+        [
+          "Base",
+          "50 % de la valeur locative cadastrale brute"
+        ],
+        [
+          "Taux",
+          "Fixé par les collectivités locales (commune et département)"
+        ],
+        [
+          "Déductibilité IS/IR",
+          "Déductible si l'immeuble est affecté à l'activité professionnelle"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-fisc-018",
+    "titre": "Tableau comparatif des principales taxes locales et sur les salaires",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Taxe",
+        "Redevable",
+        "Base",
+        "Taux",
+        "Bénéficiaire",
+        "Déductible IS/IR ?"
+      ],
+      "lignes": [
+        [
+          "CFE",
+          "Tout exploitant non salarié",
+          "Valeur locative cadastrale foncière",
+          "Variable (fixé par la commune)",
+          "Commune / EPCI",
+          "Oui"
+        ],
+        [
+          "CVAE",
+          "CA > 500 000 €",
+          "Valeur ajoutée fiscale",
+          "Variable, en baisse progressive",
+          "Régions / communes",
+          "Oui"
+        ],
+        [
+          "Taxe foncière sur les propriétés bâties",
+          "Propriétaire au 1er janvier",
+          "50 % de la valeur locative cadastrale",
+          "Variable",
+          "Communes / département",
+          "Oui, si affecté à l'activité"
+        ],
+        [
+          "CRL",
+          "Personne morale à l'IS — logements loués nus",
+          "Loyers bruts",
+          "2,5 %",
+          "État",
+          "Oui"
+        ],
+        [
+          "Taxe sur les salaires",
+          "Employeurs non assujettis à la TVA",
+          "Rémunérations brutes",
+          "4,25 % à 13,6 %",
+          "État",
+          "Oui"
+        ],
+        [
+          "IS lui-même",
+          "Sociétés passibles de l'IS",
+          "Résultat fiscal",
+          "15 % ou 25 % selon les cas",
+          "État",
+          "Non"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-pcs-001",
+    "titre": "Infractions spécifiques aux dirigeants de sociétés",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Infraction",
+        "Forme sociétaire / fondement",
+        "Peine"
+      ],
+      "lignes": [
+        [
+          "Distribution de dividendes fictifs (en l'absence d'inventaire ou sur inventaires frauduleux)",
+          "SARL (L. 241-3, 2°) / SA (L. 242-6, 1°) C. com.",
+          "5 ans + 375 000 €"
+        ],
+        [
+          "Présentation aux associés de comptes annuels ne donnant pas une image fidèle, en vue de dissimuler la véritable situation",
+          "SARL (L. 241-3, 3°) / SA (L. 242-6, 2°) C. com.",
+          "5 ans + 375 000 €"
+        ],
+        [
+          "Défaut d'établissement des comptes annuels et du rapport de gestion",
+          "SARL (L. 241-4) / SA",
+          "Amende de 9 000 €"
+        ],
+        [
+          "Abus de biens sociaux (ABS)",
+          "SARL (L. 241-3, 4°) / SA (L. 242-6, 3°) C. com.",
+          "5 ans + 375 000 €"
+        ],
+        [
+          "Abus des pouvoirs ou des voix",
+          "SARL (L. 241-3, 5°) C. com.",
+          "5 ans + 375 000 €"
+        ],
+        [
+          "Défaut de désignation obligatoire d'un commissaire aux comptes",
+          "Toute société soumise à l'obligation",
+          "2 ans + 30 000 €"
+        ],
+        [
+          "Certification par le CAC de comptes qu'il sait irréguliers",
+          "Commissaire aux comptes",
+          "5 ans + 75 000 €"
+        ],
+        [
+          "Non-révélation par le CAC de faits délictueux au procureur",
+          "Commissaire aux comptes",
+          "5 ans + 75 000 €"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-pcs-002",
+    "titre": "Le faux et ses variantes",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Type de faux",
+        "Fondement",
+        "Prison",
+        "Amende"
+      ],
+      "lignes": [
+        [
+          "Faux et usage de faux — droit commun",
+          "Art. 441-1 C. pén.",
+          "3 ans",
+          "45 000 €"
+        ],
+        [
+          "Faux dans un document administratif (carte d'identité, permis…)",
+          "Art. 441-2 C. pén.",
+          "5 ans",
+          "75 000 €"
+        ],
+        [
+          "Faux dans une écriture publique ou authentique",
+          "Art. 441-4 C. pén.",
+          "10 ans",
+          "150 000 €"
+        ],
+        [
+          "Faux commis par un agent public",
+          "Art. 441-4, al. 3 C. pén.",
+          "15 ans (réclusion)",
+          "225 000 €"
+        ],
+        [
+          "Fausse attestation / certificat inexact",
+          "Art. 441-7 C. pén.",
+          "1 an",
+          "15 000 €"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-pcs-003",
+    "titre": "Corruption et trafic d'influence",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Infraction",
+        "Définition",
+        "Auteur",
+        "Peine"
+      ],
+      "lignes": [
+        [
+          "Corruption passive",
+          "Fait, pour un agent public, de solliciter ou d'agréer des avantages en échange de l'accomplissement ou de l'abstention d'un acte de sa fonction",
+          "Agent public (fonctionnaire, élu, magistrat…)",
+          "10 ans + 1 000 000 € (ou double du produit tiré de l'infraction)"
+        ],
+        [
+          "Corruption active",
+          "Fait de proposer ou d'offrir des avantages à un agent public pour obtenir un acte ou une abstention de sa part",
+          "Toute personne physique ou morale (particulier, entreprise)",
+          "10 ans + 1 000 000 € (ou double du produit)"
+        ],
+        [
+          "Trafic d'influence",
+          "Solliciter ou offrir des avantages pour obtenir d'une autorité publique des décisions favorables",
+          "Toute personne",
+          "5 ans + 500 000 €"
+        ],
+        [
+          "Corruption privée",
+          "Corruption entre acteurs privés (dirigeants, salariés), en dehors de toute intervention d'un agent public",
+          "Dirigeants, salariés du secteur privé",
+          "5 ans + 500 000 €"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-pcs-004",
+    "titre": "Sanctions pénales applicables aux personnes morales",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Sanction",
+        "Modalité"
+      ],
+      "lignes": [
+        [
+          "Amende",
+          "Quintuple de l'amende prévue pour les personnes physiques (ex. : abus de biens sociaux → 375 000 € × 5 = 1 875 000 €)"
+        ],
+        [
+          "Dissolution",
+          "Si la société a été créée pour commettre l'infraction, ou détournée de son objet pour la commettre"
+        ],
+        [
+          "Placement sous surveillance judiciaire",
+          "Durée maximale de 5 ans ; un mandataire judiciaire contrôle la gestion"
+        ],
+        [
+          "Fermeture d'établissement(s)",
+          "Temporaire (5 ans maximum) ou définitive"
+        ],
+        [
+          "Interdiction d'exercer une activité",
+          "Temporaire (5 ans maximum) ou définitive"
+        ],
+        [
+          "Exclusion des marchés publics",
+          "Temporaire (5 ans maximum) ou définitive"
+        ],
+        [
+          "Affichage ou diffusion de la décision",
+          "Publication dans la presse, sur le site internet de la société…"
+        ],
+        [
+          "Confiscation",
+          "Des biens ayant servi à commettre l'infraction, ou qui en sont le produit"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-pcs-005",
+    "titre": "Contrôle des concentrations — seuils de notification",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Niveau",
+        "Autorité compétente",
+        "Seuils (cumulatifs)"
+      ],
+      "lignes": [
+        [
+          "National (France)",
+          "Autorité de la concurrence",
+          "Chiffre d'affaires mondial total des entreprises concernées > 150 M€, ET au moins deux entreprises réalisent en France un CA > 50 M€"
+        ],
+        [
+          "Européen",
+          "Commission européenne",
+          "CA mondial total > 5 Md€, ET CA européen d'au moins deux entreprises > 250 M€ (sauf si chaque entreprise réalise plus des 2/3 de son CA UE dans un seul État membre)"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-pcs-006",
+    "titre": "Les 4 formes de concurrence déloyale",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Acte déloyal",
+        "Description",
+        "Exemples"
+      ],
+      "lignes": [
+        [
+          "Confusion",
+          "Créer une confusion dans l'esprit du public entre deux entreprises, produits ou services",
+          "Imitation d'un logo, d'une enseigne, d'un emballage, d'un nom commercial"
+        ],
+        [
+          "Dénigrement",
+          "Diffuser des informations dépréciant les produits ou services d'un concurrent",
+          "Fausses informations sur la qualité des produits d'un concurrent, commentaires négatifs sur les réseaux sociaux"
+        ],
+        [
+          "Désorganisation",
+          "Actions visant à perturber l'organisation interne ou commerciale d'un concurrent",
+          "Débauchage massif de salariés, détournement de clientèle par un ancien salarié"
+        ],
+        [
+          "Parasitisme",
+          "Se placer dans le sillage d'autrui pour profiter de ses investissements et de ses efforts sans les reproduire à l'identique",
+          "Copie du style d'une publicité, exploitation de la notoriété d'une marque sans contrefaçon stricte"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-pcs-007",
+    "titre": "Pratiques restrictives de concurrence (art. L. 442-1 et s. C. com.)",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Pratique",
+        "Fondement",
+        "Description",
+        "Sanction"
+      ],
+      "lignes": [
+        [
+          "Déséquilibre significatif",
+          "Art. L. 442-1, I, 2° C. com.",
+          "Soumettre un partenaire commercial à des droits et obligations créant un déséquilibre significatif entre les parties",
+          "Nullité de la clause + dommages-intérêts + amende jusqu'à 5 M€ ou 5 % du chiffre d'affaires"
+        ],
+        [
+          "Rupture brutale de relations commerciales établies",
+          "Art. L. 442-1, II C. com.",
+          "Rompre brutalement une relation commerciale établie, sans préavis écrit suffisant au regard de la durée de la relation",
+          "Dommages-intérêts (perte de marge brute pendant la durée du préavis manquant)"
+        ],
+        [
+          "Prix de revente abusivement bas",
+          "Art. L. 442-5 C. com.",
+          "Imposer à un revendeur des prix de revente abusivement bas",
+          "Amende jusqu'à 75 000 € par infraction"
+        ],
+        [
+          "Vente à perte",
+          "Art. L. 442-5 C. com.",
+          "Revendre un produit à un prix inférieur à son prix d'achat effectif",
+          "Amende jusqu'à 75 000 € (+ la moitié des économies réalisées)"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-pcs-008",
+    "titre": "Les principaux contrats de travail",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Contrat",
+        "Caractéristiques",
+        "Durée maximale",
+        "Cas de recours"
+      ],
+      "lignes": [
+        [
+          "CDI",
+          "Contrat à durée indéterminée — droit commun. Temps plein ou partiel.",
+          "Illimitée",
+          "Tout emploi durable ; aucun motif requis"
+        ],
+        [
+          "CDD",
+          "Dérogatoire au CDI, écrit obligatoire, terme précis ou imprécis",
+          "18 mois en général (24 mois si commande exceptionnelle à l'export)",
+          "Remplacement de salarié, accroissement temporaire d'activité, emplois saisonniers, emplois par nature temporaire"
+        ],
+        [
+          "CTT (intérim)",
+          "3 parties : entreprise de travail temporaire (ETT), salarié, entreprise utilisatrice — double contrat",
+          "18 mois (selon les cas)",
+          "Mêmes cas que le CDD"
+        ],
+        [
+          "Contrat d'apprentissage",
+          "Formation en alternance (CFA + entreprise), rémunération en % du SMIC selon l'âge",
+          "1 à 3 ans",
+          "Formation professionnelle initiale"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-pcs-009",
+    "titre": "Les modes de rupture du CDI",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Mode de rupture",
+        "À l'initiative de",
+        "Procédure",
+        "Indemnités"
+      ],
+      "lignes": [
+        [
+          "Licenciement pour motif personnel",
+          "Employeur",
+          "Convocation, entretien préalable (délai ≥ 5 jours ouvrables), notification écrite motivée",
+          "Indemnité légale de licenciement (si ancienneté ≥ 8 mois) + préavis"
+        ],
+        [
+          "Licenciement pour faute grave",
+          "Employeur",
+          "Même procédure ; mise à pied conservatoire possible",
+          "Pas d'indemnité de licenciement ni de préavis ; indemnité compensatrice de congés payés si droits acquis"
+        ],
+        [
+          "Licenciement pour faute lourde",
+          "Employeur",
+          "Même procédure",
+          "Pas d'indemnité, pas de préavis, perte de l'indemnité compensatrice de congés payés"
+        ],
+        [
+          "Licenciement économique",
+          "Employeur",
+          "Motif économique réel et sérieux ; procédure collective si ≥ 10 salariés concernés ; plan de sauvegarde de l'emploi (PSE) si ≥ 10 licenciements dans une entreprise de 50 salariés ou plus",
+          "Indemnité légale + préavis + congé de reclassement ou contrat de sécurisation professionnelle"
+        ],
+        [
+          "Rupture conventionnelle homologuée",
+          "Accord commun",
+          "Entretien(s), convention signée, délai de rétractation de 15 jours calendaires, homologation par la DREETS (15 jours d'instruction)",
+          "Indemnité spécifique au moins égale à l'indemnité légale de licenciement + droit aux allocations chômage"
+        ],
+        [
+          "Démission",
+          "Salarié",
+          "Notification à l'employeur (écrit conseillé), respect du préavis conventionnel",
+          "Pas d'indemnité, pas d'allocations chômage en principe (sauf démission légitime)"
+        ],
+        [
+          "Prise d'acte",
+          "Salarié",
+          "Le salarié prend acte de la rupture en raison de manquements graves de l'employeur",
+          "Si les manquements graves sont reconnus : effets d'un licenciement sans cause réelle et sérieuse ; sinon, effets d'une démission"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-pcs-010",
+    "titre": "Le comité social et économique (CSE) selon l'effectif",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Effectif",
+        "Obligations",
+        "Attributions"
+      ],
+      "lignes": [
+        [
+          "11 à 49 salariés",
+          "CSE obligatoire",
+          "Présentation des réclamations individuelles et collectives ; promotion de la santé et de la sécurité ; droit d'alerte ; pas de personnalité morale"
+        ],
+        [
+          "50 salariés et plus",
+          "CSE obligatoire, doté de la personnalité morale, avec un budget de fonctionnement (0,20 % de la masse salariale) et un budget des activités sociales et culturelles (ASC)",
+          "Idem, plus consultation obligatoire sur les orientations stratégiques, la situation économique et la politique sociale ; droit d'expertise ; capacité d'ester en justice"
+        ],
+        [
+          "300 salariés et plus",
+          "Représentants de proximité (facultatifs) ; commissions spécialisées obligatoires (CSSCT, formation, égalité professionnelle…)",
+          "Commission santé, sécurité et conditions de travail obligatoire"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-soc-001",
+    "titre": "Les abus de majorité, minorité et égalité",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Type d'abus",
+        "Définition",
+        "Sanction judiciaire"
+      ],
+      "lignes": [
+        [
+          "Abus de majorité",
+          "Vote contraire à l'intérêt social, dans le seul but de favoriser les majoritaires au détriment des minoritaires",
+          "Dommages-intérêts aux minoritaires et à la société + nullité de la décision"
+        ],
+        [
+          "Abus de minorité",
+          "Opposition des minoritaires à une décision essentielle pour la survie de la société, dans leur seul intérêt personnel",
+          "Dommages-intérêts aux majoritaires + nomination d'un mandataire chargé de voter à la place des minoritaires"
+        ],
+        [
+          "Abus d'égalité",
+          "Blocage d'une décision par des associés détenant exactement la moitié des droits de vote",
+          "Mêmes sanctions que l'abus de minorité"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-soc-002",
+    "titre": "Les trois types d'apports",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Type d'apport",
+        "Objet",
+        "Commissaire aux apports",
+        "Libération"
+      ],
+      "lignes": [
+        [
+          "En numéraire",
+          "Somme d'argent",
+          "Non",
+          "Dépend de la société (ex. 1/5 à la souscription pour la SARL)"
+        ],
+        [
+          "En nature",
+          "Bien meuble ou immeuble, corporel ou incorporel",
+          "En principe oui (sauf dispense)",
+          "Intégrale dès la souscription"
+        ],
+        [
+          "En industrie",
+          "Savoir-faire, travail, compétences",
+          "Non",
+          "Non évaluable — ne concourt pas à la formation du capital"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-soc-003",
+    "titre": "Causes de nullité des sociétés",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Fondement",
+        "Exemples"
+      ],
+      "lignes": [
+        [
+          "Nullité pour vice du consentement",
+          "Absence de consentement, dol, erreur, incapacité d'un associé, absence de cause ou d'objet licite"
+        ],
+        [
+          "Nullité pour violation d'une règle impérative",
+          "Violation d'une disposition expressément sanctionnée par la nullité (ex. nombre insuffisant d'associés)"
+        ],
+        [
+          "Nullité pour absence d'apports réels",
+          "Apports fictifs ou simulés"
+        ],
+        [
+          "Nullité pour défaut d'affectio societatis",
+          "Société fictive, société de façade"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-soc-004",
+    "titre": "Causes de dissolution communes à toutes les sociétés",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Cause",
+        "Nature",
+        "Précisions"
+      ],
+      "lignes": [
+        [
+          "Expiration de la durée statutaire",
+          "De droit",
+          "Sauf prorogation décidée en AGE avant expiration ; si non prorogée et exploitation continuée → société de fait"
+        ],
+        [
+          "Réalisation ou extinction de l'objet social",
+          "De droit",
+          "Automatique"
+        ],
+        [
+          "Dissolution anticipée décidée par les associés",
+          "Volontaire",
+          "Selon les règles de majorité propres à chaque forme sociale"
+        ],
+        [
+          "Dissolution judiciaire pour justes motifs",
+          "Judiciaire",
+          "Demandée par tout associé : mésintelligence grave, inexécution de ses obligations, paralysie"
+        ],
+        [
+          "Annulation du contrat de société",
+          "Judiciaire",
+          "Si les causes de nullité n'ont pas été régularisées"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-soc-005",
+    "titre": "SNC — règles de majorité des principales décisions collectives",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Décision",
+        "Règle légale (silence des statuts)",
+        "Commentaire"
+      ],
+      "lignes": [
+        [
+          "Révocation du gérant-associé statutaire",
+          "Unanimité",
+          "Entraîne la dissolution, sauf continuation prévue ou votée à l'unanimité"
+        ],
+        [
+          "Révocation du gérant-associé (acte séparé) / du gérant non associé",
+          "Unanimité (gérant associé) / majorité (gérant non associé) dans le silence des statuts",
+          "N'entraîne pas la dissolution"
+        ],
+        [
+          "Cession de parts sociales",
+          "Unanimité — d'ordre public",
+          "Non modifiable par les statuts, même entre associés"
+        ],
+        [
+          "Transformation en SAS",
+          "Unanimité",
+          "Aggravation potentielle des obligations des associés"
+        ],
+        [
+          "Autres décisions collectives (AGO)",
+          "Règles statutaires libres, à défaut unanimité",
+          "Grande liberté dans la SNC — les statuts peuvent prévoir des majorités simples"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-soc-006",
+    "titre": "SARL — principales décisions collectives et règles de vote",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Décision",
+        "Nature",
+        "Précisions"
+      ],
+      "lignes": [
+        [
+          "Approbation des comptes annuels",
+          "AGO",
+          "Dans les 6 mois de la clôture ; doit obligatoirement se tenir en assemblée (pas de consultation écrite possible)"
+        ],
+        [
+          "Affectation du résultat",
+          "AGO",
+          "Dotation obligatoire à la réserve légale : 5 % du bénéfice jusqu'à ce qu'elle atteigne 10 % du capital social"
+        ],
+        [
+          "Nomination du gérant",
+          "AGO",
+          "Majorité absolue des parts sociales en 1ère convocation ; à défaut, majorité des voix émises en 2e convocation, sauf clause contraire"
+        ],
+        [
+          "Révocation du gérant",
+          "AGO",
+          "Majorité absolue des parts sociales ; sans juste motif, la révocation ouvre droit à dommages-intérêts ; révocation judiciaire possible à la demande de tout associé pour cause légitime"
+        ],
+        [
+          "Cession de parts sociales à un tiers",
+          "Décision collective",
+          "Agrément légal : majorité des associés représentant au moins la moitié des parts sociales (agrément statutaire possible, plus strict) ; le cédant participe au vote"
+        ],
+        [
+          "Cession de parts sociales en famille",
+          "Libre",
+          "Libre entre conjoints, ascendants, descendants, sauf clause statutaire d'agrément (non plus restrictive que pour les tiers)"
+        ],
+        [
+          "Augmentation de capital par apport en numéraire",
+          "AGE",
+          "Suppose le capital social entièrement libéré au préalable ; libération d'au moins 1/4 immédiatement, solde dans les 5 ans"
+        ],
+        [
+          "Réduction de capital non motivée par des pertes",
+          "AGE",
+          "Droit d'opposition des créanciers pendant 30 jours à compter de la publication"
+        ],
+        [
+          "Transformation en SNC, SCA, SC, SAS",
+          "Unanimité",
+          "Aggravation des obligations des associés (responsabilité illimitée) ou changement de nature"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-soc-007",
+    "titre": "SARL — les trois catégories de conventions",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Catégorie",
+        "Définition",
+        "Régime"
+      ],
+      "lignes": [
+        [
+          "Conventions réglementées",
+          "Opérations courantes conclues à des conditions normales, mais impliquant un conflit d'intérêts potentiel",
+          "Le gérant informe les associés a priori ; rapport du CAC (s'il existe) ; vote a posteriori en AGO à la majorité des parts sociales, l'intéressé ne votant pas ; à défaut d'approbation, la convention reste valable mais ses conséquences dommageables sont à la charge du gérant ou de l'associé concerné"
+        ],
+        [
+          "Conventions libres",
+          "Opérations courantes conclues à des conditions normales de marché",
+          "Aucune procédure particulière ; simple information du CAC s'il existe"
+        ],
+        [
+          "Conventions interdites",
+          "Emprunts, découverts bancaires, cautionnements et avals consentis par la SARL à une personne physique (gérant, associé, conjoint, ascendant, descendant)",
+          "Nullité absolue, non susceptible de régularisation"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-soc-008",
+    "titre": "SA à conseil d'administration — règles clés",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Règle",
+        "Contenu"
+      ],
+      "lignes": [
+        [
+          "Nombre d'administrateurs",
+          "3 minimum, 18 maximum (24 en cas de fusion, avec régularisation dans les 3 ans)"
+        ],
+        [
+          "Nomination / révocation",
+          "En AGO ; révocation possible sans juste motif"
+        ],
+        [
+          "Durée des fonctions",
+          "6 ans maximum, renouvelable"
+        ],
+        [
+          "Limite d'âge",
+          "Au plus 1/3 des administrateurs âgés de plus de 70 ans, sauf clause statutaire contraire"
+        ],
+        [
+          "Parité",
+          "Obligatoire au moins 40 % de chaque sexe si l'entreprise compte au moins 250 salariés et un CA ou un bilan d'au moins 50 M€"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-soc-009",
+    "titre": "SA à directoire et conseil de surveillance — règles clés",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Caractéristique",
+        "Règle"
+      ],
+      "lignes": [
+        [
+          "Composition du directoire",
+          "2 à 5 membres (7 dans les SA cotées) ; un directeur unique possible si le capital est inférieur à 150 000 €"
+        ],
+        [
+          "Nomination / révocation",
+          "Nommé par le conseil de surveillance (CS) ; révoqué par le CS si les statuts le prévoient, sinon par l'AG (indemnités si absence de juste motif)"
+        ],
+        [
+          "Durée des fonctions",
+          "De 2 à 6 ans"
+        ],
+        [
+          "Rapport au CS",
+          "Au moins une fois par trimestre"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-soc-010",
+    "titre": "SA — assemblées des actionnaires : quorum et majorité",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Type d'assemblée",
+        "Quorum en 1ère convocation",
+        "Quorum en 2e convocation",
+        "Majorité"
+      ],
+      "lignes": [
+        [
+          "AGO",
+          "Au moins 1/5 des actions ayant droit de vote",
+          "Aucun quorum",
+          "Majorité des voix exprimées (votes blancs non comptés)"
+        ],
+        [
+          "AGE",
+          "Au moins 1/4 des actions ayant droit de vote",
+          "Au moins 1/5 des actions ayant droit de vote",
+          "2/3 des voix exprimées"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-soc-011",
+    "titre": "Comparatif des principales formes sociétaires",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Critère",
+        "SARL / EURL",
+        "SAS / SASU",
+        "SA",
+        "SNC",
+        "SC · SCI · SCM",
+        "SCA",
+        "SEL (SELARL…)",
+        "GIE"
+      ],
+      "lignes": [
+        [
+          "Nombre d'associés",
+          "2 à 100 (EURL : 1 seul)",
+          "≥ 1 (SASU : 1 seul)",
+          "≥ 2 (7 si cotée)",
+          "≥ 2",
+          "≥ 2",
+          "≥ 4 : 1+ commandité + 3+ commanditaires",
+          "Selon la forme (SELARL : 2 à 100)",
+          "≥ 2 membres"
+        ],
+        [
+          "Capital minimum",
+          "1 €",
+          "1 €",
+          "37 000 €",
+          "Libre",
+          "Libre",
+          "37 000 €",
+          "Selon la forme (SELARL : 1 €)",
+          "0 € possible"
+        ],
+        [
+          "Responsabilité des associés",
+          "Limitée aux apports",
+          "Limitée aux apports",
+          "Limitée aux apports",
+          "Indéfinie et solidaire",
+          "Indéfinie et solidaire (en principe)",
+          "Commandités : indéfinie et solidaire / Commanditaires : limitée",
+          "Selon la forme (SELARL : limitée)",
+          "Selon les statuts"
+        ],
+        [
+          "Titres émis",
+          "Parts sociales non négociables",
+          "Actions librement négociables",
+          "Actions librement négociables",
+          "Parts sociales non négociables",
+          "Parts sociales non négociables",
+          "Parts (commandités) + actions (commanditaires)",
+          "Parts sociales (SELARL) ou actions (SELAS)",
+          "Droits non représentés par des titres négociables"
+        ],
+        [
+          "Cession des titres à un tiers",
+          "Agrément légal : majorité des associés représentant ≥ 1/2 des parts",
+          "Librement fixée par les statuts",
+          "Libre (SA cotée) ou clauses d'agrément possibles",
+          "Unanimité — ordre public",
+          "Agrément à l'unanimité sauf clause contraire",
+          "Commandités : unanimité / Commanditaires : libre sauf statuts",
+          "Agrément obligatoire (profession réglementée)",
+          "Accord des membres requis"
+        ],
+        [
+          "Direction",
+          "Gérant(s), associé ou tiers",
+          "Président — grande liberté statutaire",
+          "CA + DG, ou directoire + CS",
+          "Gérant(s), associé ou tiers",
+          "Gérant(s)",
+          "Gérant(s) obligatoirement commandité(s)",
+          "Gérant(s), membre de la profession réglementée",
+          "Administrateur(s) désigné(s) par les membres"
+        ],
+        [
+          "Régime fiscal par défaut",
+          "IS",
+          "IS",
+          "IS (obligatoire)",
+          "IR (transparent)",
+          "IR (transparent)",
+          "IS",
+          "IS ou IR selon la forme",
+          "IR (transparent) ou IS sur option"
+        ],
+        [
+          "Option fiscale",
+          "IR (5 ans max, sous conditions) ; SARL de famille : IR sans limite",
+          "IR (5 ans max, mêmes conditions)",
+          "Aucune option IR",
+          "IS (irrévocable)",
+          "IS possible pour la SC",
+          "Selon la forme de SEL",
+          "IS"
+        ],
+        [
+          "Régime social du dirigeant",
+          "Gérant majoritaire : TNS / minoritaire : assimilé salarié",
+          "Président : assimilé salarié, même associé unique",
+          "DG, membres du directoire : assimilé salarié",
+          "Associés : TNS",
+          "Gérant associé : TNS / non associé : assimilé salarié",
+          "Gérant commandité : TNS",
+          "Selon la forme"
+        ],
+        [
+          "Objet social",
+          "Commercial ou civil",
+          "Commercial ou civil",
+          "Commercial",
+          "Commercial (associés commerçants)",
+          "Civil uniquement",
+          "Commercial",
+          "Profession libérale réglementée uniquement",
+          "Faciliter/développer l'activité des membres, sans réaliser de bénéfice propre"
+        ],
+        [
+          "Appel public à l'épargne",
+          "Interdit",
+          "Interdit (SAS non cotée)",
+          "Possible (SA cotée)",
+          "Interdit",
+          "Interdit",
+          "Possible (commanditaires)",
+          "Interdit",
+          "Interdit"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-soc-012",
+    "titre": "Régime fiscal par forme sociétaire",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Forme",
+        "IS / IR par défaut",
+        "Option possible",
+        "Catégorie IR de l'associé",
+        "Taux IS applicable"
+      ],
+      "lignes": [
+        [
+          "SARL",
+          "IS",
+          "IR (5 ans, conditions) ; SARL de famille : IR illimité",
+          "Dividendes : RCM (PFU 30 %)",
+          "25 % (15 % PME jusqu'à 42 500 €)"
+        ],
+        [
+          "SAS",
+          "IS",
+          "IR (5 ans, mêmes conditions)",
+          "Dividendes : RCM (PFU 30 %)",
+          "25 % (15 % PME)"
+        ],
+        [
+          "SA",
+          "IS",
+          "Aucune option IR",
+          "Dividendes : RCM (PFU 30 %)",
+          "25 % (15 % PME)"
+        ],
+        [
+          "SNC",
+          "IR",
+          "IS (irrévocable)",
+          "BIC / BA / BNC selon l'activité",
+          "Si option IS : 25 %"
+        ],
+        [
+          "SC / SCI",
+          "IR",
+          "IS possible (irrévocable pour la SCI)",
+          "Revenus fonciers (SCI) / BNC (SC libérale)",
+          "Si option IS : 25 %"
+        ],
+        [
+          "SCM",
+          "IR / exonérée",
+          "—",
+          "Exonérée si refacturation à prix coûtant",
+          "—"
+        ],
+        [
+          "SCA",
+          "IS",
+          "—",
+          "Commandités : BIC / Commanditaires : RCM",
+          "25 %"
+        ],
+        [
+          "SELARL / SELAS",
+          "IS",
+          "IR (5 ans, mêmes conditions)",
+          "BNC professionnel",
+          "25 %"
+        ],
+        [
+          "GIE",
+          "IR (transparent)",
+          "IS possible",
+          "Selon l'activité des membres",
+          "Si IS : 25 %"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-soc-013",
+    "titre": "Régime social du dirigeant par forme",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Forme et dirigeant",
+        "Statut social",
+        "Régime",
+        "Cotisations minimales",
+        "Chômage"
+      ],
+      "lignes": [
+        [
+          "SARL — gérant majoritaire",
+          "TNS",
+          "SSI (ex-RSI)",
+          "Oui (environ 1 200 €/an si non rémunéré)",
+          "Non"
+        ],
+        [
+          "SARL — gérant minoritaire/égalitaire",
+          "Assimilé salarié",
+          "Régime général",
+          "Non (si rémunération nulle)",
+          "Non"
+        ],
+        [
+          "SAS — Président",
+          "Assimilé salarié",
+          "Régime général",
+          "Non",
+          "Non"
+        ],
+        [
+          "SA — DG / membres du directoire",
+          "Assimilé salarié",
+          "Régime général",
+          "Non",
+          "Non"
+        ],
+        [
+          "SNC — associés (tous)",
+          "TNS",
+          "SSI",
+          "Oui",
+          "Non"
+        ],
+        [
+          "SC — gérant associé",
+          "TNS",
+          "SSI",
+          "Oui",
+          "Non"
+        ],
+        [
+          "SCA — gérant commandité",
+          "TNS",
+          "SSI",
+          "Oui",
+          "Non"
+        ],
+        [
+          "SELARL — gérant majoritaire",
+          "TNS",
+          "SSI",
+          "Oui",
+          "Non"
+        ],
+        [
+          "SELAS — Président",
+          "Assimilé salarié",
+          "Régime général",
+          "Non",
+          "Non"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-soc-014",
+    "titre": "Confusions fréquentes entre formes sociétaires",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Piège / confusion fréquente",
+        "❌ Erreur courante",
+        "✅ Règle exacte"
+      ],
+      "lignes": [
+        [
+          "SA vs SAS — offre au public",
+          "Penser que la SAS peut faire appel public à l'épargne",
+          "Seule la SA peut faire appel public à l'épargne (et la SCA pour les commanditaires) ; la SAS est interdite de placement public de titres"
+        ],
+        [
+          "SAS — régime social du président",
+          "Penser que le président de SASU (associé unique) est TNS",
+          "Le président de SAS/SASU est toujours assimilé salarié, même s'il est l'associé unique — il n'y a pas de TNS dans la SAS"
+        ],
+        [
+          "SARL — calcul de la majorité du gérant",
+          "Oublier les parts du conjoint et des enfants mineurs",
+          "Pour qualifier le gérant de majoritaire, additionner ses parts, celles de son conjoint (marié ou pacsé), celles de ses enfants mineurs et celles des co-gérants"
+        ],
+        [
+          "SNC — cession de parts",
+          "Penser qu'on peut assouplir l'agrément par les statuts",
+          "L'agrément à l'unanimité pour la cession de parts en SNC est d'ordre public — aucune clause statutaire ne peut l'écarter, même entre associés"
+        ],
+        [
+          "SCI — option IS",
+          "Penser que l'option IS est réversible",
+          "L'option IS d'une SCI est irrévocable ; elle entraîne l'imposition des plus-values latentes et fait perdre le régime des plus-values immobilières des particuliers"
+        ],
+        [
+          "GIE — bénéfices",
+          "Croire que le GIE peut distribuer des bénéfices",
+          "Le GIE ne réalise pas de bénéfices pour lui-même : son but est de faciliter l'activité de ses membres ; les excédents éventuels sont redistribués aux membres ou réinvestis"
+        ],
+        [
+          "SCM — TVA",
+          "Soumettre la SCM à la TVA systématiquement",
+          "La SCM est exonérée de TVA seulement si elle refacture les charges exactement à prix coûtant, sans marge — toute marge entraîne l'assujettissement"
+        ],
+        [
+          "SEL — contrôle du capital",
+          "Penser qu'un investisseur extérieur peut prendre la majorité",
+          "Plus de 50 % du capital et des droits de vote doivent rester aux professionnels en exercice dans la société ; un investisseur non professionnel ne peut pas dépasser 49 %"
+        ],
+        [
+          "Société de fait vs société en participation",
+          "Confondre les deux notions",
+          "La société en participation (SEP) résulte d'un contrat voulu, sans immatriculation délibérée ; la société de fait résulte d'un comportement d'associés sans volonté formelle ; la société créée de fait suppose une volonté de créer une société, mais sans formalités"
+        ],
+        [
+          "SCA — commanditaires comme gérants",
+          "Désigner un commanditaire comme gérant",
+          "Les commanditaires ne peuvent pas être gérants de la SCA : gérer la société les ferait basculer dans le statut de commandité (responsabilité illimitée) pour les actes accomplis"
+        ],
+        [
+          "SA — option IR",
+          "Proposer une option IR à une SA",
+          "La SA ne peut jamais opter pour l'IR ; elle est obligatoirement soumise à l'IS — l'une des rares formes sans option fiscale possible"
+        ],
+        [
+          "EURL vs SASU — régime fiscal",
+          "Penser qu'EURL et SASU ont le même régime fiscal",
+          "L'EURL (associé unique personne physique) est à l'IR par défaut, avec option IS ; la SASU est à l'IS par défaut, avec option IR possible (5 ans) — les régimes sont inversés"
+        ],
+        [
+          "Dividendes du gérant majoritaire de SARL",
+          "Appliquer seulement le PFU de 30 %",
+          "La fraction des dividendes excédant 10 % du capital social, augmenté des primes d'émission et des comptes courants, est soumise aux cotisations sociales TNS, et non au PFU, pour le gérant majoritaire de SARL"
+        ],
+        [
+          "SC — responsabilité vs SNC",
+          "Confondre la responsabilité solidaire de la SC et de la SNC",
+          "En SNC, la responsabilité est solidaire (un associé peut être poursuivi pour la totalité) ; en SC, elle est proportionnelle mais indéfinie (chaque associé répond à proportion de sa part, après mise en demeure de la société)"
+        ]
+      ]
+    }
   }
 ]
