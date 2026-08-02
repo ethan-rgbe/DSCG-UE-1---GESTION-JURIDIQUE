@@ -19,14 +19,6 @@
       "Le volet « aspects de droit communautaire » est ciblé : retenir le principe de la procédure principale/secondaire du règlement UE 2015/848, sans entrer dans le détail procédural."
     ]
   },
-  "rappels-dcg-commercial": {
-    "sens_et_portee": "Ces notions ne font pas l'objet d'une rubrique propre au programme du DSCG — le programme DSCG UE1 suppose connu celui du DCG (rappel du BO). Elles sont mobilisées implicitement dès qu'un sujet qualifie une activité ou détermine la juridiction compétente.",
-    "competences_visees": [],
-    "notions_et_contenus": [],
-    "attendus_examen": [
-      "Ne pas perdre de temps en examen à re-démontrer ces notions : elles doivent être mobilisées rapidement pour qualifier la situation avant d'enchaîner sur la question DSCG proprement dite."
-    ]
-  },
   "diversite-des-contrats": {
     "sens_et_portee": "Au-delà des contrats généraux (formation, exécution, inexécution), l'entreprise conclut des contrats spéciaux propres à des besoins précis. Le contrat d'assurance en est un exemple central : il permet à l'entreprise de transférer un risque à un professionnel spécialisé, moyennant le paiement de primes, selon un mécanisme et des règles qui lui sont propres (Code des assurances).",
     "competences_visees": [
@@ -48,6 +40,58 @@
       "Bien distinguer la loi Chatel (rappel de la date limite de non-renouvellement) de la loi Hamon (résiliation infra-annuelle, après un an) — une confusion fréquente.",
       "Savoir appliquer le principe indemnitaire (l'assurance ne peut être source de profit) et le mobiliser pour qualifier une situation de sur-assurance ou de sous-assurance dans un cas pratique.",
       "Sur l'assurance-vie, maîtriser le mécanisme de la clause bénéficiaire (acceptation, révocation) et la stipulation pour autrui, régulièrement testés en cas pratique."
+    ]
+  },
+  "dimension-environnementale": {
+    "sens_et_portee": "Le droit des sociétés intègre désormais explicitement les enjeux sociaux et environnementaux (loi PACTE, 2019), et l'entreprise fait l'objet d'obligations croissantes de transparence extra-financière (directive CSRD). La RSE, longtemps purement volontaire, peut aujourd'hui engager la responsabilité de l'entreprise dans certaines hypothèses.",
+    "competences_visees": [
+      "Distinguer l'intérêt social élargi (art. 1833 C. civ.) de la raison d'être (art. 1835) et de la société à mission (L. 210-10 et s. C. com.), trois notions liées mais juridiquement distinctes.",
+      "Identifier le régime des nullités applicable depuis la réforme du 12 mars 2025.",
+      "Analyser une situation de reporting extra-financier ou de plan de vigilance à partir d'un cas pratique."
+    ],
+    "notions_et_contenus": [
+      "L'intérêt social et la raison d'être",
+      "Les sanctions et le régime des nullités",
+      "La société à mission",
+      "La RSE : notion, sources et formalisation volontaire",
+      "Clauses contractuelles RSE et responsabilité civile",
+      "ISR et taxonomie verte",
+      "Transparence extra-financière et plan de vigilance",
+      "La fondation reconnue d'utilité publique"
+    ],
+    "attendus_examen": [
+      "Bien distinguer les trois degrés d'engagement : intérêt social élargi (obligation de moyens pour toute société) / raison d'être (facultative, statutaire) / société à mission (5 conditions cumulatives).",
+      "Depuis la réforme du 12 mars 2025, le régime des nullités est unifié : ne pas citer les anciens articles L. 235-1 et s. du Code de commerce, désormais abrogés.",
+      "Savoir que la RSE, bien que volontaire, peut engager la responsabilité civile de l'entreprise en cas de non-respect d'engagements publiquement affichés."
+    ]
+  },
+  "financement-de-l-entreprise": {
+    "sens_et_portee": "L'entreprise dispose d'une palette d'outils pour financer son activité et son développement : fonds propres, recours aux marchés financiers, financement interne (compte courant d'associé), dette bancaire ou obligataire — chacun avec ses règles, ses garanties et sa fiscalité propres.",
+    "competences_visees": [
+      "Identifier l'outil de financement adapté à une situation d'entreprise donnée et ses conditions juridiques de mise en œuvre.",
+      "Distinguer les régimes applicables selon que la société fait ou non offre au public.",
+      "Analyser les garanties associées à un crédit (cautionnement, sûretés réelles) et leur régime depuis la réforme de 2021."
+    ],
+    "notions_et_contenus": [
+      "Le financement par fonds propres (actions, augmentation/réduction de capital)",
+      "Le financement par recours aux marchés financiers (offre au public, marchés réglementés et non réglementés)",
+      "Le financement par compte courant d'associé",
+      "Les pactes d'actionnaires",
+      "Le financement par le crédit (prêt, emprunt obligataire, crédit-bail)",
+      "Les garanties du crédit consenti à l'entreprise"
+    ],
+    "attendus_examen": [
+      "Bien distinguer les conditions de l'offre au public (Code monétaire et financier) des règles de gouvernance des sociétés cotées (Code de commerce, art. L. 22-10 et s.) — deux corps de textes souvent confondus.",
+      "Savoir identifier, parmi les titres composés (OCA, OBSA, OBRA, OBSO), lequel correspond à une situation donnée.",
+      "Connaître le régime du cautionnement depuis la réforme du droit des sûretés de 2021 (art. 2288 et s. C. civ.)."
+    ]
+  },
+  "rappels-dcg": {
+    "sens_et_portee": "Ces notions ne font pas l'objet d'une rubrique propre au programme du DSCG — le programme DSCG UE1 suppose connu celui du DCG (rappel du BO). Elles sont mobilisées implicitement dès qu'un sujet qualifie une activité ou détermine la juridiction compétente.",
+    "competences_visees": [],
+    "notions_et_contenus": [],
+    "attendus_examen": [
+      "Ne pas perdre de temps en examen à re-démontrer ces notions : elles doivent être mobilisées rapidement pour qualifier la situation avant d'enchaîner sur la question DSCG proprement dite."
     ]
   }
 }
