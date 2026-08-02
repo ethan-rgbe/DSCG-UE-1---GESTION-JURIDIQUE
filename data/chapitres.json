@@ -9,15 +9,6 @@
     "partie_titre": "La pérennité de l'entreprise"
   },
   {
-    "id": "rappels-dcg-commercial",
-    "titre": "Rappels DCG — Commercialité et compétence des tribunaux",
-    "ordre": 90,
-    "description": "Notions de premier cycle utiles en arrière-plan du chapitre Entreprise en difficulté (commercialité, compétence des tribunaux).",
-    "numero": null,
-    "partie_numero": null,
-    "partie_titre": null
-  },
-  {
     "id": "diversite-des-contrats",
     "titre": "La diversité des contrats",
     "ordre": 2,
@@ -25,5 +16,32 @@
     "numero": "1.2",
     "partie_numero": 1,
     "partie_titre": "L'entreprise et son environnement"
+  },
+  {
+    "id": "dimension-environnementale",
+    "titre": "L'entreprise et la dimension environnementale",
+    "ordre": 6,
+    "description": "Intérêt social élargi, raison d'être, société à mission, RSE, transparence extra-financière et plan de vigilance (programme DSCG UE1, rubrique 1.5).",
+    "numero": "1.5",
+    "partie_numero": 1,
+    "partie_titre": "L'entreprise et son environnement"
+  },
+  {
+    "id": "financement-de-l-entreprise",
+    "titre": "Le financement de l'entreprise",
+    "ordre": 3,
+    "description": "Principaux outils de financement de l'entreprise : fonds propres, marchés financiers, compte courant d'associé, pactes d'actionnaires, crédit et ses garanties (programme DSCG UE1, rubrique 3.1). Premier volet ; la suite sera ajoutée ultérieurement.",
+    "numero": "3.1",
+    "partie_numero": 3,
+    "partie_titre": "Le financement"
+  },
+  {
+    "id": "rappels-dcg",
+    "titre": "Rappels DCG",
+    "ordre": 99,
+    "description": "Notions transversales de niveau DCG regroupées par matière : lexique de précision, droit des sociétés, fiscal, contrats et juridictions, pénal/concurrence/social.",
+    "numero": null,
+    "partie_numero": null,
+    "partie_titre": "Rappels transversaux"
   }
 ]
