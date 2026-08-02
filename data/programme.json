@@ -26,7 +26,7 @@
         },
         {
           "titre": "L'entreprise et la dimension environnementale",
-          "chapitre_id": null
+          "chapitre_id": "dimension-environnementale"
         }
       ]
     },
@@ -46,7 +46,7 @@
       "sous_parties": [
         {
           "titre": "Le financement de l'entreprise",
-          "chapitre_id": null
+          "chapitre_id": "financement-de-l-entreprise"
         }
       ]
     },
@@ -95,8 +95,8 @@
   ],
   "autre": [
     {
-      "titre": "Commercialité et compétence des tribunaux (rappels DCG)",
-      "chapitre_id": "rappels-dcg-commercial"
+      "titre": "Rappels DCG (lexique, sociétés, fiscal, contrats/juridictions, pénal/concurrence/social)",
+      "chapitre_id": "rappels-dcg"
     }
   ]
 }
