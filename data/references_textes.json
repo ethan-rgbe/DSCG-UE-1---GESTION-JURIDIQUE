@@ -2430,5 +2430,1075 @@
     "resume": "",
     "mots_cles": [],
     "fiches_liees": []
+  },
+  {
+    "id": "ref-dimenv-001",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1833, al. 1er C. civ.",
+    "intitule": "",
+    "chapitre_id": "dimension-environnementale",
+    "notion_id": "dimension-environnementale.raison-d-etre-et-interet-social",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-dimenv-002",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1833, al. 2 C. civ.",
+    "intitule": "",
+    "chapitre_id": "dimension-environnementale",
+    "notion_id": "dimension-environnementale.raison-d-etre-et-interet-social",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-dimenv-003",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1835 C. civ.",
+    "intitule": "",
+    "chapitre_id": "dimension-environnementale",
+    "notion_id": "dimension-environnementale.raison-d-etre-et-interet-social",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-dimenv-004",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1844-10 et s. C. civ.",
+    "intitule": "",
+    "chapitre_id": "dimension-environnementale",
+    "notion_id": "dimension-environnementale.nullite-des-societes",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-dimenv-005",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Ancien art. 1844-10, al. 1er C. civ.",
+    "intitule": "",
+    "chapitre_id": "dimension-environnementale",
+    "notion_id": "dimension-environnementale.nullite-des-societes",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-dimenv-006",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Ancien art. 1844-10, dernier al. C. civ.",
+    "intitule": "",
+    "chapitre_id": "dimension-environnementale",
+    "notion_id": "dimension-environnementale.nullite-des-societes",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-dimenv-007",
+    "type_source": "code",
+    "document": "Code de commerce",
+    "reference": "Art. L. 227-20-1 C. com.",
+    "intitule": "",
+    "chapitre_id": "dimension-environnementale",
+    "notion_id": "dimension-environnementale.nullite-des-societes",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-dimenv-008",
+    "type_source": "code",
+    "document": "Code de commerce",
+    "reference": "Art. L. 210-10 à L. 210-12 C. com.",
+    "intitule": "",
+    "chapitre_id": "dimension-environnementale",
+    "notion_id": "dimension-environnementale.societe-a-mission",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-dimenv-009",
+    "type_source": "code",
+    "document": "Code de commerce",
+    "reference": "Art. L. 210-10 C. com.",
+    "intitule": "",
+    "chapitre_id": "dimension-environnementale",
+    "notion_id": "dimension-environnementale.societe-a-mission",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-dimenv-010",
+    "type_source": "code",
+    "document": "Code de commerce",
+    "reference": "Art. L. 210-11 C. com.",
+    "intitule": "",
+    "chapitre_id": "dimension-environnementale",
+    "notion_id": "dimension-environnementale.societe-a-mission",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-dimenv-011",
+    "type_source": "code",
+    "document": "Code de commerce",
+    "reference": "Art. L. 230-1 C. com.",
+    "intitule": "",
+    "chapitre_id": "dimension-environnementale",
+    "notion_id": "dimension-environnementale.transparence-extra-financiere",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-dimenv-012",
+    "type_source": "code",
+    "document": "Code de commerce",
+    "reference": "Art. L. 225-102-4 C. com.",
+    "intitule": "",
+    "chapitre_id": "dimension-environnementale",
+    "notion_id": "dimension-environnementale.transparence-extra-financiere",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-dimenv-013",
+    "type_source": "code",
+    "document": "Code de commerce",
+    "reference": "Art. L. 225-102-5 C. com.",
+    "intitule": "",
+    "chapitre_id": "dimension-environnementale",
+    "notion_id": "dimension-environnementale.transparence-extra-financiere",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-fin-001",
+    "type_source": "code",
+    "document": "Code monétaire et financier",
+    "reference": "Art. L. 411-1 C. mon. fin.",
+    "intitule": "",
+    "chapitre_id": "financement-de-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.financement-par-marches-financiers",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-fin-002",
+    "type_source": "code",
+    "document": "Code de commerce",
+    "reference": "Art. L. 22-10-1 C. com.",
+    "intitule": "",
+    "chapitre_id": "financement-de-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.financement-par-marches-financiers",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-fin-003",
+    "type_source": "code",
+    "document": "Code monétaire et financier",
+    "reference": "Art. L. 412-1 C. mon. fin.",
+    "intitule": "",
+    "chapitre_id": "financement-de-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.financement-par-marches-financiers",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-fin-004",
+    "type_source": "code",
+    "document": "Code de commerce",
+    "reference": "Art. L. 225-38 et s. C. com.",
+    "intitule": "",
+    "chapitre_id": "financement-de-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.financement-par-marches-financiers",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-fin-005",
+    "type_source": "code",
+    "document": "Code de commerce",
+    "reference": "Art. L. 233-7 C. com.",
+    "intitule": "",
+    "chapitre_id": "financement-de-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.financement-par-marches-financiers",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-fin-006",
+    "type_source": "code",
+    "document": "Code monétaire et financier",
+    "reference": "Art. L. 433-3 C. mon. fin.",
+    "intitule": "",
+    "chapitre_id": "financement-de-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.financement-par-marches-financiers",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-fin-007",
+    "type_source": "code",
+    "document": "Code général des impôts",
+    "reference": "Art. 39, 1, 3° CGI",
+    "intitule": "",
+    "chapitre_id": "financement-de-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.financement-par-compte-courant",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-fin-008",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1892 et s. C. civ.",
+    "intitule": "",
+    "chapitre_id": "financement-de-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.financement-par-le-credit",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-fin-009",
+    "type_source": "code",
+    "document": "Code de la consommation",
+    "reference": "Art. L. 314-1 à L. 314-5 C. consommation",
+    "intitule": "",
+    "chapitre_id": "financement-de-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.financement-par-le-credit",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-fin-010",
+    "type_source": "code",
+    "document": "Code de la consommation",
+    "reference": "Art. L. 314-6 C. consommation",
+    "intitule": "",
+    "chapitre_id": "financement-de-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.financement-par-le-credit",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-fin-011",
+    "type_source": "code",
+    "document": "Code de la consommation",
+    "reference": "Art. L. 341-50 C. consommation",
+    "intitule": "",
+    "chapitre_id": "financement-de-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.financement-par-le-credit",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-fin-012",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 2288 et s. C. civ.",
+    "intitule": "",
+    "chapitre_id": "financement-de-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.garanties-du-credit",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-fin-013",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 2300 C. civ.",
+    "intitule": "",
+    "chapitre_id": "financement-de-l-entreprise",
+    "notion_id": "financement-de-l-entreprise.garanties-du-credit",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": []
+  },
+  {
+    "id": "ref-lex-001",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1101 C. civ.",
+    "intitule": "Le contrat",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-002",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1103 C. civ.",
+    "intitule": "Force obligatoire du contrat",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-003",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1132 C. civ.",
+    "intitule": "L'erreur (vice du consentement)",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-004",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1140 C. civ.",
+    "intitule": "La violence (vice du consentement)",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-005",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1218 C. civ.",
+    "intitule": "La force majeure (contrats)",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-006",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1217 C. civ.",
+    "intitule": "Sanctions de l'inexécution (art. 1217)",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-007",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1240 C. civ.",
+    "intitule": "Responsabilité délictuelle",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-008",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1873 C. civ.",
+    "intitule": "Société créée de fait",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-009",
+    "type_source": "code",
+    "document": "Code de commerce",
+    "reference": "Art. L. 241-3 4° C. com.",
+    "intitule": "Abus de biens sociaux — SARL",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-010",
+    "type_source": "code",
+    "document": "Code pénal",
+    "reference": "Art. 314-1 C. pén.",
+    "intitule": "Abus de confiance",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-011",
+    "type_source": "code",
+    "document": "Code général des impôts",
+    "reference": "Art. 39 CGI",
+    "intitule": "Conditions de déductibilité d'une charge (IS)",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-012",
+    "type_source": "code",
+    "document": "Code général des impôts",
+    "reference": "Art. 206 Ann. II CGI",
+    "intitule": "Coefficient de déduction TVA",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-013",
+    "type_source": "code",
+    "document": "Livre des procédures fiscales",
+    "reference": "Art. L. 169 LPF",
+    "intitule": "Délais de reprise (prescription fiscale)",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-014",
+    "type_source": "code",
+    "document": "Code des assurances",
+    "reference": "Art. L. 113-8 C. assur.",
+    "intitule": "Nullité pour fausse déclaration intentionnelle",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.lexique-de-precision",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-015",
+    "type_source": "code",
+    "document": "Code des assurances",
+    "reference": "Art. L. 114-1 C. assur.",
+    "intitule": "Prescription biennale des actions en assurance",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.lexique-de-precision",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-016",
+    "type_source": "code",
+    "document": "Code des assurances",
+    "reference": "Art. L. 121-1 C. assur.",
+    "intitule": "Principe indemnitaire",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.lexique-de-precision",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-017",
+    "type_source": "code",
+    "document": "Code de commerce",
+    "reference": "Art. L. 420-1 C. com. · Art. 101 TFUE",
+    "intitule": "Ententes anticoncurrentielles",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-018",
+    "type_source": "code",
+    "document": "Code de commerce",
+    "reference": "Art. L. 420-2 C. com. · Art. 102 TFUE",
+    "intitule": "Abus de position dominante",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-019",
+    "type_source": "code",
+    "document": "Code du travail",
+    "reference": "Art. L. 1232-1 C. trav.",
+    "intitule": "Cause réelle et sérieuse de licenciement",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-lex-020",
+    "type_source": "code",
+    "document": "Code de commerce",
+    "reference": "Art. L. 251-1 C. com.",
+    "intitule": "Groupement d'Intérêt Économique (GIE)",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.lexique-de-precision",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "lexique-de-precision"
+    ]
+  },
+  {
+    "id": "ref-cj-001",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1112 C. civ.",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "contrats-et-juridictions"
+    ]
+  },
+  {
+    "id": "ref-cj-002",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1112-1 C. civ.",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "contrats-et-juridictions"
+    ]
+  },
+  {
+    "id": "ref-cj-003",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1128 C. civ.",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "contrats-et-juridictions"
+    ]
+  },
+  {
+    "id": "ref-cj-004",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1195 C. civ.",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "contrats-et-juridictions"
+    ]
+  },
+  {
+    "id": "ref-cj-005",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1205 C. civ.",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "contrats-et-juridictions"
+    ]
+  },
+  {
+    "id": "ref-cj-006",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1188 C. civ.",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "contrats-et-juridictions"
+    ]
+  },
+  {
+    "id": "ref-cj-007",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1190 C. civ.",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "contrats-et-juridictions"
+    ]
+  },
+  {
+    "id": "ref-cj-008",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1104 C. civ.",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.contrats-et-juridictions",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "contrats-et-juridictions"
+    ]
+  },
+  {
+    "id": "ref-fisc-001",
+    "type_source": "code",
+    "document": "Code général des impôts",
+    "reference": "Art. 206, annexe II CGI",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "fiscal"
+    ]
+  },
+  {
+    "id": "ref-fisc-002",
+    "type_source": "code",
+    "document": "Code général des impôts",
+    "reference": "Art. 62 CGI",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.fiscal",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "fiscal"
+    ]
+  },
+  {
+    "id": "ref-pcs-001",
+    "type_source": "code",
+    "document": "Code de commerce",
+    "reference": "Art. L. 241-3, 4° C. com.",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "penal-concurrence-social"
+    ]
+  },
+  {
+    "id": "ref-pcs-002",
+    "type_source": "code",
+    "document": "Code pénal",
+    "reference": "Art. 313-1 C. pén.",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "penal-concurrence-social"
+    ]
+  },
+  {
+    "id": "ref-pcs-003",
+    "type_source": "code",
+    "document": "Code de commerce",
+    "reference": "Art. L. 420-1 C. com.",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "penal-concurrence-social"
+    ]
+  },
+  {
+    "id": "ref-pcs-004",
+    "type_source": "code",
+    "document": "Code de commerce",
+    "reference": "Art. L. 420-2 C. com.",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "penal-concurrence-social"
+    ]
+  },
+  {
+    "id": "ref-pcs-005",
+    "type_source": "code",
+    "document": "Code du travail",
+    "reference": "Art. L. 2121-1 C. trav.",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.penal-concurrence-social",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "penal-concurrence-social"
+    ]
+  },
+  {
+    "id": "ref-soc-001",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1832 C. civ.",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "droit-des-societes"
+    ]
+  },
+  {
+    "id": "ref-soc-002",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1844-1 C. civ.",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "droit-des-societes"
+    ]
+  },
+  {
+    "id": "ref-soc-003",
+    "type_source": "code",
+    "document": "Code civil",
+    "reference": "Art. 1424 C. civ.",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "droit-des-societes"
+    ]
+  },
+  {
+    "id": "ref-soc-004",
+    "type_source": "code",
+    "document": "Code général des impôts",
+    "reference": "Art. 206 CGI",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "droit-des-societes"
+    ]
+  },
+  {
+    "id": "ref-soc-005",
+    "type_source": "code",
+    "document": "Code général des impôts",
+    "reference": "Art. 79 CGI",
+    "intitule": "",
+    "chapitre_id": "rappels-dcg",
+    "notion_id": "rappels-dcg.droit-des-societes",
+    "importance": "★★",
+    "page_pdf": null,
+    "url_pdf": null,
+    "resume": "",
+    "mots_cles": [],
+    "fiches_liees": [
+      "droit-des-societes"
+    ]
   }
 ]
