@@ -23,6 +23,8 @@
     --mono:"SF Mono",Menlo,Consolas,monospace;
   }
   *{box-sizing:border-box;}
+  .visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;
+    clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0;}
   body{margin:0;font-family:var(--sans);background:var(--paper);color:var(--text);}
 
   /* ===== Mode sombre ===== */
@@ -56,6 +58,18 @@
   body.dark .chip:hover{background:#343b46;}
   body.dark .subtabs button.active{background:#343b46;color:var(--text);border-color:#343b46;}
   body.dark header.top1 nav.tabs-right button.active{background:#343b46;color:#fff;}
+  /* Couleurs codées en dur (héritées du mode clair) rattrapées en mode sombre */
+  body.dark .intro-block{color:#b9c0c9;}
+  body.dark .partie-block > .ptitre{background:#262a31;color:var(--text);}
+  body.dark .subtabs button{background:#262a31;color:var(--text);border-color:#363b44;}
+  body.dark .fiche-body p.cite,
+  body.dark .cours-redige p.cite{color:#c2c8d0;}
+  body.dark .fiche-meta,body.dark .progress-label,body.dark .link-desc,
+  body.dark .report-hint,body.dark .sr-sub,body.dark .sr-empty,body.dark .rt-art,
+  body.dark .rt-prog,body.dark .changelog-item .cdate,body.dark .pdf-missing,
+  body.dark ul.refs-list .ref-page,body.dark .quiz-meta,body.dark footer{color:#9aa3ad;}
+  body.dark .sous-partie.disabled .sp-titre{color:#7d848d;}
+  body.dark .sous-partie.disabled .sp-link{color:#6a717a;}
   header.top2 #themeToggle{background:transparent;border:none;color:#fff;font-size:1.15rem;cursor:pointer;line-height:1;padding:4px 6px;}
   a{color:var(--blue-mid);text-decoration:none;}
   a:hover{text-decoration:underline;}
@@ -93,6 +107,9 @@
     transition:right .3s ease;padding:70px 22px 22px;
   }
   #slideMenu.open{right:0;}
+  #menuClose{position:absolute;top:16px;right:18px;background:transparent;border:none;
+    color:var(--navy);font-size:1.4rem;line-height:1;cursor:pointer;padding:6px 10px;border-radius:4px;}
+  #menuClose:hover{background:var(--beige);}
   #slideMenu .menu-section{margin-bottom:26px;}
   #slideMenu .menu-title{
     font-weight:700;color:var(--navy);font-size:.95rem;letter-spacing:.05em;
@@ -126,7 +143,11 @@
   .sr-item:hover,.sr-item.sr-active{background:var(--beige);}
   .sr-type{font-size:.6rem;text-transform:uppercase;letter-spacing:.05em;padding:2px 7px;border-radius:10px;
     background:var(--beige);color:var(--navy);flex-shrink:0;border:1px solid var(--beige-line);}
-  .sr-title{font-size:.9rem;color:var(--navy);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .sr-main{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px;}
+  .sr-title{font-size:.9rem;color:var(--navy);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .sr-excerpt{font-size:.74rem;color:#8a8468;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .sr-excerpt mark{background:#f6e6b8;color:inherit;padding:0 1px;border-radius:2px;}
+  body.dark .sr-excerpt mark{background:#4a422a;}
   .sr-sub{font-size:.72rem;color:#8a8468;flex-shrink:0;}
   .sr-empty{padding:12px 14px;color:#8a8468;font-size:.85rem;}
   body.dark .search-results{background:#1b212a;}
@@ -147,6 +168,9 @@
 
   main{padding:24px;max-width:1100px;margin:0 auto;}
   .layout{display:grid;grid-template-columns:260px 1fr;gap:28px;}
+  /* Sans min-width:0, la taille minimale automatique d'un élément de grille vaut sa
+     largeur de contenu : un tableau large repousserait la colonne au-delà de l'écran. */
+  .layout > *{min-width:0;}
   @media (max-width:760px){
     .layout{grid-template-columns:1fr;}
     .layout .panel{order:1;}
@@ -213,6 +237,9 @@
     .panel{border:none !important;box-shadow:none !important;padding:0 !important;background:#fff !important;}
     .page-title, .fiche-body h3, .fiche-body h4{color:#000 !important;}
     .fiche-body table.cmp th{background:#eee !important;color:#000 !important;}
+    /* à l'impression, la table doit tenir dans la page : pas de min-width ni de rognage */
+    .table-wrap{overflow:visible !important;}
+    table.cmp{min-width:0 !important;width:100% !important;table-layout:fixed !important;}
     a{color:#000 !important;text-decoration:none !important;}
     .printable, .printable * { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
   }
@@ -220,11 +247,15 @@
   .print-btn:hover{background:var(--beige);}
   .fiche-body p.cite{font-style:italic;color:#6b6657;font-size:.9rem;background:var(--beige);display:inline-block;padding:4px 10px;border-radius:3px;}
   .fiche-body ul{padding-left:22px;line-height:1.55;}
-  .fiche-body .table-wrap{width:100%;overflow-x:auto;margin:14px 0;}
-  .fiche-body table.cmp{width:100%;border-collapse:collapse;table-layout:fixed;}
-  .fiche-body table.cmp th, .fiche-body table.cmp td{border:1px solid var(--paper-line);padding:8px 10px;font-size:.84rem;text-align:left;vertical-align:top;word-wrap:break-word;}
-  .fiche-body table.cmp th{background:var(--navy);color:#fff;}
-  .fiche-body table.cmp tr:nth-child(even) td{background:var(--beige);}
+
+  /* Encadrés produits par build.py (::correction:: / ::caution::) */
+  .correction-box,.caution-box{border-radius:5px;padding:10px 14px;margin:14px 0;border-left:4px solid;font-size:.9rem;}
+  .correction-box{background:#fdeced;border-left-color:var(--red);}
+  .caution-box{background:#fdf4e3;border-left-color:var(--gold);}
+  .correction-box strong,.caution-box strong{display:block;margin-bottom:4px;}
+  .correction-box p,.caution-box p{margin:0;line-height:1.5;}
+  body.dark .correction-box{background:#2e1f22;}
+  body.dark .caution-box{background:#2b2619;}
 
   .seealso{margin-top:26px;border-top:2px solid var(--blue-soft);padding-top:14px;}
   .seealso h4{font-family:var(--serif);color:var(--navy);margin:0 0 8px;}
@@ -233,8 +264,6 @@
   .chip.ref{background:#7a6a44;}
 
   /* Q/R cards */
-  .qr-filters{display:flex;gap:10px;margin-bottom:18px;flex-wrap:wrap;}
-  .qr-filters select{padding:6px 10px;border:1px solid var(--paper-line);border-radius:3px;font:inherit;}
   .qr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;}
   .flashcard{
     perspective:1200px;height:190px;cursor:pointer;
@@ -252,23 +281,55 @@
   .flashcard .qtext, .flashcard .atext{font-size:.92rem;line-height:1.4;}
   .flashcard .tag{margin-top:auto;font-size:.68rem;opacity:.8;}
 
-  .table-wrap{width:100%;overflow-x:auto;margin-top:10px;}
+  /* ===== Tableaux comparatifs =====
+     Contextes : vue « Tableaux » (renderTableaux) et tables intégrées aux fiches /
+     synthèses (générées par build.py). Mêmes règles pour les deux. */
+  .table-wrap{width:100%;overflow-x:auto;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;margin-top:10px;}
+  .fiche-body .table-wrap{margin:14px 0;}
   table.cmp{width:100%;border-collapse:collapse;table-layout:fixed;}
   table.cmp th, table.cmp td{border:1px solid var(--paper-line);padding:8px 10px;font-size:.86rem;text-align:left;vertical-align:top;word-wrap:break-word;overflow-wrap:break-word;}
+  .fiche-body table.cmp th, .fiche-body table.cmp td{font-size:.84rem;}
   table.cmp th{background:var(--navy);color:#fff;font-family:var(--serif);}
-  table.cmp tr:nth-child(even){background:var(--beige);}
+  table.cmp tbody tr:nth-child(even) td{background:var(--beige);}
+  /* Mobile : sans min-width, une table en width:100% ne déborde jamais de .table-wrap,
+     donc overflow-x ne se déclenche pas et les colonnes s'écrasent (illisible).
+     --cols est injecté par build.py et renderTableaux (nombre de colonnes). */
+  .table-hint{display:none;font-size:.74rem;color:#8a8468;font-style:italic;margin:5px 2px 0;}
+  @media (max-width:760px){
+    table.cmp{min-width:calc(var(--cols, 3) * 105px);}
+    .table-wrap{scrollbar-width:thin;}
+    .table-wrap::-webkit-scrollbar{height:8px;-webkit-appearance:none;}
+    .table-wrap::-webkit-scrollbar-thumb{background:var(--beige-line);border-radius:4px;}
+    .table-wrap::-webkit-scrollbar-track{background:transparent;}
+    .table-hint{display:block;}
+    /* La colonne de gauche (le critère comparé) reste visible pendant le défilement :
+       sans elle, on ne sait plus quelle ligne on lit. Les fonds doivent être opaques,
+       sinon le contenu défilant apparaît par transparence. */
+    table.cmp th:first-child,
+    table.cmp td:first-child{position:sticky;left:0;z-index:2;
+      box-shadow:1px 0 0 var(--paper-line), 2px 0 4px rgba(0,0,0,.06);}
+    table.cmp td:first-child{background:var(--paper);}
+    table.cmp tbody tr:nth-child(even) td:first-child{background:var(--beige);}
+  }
+  body.dark .table-hint{color:#9aa3ad;}
 
   ul.refs-list{list-style:none;padding:0;}
   ul.refs-list li{padding:10px 0;border-bottom:1px solid var(--paper-line);}
   ul.refs-list .ref-title{font-weight:600;color:var(--navy);}
   ul.refs-list .ref-page{font-size:.8rem;color:#75747a;}
 
-  .home-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:18px;}
-  .home-card{background:var(--beige);border:1px solid var(--beige-line);border-radius:4px;padding:18px;cursor:pointer;}
-  .home-card:hover{border-color:var(--gold);}
-  .home-card .num{font-family:var(--serif);font-size:1.8rem;color:var(--gold);}
-  .home-card .lbl{font-size:.85rem;color:var(--text);}
   footer{text-align:center;font-size:.75rem;color:#9a937c;padding:30px 0;}
+
+  /* Navigation au clavier : sans cela, on ne sait pas où l'on se trouve. */
+  a:focus-visible, button:focus-visible, input:focus-visible,
+  summary:focus-visible, [tabindex]:focus-visible, .chip:focus-visible{
+    outline:2px solid var(--gold);outline-offset:2px;border-radius:3px;
+  }
+  /* Animations : respecter le réglage système « réduire les animations ». */
+  @media (prefers-reduced-motion: reduce){
+    *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;
+      transition-duration:.001ms !important;scroll-behavior:auto !important;}
+  }
 
   /* Splash */
   #splash{
@@ -322,7 +383,7 @@
   .changelog-item .ctitre{font-weight:600;color:var(--navy);}
 
   /* Programme — arborescence */
-  .subtabs{display:flex;gap:6px;margin-bottom:18px;}
+  .subtabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px;}
   .subtabs button{background:#efe8d2;border:1px solid var(--paper-line);padding:7px 14px;border-radius:4px;font:inherit;font-size:.85rem;cursor:pointer;}
   .subtabs button.active{background:var(--navy);color:#fff;border-color:var(--navy);}
   .partie-block{margin-bottom:20px;}
@@ -385,7 +446,7 @@
   .progress-fill{height:100%;background:linear-gradient(90deg,var(--blue-mid),#6fae86);width:0;transition:width .4s ease;}
   .progress-label{font-size:.82rem;color:#6b6450;margin-top:4px;}
   .listes-toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:14px;}
-  .listes-toolbar .tools{display:flex;gap:8px;}
+  .listes-toolbar .tools{display:flex;flex-wrap:wrap;gap:8px;}
   .btn-primary{background:var(--gold);border:none;color:var(--ink);padding:8px 16px;border-radius:5px;font:inherit;font-weight:700;cursor:pointer;}
   .btn-primary:hover{background:var(--gold-soft);}
   .btn-ghost{background:transparent;border:1px solid var(--paper-line);color:var(--blue-mid);padding:8px 14px;border-radius:5px;font:inherit;cursor:pointer;}
@@ -403,7 +464,7 @@
 </head>
 <body>
 
-<div id="splash">
+<div id="splash" role="button" tabindex="0" aria-label="Entrer dans le site">
   <h1>BASE DOCUMENTAIRE<br>UE 1 — GESTION JURIDIQUE, FISCALE ET SOCIALE</h1>
   <div class="tap">Touche ou glisse pour entrer ↑</div>
 </div>
@@ -421,29 +482,32 @@
     <span class="brand-name">LE PRÉCIS</span>
     <span class="brand-sub">DSCG · UE1 · 2025–2027</span>
   </div>
-  <button id="themeToggle" title="Mode clair / sombre">🌙</button>
-  <button id="menuToggle">☰</button>
+  <button id="themeToggle" title="Mode clair / sombre" aria-label="Basculer entre le mode clair et le mode sombre">🌙</button>
+  <button id="menuToggle" title="Ouvrir le menu" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="slideMenu">☰</button>
 </header>
 
 <div id="menuBackdrop"></div>
-<nav id="slideMenu">
+<nav id="slideMenu" aria-label="Menu principal">
+  <button id="menuClose" aria-label="Fermer le menu" title="Fermer">✕</button>
   <div class="menu-section" data-section="programme">
-    <div class="menu-title">PROGRAMME</div>
+    <div class="menu-title" role="button" tabindex="0" aria-expanded="false">PROGRAMME</div>
     <div class="menu-tree" id="menuProgramme"></div>
   </div>
   <div class="menu-section" data-section="listes">
-    <div class="menu-title">LISTES</div>
+    <div class="menu-title" role="button" tabindex="0" aria-expanded="false">LISTES</div>
     <div class="menu-tree" id="menuListes"></div>
   </div>
   <div class="menu-section" data-section="tableaux">
-    <div class="menu-title">TABLEAUX</div>
+    <div class="menu-title" role="button" tabindex="0" aria-expanded="false">TABLEAUX</div>
     <div class="menu-tree" id="menuTableaux"></div>
   </div>
 </nav>
 
 <div class="search-wrap">
-  <input type="text" id="globalSearch" placeholder="Rechercher (notion, fiche, article, tableau…)" autocomplete="off">
-  <div class="search-results" id="searchResults"></div>
+  <label for="globalSearch" class="visually-hidden">Rechercher dans la base</label>
+  <input type="text" id="globalSearch" placeholder="Rechercher (notion, fiche, texte, article, tableau…)" autocomplete="off"
+         role="combobox" aria-expanded="false" aria-controls="searchResults" aria-autocomplete="list">
+  <div class="search-results" id="searchResults" role="listbox" aria-label="Résultats de recherche"></div>
 </div>
 
 <main id="app"></main>
@@ -464,6 +528,11 @@ const refById = id => DATA.references_textes.find(r => r.id === id);
 const qrByFiche = id => DATA.qr_cartes.filter(q => q.fiche_id === id);
 const chapById = id => DATA.chapitres.find(c => c.id === id);
 const chapLabel = c => c.numero ? `Chapitre ${c.numero} — ${c.titre}` : c.titre;
+// Échappement HTML des champs de données en texte brut (titres, cellules de tableaux…).
+// Nécessaire : 10 cellules contiennent déjà « < » ou « > » (« CA < 3 M€ », « > 1 an »)
+// et le contenu ne comporte aucune balise volontaire.
+const srEsc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const chapLabelEsc = c => srEsc(chapLabel(c));
 function legifranceUrl(r){
   const ref = (r && r.reference) || '';
   const doc = (r && r.document) || '';
@@ -555,8 +624,13 @@ function getRandomNotion(){
 
 // ---- Révision active : état des cartes Q/R (boîtes de Leitner) ----
 const QR_STATE_KEY = 'dscg_qr_state';
-function loadQrState(){ try{ return JSON.parse(localStorage.getItem(QR_STATE_KEY) || '{}'); }catch(e){ return {}; } }
-function saveQrState(s){ try{ localStorage.setItem(QR_STATE_KEY, JSON.stringify(s)); }catch(e){} }
+let _qrCache = null;   // évite un JSON.parse de localStorage par carte affichée
+function loadQrState(){
+  if(_qrCache) return _qrCache;
+  try{ _qrCache = JSON.parse(localStorage.getItem(QR_STATE_KEY) || '{}'); }catch(e){ _qrCache = {}; }
+  return _qrCache;
+}
+function saveQrState(s){ _qrCache = s; try{ localStorage.setItem(QR_STATE_KEY, JSON.stringify(s)); }catch(e){} }
 function exportProgress(){
   const data = { app:'le-precis', version:1, exported:new Date().toISOString(),
     qr_state: loadQrState(), recents: JSON.parse(localStorage.getItem(RECENTS_KEY)||'[]') };
@@ -606,22 +680,39 @@ function cardsForScope(scope, chapId, notionId){
 
 // ---- Écran d'entrée ----
 const splash = document.getElementById('splash');
+const SPLASH_KEY = 'dscg_splash_vu';
 function dismissSplash(){
   splash.classList.add('hidden');
+  try{ sessionStorage.setItem(SPLASH_KEY, '1'); }catch(e){}
   setTimeout(() => { splash.style.display = 'none'; }, 400);
 }
+// Déjà vu pendant cette session, ou arrivée sur un lien partagé : on n'interpose rien.
+(function(){
+  let vu = false;
+  try{ vu = sessionStorage.getItem(SPLASH_KEY) === '1'; }catch(e){}
+  if(vu || location.hash.length > 1){ splash.classList.add('hidden'); splash.style.display = 'none'; }
+})();
 splash.addEventListener('click', dismissSplash);
 splash.addEventListener('touchend', dismissSplash, {passive:true});
+splash.addEventListener('keydown', e => {
+  if(e.key === 'Enter' || e.key === ' ' || e.key === 'Escape'){ e.preventDefault(); dismissSplash(); }
+});
 
 // ---- État global ----
 let state = { view: 'home', chapitreId: null, ficheId: null, chapTab: 'cours',
               listesScope: 'all', listesChapitreId: null, listesNotionId: null, qrFocus: null,
-              tableauxChapitreId: null, tableauFocus: null, refFocus: null };
+              tableauxChapitreId: null, tableauFocus: null, refFocus: null, coursMatiere: null };
 
 let _suppressHash = false;
+// Quand l'état vient de l'URL, une éventuelle normalisation (onglet implicite, filtre
+// devenu incohérent…) doit REMPLACER l'entrée d'historique. Sinon « précédent » revient
+// sur l'URL non canonique, qui se renormalise, et l'utilisateur reste bloqué.
+let _replaceHash = false;
 
 function renderView(){
   setTopTabActive();
+  // le carrousel de l'accueil continuait à tourner sur des éléments détachés
+  if(state.view !== 'home' && billboardTimer){ clearInterval(billboardTimer); billboardTimer = null; }
   if(state.view === 'home') return renderHome();
   if(state.view === 'sujets') return renderSujets();
   if(state.view === 'liens') return renderLiens();
@@ -636,7 +727,14 @@ function renderView(){
 function render(){
   renderView();
   const h = stateToHash();
-  if(location.hash !== h){ _suppressHash = true; location.hash = h; }
+  if(location.hash !== h){
+    if(_replaceHash && typeof history !== 'undefined' && history.replaceState){
+      try{ history.replaceState(null, '', h); }
+      catch(e){ _suppressHash = true; location.hash = h; }
+    } else {
+      _suppressHash = true; location.hash = h;
+    }
+  }
 }
 
 // ----- Routing par section (URL = #/...) -----
@@ -645,6 +743,8 @@ function stateToHash(){
     case 'chapitre': {
       let h = '#/chapitre/' + encodeURIComponent(state.chapitreId || '') + '/' + (state.chapTab || 'cours');
       if(state.chapTab === 'cours' && state.ficheId) h += '/' + encodeURIComponent(state.ficheId);
+      if(state.chapTab === 'synthese' && state.coursMatiere && state.coursMatiere !== state.chapitreId)
+        h += '/' + encodeURIComponent(state.coursMatiere);
       return h;
     }
     case 'listes':
@@ -666,6 +766,7 @@ function applyHash(){
     state.view = 'chapitre'; state.chapitreId = parts[1] || null;
     state.chapTab = parts[2] || 'cours';
     state.ficheId = (state.chapTab === 'cours' && parts[3]) ? parts[3] : null;
+    state.coursMatiere = (state.chapTab === 'synthese' && parts[3]) ? parts[3] : null;
   } else if(v === 'listes'){
     state.view = 'listes';
     if(parts[1] === 'chapitre'){ state.listesScope = 'chapitre'; state.listesChapitreId = parts[2] || null; state.listesNotionId = parts[3] || null; }
@@ -677,7 +778,8 @@ function applyHash(){
   else if(v === 'mentions'){ state.view = 'mentions'; }
   else if(v === 'quiz'){ state.view = 'quiz'; state.quizScope = parts[1] || 'all'; state.quizChapId = parts[2] || null; state.quiz = null; }
   else { state.view = 'home'; }
-  render();
+  _replaceHash = true;
+  try{ render(); } finally { _replaceHash = false; }
 }
 
 function setTopTabActive(){
@@ -704,8 +806,8 @@ function renderHome(){
         ${slides.map((s,i) => `
           <div class="bb-slide ${i===0?'active':''}" data-slide="${i}">
             <div class="bb-kicker">${s.type==='chapitre' ? 'Dernier chapitre consulté' : 'Notion à revoir'}</div>
-            <div class="bb-title">${s.type==='chapitre' ? chapLabel(s.chap) : s.notion.titre}</div>
-            <div class="bb-meta">${s.type==='chapitre' ? 'Reprenez là où vous vous êtes arrêté.' : 'Chapitre « ' + chapLabel(s.chap) + ' »'}</div>
+            <div class="bb-title">${s.type==='chapitre' ? chapLabelEsc(s.chap) : srEsc(s.notion.titre)}</div>
+            <div class="bb-meta">${s.type==='chapitre' ? 'Reprenez là où vous vous êtes arrêté.' : 'Chapitre « ' + chapLabelEsc(s.chap) + ' »'}</div>
             <button class="bb-btn" data-resume-chap="${s.chap.id}">Reprendre →</button>
           </div>`).join('')}
         ${slides.length>1 ? `<div class="bb-dots">${slides.map((_,i)=>`<button class="bb-dot ${i===0?'active':''}" data-dot="${i}" aria-label="Diapositive ${i+1}"></button>`).join('')}</div>` : ''}
@@ -734,9 +836,9 @@ function renderHome(){
             .sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')))
             .map(c => `
         <div class="changelog-item">
-          <div class="cdate">${c.date}</div>
-          <div class="ctitre">${c.titre}</div>
-          <div>${c.detail || ''}</div>
+          <div class="cdate">${srEsc(c.date)}</div>
+          <div class="ctitre">${srEsc(c.titre)}</div>
+          <div>${srEsc(c.detail || '')}</div>
         </div>`).join('')}</div>`
         : '<p class="fiche-meta">Aucune mise à jour enregistrée.</p>'}
     </div>`;
@@ -762,7 +864,14 @@ function renderHome(){
       slideEls.forEach((el,i)=>el.classList.toggle('active', i===idx));
       dotEls.forEach((el,i)=>el.classList.toggle('active', i===idx));
     };
-    const restart = () => { clearInterval(billboardTimer); billboardTimer = setInterval(()=>show(idx+1), 5000); };
+    const restart = () => {
+      clearInterval(billboardTimer);
+      // Le CSS neutralise déjà les transitions ; ici on arrête aussi le défilement
+      // automatique, qui est un mouvement non sollicité.
+      let reduit = false;
+      try{ reduit = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches; }catch(e){}
+      billboardTimer = reduit ? null : setInterval(()=>show(idx+1), 5000);
+    };
     dotEls.forEach(d => d.addEventListener('click', () => { show(+d.dataset.dot); restart(); }));
     restart();
   }
@@ -837,10 +946,10 @@ function renderLiens(){
   app.innerHTML = `<div class="panel">
     <h1 class="page-title">Liens utiles</h1>
     ${liens.length ? cats.map(cat => `
-      <h3 style="font-family:var(--serif);color:var(--blue-mid);margin:22px 0 8px;border-bottom:1px solid var(--beige-line);padding-bottom:4px;">${cat}</h3>
+      <h3 style="font-family:var(--serif);color:var(--blue-mid);margin:22px 0 8px;border-bottom:1px solid var(--beige-line);padding-bottom:4px;">${srEsc(cat)}</h3>
       <ul class="links-list">
         ${liens.filter(l => (l.categorie||'Autres')===cat).map(l => `
-          <li><a href="${l.url}" target="_blank" rel="noopener">${l.titre} ↗</a>${l.description ? `<div class="link-desc">${l.description}</div>` : ''}</li>`).join('')}
+          <li><a href="${srEsc(l.url)}" target="_blank" rel="noopener">${srEsc(l.titre)} ↗</a>${l.description ? `<div class="link-desc">${srEsc(l.description)}</div>` : ''}</li>`).join('')}
       </ul>`).join('')
       : '<p class="fiche-meta">Aucun lien ajouté pour le moment (drive partagé, sites de référence...).</p>'}
   </div>`;
@@ -870,15 +979,15 @@ function renderDocumentation(){
     ${codes.map(c => {
       const refs = DATA.references_textes.filter(r => r.document === c.titre);
       return `<div class="partie-block">
-        <div class="ptitre">${c.titre}</div>
+        <div class="ptitre">${srEsc(c.titre)}</div>
         ${c.disponible
           ? `<iframe class="pdf-frame" src="${c.fichier}"></iframe>`
           : `<div class="pdf-missing">PDF non encore ajouté dans <code>${c.fichier}</code>.</div>`}
         <details class="doc-refs">
           <summary>Références utilisées dans le cours (${refs.length}) — cliquez pour ouvrir sur Légifrance</summary>
           <ul class="refs-list">
-            ${refs.map(r => `<li><div class="ref-title"><a href="${legifranceUrl(r)}" target="_blank" rel="noopener">📎 ${r.reference} ↗</a></div>
-              <div>${(r.fiches_liees||[]).map(fid => `<a href="#" data-fiche="${fid}">${ficheById(fid) ? ficheById(fid).titre : fid}</a>`).join(' · ')}</div></li>`).join('') || "<li class=\"fiche-meta\">Aucune référence à ce code pour l'instant.</li>"}
+            ${refs.map(r => `<li><div class="ref-title"><a href="${legifranceUrl(r)}" target="_blank" rel="noopener">📎 ${srEsc(r.reference)} ↗</a></div>
+              <div>${(r.fiches_liees||[]).map(fid => `<a href="#" data-fiche="${fid}">${srEsc(ficheById(fid) ? ficheById(fid).titre : fid)}</a>`).join(' · ')}</div></li>`).join('') || "<li class=\"fiche-meta\">Aucune référence à ce code pour l'instant.</li>"}
           </ul>
         </details>
       </div>`;
@@ -896,13 +1005,30 @@ function renderDocumentation(){
     e.preventDefault();
     const f = ficheById(a.dataset.fiche);
     if(!f) return;
-    state.chapitreId = f.notion_id.split('.')[0];
+    const n = notionById(f.notion_id);
+    if(!n) return;
+    state.chapitreId = n.chapitre_id;
     state.ficheId = a.dataset.fiche;
     state.chapTab = 'cours';
     state.view = 'chapitre';
     render();
     window.scrollTo({top:0, behavior:'smooth'});
   });
+
+  // Article ouvert depuis la recherche : déplier le code concerné et s'y rendre
+  if(state.refFocus){
+    const r = refById(state.refFocus);
+    state.refFocus = null;
+    if(r){
+      const target = [...app.querySelectorAll('details.doc-refs')]
+        .find(d => d.parentElement && d.parentElement.querySelector('.ptitre')
+                && d.parentElement.querySelector('.ptitre').textContent === r.document);
+      if(target){
+        target.open = true;
+        setTimeout(() => target.scrollIntoView({behavior:'smooth', block:'start'}), 30);
+      }
+    }
+  }
 }
 
 // ============================================================
@@ -914,9 +1040,9 @@ function navTree(activeFicheId, chapitreId){
   notions.forEach(n => {
     const fiches = DATA.fiches.filter(f => f.notion_id === n.id && ficheById(f.id));
     if(!fiches.length) return;
-    html += `<div class="notion-group"><div class="gname">${n.titre}</div><ul>`;
+    html += `<div class="notion-group"><div class="gname">${srEsc(n.titre)}</div><ul>`;
     fiches.forEach(f => {
-      html += `<li><a href="#" data-fiche="${f.id}" class="${f.id===activeFicheId?'active':''}">${f.titre}</a></li>`;
+      html += `<li><a href="#" data-fiche="${f.id}" class="${f.id===activeFicheId?'active':''}">${srEsc(f.titre)}</a></li>`;
     });
     html += '</ul></div>';
   });
@@ -963,22 +1089,37 @@ function renderChapitre(){
     </div>`;
 
   if(state.chapTab === 'synthese'){
-    const coursHtml = (DATA.cours || {})[chapitre.id];
+    const coursChap = (DATA.cours || {})[chapitre.id];
+    const matieres = ((DATA.cours_index || {})[chapitre.id] || []);
+    // Un chapitre peut avoir une synthèse d'ensemble, des synthèses par matière, ou les deux.
+    const onglets = (coursChap ? [{cle: chapitre.id, titre: "Vue d'ensemble"}] : []).concat(matieres);
+    let cle = state.coursMatiere;
+    if(!cle || !onglets.some(o => o.cle === cle)) cle = onglets.length ? onglets[0].cle : null;
+    state.coursMatiere = cle;
+    const coursHtml = cle ? (DATA.cours || {})[cle] : null;
+    const selecteur = onglets.length > 1
+      ? `<div class="subtabs">${onglets.map(o =>
+          `<button data-cours="${o.cle}" class="${o.cle===cle?'active':''}">${srEsc(o.titre)}</button>`).join('')}</div>`
+      : '';
     app.innerHTML = `<div class="panel">
-      <div class="fiche-meta">${chapLabel(chapitre)}</div>
-      <h1 class="page-title">${chapitre.titre}</h1>
+      <div class="fiche-meta">${chapLabelEsc(chapitre)}</div>
+      <h1 class="page-title">${srEsc(chapitre.titre)}</h1>
       ${subtabsHtml}
+      ${selecteur}
       <div class="fiche-body cours-redige">${coursHtml || "<p class=\"fiche-meta\">La synthèse rédigée de ce chapitre n'est pas encore disponible.</p>"}</div>
     </div>`;
     app.querySelectorAll('[data-ctab]').forEach(b => b.onclick = () => { state.chapTab = b.dataset.ctab; render(); });
+    app.querySelectorAll('[data-cours]').forEach(b => b.onclick = () => {
+      state.coursMatiere = b.dataset.cours; render(); window.scrollTo({top:0, behavior:'smooth'});
+    });
     return;
   }
 
   if(state.chapTab === 'points'){
     const pa = (DATA.points_attention || {})[chapitre.id] || {};
     app.innerHTML = `<div class="panel">
-      <div class="fiche-meta">${chapLabel(chapitre)}</div>
-      <h1 class="page-title">${chapitre.titre}</h1>
+      <div class="fiche-meta">${chapLabelEsc(chapitre)}</div>
+      <h1 class="page-title">${srEsc(chapitre.titre)}</h1>
       ${subtabsHtml}
       ${pa.sens_et_portee ? `<h3>Sens et portée de l'étude (texte officiel du BO)</h3><p class="cite">${pa.sens_et_portee}</p>` : ''}
       ${(pa.competences_visees||[]).length ? `<h3>Compétences visées (texte officiel du BO)</h3><ul>${pa.competences_visees.map(c=>`<li>${c}</li>`).join('')}</ul>` : ''}
@@ -1009,8 +1150,8 @@ function renderChapitre(){
       return `<div class="partie-block"><div class="ptitre">DSCG ${srEsc(String(a.annee))}${a.session ? ' — ' + srEsc(a.session) : ''}</div>${srcLinks ? `<div class="sous-partie">${srcLinks}</div>` : ''}${doss}</div>`;
     }).join('') : `<p class="fiche-meta">Aucune annale n'est encore rattachée à ce chapitre.</p>`;
     app.innerHTML = `<div class="panel">
-      <div class="fiche-meta">${chapLabel(chapitre)}</div>
-      <h1 class="page-title">${chapitre.titre}</h1>
+      <div class="fiche-meta">${chapLabelEsc(chapitre)}</div>
+      <h1 class="page-title">${srEsc(chapitre.titre)}</h1>
       ${subtabsHtml}
       <p class="fiche-meta">Questions d'examen rattachées à ce chapitre (analyse de l'éditeur). Les sujets et corrigés ne sont pas hébergés sur ce site&nbsp;: chaque question renvoie vers la source de l'annale correspondante (Compta&nbsp;Online) pour consulter l'énoncé et le corrigé.</p>
       ${body}
@@ -1028,7 +1169,7 @@ function renderChapitre(){
     fid = chapFiches[0] && chapFiches[0].id;
   }
   if(!fid){
-    app.innerHTML = `<div class="panel"><div class="fiche-meta">${chapLabel(chapitre)}</div><h1 class="page-title">${chapitre.titre}</h1>${subtabsHtml}<p class="fiche-meta">Les fiches de ce chapitre ne sont pas encore disponibles (contenu en cours d'intégration). L'onglet POINTS D'ATTENTION reste consultable.</p></div>`;
+    app.innerHTML = `<div class="panel"><div class="fiche-meta">${chapLabelEsc(chapitre)}</div><h1 class="page-title">${srEsc(chapitre.titre)}</h1>${subtabsHtml}<p class="fiche-meta">Les fiches de ce chapitre ne sont pas encore disponibles (contenu en cours d'intégration). L'onglet POINTS D'ATTENTION reste consultable.</p></div>`;
     app.querySelectorAll('[data-ctab]').forEach(b => b.onclick = () => { state.chapTab = b.dataset.ctab; render(); });
     return;
   }
@@ -1041,18 +1182,18 @@ function renderChapitre(){
     (Array.isArray(fiche.tableaux_lies) && fiche.tableaux_lies.includes(t.id))
   );
 
-  app.innerHTML = `<div class="fiche-meta">${chapLabel(chapitre)}</div>
+  app.innerHTML = `<div class="fiche-meta">${chapLabelEsc(chapitre)}</div>
   <div class="layout">
     ${navTree(fid, chapitre.id)}
     <div class="panel">
       ${subtabsHtml}
-      <div class="fiche-meta">${notion ? notion.titre : ''}</div>
-      <h1 class="page-title">${fiche.titre}</h1>
+      <div class="fiche-meta">${notion ? srEsc(notion.titre) : ''}</div>
+      <h1 class="page-title">${srEsc(fiche.titre)}</h1>
       <div class="fiche-body">${fiche.body_html}</div>
       <div class="seealso">
         <h4>Références</h4>
-        ${refs.length ? refs.map(r => `<span class="chip ref" data-ref="${r.id}">📎 ${r.reference}</span><a class="lf-link" href="${legifranceUrl(r)}" target="_blank" rel="noopener" title="Ouvrir sur Légifrance">⚖︎</a>`).join('') : '<span class="fiche-meta">Aucune référence rattachée.</span>'}
-        ${linkedTableaux.length ? `<h4 style="margin-top:16px;">Tableaux liés</h4>${linkedTableaux.map(t => `<span class="chip" data-tableau="${t.id}" style="background:#4f7a64;">▦ ${t.titre}</span>`).join('')}` : ''}
+        ${refs.length ? refs.map(r => `<span class="chip ref" data-ref="${r.id}">📎 ${srEsc(r.reference)}</span><a class="lf-link" href="${legifranceUrl(r)}" target="_blank" rel="noopener" title="Ouvrir sur Légifrance">⚖︎</a>`).join('') : '<span class="fiche-meta">Aucune référence rattachée.</span>'}
+        ${linkedTableaux.length ? `<h4 style="margin-top:16px;">Tableaux liés</h4>${linkedTableaux.map(t => `<span class="chip" data-tableau="${t.id}" style="background:#4f7a64;">▦ ${srEsc(t.titre)}</span>`).join('')}` : ''}
         <h4 style="margin-top:16px;">Cartes Q / R liées</h4>
         ${cards.length ? cards.map(c => `<span class="chip" data-qr="${c.id}">${c.id}</span>`).join('') : '<span class="fiche-meta">Aucune carte liée.</span>'}
       </div>
@@ -1086,8 +1227,8 @@ function renderListes(){
   const activeNotion = (notionFilter && chap && notionFilter.chapitre_id === chap.id) ? notionFilter : null;
   if(state.listesNotionId && !activeNotion) state.listesNotionId = null;
   const cards = cardsForScope(isAll ? 'all' : 'chapitre', chap && chap.id, activeNotion && activeNotion.id);
-  const title = isAll ? "Toutes les notions" : (activeNotion ? `Cartes — ${activeNotion.titre}` : `Cartes — ${chapLabel(chap)}`);
-  const subtitle = activeNotion ? `<p class="fiche-meta">${chapLabel(chap)} <a href="#" id="clearNotionFilter">— voir toutes les cartes du chapitre</a></p>` : '';
+  const title = isAll ? "Toutes les notions" : (activeNotion ? `Cartes — ${srEsc(activeNotion.titre)}` : `Cartes — ${chapLabelEsc(chap)}`);
+  const subtitle = activeNotion ? `<p class="fiche-meta">${chapLabelEsc(chap)} <a href="#" id="clearNotionFilter">— voir toutes les cartes du chapitre</a></p>` : '';
   const pr = progressFor(cards);
 
   app.innerHTML = `<div class="panel">
@@ -1134,6 +1275,7 @@ function renderListes(){
     grid.appendChild(card);
   });
   if(focusedEl) setTimeout(() => focusedEl.scrollIntoView({block:'center', behavior:'smooth'}), 30);
+  state.qrFocus = null;   // consommé : ne pas rejouer le défilement à chaque rendu
 
   function refreshProgress(){
     const p = progressFor(cards);
@@ -1167,7 +1309,12 @@ function renderListes(){
   const sq = document.getElementById('startQuiz');
   if(sq) sq.onclick = () => { state.quizScope = isAll ? 'all' : 'chapitre'; state.quizChapId = chap && chap.id; state.quiz = null; state.view = 'quiz'; render(); window.scrollTo({top:0, behavior:'smooth'}); };
   const rp = document.getElementById('resetProgress');
-  if(rp) rp.onclick = () => { const s = loadQrState(); cards.forEach(c => { delete s[c.id]; }); saveQrState(s); render(); };
+  if(rp) rp.onclick = () => {
+    const n = cards.filter(c => qrInfo(c.id)).length;
+    if(!n){ return; }
+    if(!confirm(`Effacer votre progression sur ${n} carte${n>1?'s':''} de ce périmètre ? Cette action est définitive.`)) return;
+    const s = loadQrState(); cards.forEach(c => { delete s[c.id]; }); saveQrState(s); render();
+  };
   const ep = document.getElementById('exportProgress'); if(ep) ep.onclick = exportProgress;
   const ip = document.getElementById('importProgress'); const ipf = document.getElementById('importFile');
   if(ip && ipf){ ip.onclick = () => ipf.click(); ipf.onchange = () => { if(ipf.files && ipf.files[0]) importProgress(ipf.files[0]); }; }
@@ -1232,20 +1379,23 @@ function renderTableaux(){
   const chap = chapById(state.tableauxChapitreId) || chapById(DATA.tableaux_comparatifs[0]?.chapitre_id);
   const tableaux = (DATA.tableaux_comparatifs || []).filter(t => !chap || t.chapitre_id === chap.id);
   const html = tableaux.map(t => {
-    const cols = t.contenu.colonnes;
-    const rows = t.contenu.lignes;
+    const contenu = t.contenu || {};
+    const cols = Array.isArray(contenu.colonnes) ? contenu.colonnes : [];
+    const rows = Array.isArray(contenu.lignes) ? contenu.lignes : [];
+    if(!cols.length) return `<div class="tab-block" id="tabblock-${t.id}"><h3>${t.titre}</h3><p class="fiche-meta">Contenu du tableau indisponible.</p></div>`;
     const notionsLiees = (Array.isArray(t.notions_liees) ? t.notions_liees : [])
       .map(notionById).filter(Boolean);
     return `<div class="tab-block" id="tabblock-${t.id}">
-      <h3>${t.titre}</h3>
-      <div class="table-wrap"><table class="cmp"><thead><tr>${cols.map(c=>`<th>${c}</th>`).join('')}</tr></thead>
-      <tbody>${rows.map(r=>`<tr>${r.map(cell=>`<td>${cell}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
-      ${t.note ? `<p class="fiche-meta" style="font-style:italic;">${t.note}</p>` : ''}
-      ${notionsLiees.length ? `<div class="linked-tableaux"><h4>Notions liées</h4>${notionsLiees.map(n=>`<span class="chip" data-go-notion="${n.id}">${n.titre}</span>`).join('')}</div>` : ''}
+      <h3>${srEsc(t.titre)}</h3>
+      <div class="table-wrap"><table class="cmp" style="--cols:${cols.length}"><thead><tr>${cols.map(c=>`<th>${srEsc(c)}</th>`).join('')}</tr></thead>
+      <tbody>${rows.map(r=>`<tr>${r.map(cell=>`<td>${srEsc(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
+      ${cols.length >= 4 ? '<p class="table-hint">Tableau large — faites glisser horizontalement pour voir toutes les colonnes.</p>' : ''}
+      ${t.note ? `<p class="fiche-meta" style="font-style:italic;">${srEsc(t.note)}</p>` : ''}
+      ${notionsLiees.length ? `<div class="linked-tableaux"><h4>Notions liées</h4>${notionsLiees.map(n=>`<span class="chip" data-go-notion="${n.id}">${srEsc(n.titre)}</span>`).join('')}</div>` : ''}
     </div>`;
   }).join('<hr style="margin:30px 0;border-color:var(--paper-line);">');
   app.innerHTML = `<div class="panel">
-    <div class="fiche-meta">${chap ? chapLabel(chap) : ''}</div>
+    <div class="fiche-meta">${chap ? chapLabelEsc(chap) : ''}</div>
     <h1 class="page-title">Tableaux de synthèse</h1>
     ${html || '<p class="fiche-meta">Aucun tableau pour ce chapitre.</p>'}
   </div>`;
@@ -1310,24 +1460,41 @@ document.getElementById('cohortHome').addEventListener('click', () => {
 const slideMenu = document.getElementById('slideMenu');
 const menuBackdrop = document.getElementById('menuBackdrop');
 const menuToggle = document.getElementById('menuToggle');
+const menuClose = document.getElementById('menuClose');
 function closeMenu(){
+  const avaitFocus = slideMenu.contains(document.activeElement);
   slideMenu.classList.remove('open');
   menuBackdrop.classList.remove('show');
   menuToggle.textContent = '☰';
+  menuToggle.setAttribute('aria-expanded', 'false');
+  menuToggle.setAttribute('aria-label', 'Ouvrir le menu');
+  if(avaitFocus) menuToggle.focus();   // sinon le focus reste dans un panneau fermé
 }
 function openMenu(){
   slideMenu.classList.add('open');
   menuBackdrop.classList.add('show');
   menuToggle.textContent = '✕';
+  menuToggle.setAttribute('aria-expanded', 'true');
+  menuToggle.setAttribute('aria-label', 'Fermer le menu');
+  if(menuClose) menuClose.focus();
 }
 menuToggle.addEventListener('click', () => {
   slideMenu.classList.contains('open') ? closeMenu() : openMenu();
 });
 menuBackdrop.addEventListener('click', closeMenu);
+if(menuClose) menuClose.addEventListener('click', closeMenu);
+document.addEventListener('keydown', e => {
+  if(e.key === 'Escape' && slideMenu.classList.contains('open')) closeMenu();
+});
 
 document.querySelectorAll('#slideMenu .menu-title').forEach(t => {
-  t.addEventListener('click', () => {
-    t.parentElement.classList.toggle('expanded');
+  const toggleSection = () => {
+    const open = t.parentElement.classList.toggle('expanded');
+    t.setAttribute('aria-expanded', open ? 'true' : 'false');
+  };
+  t.addEventListener('click', toggleSection);
+  t.addEventListener('keydown', e => {
+    if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); toggleSection(); }
   });
 });
 
@@ -1335,27 +1502,27 @@ function buildMenuTrees(){
   // PROGRAMME
   const progEl = document.getElementById('menuProgramme');
   progEl.innerHTML = (DATA.programme.parties || []).map(p => `
-    <div class="menu-partie">${p.numero}. ${p.titre}</div>
+    <div class="menu-partie">${srEsc(p.numero)}. ${srEsc(p.titre)}</div>
     ${p.sous_parties.map(sp => sp.chapitre_id
-      ? `<a href="#" data-go-chap="${sp.chapitre_id}">${sp.titre}</a>`
-      : `<span style="display:block;font-size:.82rem;padding:5px 0 5px 10px;color:#b9b9b9;">${sp.titre} (à venir)</span>`
+      ? `<a href="#" data-go-chap="${sp.chapitre_id}">${srEsc(sp.titre)}</a>`
+      : `<span style="display:block;font-size:.82rem;padding:5px 0 5px 10px;color:#b9b9b9;">${srEsc(sp.titre)} (à venir)</span>`
     ).join('')}
   `).join('') + (DATA.programme.autre||[]).map(a => `
     <div class="menu-partie">Autre</div>
-    <a href="#" data-go-chap="${a.chapitre_id}">${a.titre}</a>
+    <a href="#" data-go-chap="${a.chapitre_id}">${srEsc(a.titre)}</a>
   `).join('');
 
   // LISTES
   const listesEl = document.getElementById('menuListes');
   listesEl.innerHTML = `<a href="#" data-go-listes="all">Toutes les notions</a>` +
-    DATA.chapitres.map(c => `<a href="#" data-go-listes="${c.id}">${chapLabel(c)}</a>`).join('');
+    DATA.chapitres.map(c => `<a href="#" data-go-listes="${c.id}">${chapLabelEsc(c)}</a>`).join('');
 
   // TABLEAUX
   const tabEl = document.getElementById('menuTableaux');
   const chapsWithTableaux = [...new Set((DATA.tableaux_comparatifs||[]).map(t => t.chapitre_id))];
   tabEl.innerHTML = chapsWithTableaux.map(cid => {
     const c = chapById(cid);
-    return c ? `<a href="#" data-go-tableaux="${cid}">${chapLabel(c)}</a>` : '';
+    return c ? `<a href="#" data-go-tableaux="${cid}">${chapLabelEsc(c)}</a>` : '';
   }).join('') || '<span style="display:block;font-size:.82rem;padding:5px 0;color:#b9b9b9;">Aucun tableau disponible</span>';
 
   progEl.querySelectorAll('[data-go-chap]').forEach(a => a.onclick = (e) => {
@@ -1379,37 +1546,131 @@ function buildMenuTrees(){
   });
 }
 buildMenuTrees();
+// La section PROGRAMME est celle qu'on ouvre presque toujours : la déplier d'emblée
+// évite un tap supplémentaire à chaque ouverture du menu.
+(function(){
+  const sec = document.querySelector('#slideMenu .menu-section[data-section="programme"]');
+  if(sec){ sec.classList.add('expanded'); const t = sec.querySelector('.menu-title'); if(t) t.setAttribute('aria-expanded','true'); }
+})();
 
 const gs = document.getElementById('globalSearch');
 const srBox = document.getElementById('searchResults');
 let _srResults = [];
 let _srActive = -1;
-const srEsc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+// Index plein texte construit à la première recherche seulement (évite de ralentir
+// le chargement : 189 fiches + 513 cartes + les synthèses rédigées).
+let _fullIndex = null;
+// Recherche insensible aux accents : « majorite » doit trouver « majorité ».
+// La décomposition NFD suivie du retrait des diacritiques conserve la longueur de la
+// chaîne pour les caractères latins précomposés, donc les positions restent valides
+// pour découper les extraits dans le texte d'origine.
+const fold = s => String(s == null ? '' : s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+const stripTags = h => String(h || '').replace(/<[^>]*>/g, ' ')
+  .replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>')
+  .replace(/&#x27;|&#39;/g,"'").replace(/&quot;/g,'"').replace(/\s+/g,' ').trim();
+
+function buildFullIndex(){
+  if(_fullIndex) return _fullIndex;
+  const idx = [];
+  Object.keys(DATA.fiches_full || {}).forEach(id => {
+    const f = DATA.fiches_full[id];
+    const n = notionById(f.notion_id);
+    idx.push({kind:'fiche', id, titre:f.titre, texte:stripTags(f.body_html),
+      chap: n ? chapById(n.chapitre_id) : null, notion:n});
+  });
+  (DATA.qr_cartes || []).forEach(c => {
+    const n = notionById(c.notion_id);
+    idx.push({kind:'carte', id:c.id, titre:c.question, texte:stripTags(c.question + ' ' + c.reponse),
+      chap: n ? chapById(n.chapitre_id) : null, notion:n, carte:c});
+  });
+  Object.keys(DATA.cours || {}).forEach(cle => {
+    const chap = chapById(cle);
+    let titre, matiere = null;
+    if(chap){ titre = 'Synthèse — ' + chap.titre; }
+    else {
+      let parent = null;
+      Object.keys(DATA.cours_index || {}).forEach(cid => {
+        ((DATA.cours_index[cid]) || []).forEach(m => { if(m.cle === cle) parent = {cid, m}; });
+      });
+      if(!parent) return;
+      matiere = cle;
+      titre = 'Synthèse — ' + parent.m.titre;
+    }
+    idx.push({kind:'cours', id:cle, titre, texte:stripTags(DATA.cours[cle]),
+      chap: chap || chapById(Object.keys(DATA.cours_index).find(cid =>
+        (DATA.cours_index[cid]||[]).some(m => m.cle === cle))), matiere});
+  });
+  _fullIndex = idx.map(e => ({...e, lc: fold(e.texte)}));
+  return _fullIndex;
+}
+
+function excerpt(texte, lc, q){
+  const i = lc.indexOf(q);
+  if(i < 0 || lc.length !== texte.length) return '';   // décalage possible : on s'abstient
+  const start = Math.max(0, i - 34);
+  const raw = texte.slice(start, i + q.length + 66);
+  const rel = i - start;
+  return (start > 0 ? '…' : '')
+    + srEsc(raw.slice(0, rel)) + '<mark>' + srEsc(raw.slice(rel, rel + q.length)) + '</mark>'
+    + srEsc(raw.slice(rel + q.length)) + '…';
+}
 
 function collectResults(qraw){
-  const q = (qraw || '').trim().toLowerCase();
+  const q = fold((qraw || '').trim());
   if(q.length < 2) return [];
-  const score = (t) => { t = (t||'').toLowerCase(); const i = t.indexOf(q); return i < 0 ? -1 : (t.startsWith(q) ? 0 : 1 + i*0.001); };
+  const score = (t) => { t = fold(t); const i = t.indexOf(q); return i < 0 ? -1 : (t.startsWith(q) ? 0 : 1 + i*0.001); };
   const res = [];
+  const dejaVu = new Set();
   DATA.notions.forEach(n => { const s = score(n.titre); if(s>=0){ const c = chapById(n.chapitre_id);
     res.push({type:'Notion', sc:s, cat:1, title:n.titre, sub:c?chapLabel(c):'', go:()=>{ state.view='listes'; state.listesScope='chapitre'; state.listesChapitreId=n.chapitre_id; state.listesNotionId=n.id; state.qrFocus=null; }}); } });
   DATA.fiches.forEach(f => { const s = score(f.titre); if(s>=0){ const n = notionById(f.notion_id); const c = n?chapById(n.chapitre_id):null;
-    res.push({type:'Fiche', sc:s, cat:2, title:f.titre, sub:c?chapLabel(c):'', go:()=>{ if(n){ state.chapitreId=n.chapitre_id; state.view='chapitre'; state.chapTab='cours'; state.ficheId = ficheById(f.id)?f.id:null; } }}); } });
+    const dispo = !!ficheById(f.id);
+    if(dispo) dejaVu.add('fiche:'+f.id);
+    res.push({type:'Fiche', sc:s, cat:2, title:f.titre,
+      sub: dispo ? (c?chapLabel(c):'') : 'fiche à venir',
+      go:()=>{ if(n){ state.chapitreId=n.chapitre_id; state.view='chapitre'; state.chapTab='cours'; state.ficheId = dispo?f.id:null; } }}); } });
   (DATA.tableaux_comparatifs||[]).forEach(t => { const s = score(t.titre); if(s>=0){
     res.push({type:'Tableau', sc:s, cat:3, title:t.titre, sub:'', go:()=>{ state.view='tableaux'; state.tableauxChapitreId=t.chapitre_id; state.tableauFocus=t.id; }}); } });
   DATA.references_textes.forEach(r => { const s = score(r.reference); if(s>=0){
     res.push({type:'Article', sc:s, cat:4, title:r.reference, sub:r.document||'', go:()=>{ state.view='documentation'; state.refFocus=r.id; }}); } });
+
+  // Recherche dans le texte : pénalisée (+10) pour rester après les titres
+  buildFullIndex().forEach(e => {
+    const i = e.lc.indexOf(q);
+    if(i < 0) return;
+    if(e.kind === 'fiche' && dejaVu.has('fiche:'+e.id)) return;
+    const ex = excerpt(e.texte, e.lc, q);
+    if(e.kind === 'fiche'){
+      res.push({type:'Texte', sc:10 + i*0.0001, cat:5, title:e.titre, sub:e.chap?chapLabel(e.chap):'', excerpt:ex,
+        go:()=>{ if(e.notion){ state.chapitreId=e.notion.chapitre_id; state.view='chapitre'; state.chapTab='cours'; state.ficheId=e.id; } }});
+    } else if(e.kind === 'carte'){
+      res.push({type:'Carte', sc:10 + i*0.0001, cat:6, title:e.titre, sub:e.chap?chapLabel(e.chap):'', excerpt:ex,
+        go:()=>{ state.view='listes'; state.listesScope = e.chap?'chapitre':'all'; state.listesChapitreId = e.chap?e.chap.id:null;
+                 state.listesNotionId = e.notion?e.notion.id:null; state.qrFocus = e.id; }});
+    } else {
+      res.push({type:'Synthèse', sc:10 + i*0.0001, cat:5, title:e.titre, sub:e.chap?chapLabel(e.chap):'', excerpt:ex,
+        go:()=>{ if(e.chap){ state.chapitreId=e.chap.id; state.view='chapitre'; state.chapTab='synthese'; state.coursMatiere = e.matiere || e.chap.id; } }});
+    }
+  });
   res.sort((a,b)=> a.sc-b.sc || a.cat-b.cat || a.title.localeCompare(b.title));
-  return res.slice(0, 12);
+  return res.slice(0, 14);
 }
 function renderSearchResults(){
   const q = gs.value;
   _srResults = collectResults(q); _srActive = -1;
+  gs.setAttribute('aria-expanded', 'false');
   if(q.trim().length < 2){ srBox.style.display='none'; srBox.innerHTML=''; return; }
   if(_srResults.length === 0){ srBox.innerHTML = '<div class="sr-empty">Aucun résultat</div>'; srBox.style.display='block'; return; }
   srBox.innerHTML = _srResults.map((r,i)=>
-    `<button class="sr-item" data-sr="${i}"><span class="sr-type">${r.type}</span><span class="sr-title">${srEsc(r.title)}</span>${r.sub?`<span class="sr-sub">${srEsc(r.sub)}</span>`:''}</button>`).join('');
+    `<button class="sr-item" role="option" aria-selected="false" id="sr-opt-${i}" data-sr="${i}">`
+    + `<span class="sr-type">${r.type}</span>`
+    + `<span class="sr-main"><span class="sr-title">${srEsc(r.title)}</span>`
+    + (r.excerpt ? `<span class="sr-excerpt">${r.excerpt}</span>` : '')
+    + `</span>`
+    + (r.sub?`<span class="sr-sub">${srEsc(r.sub)}</span>`:'') + `</button>`).join('');
   srBox.style.display='block';
+  gs.setAttribute('aria-expanded', 'true');
   srBox.querySelectorAll('[data-sr]').forEach(b => b.onclick = () => selectResult(parseInt(b.dataset.sr,10)));
 }
 function selectResult(i){
@@ -1417,11 +1678,24 @@ function selectResult(i){
   closeSearch(); gs.value='';
   r.go(); render(); window.scrollTo({top:0, behavior:'smooth'});
 }
-function closeSearch(){ srBox.style.display='none'; srBox.innerHTML=''; _srActive=-1; }
+function closeSearch(){
+  srBox.style.display='none'; srBox.innerHTML=''; _srActive=-1;
+  gs.setAttribute('aria-expanded', 'false');
+  gs.removeAttribute('aria-activedescendant');
+}
 function moveActive(d){
   if(!_srResults.length) return;
   _srActive = (_srActive + d + _srResults.length) % _srResults.length;
-  [...srBox.querySelectorAll('.sr-item')].forEach((el,i)=> el.classList.toggle('sr-active', i===_srActive));
+  const items = [...srBox.querySelectorAll('.sr-item')];
+  items.forEach((el,i)=>{
+    const on = i===_srActive;
+    el.classList.toggle('sr-active', on);
+    el.setAttribute('aria-selected', on ? 'true' : 'false');
+  });
+  if(items[_srActive]){
+    items[_srActive].scrollIntoView({block:'nearest'});
+    gs.setAttribute('aria-activedescendant', items[_srActive].id);
+  }
 }
 gs.addEventListener('input', renderSearchResults);
 gs.addEventListener('keydown', e => {
