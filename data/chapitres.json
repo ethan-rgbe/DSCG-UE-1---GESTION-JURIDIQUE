@@ -43,5 +43,14 @@
     "numero": null,
     "partie_numero": null,
     "partie_titre": "Rappels transversaux"
+  },
+  {
+    "id": "developpement-de-l-entreprise",
+    "titre": "Le développement de l'entreprise",
+    "ordre": 2,
+    "description": "Constitution et transformation de l'entreprise : conditions de fond et de forme, personnalité morale, apports, fiscalité de la constitution, transformation des sociétés (programme DSCG UE1, rubrique 2.1). Premier volet ; la suite sera ajoutée ultérieurement.",
+    "numero": "2.1",
+    "partie_numero": 2,
+    "partie_titre": "Le développement de l'entreprise"
   }
 ]
