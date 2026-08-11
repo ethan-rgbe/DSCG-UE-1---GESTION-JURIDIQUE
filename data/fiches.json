@@ -1699,5 +1699,59 @@
     "mots_cles": [],
     "importance": "★★★",
     "slug": "droit-des-societes"
+  },
+  {
+    "id": "constitution-les-conditions-de-fond",
+    "notion_id": "developpement-de-l-entreprise.constitution-conditions-de-fond",
+    "titre": "Constitution — les conditions de fond",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "constitution-les-conditions-de-fond"
+  },
+  {
+    "id": "constitution-les-conditions-de-forme-et-formalites",
+    "notion_id": "developpement-de-l-entreprise.constitution-formalites",
+    "titre": "Constitution — les conditions de forme et formalités",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "constitution-les-conditions-de-forme-et-formalites"
+  },
+  {
+    "id": "la-personnalite-morale-et-ses-attributs",
+    "notion_id": "developpement-de-l-entreprise.personnalite-morale-et-attributs",
+    "titre": "La personnalité morale et ses attributs",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "la-personnalite-morale-et-ses-attributs"
+  },
+  {
+    "id": "les-apports-et-le-commissaire-aux-apports",
+    "notion_id": "developpement-de-l-entreprise.apports-et-commissaire-aux-apports",
+    "titre": "Les apports et le commissaire aux apports",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "les-apports-et-le-commissaire-aux-apports"
+  },
+  {
+    "id": "les-regles-fiscales-de-la-constitution",
+    "notion_id": "developpement-de-l-entreprise.fiscalite-de-la-constitution",
+    "titre": "Les règles fiscales de la constitution",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "les-regles-fiscales-de-la-constitution"
+  },
+  {
+    "id": "la-transformation-des-societes",
+    "notion_id": "developpement-de-l-entreprise.transformation-des-societes",
+    "titre": "La transformation des sociétés",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "la-transformation-des-societes"
   }
 ]
