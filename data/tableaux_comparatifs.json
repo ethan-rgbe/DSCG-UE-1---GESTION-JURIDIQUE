@@ -3500,5 +3500,392 @@
         ]
       ]
     }
+  },
+  {
+    "id": "tab-dev-001",
+    "titre": "Nombre d'associés requis selon la forme sociale",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.constitution-conditions-de-fond",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Forme",
+        "Minimum",
+        "Maximum"
+      ],
+      "lignes": [
+        [
+          "SARL",
+          "1 (EURL)",
+          "100"
+        ],
+        [
+          "SAS",
+          "1 (SASU)",
+          "Pas de maximum"
+        ],
+        [
+          "SA",
+          "2 (7 pour les SA cotées)",
+          "Pas de maximum"
+        ],
+        [
+          "SNC",
+          "2",
+          "Pas de maximum"
+        ],
+        [
+          "Société civile",
+          "2",
+          "Pas de maximum"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-dev-002",
+    "titre": "Les formalités de constitution — étapes et publicité",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.constitution-formalites",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Étape",
+        "Contenu",
+        "Rôle"
+      ],
+      "lignes": [
+        [
+          "Publicité préalable",
+          "Insertion d'un avis de constitution dans un support habilité à recevoir des annonces légales (SHAL, ex-JAL) du département du siège social",
+          "Information des tiers avant l'immatriculation"
+        ],
+        [
+          "Immatriculation",
+          "Dépôt du dossier unique sur le guichet unique électronique des formalités des entreprises, avec inscription au Registre national des entreprises (RNE) et au RCS",
+          "Naissance de la personnalité morale"
+        ],
+        [
+          "Publicité au BODACC",
+          "Insertion au Bulletin officiel des annonces civiles et commerciales, à la diligence du greffier",
+          "Information générale des tiers, postérieure à l'immatriculation"
+        ],
+        [
+          "Bénéficiaires effectifs",
+          "Déclaration des personnes physiques qui contrôlent effectivement la société",
+          "Lutte contre le blanchiment ; registre à accès encadré"
+        ],
+        [
+          "Dématérialisation",
+          "Depuis le 1er janvier 2023, toutes les formalités passent par le guichet unique électronique (INPI), qui remplace les anciens centres de formalités des entreprises (CFE)",
+          "Simplification et centralisation"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-dev-003",
+    "titre": "Les trois types d'apports",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.apports-et-commissaire-aux-apports",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Type d'apport",
+        "Objet",
+        "Entre-t-il dans le capital social ?",
+        "Contrepartie"
+      ],
+      "lignes": [
+        [
+          "En numéraire",
+          "Somme d'argent",
+          "Oui",
+          "Droits sociaux (parts ou actions)"
+        ],
+        [
+          "En nature",
+          "Bien meuble ou immeuble, corporel ou incorporel (fonds de commerce, brevet, immeuble…)",
+          "Oui, après évaluation",
+          "Droits sociaux"
+        ],
+        [
+          "En industrie",
+          "Savoir-faire, travail, compétences",
+          "Non — et interdit dans certaines sociétés (ex. SA)",
+          "Droits sociaux donnant vocation aux bénéfices et obligation de contribuer aux pertes, mais non représentatifs du capital"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-dev-004",
+    "titre": "Démembrement de propriété des droits sociaux (art. 1844 C. civ., loi Soilihi du 19 juillet 2019)",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.apports-et-commissaire-aux-apports",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "",
+        "SARL et sociétés de personnes",
+        "SA et SCA (art. L. 225-110 C. com.)"
+      ],
+      "lignes": [
+        [
+          "Qualité d'associé",
+          "Nu-propriétaire (l'usufruitier n'a pas la qualité d'associé)",
+          "Nu-propriétaire"
+        ],
+        [
+          "Participation aux assemblées",
+          "Les deux — droit d'ordre public, aucune clause statutaire ne peut en priver l'un d'eux",
+          "Les deux"
+        ],
+        [
+          "Droit de vote — affectation des bénéfices",
+          "Usufruitier (sauf stipulation statutaire contraire, sans jamais pouvoir l'en priver totalement)",
+          "Usufruitier (AGO)"
+        ],
+        [
+          "Droit de vote — autres décisions",
+          "Nu-propriétaire (sauf stipulation statutaire contraire)",
+          "Nu-propriétaire (AGE)"
+        ],
+        [
+          "Convention entre usufruitier et nu-propriétaire",
+          "Possible : ils peuvent convenir que l'usufruitier votera pour les autres décisions",
+          "Impossible : l'art. L. 225-110 C. com. écarte cette faculté dans les SA et SCA"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-dev-005",
+    "titre": "Apports à titre onéreux — droits d'enregistrement (barème)",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.fiscalite-de-la-constitution",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Nature du bien apporté",
+        "Barème applicable"
+      ],
+      "lignes": [
+        [
+          "Fonds de commerce, clientèle, droit au bail",
+          "0 % jusqu'à 23 000 € ; 3 % de 23 000 € à 200 000 € ; 5 % au-delà de 200 000 €"
+        ],
+        [
+          "Immeubles et droits immobiliers",
+          "5 % (taux de droit commun des mutations immobilières à titre onéreux)"
+        ],
+        [
+          "Autres biens (meubles, créances, marchandises neuves…)",
+          "Droit fixe, ou régime propre au bien concerné"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-dev-006",
+    "titre": "Conditions de fond de la transformation",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.transformation-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Catégorie",
+        "Contenu",
+        "Exemple"
+      ],
+      "lignes": [
+        [
+          "Transformations légalement possibles",
+          "Les conditions propres à la forme d'arrivée doivent être réunies (capital, nombre d'associés…)",
+          "SARL → SA : capital d'au moins 37 000 € requis"
+        ],
+        [
+          "Transformations légalement permises",
+          "Certaines transformations sont subordonnées à des conditions supplémentaires par le législateur",
+          "SA → autre forme : possible uniquement si la SA a au moins 2 ans d'existence et si les bilans des 2 premiers exercices ont été approuvés par les associés"
+        ],
+        [
+          "Transformations autorisées par les associés — conditions de droit commun",
+          "Décision prise aux conditions de modification des statuts (AGE)",
+          "Cas général"
+        ],
+        [
+          "Transformations autorisées par les associés — conditions renforcées",
+          "Unanimité requise lorsque la transformation augmente les engagements des associés",
+          "SARL → SNC (passage à une responsabilité indéfinie et solidaire) ; SARL → SAS"
+        ],
+        [
+          "Transformations autorisées par les associés — conditions facilitées",
+          "Majorité assouplie lorsque l'évolution est jugée logique",
+          "SARL → SA : majorité simple des parts sociales si les capitaux propres du dernier bilan dépassent 750 000 €, sinon conditions de l'AGE"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-dev-007",
+    "titre": "Le commissaire à la transformation et le commissaire aux comptes",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.transformation-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Intervenant",
+        "Quand ?",
+        "Mission"
+      ],
+      "lignes": [
+        [
+          "Commissaire à la transformation",
+          "Uniquement si la société n'a pas de CAC et que la transformation aboutit à une société par actions",
+          "Apprécier la valeur des biens composant l'actif social et les avantages particuliers ; établir un rapport sur ses évaluations"
+        ],
+        [
+          "Commissaire aux comptes (CAC)",
+          "Lorsqu'il existe déjà (pas de nomination d'un commissaire à la transformation dans ce cas)",
+          "Rapport sur la situation de la société : il s'assure notamment que la continuité de l'exploitation n'est pas compromise. Rapport supplémentaire en SARL"
+        ],
+        [
+          "À défaut de CAC",
+          "—",
+          "Le commissaire à la transformation rend lui-même compte de la situation de la société dans son rapport"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-dev-008",
+    "titre": "Publicité de la transformation et récapitulatif des formalités (sociétés par actions)",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.transformation-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Étape",
+        "Formalité"
+      ],
+      "lignes": [
+        [
+          "1",
+          "Vérifier que les conditions de la nouvelle forme sont réunies"
+        ],
+        [
+          "2",
+          "Rapport du commissaire à la transformation (ou du CAC en SARL)"
+        ],
+        [
+          "3",
+          "Publicité du rapport avant l'AGE — délai de 8 jours"
+        ],
+        [
+          "4",
+          "Décision de transformation prise par l'AGE des associés"
+        ],
+        [
+          "5",
+          "Insertion d'un avis dans un support habilité à recevoir des annonces légales (SHAL)"
+        ],
+        [
+          "6",
+          "Dépôt du dossier d'inscription modificative (guichet unique électronique)"
+        ],
+        [
+          "7",
+          "Inscription modificative au registre du commerce et des sociétés"
+        ],
+        [
+          "8",
+          "Insertion au BODACC, à la diligence du greffier"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-dev-009",
+    "titre": "Effets de la transformation sur la responsabilité des associés",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.transformation-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Sens de la transformation",
+        "Conséquence sur la responsabilité"
+      ],
+      "lignes": [
+        [
+          "Société à risque limité → société à risque illimité (ex. SARL → SNC)",
+          "Les associés deviennent indéfiniment et solidairement responsables des dettes nouvelles ET des dettes antérieures à la transformation"
+        ],
+        [
+          "Société à risque illimité → société à risque limité (ex. SNC → SARL)",
+          "Les associés restent tenus solidairement et indéfiniment des seules dettes nées AVANT la transformation ; leur responsabilité est limitée pour les dettes postérieures"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-dev-010",
+    "titre": "Transformations les plus fréquentes — conditions et effets",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.transformation-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Transformation",
+        "Conditions et procédure",
+        "Effets particuliers"
+      ],
+      "lignes": [
+        [
+          "SARL → SA",
+          "Capital d'au moins 37 000 € ; rapport du CAC sur la situation de la société (dépôt au tribunal de commerce requis) ; évaluation par un commissaire à la transformation de l'actif social, avec attestation que les capitaux propres sont au moins égaux au capital social ; quorum et majorité de l'AGE, sauf capitaux propres supérieurs à 750 000 € (majorité simple)",
+          "Conservation des droits des associés (les parts deviennent des actions) ; exclusion des apporteurs en industrie ; mise en conformité des statuts, notamment quant aux organes sociaux"
+        ],
+        [
+          "SARL → SAS",
+          "Rapport du CAC sur la situation de la société (sans dépôt au tribunal de commerce) ; rapport du CAC ou du commissaire à la transformation sur la valeur des biens et les avantages particuliers (dépôt requis) ; décision à l'unanimité de tous les associés liés par le pacte social",
+          "Droits d'enregistrement sur les cessions de titres nettement réduits par rapport à la SARL (0,1 % pour les actions contre 3 % pour les parts sociales, après abattement)"
+        ],
+        [
+          "SNC → société à risque limité (SARL, SA, SAS)",
+          "SARL : décision à la majorité des associés ; SA : décision des associés en nom, capital d'au moins 37 000 € ; SAS : décision à l'unanimité des associés en nom",
+          "Les associés restent tenus solidairement et indéfiniment des dettes nées avant la transformation"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-dev-011",
+    "titre": "Régime fiscal de la transformation (art. 221 bis CGI)",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.transformation-des-societes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "",
+        "Société conservant son régime fiscal (IR→IR ou IS→IS)",
+        "Société passant de l'IR à l'IS",
+        "Société passant de l'IS à l'IR"
+      ],
+      "lignes": [
+        [
+          "Impôt sur les bénéfices",
+          "Sans incidence",
+          "Principe : le changement de régime fiscal emporte cessation d'entreprise — imposition immédiate du résultat d'exploitation, des bénéfices en sursis d'imposition et des plus-values latentes. Atténuation : pas d'imposition immédiate si aucune modification n'est apportée aux valeurs comptables des éléments d'actif et si l'imposition des bénéfices et plus-values demeure possible sous le nouveau régime",
+          "Principe : cessation d'entreprise — mêmes conséquences. Atténuation : mêmes conditions"
+        ],
+        [
+          "Droits d'enregistrement",
+          "Droit fixe de 125 €",
+          "Principe : sur les immeubles et fonds de commerce, 3 % de 23 000 € à 200 000 €, 5 % au-delà de 200 000 €. Exception : droit fixe de 375 € (500 € si le capital dépasse un certain seuil) en cas d'engagement de conservation des droits sociaux pendant 3 ans à compter de la transformation",
+          "Droit fixe de 125 €"
+        ]
+      ]
+    }
   }
 ]
