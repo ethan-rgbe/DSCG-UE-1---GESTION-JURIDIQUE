@@ -264,5 +264,47 @@
     "titre": "Pénal des affaires, concurrence, social",
     "description": "",
     "mots_cles": []
+  },
+  {
+    "id": "developpement-de-l-entreprise.constitution-conditions-de-fond",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "titre": "Constitution — les conditions de fond",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "developpement-de-l-entreprise.constitution-formalites",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "titre": "Constitution — les conditions de forme et formalités",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "developpement-de-l-entreprise.personnalite-morale-et-attributs",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "titre": "La personnalité morale et ses attributs",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "developpement-de-l-entreprise.apports-et-commissaire-aux-apports",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "titre": "Les apports et le commissaire aux apports",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "developpement-de-l-entreprise.fiscalite-de-la-constitution",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "titre": "Les règles fiscales de la constitution",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "developpement-de-l-entreprise.transformation-des-societes",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "titre": "La transformation des sociétés",
+    "description": "",
+    "mots_cles": []
   }
 ]
