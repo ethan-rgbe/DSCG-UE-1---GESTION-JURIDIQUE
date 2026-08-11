@@ -798,12 +798,12 @@
         "intitule": "SAS Venture",
         "partie": "4 / 1 (restructuration · pénal)",
         "sous_partie": "Restructuration · Droit pénal",
-        "chapitre_id": null,
+        "chapitre_id": "developpement-de-l-entreprise",
         "questions": [
           {
             "num": "4.1",
             "objet": "Majorité pour transformer une SAS en SNC",
-            "notion_id": null,
+            "notion_id": "developpement-de-l-entreprise.transformation-des-societes",
             "articles": [
               "C. civ. 1836 (unanimité)"
             ]
@@ -811,7 +811,7 @@
           {
             "num": "4.2",
             "objet": "Possibilité de la transformation",
-            "notion_id": null,
+            "notion_id": "developpement-de-l-entreprise.transformation-des-societes",
             "articles": [
               "L. 221-1 ; C. civ. 1845"
             ]
@@ -819,7 +819,7 @@
           {
             "num": "4.3",
             "objet": "Surévaluation d'apport : conséquences civiles et pénales",
-            "notion_id": null,
+            "notion_id": "developpement-de-l-entreprise.apports-et-commissaire-aux-apports",
             "articles": [
               "C. com. L. 223-9",
               "C. com. L. 241-3"
