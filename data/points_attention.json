@@ -95,11 +95,14 @@
     ]
   },
   "developpement-de-l-entreprise": {
-    "sens_et_portee": "La constitution d'une société suppose la réunion de conditions de fond (contrat de société, apports, affectio societatis) et de forme (statuts, publicité, immatriculation) dont dépend l'acquisition de la personnalité morale. En cours de vie sociale, la transformation permet de changer de forme sociale sans créer de personne morale nouvelle, sous réserve de conditions strictes et avec des conséquences importantes sur la responsabilité des associés et la fiscalité.",
+    "sens_et_portee": "La constitution d'une société suppose la réunion de conditions de fond (contrat de société, apports, affectio societatis) et de forme (statuts, publicité, immatriculation) dont dépend l'acquisition de la personnalité morale. En cours de vie sociale, la transformation permet de changer de forme sociale sans créer de personne morale nouvelle, sous réserve de conditions strictes et avec des conséquences importantes sur la responsabilité des associés et la fiscalité. La seconde partie du chapitre porte sur la gouvernance des sociétés et les relations entre dirigeants et associés : pouvoirs et limites du dirigeant, responsabilités encourues, organes de gestion propres à chaque forme, régime des conventions, information des associés, rémunération des dirigeants, contrôle et révocation.",
     "competences_visees": [
       "Vérifier, dans un cas pratique, que les conditions de fond et de forme de constitution d'une société sont réunies.",
       "Déterminer si le recours à un commissaire aux apports est obligatoire et en tirer les conséquences en termes de responsabilité.",
-      "Analyser les conditions, la procédure et les effets d'une transformation de société, y compris sur le plan fiscal."
+      "Analyser les conditions, la procédure et les effets d'une transformation de société, y compris sur le plan fiscal.",
+      "Déterminer, pour un acte donné du dirigeant, s'il engage la société à l'égard des tiers et quelles responsabilités il fait naître, selon la forme sociale.",
+      "Qualifier une convention (libre, réglementée ou interdite) et en déduire la procédure applicable et les sanctions encourues.",
+      "Identifier le régime de révocation applicable à un dirigeant et les conséquences indemnitaires qui en découlent."
     ],
     "notions_et_contenus": [
       "Constitution — les conditions de fond",
@@ -107,14 +110,27 @@
       "La personnalité morale et ses attributs",
       "Les apports et le commissaire aux apports",
       "Les règles fiscales de la constitution",
-      "La transformation des sociétés"
+      "La transformation des sociétés",
+      "Gouvernance — notions et structures",
+      "Pouvoirs et limites du dirigeant",
+      "Les responsabilités du dirigeant",
+      "Les organes de gestion par forme sociale",
+      "Le régime des conventions",
+      "L'information des associés",
+      "La rémunération des dirigeants",
+      "Contrôle, expertise de gestion et révocation"
     ],
     "attendus_examen": [
       "Ne pas confondre le régime fiscal des apports purs et simples (exonérés lors de la constitution, art. 810 bis CGI) et celui des apports à titre onéreux (soumis au barème des mutations à titre onéreux).",
       "Maîtriser les conditions cumulatives de dispense du commissaire aux apports en SARL (unanimité + aucun apport > 30 000 € + total ≤ moitié du capital) et la responsabilité solidaire de 5 ans qui en découle.",
       "Sur la transformation, savoir distinguer les conditions « légalement possibles » (conditions de la forme d'arrivée) des conditions « légalement permises » (restrictions posées par le législateur), et identifier les cas d'unanimité obligatoire (augmentation des engagements).",
       "Connaître l'effet de la transformation sur la responsabilité des associés dans les deux sens (vers le risque illimité : dettes anciennes ET nouvelles ; vers le risque limité : dettes antérieures seulement).",
-      "En cas de démembrement, appliquer la bonne règle de vote selon la forme sociale : art. 1844 C. civ. (SARL, sociétés de personnes, SAS) ou art. L. 225-110 C. com. (SA, SCA — sans convention possible)."
+      "En cas de démembrement, appliquer la bonne règle de vote selon la forme sociale : art. 1844 C. civ. (SARL, sociétés de personnes, SAS) ou art. L. 225-110 C. com. (SA, SCA — sans convention possible).",
+      "Distinguer nettement l'opposabilité aux tiers selon le risque : les sociétés à risque limité (SA, SARL, SAS) sont engagées par les actes hors objet social, les sociétés à risque illimité (SNC, SC) ne le sont pas.",
+      "Retenir que les clauses statutaires limitatives de pouvoirs sont toujours inopposables aux tiers, quelle que soit la forme sociale.",
+      "Ne pas confondre l'abus de biens sociaux (Code de commerce, art. L. 241-3 et L. 242-6) et l'abus de confiance (Code pénal, art. 314-1).",
+      "Maîtriser la distinction entre révocation ad nutum (administrateurs de SA : sans motif ni indemnité) et révocation pour juste motif (gérants de SARL et SNC, DG de SA : dommages-intérêts en l'absence de juste motif), avec dans tous les cas le respect des droits de la défense.",
+      "Connaître les seuils actuels de désignation du commissaire aux comptes (2 des 3 seuils : 5 M€ de bilan, 10 M€ de CA, 50 salariés — décret du 28 février 2024)."
     ]
   }
 }
