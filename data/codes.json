@@ -70,5 +70,11 @@
     "titre": "Code pénal",
     "fichier": "static/codes/code-penal.pdf",
     "disponible": false
+  },
+  {
+    "id": "code-de-procedure-civile",
+    "titre": "Code de procédure civile",
+    "fichier": "static/codes/code-de-procedure-civile.pdf",
+    "disponible": false
   }
 ]
