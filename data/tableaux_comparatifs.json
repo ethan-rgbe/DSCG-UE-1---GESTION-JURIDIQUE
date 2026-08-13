@@ -3887,5 +3887,709 @@
         ]
       ]
     }
+  },
+  {
+    "id": "tab-gouv-001",
+    "titre": "Les trois configurations de gouvernance de la SA",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.gouvernance-notions-et-structures",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Configuration",
+        "Organe de stratégie / contrôle",
+        "Organe de direction",
+        "Caractéristique"
+      ],
+      "lignes": [
+        [
+          "SA à conseil d'administration avec cumul (PDG)",
+          "Conseil d'administration",
+          "Président-directeur général (PDG) — cumul des fonctions de président du CA et de directeur général",
+          "Concentration des pouvoirs ; le PDG préside le CA et dirige la société"
+        ],
+        [
+          "SA à conseil d'administration avec dissociation",
+          "Conseil d'administration, présidé par le président du CA",
+          "Directeur général, distinct du président",
+          "Séparation entre présidence du conseil et direction générale"
+        ],
+        [
+          "SA à directoire et conseil de surveillance",
+          "Conseil de surveillance (contrôle permanent, sans immixtion dans la gestion)",
+          "Directoire (2 à 5 membres, ou directeur général unique si le capital est inférieur à 150 000 €)",
+          "Séparation stricte entre direction et contrôle"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-gouv-002",
+    "titre": "Nomenclature des actes du dirigeant : validité, responsabilité et conséquences",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.pouvoirs-et-limites-du-dirigeant",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Type d'acte",
+        "SA / SARL / SAS (risque limité)",
+        "SNC / SC (risque illimité)",
+        "Responsabilité du dirigeant",
+        "Conséquence sur ses fonctions"
+      ],
+      "lignes": [
+        [
+          "Acte conforme à l'objet social et aux statuts",
+          "Valable et opposable à la société",
+          "Valable et opposable",
+          "Aucune",
+          "Aucune"
+        ],
+        [
+          "Acte dépassant l'objet social",
+          "Valable à l'égard des tiers : la société est engagée, sauf preuve que le tiers connaissait le dépassement (la publication des statuts ne suffit pas)",
+          "Non valable à l'égard des tiers : la société n'est pas engagée",
+          "Responsabilité civile envers la société (faute de gestion) ; responsabilité pénale si l'acte est constitutif d'une infraction",
+          "Révocation possible (juste motif caractérisé)"
+        ],
+        [
+          "Acte violant une clause statutaire limitative de pouvoirs",
+          "Valable à l'égard des tiers : la clause est inopposable aux tiers",
+          "Valable à l'égard des tiers : la clause n'est valable qu'en interne",
+          "Responsabilité civile envers la société pour violation des statuts",
+          "Révocation possible pour juste motif"
+        ],
+        [
+          "Acte contraire à l'intérêt social",
+          "Valable à l'égard des tiers de bonne foi, mais fautif en interne",
+          "Idem",
+          "Responsabilité civile ; responsabilité pénale si abus de biens sociaux (usage de mauvaise foi, à des fins personnelles)",
+          "Révocation ; poursuites pénales"
+        ],
+        [
+          "Acte ne prenant pas en considération les enjeux sociaux et environnementaux (art. 1833, al. 2 C. civ.)",
+          "Valable : l'inobservation de l'alinéa 2 de l'art. 1833 ne peut fonder la nullité de l'acte",
+          "Idem",
+          "Responsabilité civile envisageable pour faute de gestion (obligation de moyens, non de résultat)",
+          "Révocation possible si la faute est caractérisée"
+        ],
+        [
+          "Acte empiétant sur les pouvoirs d'un autre organe (principe de spécialité)",
+          "Nul",
+          "Nul",
+          "Responsabilité civile",
+          "Révocation possible"
+        ],
+        [
+          "Convention interdite (prêt, découvert, caution consentis au dirigeant)",
+          "Nullité absolue, non régularisable",
+          "Idem",
+          "Responsabilité civile et, le cas échéant, pénale",
+          "Révocation ; sanctions"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-gouv-003",
+    "titre": "Les actions en responsabilité contre le dirigeant",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.responsabilites-du-dirigeant",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Demandeur",
+        "Fondement",
+        "Conditions à réunir",
+        "Exemple",
+        "Conséquence"
+      ],
+      "lignes": [
+        [
+          "La société (action sociale ut universi)",
+          "Art. L. 223-22 / L. 225-251 C. com.",
+          "Faute de gestion, violation de la loi ou des statuts + préjudice subi par la société + lien de causalité",
+          "Non-convocation de l'assemblée générale annuelle ; investissement hasardeux non autorisé",
+          "Dommages-intérêts versés à la société ; action exercée par le nouveau dirigeant"
+        ],
+        [
+          "Les associés au nom de la société (action sociale ut singuli)",
+          "Art. L. 223-22 / L. 225-252 C. com.",
+          "Mêmes conditions ; les associés agissent en cas d'inaction du dirigeant en place",
+          "Dirigeant fautif toujours en fonction, refusant d'agir contre lui-même",
+          "Dommages-intérêts versés à la société, non aux associés demandeurs ; toute clause y renonçant est réputée non écrite"
+        ],
+        [
+          "Les associés à titre personnel (action individuelle)",
+          "Art. L. 223-22 / L. 225-252 C. com.",
+          "Faute du dirigeant + préjudice personnel distinct de celui de la société + lien de causalité",
+          "Information mensongère ayant conduit un associé à souscrire des titres",
+          "Dommages-intérêts versés à l'associé"
+        ],
+        [
+          "Les tiers",
+          "Art. 1240 C. civ.",
+          "Faute séparable des fonctions : faute intentionnelle, d'une particulière gravité, incompatible avec l'exercice normal des fonctions sociales + préjudice + lien de causalité",
+          "Dirigeant ayant sciemment trompé un fournisseur sur la solvabilité de la société",
+          "Si la faute est séparable : le dirigeant paie personnellement. Sinon : la société est seule responsable"
+        ],
+        [
+          "L'administration fiscale",
+          "Art. L. 267 LPF",
+          "Manœuvres frauduleuses ou inobservation grave et répétée des obligations fiscales rendant impossible le recouvrement",
+          "Dissimulation répétée de TVA collectée",
+          "Responsabilité solidaire du dirigeant sur son patrimoine personnel"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-gouv-004",
+    "titre": "Organes de gestion de la SA — tableau comparatif complet",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.organes-de-gestion-par-forme",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "",
+        "Conseil d'administration",
+        "Président du CA",
+        "Directeur général",
+        "DG délégué",
+        "Directoire",
+        "Conseil de surveillance"
+      ],
+      "lignes": [
+        [
+          "Nombre de membres",
+          "3 à 18 (24 en cas de fusion, régularisation sous 3 ans)",
+          "1",
+          "1",
+          "5 maximum",
+          "2 à 5 (7 si SA cotée) ; DG unique possible si capital < 150 000 €",
+          "3 à 18"
+        ],
+        [
+          "Personne physique ou morale",
+          "PP ou PM (la PM désigne un représentant permanent)",
+          "PP obligatoirement",
+          "PP obligatoirement",
+          "PP obligatoirement",
+          "PP obligatoirement",
+          "PP ou PM (représentant permanent)"
+        ],
+        [
+          "Qualité d'actionnaire",
+          "Non exigée par la loi (sauf clause statutaire)",
+          "Non exigée (sauf statuts)",
+          "Non exigée",
+          "Non exigée",
+          "Non exigée",
+          "Non exigée (sauf statuts)"
+        ],
+        [
+          "Cumul de mandats",
+          "5 mandats d'administrateur maximum en France (dérogations pour les groupes)",
+          "Soumis à la limite des mandats d'administrateur",
+          "1 seul mandat de DG en principe (2 dans un groupe)",
+          "Soumis aux limites générales",
+          "1 seul mandat de membre de directoire en principe",
+          "5 mandats maximum"
+        ],
+        [
+          "Cumul avec un contrat de travail",
+          "Possible si emploi effectif, fonctions techniques distinctes, lien de subordination et rémunération distincte ; limité au tiers des administrateurs en fonction ; contrat postérieur possible dans les PME (< 250 salariés et CA < 50 M€ ou bilan < 43 M€)",
+          "Mêmes conditions que l'administrateur",
+          "Possible aux mêmes conditions",
+          "Possible aux mêmes conditions",
+          "Possible : le cumul est expressément admis (art. L. 225-61)",
+          "Mêmes conditions que l'administrateur"
+        ],
+        [
+          "Âge",
+          "Limite statutaire ; à défaut, pas plus d'un tiers d'administrateurs de plus de 70 ans",
+          "65 ans à défaut de clause statutaire",
+          "65 ans à défaut de clause statutaire",
+          "65 ans à défaut de clause statutaire",
+          "65 ans à défaut de clause statutaire",
+          "Pas plus d'un tiers de membres de plus de 70 ans, sauf clause"
+        ],
+        [
+          "Nomination",
+          "Par l'AGO (les premiers dans les statuts) ; durée 6 ans maximum (3 ans si nommés par les statuts)",
+          "Par le CA, parmi ses membres",
+          "Par le CA",
+          "Par le CA, sur proposition du DG",
+          "Par le conseil de surveillance ; durée 2 à 6 ans",
+          "Par l'AGO ; durée 6 ans maximum"
+        ],
+        [
+          "Révocation",
+          "Ad nutum par l'AGO (sans préavis, sans motif, sans indemnité)",
+          "Ad nutum par le CA",
+          "Par le CA ; indemnités dues si absence de juste motif (sauf si le DG est aussi président)",
+          "Par le CA sur proposition du DG ; indemnités si absence de juste motif",
+          "Par l'AG, ou par le CS si les statuts le prévoient ; indemnités si absence de juste motif",
+          "Ad nutum par l'AGO"
+        ],
+        [
+          "Rémunération",
+          "Rémunération de l'activité des administrateurs, fixée par l'AGO (ex-jetons de présence)",
+          "Fixée par le CA",
+          "Fixée par le CA",
+          "Fixée par le CA",
+          "Fixée par le CS",
+          "Rémunération de l'activité, fixée par l'AGO"
+        ],
+        [
+          "Statut social et fiscal",
+          "Pas de statut social propre pour l'administrateur simple ; rémunération imposée en RCM",
+          "Assimilé salarié (régime général) ; traitements et salaires",
+          "Assimilé salarié ; traitements et salaires",
+          "Assimilé salarié ; traitements et salaires",
+          "Assimilé salarié ; traitements et salaires",
+          "Pas de statut social propre ; rémunération imposée en RCM"
+        ],
+        [
+          "Pouvoirs",
+          "Détermine les orientations, veille à leur mise en œuvre conformément à l'intérêt social en considérant les enjeux sociaux et environnementaux (L. 225-35) ; contrôles et vérifications",
+          "Organise et dirige les travaux du CA ; veille au bon fonctionnement des organes",
+          "Pouvoirs les plus étendus pour agir au nom de la société ; la représente envers les tiers",
+          "Pouvoirs fixés par le CA en accord avec le DG ; mêmes pouvoirs envers les tiers",
+          "Pouvoirs les plus étendus pour agir au nom de la société, dans la limite de l'objet social",
+          "Contrôle permanent de la gestion du directoire ; ne s'immisce pas dans la gestion"
+        ],
+        [
+          "Limites par rapport aux associés",
+          "Pouvoirs expressément attribués aux assemblées réservés",
+          "Idem",
+          "Idem",
+          "Idem",
+          "Idem",
+          "Idem"
+        ],
+        [
+          "Limites par rapport aux tiers",
+          "La société est engagée même par les actes hors objet social, sauf preuve que le tiers en avait connaissance",
+          "—",
+          "Les clauses limitatives de pouvoirs sont inopposables aux tiers",
+          "Idem",
+          "Idem ; les cautions, avals et garanties nécessitent l'autorisation du CS",
+          "—"
+        ],
+        [
+          "Actes interdits",
+          "Prêts, découverts, cautions et avals au profit des dirigeants PP et actionnaires PP détenant > 10 % (L. 225-43)",
+          "Idem",
+          "Idem",
+          "Idem",
+          "Idem (L. 225-91)",
+          "Idem"
+        ],
+        [
+          "Actes réglementés",
+          "Conventions réglementées : autorisation préalable du CA, rapport spécial du CAC, approbation a posteriori de l'AGO (L. 225-38 et s.) ; cautions, avals et garanties soumis à autorisation du CA",
+          "Idem",
+          "Idem",
+          "Idem",
+          "Conventions réglementées autorisées par le CS (L. 225-86)",
+          "Autorise les conventions réglementées et les cautions/avals/garanties"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-gouv-005",
+    "titre": "Organes de gestion de la SAS et de la SARL — tableau comparatif",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.organes-de-gestion-par-forme",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "",
+        "SAS / Président",
+        "SARL / Gérant"
+      ],
+      "lignes": [
+        [
+          "Nombre de membres",
+          "Un président obligatoire ; les statuts peuvent créer d'autres organes (DG, comités) sans limite légale",
+          "Un ou plusieurs gérants, sans maximum légal"
+        ],
+        [
+          "Personne physique ou morale",
+          "PP ou PM (une PM peut être présidente de SAS)",
+          "PP obligatoirement"
+        ],
+        [
+          "Qualité d'associé",
+          "Non exigée",
+          "Non exigée"
+        ],
+        [
+          "Cumul de mandats",
+          "Aucune limite légale",
+          "Aucune limite légale"
+        ],
+        [
+          "Contrat de travail",
+          "Cumul possible si emploi effectif, fonctions techniques distinctes et lien de subordination",
+          "Cumul possible aux mêmes conditions ; en pratique impossible pour le gérant majoritaire (absence de subordination)"
+        ],
+        [
+          "Âge",
+          "Aucune limite légale ; librement fixée par les statuts",
+          "Aucune limite légale ; librement fixée par les statuts"
+        ],
+        [
+          "Nomination",
+          "Selon les modalités fixées par les statuts",
+          "Par les statuts ou par décision des associés représentant plus de la moitié des parts sociales"
+        ],
+        [
+          "Révocation",
+          "Selon les statuts : ad nutum ou pour juste motif, avec ou sans indemnité, selon ce qui est prévu",
+          "Par décision des associés représentant plus de la moitié des parts ; dommages-intérêts si absence de juste motif ; révocation judiciaire possible pour cause légitime à la demande de tout associé"
+        ],
+        [
+          "Rémunération",
+          "Fixée par les statuts ou par décision collective, selon ce que prévoient les statuts",
+          "Fixée par les statuts ou par décision ordinaire des associés"
+        ],
+        [
+          "Statut social",
+          "Assimilé salarié (régime général), même s'il est l'associé unique de SASU",
+          "Gérant majoritaire : TNS (SSI). Gérant minoritaire ou égalitaire : assimilé salarié"
+        ],
+        [
+          "Statut fiscal",
+          "Traitements et salaires (art. 79 CGI)",
+          "Gérant majoritaire : art. 62 CGI. Gérant minoritaire : traitements et salaires (art. 79 CGI)"
+        ],
+        [
+          "Pouvoirs",
+          "Pouvoirs les plus étendus pour agir au nom de la société dans la limite de l'objet social ; représente la société envers les tiers",
+          "Pouvoirs les plus étendus pour agir au nom de la société dans la limite de l'objet social"
+        ],
+        [
+          "Limites par rapport aux associés",
+          "Décisions relevant obligatoirement de la collectivité des associés (art. L. 227-9 : approbation des comptes, modification du capital, fusion, dissolution, transformation, nomination du CAC)",
+          "Décisions relevant de l'assemblée : approbation des comptes, modification des statuts, agrément des cessions"
+        ],
+        [
+          "Limites par rapport aux tiers",
+          "La société est engagée même par les actes hors objet social, sauf preuve de la connaissance du tiers ; les clauses limitatives sont inopposables aux tiers",
+          "Idem : la société est engagée par les actes hors objet social, sauf preuve de la connaissance du tiers ; clauses limitatives inopposables"
+        ],
+        [
+          "Actes interdits",
+          "Prêts, découverts, cautions et avals au profit du président, des dirigeants et de leurs proches PP (art. L. 227-12 renvoyant à L. 225-43)",
+          "Prêts, découverts, cautions et avals au profit du gérant, des associés PP et de leurs proches (art. L. 223-21)"
+        ],
+        [
+          "Actes réglementés",
+          "Conventions réglementées : rapport du CAC ou du président, approbation a posteriori par la collectivité des associés, l'intéressé ne votant pas (art. L. 227-10)",
+          "Conventions réglementées : rapport du gérant ou du CAC, approbation par l'assemblée, l'intéressé ne prenant pas part au vote (art. L. 223-19)"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-gouv-006",
+    "titre": "Le régime des conventions par forme sociale",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.conventions-reglementees",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Forme",
+        "Conventions libres",
+        "Conventions réglementées — objet et acteurs",
+        "Procédure et vote",
+        "Conventions interdites",
+        "Sanctions"
+      ],
+      "lignes": [
+        [
+          "SA à conseil d'administration",
+          "Opérations courantes conclues à des conditions normales (art. L. 225-39) : aucune procédure, simple information du président et du CAC si elles sont significatives",
+          "Toute convention entre la société et son DG, un DG délégué, un administrateur, ou un actionnaire détenant plus de 10 % des droits de vote (ou la société le contrôlant), directement ou par personne interposée (art. L. 225-38)",
+          "A priori : autorisation préalable du conseil d'administration, l'intéressé ne prenant pas part au vote. Puis rapport spécial du CAC. A posteriori : approbation par l'AGO, l'intéressé ne votant pas et ses actions n'étant pas prises en compte pour le calcul de la majorité",
+          "Emprunts, découverts en compte, cautions et avals consentis par la société aux administrateurs PP, au DG, aux DG délégués, à leurs conjoints, ascendants et descendants (art. L. 225-43)",
+          "Convention réglementée non autorisée : nullité si elle a eu des conséquences dommageables pour la société ; la nullité peut être couverte par un vote de l'AG sur rapport spécial. Convention approuvée mais dommageable : conséquences à la charge de l'intéressé. Convention interdite : nullité absolue, non régularisable"
+        ],
+        [
+          "SA à directoire et conseil de surveillance",
+          "Opérations courantes à conditions normales",
+          "Conventions entre la société et un membre du directoire ou du conseil de surveillance, ou un actionnaire détenant plus de 10 % (art. L. 225-86)",
+          "Autorisation préalable du conseil de surveillance, puis rapport du CAC et approbation de l'AGO",
+          "Mêmes interdictions, étendues aux membres du directoire et du CS (art. L. 225-91)",
+          "Mêmes sanctions"
+        ],
+        [
+          "SARL",
+          "Opérations courantes conclues à des conditions normales",
+          "Conventions entre la société et l'un de ses gérants ou associés (art. L. 223-19)",
+          "Pas d'autorisation préalable en principe : rapport du gérant ou du CAC, puis approbation a posteriori par l'assemblée, l'intéressé ne prenant pas part au vote",
+          "Emprunts, découverts, cautions et avals au profit des gérants, associés PP, conjoints, ascendants et descendants (art. L. 223-21)",
+          "Convention non approuvée : elle produit ses effets, mais les conséquences dommageables sont à la charge du gérant ou de l'associé. Convention interdite : nullité absolue"
+        ],
+        [
+          "SAS",
+          "Opérations courantes à conditions normales",
+          "Conventions entre la société et son président, ses dirigeants, ou un associé détenant plus de 10 % des droits de vote (art. L. 227-10)",
+          "Contrôle a posteriori uniquement : rapport du CAC (ou du président s'il n'y a pas de CAC), approbation par la collectivité des associés, l'intéressé ne votant pas",
+          "Mêmes interdictions que la SA, par renvoi de l'art. L. 227-12",
+          "Conséquences dommageables à la charge de l'intéressé ; nullité absolue pour les conventions interdites"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-gouv-007",
+    "titre": "L'information comptable et financière des associés selon la forme sociale",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.information-des-associes",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "",
+        "SA",
+        "SARL",
+        "SAS"
+      ],
+      "lignes": [
+        [
+          "Information permanente",
+          "Tout actionnaire peut, à toute époque, prendre connaissance au siège social des comptes annuels, de la liste des administrateurs, des rapports du conseil et des CAC, des feuilles de présence et procès-verbaux des trois derniers exercices (art. L. 225-117)",
+          "Tout associé peut, à toute époque, prendre connaissance au siège des comptes annuels, inventaires, rapports et procès-verbaux des trois derniers exercices (art. L. 223-26). Il peut aussi poser deux fois par exercice des questions écrites au gérant sur tout fait de nature à compromettre la continuité de l'exploitation (art. L. 223-36)",
+          "Fixée librement par les statuts ; le Code de commerce n'impose pas de régime d'information permanente spécifique"
+        ],
+        [
+          "Information préalable à l'AG",
+          "Communication ou mise à disposition, 15 jours avant l'assemblée, de l'ordre du jour, des comptes annuels, du rapport de gestion, des rapports du CAC et du texte des résolutions (art. R. 225-81 et R. 225-89). Droit de poser des questions écrites au conseil",
+          "Envoi aux associés, 15 jours au moins avant l'assemblée annuelle, des comptes annuels, du rapport de gestion, du texte des résolutions et, le cas échéant, du rapport du CAC (art. L. 223-26 et R. 223-18). Droit de poser des questions écrites",
+          "Déterminée par les statuts ; seule l'approbation annuelle des comptes est imposée par la loi (art. L. 227-9)"
+        ],
+        [
+          "Information contenue dans le rapport de gestion",
+          "Situation de la société et de son activité durant l'exercice, résultats, évolution prévisible, événements postérieurs à la clôture, activités de recherche et développement, informations sur les risques (art. L. 225-100-1). Pour les grandes sociétés, s'y ajoute le rapport de durabilité (directive CSRD)",
+          "Mêmes mentions générales, applicables aux SARL (art. L. 232-1) ; les petites entreprises peuvent être dispensées d'établir un rapport de gestion",
+          "Mêmes mentions générales que la SARL (art. L. 232-1), avec les mêmes dispenses possibles pour les petites entreprises"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-gouv-008",
+    "titre": "La rémunération des dirigeants de la SA — décision, information et contrôle",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.remuneration-des-dirigeants",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Type de rémunération",
+        "Décision (AG / CA)",
+        "Information (type de rapport)",
+        "Contrôle et limites"
+      ],
+      "lignes": [
+        [
+          "Rémunération de l'activité des administrateurs (ex-jetons de présence)",
+          "Somme fixe annuelle allouée par l'AGO ; répartition libre par le CA entre ses membres (art. L. 225-45)",
+          "Rapport sur le gouvernement d'entreprise ; rapport de gestion",
+          "Enveloppe globale plafonnée par l'AGO ; imposée en revenus de capitaux mobiliers"
+        ],
+        [
+          "Rémunérations exceptionnelles d'administrateurs (missions ou mandats particuliers)",
+          "Allouées par le conseil d'administration (art. L. 225-46)",
+          "Rapport spécial du commissaire aux comptes",
+          "Soumises à la procédure des conventions réglementées : autorisation préalable du CA et approbation de l'AGO"
+        ],
+        [
+          "Salaire du PDG, du DG, des DG délégués (toutes SA)",
+          "Fixée par le conseil d'administration (art. L. 225-47 et L. 225-53)",
+          "Rapport sur le gouvernement d'entreprise",
+          "Le CA fixe librement le montant ; contrôle par les actionnaires via le rapport"
+        ],
+        [
+          "Compléments de rémunération, indemnités de départ, retraites supplémentaires (SA cotées)",
+          "Décision du CA, puis vote contraignant des actionnaires en AG (« say on pay » : vote ex ante sur la politique de rémunération et vote ex post sur les éléments versés)",
+          "Rapport sur le gouvernement d'entreprise (art. L. 22-10-8 et L. 22-10-9)",
+          "Versement subordonné à l'approbation de l'AG ; indemnités de départ soumises à des conditions de performance (art. L. 22-10-8)"
+        ],
+        [
+          "Compléments de rémunération, indemnités de départ, retraites supplémentaires (SA non cotées)",
+          "Décision du conseil d'administration",
+          "Rapport spécial du CAC",
+          "Soumis à la procédure des conventions réglementées (art. L. 225-42-1) : autorisation du CA et approbation de l'AGO"
+        ],
+        [
+          "Stock-options et attributions d'actions gratuites",
+          "Autorisation de l'AGE, qui fixe le plafond et la durée de la délégation ; mise en œuvre par le CA (art. L. 225-177 et L. 225-197-1)",
+          "Rapport spécial à l'AG ; rapport sur le gouvernement d'entreprise",
+          "Plafonds légaux (notamment 10 % du capital pour les actions gratuites) ; conditions de conservation des titres pour les dirigeants ; interdiction pendant certaines périodes"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-gouv-009",
+    "titre": "Le commissaire aux comptes — désignation, missions et statut",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.controle-et-revocation",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "Aspect",
+        "Règles applicables"
+      ],
+      "lignes": [
+        [
+          "Seuils de désignation obligatoire",
+          "Dépassement de 2 des 3 seuils : total de bilan 5 M€ ; chiffre d'affaires HT 10 M€ ; 50 salariés (décret n° 2024-152 du 28 février 2024, exercices ouverts à compter du 1er janvier 2024)"
+        ],
+        [
+          "Seuils applicables aux filiales de groupes",
+          "Total de bilan 2,5 M€ ; chiffre d'affaires 5 M€ ; 25 salariés — mission « ALPE » (audit légal des petites entreprises)"
+        ],
+        [
+          "Autres cas de désignation",
+          "Désignation volontaire par les associés ; demande en justice par des associés représentant au moins le dixième du capital (SARL) ; clause statutaire ; sociétés faisant offre au public"
+        ],
+        [
+          "Nomination",
+          "Par l'AGO, pour 6 exercices (3 exercices pour la mission ALPE)"
+        ],
+        [
+          "Missions de certification",
+          "Certifier que les comptes annuels sont réguliers, sincères et donnent une image fidèle du résultat, de la situation financière et du patrimoine"
+        ],
+        [
+          "Missions de vérification",
+          "Vérifier la sincérité et la concordance avec les comptes des informations données dans le rapport de gestion et les documents adressés aux associés ; vérifier le respect de l'égalité entre associés"
+        ],
+        [
+          "Rapports spéciaux",
+          "Conventions réglementées, augmentation ou réduction de capital, transformation, distribution d'acomptes sur dividendes"
+        ],
+        [
+          "Droit d'alerte",
+          "Procédure d'alerte en cas de faits de nature à compromettre la continuité de l'exploitation : information des dirigeants, puis de l'organe collégial, puis du président du tribunal, puis de l'assemblée générale (art. L. 234-1 pour les SA, L. 234-2 pour les autres sociétés)"
+        ],
+        [
+          "Obligation de révélation",
+          "Révéler au procureur de la République les faits délictueux dont il a connaissance dans l'exercice de sa mission (art. L. 821-10), sous peine de 5 ans d'emprisonnement et 75 000 € d'amende"
+        ],
+        [
+          "Révocation",
+          "Uniquement par décision de justice, en cas de faute ou d'empêchement — garantie essentielle de son indépendance ; la démission abusive est également sanctionnée"
+        ],
+        [
+          "Incompatibilités",
+          "Interdiction d'exercer toute activité de conseil ou de gestion dans la société contrôlée ; durée maximale de 6 exercices consécutifs pour les entités d'intérêt public sans rotation"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-gouv-010",
+    "titre": "L'expertise de gestion selon la forme sociale",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.controle-et-revocation",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "",
+        "SA / SCA",
+        "SARL",
+        "Expertise in futurum (toutes sociétés)"
+      ],
+      "lignes": [
+        [
+          "Fondement",
+          "Art. L. 225-231 C. com.",
+          "Art. L. 223-37 C. com.",
+          "Art. 145 CPC"
+        ],
+        [
+          "Demandeurs",
+          "Actionnaire(s) représentant au moins 5 % du capital ; ministère public ; CSE ; AMF (sociétés cotées)",
+          "Associé(s) représentant au moins 10 % du capital ; ministère public ; CSE",
+          "Toute personne ayant un intérêt légitime, sans condition de seuil"
+        ],
+        [
+          "Condition préalable",
+          "Question écrite au président ou au DG sur une ou plusieurs opérations de gestion, restée sans réponse ou avec une réponse insatisfaisante dans le délai d'un mois",
+          "Question écrite préalable au gérant, dans les mêmes conditions",
+          "Motif légitime de conserver ou d'établir avant tout procès la preuve de faits dont pourrait dépendre la solution d'un litige"
+        ],
+        [
+          "Objet",
+          "Une ou plusieurs opérations de gestion déterminées — pas d'audit général",
+          "Idem",
+          "Mesure d'instruction plus large, non limitée aux opérations de gestion"
+        ],
+        [
+          "Procédure",
+          "Saisine du président du tribunal de commerce statuant en référé, qui désigne l'expert et fixe sa mission",
+          "Idem",
+          "Requête ou référé devant le président du tribunal compétent"
+        ],
+        [
+          "Issue et portée",
+          "Rapport communiqué au demandeur, au ministère public, au CSE, au CAC et au conseil ; annexé au rapport du CAC pour l'assemblée. Valeur probatoire : fonde éventuellement une action en responsabilité, une révocation ou une action sociale",
+          "Idem",
+          "Rapport utilisable comme élément de preuve dans un litige ultérieur"
+        ]
+      ]
+    }
+  },
+  {
+    "id": "tab-gouv-011",
+    "titre": "La révocation des dirigeants — régimes comparés",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "notion_id": "developpement-de-l-entreprise.controle-et-revocation",
+    "note": "",
+    "contenu": {
+      "colonnes": [
+        "",
+        "Ad nutum",
+        "Sur juste motif",
+        "Judiciaire"
+      ],
+      "lignes": [
+        [
+          "Qui ?",
+          "Administrateurs de la SA, président du conseil d'administration, membres du conseil de surveillance",
+          "Gérant de SNC ou de SARL ; directeur général de SA ; membres du directoire",
+          "Tout dirigeant, à la demande de tout associé"
+        ],
+        [
+          "Régime",
+          "Pas de préavis et pas de juste motif exigé ; révocation à tout moment",
+          "Révocable à tout moment, mais pour juste motif — à défaut, dommages-intérêts ; les révocations abusives sont sanctionnées par les tribunaux. Pas de convocation formelle nécessairement requise",
+          "Révocation prononcée par le tribunal pour « cause légitime »"
+        ],
+        [
+          "Décision",
+          "Assemblée générale à la majorité (ou conseil d'administration pour le président du CA)",
+          "Assemblée générale à la majorité (plus de la moitié des parts en SARL ; unanimité des associés pour le gérant associé statutaire de SNC)",
+          "Décision de justice"
+        ],
+        [
+          "Conséquences",
+          "Principe : pas d'indemnités. Exception : indemnisation si la révocation est jugée injurieuse ou vexatoire (atteinte à l'honneur, publicité excessive, brutalité)",
+          "Pas de réintégration possible. Dommages-intérêts si absence de juste motif. Sanction si la procédure est abusive, par exemple si le dirigeant n'a pas pu présenter ses observations",
+          "Cessation des fonctions ; dommages-intérêts éventuels"
+        ],
+        [
+          "Cas de la SAS",
+          "Conditions librement prévues par les statuts : ad nutum ou pour juste motif, avec ou sans indemnité",
+          "Idem",
+          "Idem"
+        ]
+      ]
+    }
   }
 ]
