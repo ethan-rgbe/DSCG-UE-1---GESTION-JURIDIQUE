@@ -306,5 +306,61 @@
     "titre": "La transformation des sociétés",
     "description": "",
     "mots_cles": []
+  },
+  {
+    "id": "developpement-de-l-entreprise.gouvernance-notions-et-structures",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "titre": "Gouvernance — notions et structures",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "developpement-de-l-entreprise.pouvoirs-et-limites-du-dirigeant",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "titre": "Pouvoirs et limites du dirigeant",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "developpement-de-l-entreprise.responsabilites-du-dirigeant",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "titre": "Les responsabilités du dirigeant",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "developpement-de-l-entreprise.organes-de-gestion-par-forme",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "titre": "Les organes de gestion par forme sociale",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "developpement-de-l-entreprise.conventions-reglementees",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "titre": "Le régime des conventions",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "developpement-de-l-entreprise.information-des-associes",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "titre": "L'information des associés",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "developpement-de-l-entreprise.remuneration-des-dirigeants",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "titre": "La rémunération des dirigeants",
+    "description": "",
+    "mots_cles": []
+  },
+  {
+    "id": "developpement-de-l-entreprise.controle-et-revocation",
+    "chapitre_id": "developpement-de-l-entreprise",
+    "titre": "Contrôle, expertise de gestion et révocation",
+    "description": "",
+    "mots_cles": []
   }
 ]
