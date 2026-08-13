@@ -1753,5 +1753,77 @@
     "mots_cles": [],
     "importance": "★★★",
     "slug": "la-transformation-des-societes"
+  },
+  {
+    "id": "gouvernance-notions-et-structures",
+    "notion_id": "developpement-de-l-entreprise.gouvernance-notions-et-structures",
+    "titre": "Gouvernance — notions et structures",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "gouvernance-notions-et-structures"
+  },
+  {
+    "id": "pouvoirs-et-limites-du-dirigeant",
+    "notion_id": "developpement-de-l-entreprise.pouvoirs-et-limites-du-dirigeant",
+    "titre": "Pouvoirs et limites du dirigeant",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "pouvoirs-et-limites-du-dirigeant"
+  },
+  {
+    "id": "les-responsabilites-du-dirigeant",
+    "notion_id": "developpement-de-l-entreprise.responsabilites-du-dirigeant",
+    "titre": "Les responsabilités du dirigeant",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "les-responsabilites-du-dirigeant"
+  },
+  {
+    "id": "les-organes-de-gestion-par-forme-sociale",
+    "notion_id": "developpement-de-l-entreprise.organes-de-gestion-par-forme",
+    "titre": "Les organes de gestion par forme sociale",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "les-organes-de-gestion-par-forme-sociale"
+  },
+  {
+    "id": "le-regime-des-conventions",
+    "notion_id": "developpement-de-l-entreprise.conventions-reglementees",
+    "titre": "Le régime des conventions",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "le-regime-des-conventions"
+  },
+  {
+    "id": "l-information-des-associes",
+    "notion_id": "developpement-de-l-entreprise.information-des-associes",
+    "titre": "L'information des associés",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "l-information-des-associes"
+  },
+  {
+    "id": "la-remuneration-des-dirigeants",
+    "notion_id": "developpement-de-l-entreprise.remuneration-des-dirigeants",
+    "titre": "La rémunération des dirigeants",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "la-remuneration-des-dirigeants"
+  },
+  {
+    "id": "controle-expertise-de-gestion-et-revocation",
+    "notion_id": "developpement-de-l-entreprise.controle-et-revocation",
+    "titre": "Contrôle, expertise de gestion et révocation",
+    "resume": "",
+    "mots_cles": [],
+    "importance": "★★★",
+    "slug": "controle-expertise-de-gestion-et-revocation"
   }
 ]
